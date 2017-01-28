@@ -1,0 +1,6 @@
+language: csharp
+solution: B2MML.NET.sln
+install:
+  - nuget restore B2MML.NET.sln
+script:
+  - xbuild /p:Configuration=Release B2MML.NET.sln

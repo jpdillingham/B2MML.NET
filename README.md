@@ -1,5 +1,10 @@
 # B2MML.NET
 
+[![Build status](https://ci.appveyor.com/api/projects/status/eeujp23kfr0d22cw?svg=true)](https://ci.appveyor.com/project/jpdillingham/b2mml-net)
+[![Build Status](https://travis-ci.org/jpdillingham/B2MML.NET.svg?branch=master)](https://travis-ci.org/jpdillingham/B2MML.NET)
+[![NuGet version](https://img.shields.io/nuget/v/B2MML.NET.svg)](https://www.nuget.org/packages/B2MML.NET/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/jpdillingham/B2MML.NET/blob/master/LICENSE)
+
 A .NET Class Library containing an implementation of the MESA International standards B2MML and BatchML.
 
 Generated with the Microsoft (R) Xml Schemas/DataTypes support utility (xsd.exe) from the KPI-ML V01 schema available from the MESA website [here](https://services.mesa.org/ResourceLibrary/ShowResource/0f47758b-60f0-40c6-a71b-fa7b2363fb3a).
