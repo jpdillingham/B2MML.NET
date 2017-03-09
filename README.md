@@ -7,7 +7,7 @@
 
 A .NET Class Library containing an implementation of the MESA International standards B2MML and BatchML.
 
-Generated with the Microsoft (R) Xml Schemas/DataTypes support utility (xsd.exe) from the KPI-ML V01 schema available from the MESA website [here](https://services.mesa.org/ResourceLibrary/ShowResource/0f47758b-60f0-40c6-a71b-fa7b2363fb3a).
+Generated with the Microsoft (R) Xml Schemas/DataTypes support utility (xsd.exe) from the B2MML V0600 schema available from the MESA website [here](https://services.mesa.org/ResourceLibrary/ShowResource/0f47758b-60f0-40c6-a71b-fa7b2363fb3a).
 
 # About B2MML
 
