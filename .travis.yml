@@ -1,4 +1,7 @@
 language: csharp
+os:
+  - linux
+  - osx
 solution: B2MML.NET.sln
 install:
   - nuget restore B2MML.NET.sln
