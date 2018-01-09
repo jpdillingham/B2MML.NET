@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,11 +14,11 @@
     
         private VersionType _versionField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private WorkflowSpecificationNodeType[] _nodeField;
+        private List<WorkflowSpecificationNodeType> _nodeField;
     
-        private WorkflowSpecificationConnectionType[] _connectionField;
+        private List<WorkflowSpecificationConnectionType> _connectionField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -32,21 +34,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Node")]
-        public WorkflowSpecificationNodeType[] Node {
+        public List<WorkflowSpecificationNodeType> Node {
             get => _nodeField;
             set => _nodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Connection")]
-        public WorkflowSpecificationConnectionType[] Connection {
+        public List<WorkflowSpecificationConnectionType> Connection {
             get => _connectionField;
             set => _connectionField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,9 +10,9 @@
     
         private CodeType _attributeIDField;
     
-        private TextType[] _descriptionField;
+        private List<TextType> _descriptionField;
     
-        private ValueType[] _valueField;
+        private List<ValueType> _valueField;
     
         /// <remarks/>
         public CodeType AttributeID {
@@ -20,14 +22,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public TextType[] Description {
+        public List<TextType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public ValueType[] Value {
+        public List<ValueType> Value {
             get => _valueField;
             set => _valueField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransSenderType _senderField;
     
-        private TransReceiverType[] _receiverField;
+        private List<TransReceiverType> _receiverField;
     
         private DateTimeType _creationDateTimeField;
     
@@ -26,7 +28,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Receiver")]
-        public TransReceiverType[] Receiver {
+        public List<TransReceiverType> Receiver {
             get => _receiverField;
             set => _receiverField = value;
         }

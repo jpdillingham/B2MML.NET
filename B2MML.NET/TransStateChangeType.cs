@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,9 +14,9 @@
     
         private DateTimeType _changeDateTimeField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private TextType[] _noteField;
+        private List<TextType> _noteField;
     
         private TransUserAreaType _userAreaField;
     
@@ -38,14 +40,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Note")]
-        public TextType[] Note {
+        public List<TextType> Note {
             get => _noteField;
             set => _noteField = value;
         }

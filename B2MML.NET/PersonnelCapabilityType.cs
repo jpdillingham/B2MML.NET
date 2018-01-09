@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,13 +12,13 @@
     
         private PersonIDType _personIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private CapabilityTypeType _capabilityTypeField;
     
         private ReasonType _reasonField;
     
-        private EquipmentElementLevelType[] _equipmentElementLevelField;
+        private List<EquipmentElementLevelType> _equipmentElementLevelField;
     
         private StartTimeType _startTimeField;
     
@@ -26,9 +28,9 @@
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private PersonnelCapabilityPropertyType[] _personnelCapabilityPropertyField;
+        private List<PersonnelCapabilityPropertyType> _personnelCapabilityPropertyField;
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
@@ -44,7 +46,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -63,7 +65,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
-        public EquipmentElementLevelType[] EquipmentElementLevel {
+        public List<EquipmentElementLevelType> EquipmentElementLevel {
             get => _equipmentElementLevelField;
             set => _equipmentElementLevelField = value;
         }
@@ -94,14 +96,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapabilityProperty")]
-        public PersonnelCapabilityPropertyType[] PersonnelCapabilityProperty {
+        public List<PersonnelCapabilityPropertyType> PersonnelCapabilityProperty {
             get => _personnelCapabilityPropertyField;
             set => _personnelCapabilityPropertyField = value;
         }

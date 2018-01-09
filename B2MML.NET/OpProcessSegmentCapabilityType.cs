@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,31 +10,31 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private ProcessSegmentIDType[] _processSegmentIDField;
     
         private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType[] _reasonField;
+        private List<ReasonType> _reasonField;
     
-        private HierarchyScopeType[] _hierarchyScopeField;
+        private List<HierarchyScopeType> _hierarchyScopeField;
     
-        private EquipmentElementLevelType[] _equipmentElementLevelField;
+        private List<EquipmentElementLevelType> _equipmentElementLevelField;
     
         private StartTimeType _startTimeField;
     
         private EndTimeType _endTimeField;
     
-        private OpPersonnelCapabilityType[] _personnelCapabilityField;
+        private List<OpPersonnelCapabilityType> _personnelCapabilityField;
     
-        private OpEquipmentCapabilityType[] _equipmentCapabilityField;
+        private List<OpEquipmentCapabilityType> _equipmentCapabilityField;
     
-        private OpPhysicalAssetCapabilityType[] _physicalAssetCapabilityField;
+        private List<OpPhysicalAssetCapabilityType> _physicalAssetCapabilityField;
     
-        private OpMaterialCapabilityType[] _materialCapabilityField;
+        private List<OpMaterialCapabilityType> _materialCapabilityField;
     
-        private OpProcessSegmentCapabilityType[] _processSegmentCapabilityField;
+        private List<OpProcessSegmentCapabilityType> _processSegmentCapabilityField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -42,7 +44,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -62,21 +64,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
-        public ReasonType[] Reason {
+        public List<ReasonType> Reason {
             get => _reasonField;
             set => _reasonField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("HierarchyScope")]
-        public HierarchyScopeType[] HierarchyScope {
+        public List<HierarchyScopeType> HierarchyScope {
             get => _hierarchyScopeField;
             set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
-        public EquipmentElementLevelType[] EquipmentElementLevel {
+        public List<EquipmentElementLevelType> EquipmentElementLevel {
             get => _equipmentElementLevelField;
             set => _equipmentElementLevelField = value;
         }
@@ -95,35 +97,35 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
-        public OpPersonnelCapabilityType[] PersonnelCapability {
+        public List<OpPersonnelCapabilityType> PersonnelCapability {
             get => _personnelCapabilityField;
             set => _personnelCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
-        public OpEquipmentCapabilityType[] EquipmentCapability {
+        public List<OpEquipmentCapabilityType> EquipmentCapability {
             get => _equipmentCapabilityField;
             set => _equipmentCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapability")]
-        public OpPhysicalAssetCapabilityType[] PhysicalAssetCapability {
+        public List<OpPhysicalAssetCapabilityType> PhysicalAssetCapability {
             get => _physicalAssetCapabilityField;
             set => _physicalAssetCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
-        public OpMaterialCapabilityType[] MaterialCapability {
+        public List<OpMaterialCapabilityType> MaterialCapability {
             get => _materialCapabilityField;
             set => _materialCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentCapability")]
-        public OpProcessSegmentCapabilityType[] ProcessSegmentCapability {
+        public List<OpProcessSegmentCapabilityType> ProcessSegmentCapability {
             get => _processSegmentCapabilityField;
             set => _processSegmentCapabilityField = value;
         }

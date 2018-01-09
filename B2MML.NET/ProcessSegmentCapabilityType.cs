@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private ProcessSegmentIDType _processSegmentIDField;
     
@@ -16,23 +18,23 @@
     
         private ReasonType _reasonField;
     
-        private LocationType[] _locationField;
+        private List<LocationType> _locationField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private EquipmentElementLevelType[] _equipmentElementLevelField;
+        private List<EquipmentElementLevelType> _equipmentElementLevelField;
     
         private StartTimeType _startTimeField;
     
         private EndTimeType _endTimeField;
     
-        private PersonnelCapabilityType[] _personnelCapabilityField;
+        private List<PersonnelCapabilityType> _personnelCapabilityField;
     
-        private EquipmentCapabilityType[] _equipmentCapabilityField;
+        private List<EquipmentCapabilityType> _equipmentCapabilityField;
     
-        private MaterialCapabilityType[] _materialCapabilityField;
+        private List<MaterialCapabilityType> _materialCapabilityField;
     
-        private ProcessSegmentCapabilityType[] _processSegmentCapabilityField;
+        private List<ProcessSegmentCapabilityType> _processSegmentCapabilityField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -42,7 +44,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -67,7 +69,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Location")]
-        public LocationType[] Location {
+        public List<LocationType> Location {
             get => _locationField;
             set => _locationField = value;
         }
@@ -80,7 +82,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
-        public EquipmentElementLevelType[] EquipmentElementLevel {
+        public List<EquipmentElementLevelType> EquipmentElementLevel {
             get => _equipmentElementLevelField;
             set => _equipmentElementLevelField = value;
         }
@@ -99,28 +101,28 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
-        public PersonnelCapabilityType[] PersonnelCapability {
+        public List<PersonnelCapabilityType> PersonnelCapability {
             get => _personnelCapabilityField;
             set => _personnelCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
-        public EquipmentCapabilityType[] EquipmentCapability {
+        public List<EquipmentCapabilityType> EquipmentCapability {
             get => _equipmentCapabilityField;
             set => _equipmentCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
-        public MaterialCapabilityType[] MaterialCapability {
+        public List<MaterialCapabilityType> MaterialCapability {
             get => _materialCapabilityField;
             set => _materialCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentCapability")]
-        public ProcessSegmentCapabilityType[] ProcessSegmentCapability {
+        public List<ProcessSegmentCapabilityType> ProcessSegmentCapability {
             get => _processSegmentCapabilityField;
             set => _processSegmentCapabilityField = value;
         }

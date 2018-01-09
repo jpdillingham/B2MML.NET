@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private NumericType _tagIndexField;
     
-        private string[] _valueField;
+        private List<string> _valueField;
     
         private IdentifierType _qualityField;
     
@@ -20,7 +22,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public string[] Value {
+        public List<string> Value {
             get => _valueField;
             set => _valueField = value;
         }

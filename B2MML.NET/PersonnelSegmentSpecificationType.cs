@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,13 +12,13 @@
     
         private PersonIDType _personIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private CodeType _personnelUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private PersonnelSegmentSpecificationPropertyType[] _personnelSegmentSpecificationPropertyField;
+        private List<PersonnelSegmentSpecificationPropertyType> _personnelSegmentSpecificationPropertyField;
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
@@ -32,7 +34,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -45,14 +47,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSegmentSpecificationProperty")]
-        public PersonnelSegmentSpecificationPropertyType[] PersonnelSegmentSpecificationProperty {
+        public List<PersonnelSegmentSpecificationPropertyType> PersonnelSegmentSpecificationProperty {
             get => _personnelSegmentSpecificationPropertyField;
             set => _personnelSegmentSpecificationPropertyField = value;
         }

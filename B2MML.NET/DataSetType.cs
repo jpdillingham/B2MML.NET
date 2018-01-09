@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _trendSystemReferenceField;
     
@@ -24,9 +26,9 @@
     
         private TimeSpecificationType _timeSpecificationField;
     
-        private TagSpecificationType[] _tagSpecificationField;
+        private List<TagSpecificationType> _tagSpecificationField;
     
-        private object[] _itemsField;
+        private List<object> _itemsField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -54,7 +56,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -85,7 +87,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TagSpecification")]
-        public TagSpecificationType[] TagSpecification {
+        public List<TagSpecificationType> TagSpecification {
             get => _tagSpecificationField;
             set => _tagSpecificationField = value;
         }
@@ -93,7 +95,7 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("DelimitedDataBlock", typeof(DelimitedDataBlockType)),
          System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
-        public object[] Items {
+        public List<object> Items {
             get => _itemsField;
             set => _itemsField = value;
         }

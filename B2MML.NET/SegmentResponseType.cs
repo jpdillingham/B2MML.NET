@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private ProductSegmentIDType[] _productSegmentIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -22,23 +24,23 @@
     
         private ActualEndTimeType _actualEndTimeField;
     
-        private ProductionDataType[] _productionDataField;
+        private List<ProductionDataType> _productionDataField;
     
-        private PersonnelActualType[] _personnelActualField;
+        private List<PersonnelActualType> _personnelActualField;
     
-        private EquipmentActualType[] _equipmentActualField;
+        private List<EquipmentActualType> _equipmentActualField;
     
-        private PhysicalAssetActualType[] _physicalAssetActualField;
+        private List<PhysicalAssetActualType> _physicalAssetActualField;
     
-        private MaterialActualType[] _materialActualField;
+        private List<MaterialActualType> _materialActualField;
     
-        private MaterialProducedActualType[] _materialProducedActualField;
+        private List<MaterialProducedActualType> _materialProducedActualField;
     
-        private MaterialConsumedActualType[] _materialConsumedActualField;
+        private List<MaterialConsumedActualType> _materialConsumedActualField;
     
-        private ConsumableActualType[] _consumableActualField;
+        private List<ConsumableActualType> _consumableActualField;
     
-        private SegmentResponseType[] _segmentResponseField;
+        private List<SegmentResponseType> _segmentResponseField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -66,7 +68,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -97,63 +99,63 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionData")]
-        public ProductionDataType[] ProductionData {
+        public List<ProductionDataType> ProductionData {
             get => _productionDataField;
             set => _productionDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
-        public PersonnelActualType[] PersonnelActual {
+        public List<PersonnelActualType> PersonnelActual {
             get => _personnelActualField;
             set => _personnelActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
-        public EquipmentActualType[] EquipmentActual {
+        public List<EquipmentActualType> EquipmentActual {
             get => _equipmentActualField;
             set => _equipmentActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
-        public PhysicalAssetActualType[] PhysicalAssetActual {
+        public List<PhysicalAssetActualType> PhysicalAssetActual {
             get => _physicalAssetActualField;
             set => _physicalAssetActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
-        public MaterialActualType[] MaterialActual {
+        public List<MaterialActualType> MaterialActual {
             get => _materialActualField;
             set => _materialActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialProducedActual")]
-        public MaterialProducedActualType[] MaterialProducedActual {
+        public List<MaterialProducedActualType> MaterialProducedActual {
             get => _materialProducedActualField;
             set => _materialProducedActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialConsumedActual")]
-        public MaterialConsumedActualType[] MaterialConsumedActual {
+        public List<MaterialConsumedActualType> MaterialConsumedActual {
             get => _materialConsumedActualField;
             set => _materialConsumedActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ConsumableActual")]
-        public ConsumableActualType[] ConsumableActual {
+        public List<ConsumableActualType> ConsumableActual {
             get => _consumableActualField;
             set => _consumableActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
-        public SegmentResponseType[] SegmentResponse {
+        public List<SegmentResponseType> SegmentResponse {
             get => _segmentResponseField;
             set => _segmentResponseField = value;
         }

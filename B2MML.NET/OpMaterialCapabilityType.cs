@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private MaterialSubLotIDType[] _materialSubLotIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private CapabilityTypeType _capabilityTypeField;
     
@@ -30,15 +32,15 @@
     
         private EndTimeType _endTimeField;
     
-        private OpMaterialCapabilityType[] _assemblyCapabilityField;
+        private List<OpMaterialCapabilityType> _assemblyCapabilityField;
     
         private AssemblyTypeType _assemblyTypeField;
     
         private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private OpMaterialCapabilityPropertyType[] _materialCapabilityPropertyField;
+        private List<OpMaterialCapabilityPropertyType> _materialCapabilityPropertyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
@@ -70,7 +72,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -119,7 +121,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyCapability")]
-        public OpMaterialCapabilityType[] AssemblyCapability {
+        public List<OpMaterialCapabilityType> AssemblyCapability {
             get => _assemblyCapabilityField;
             set => _assemblyCapabilityField = value;
         }
@@ -138,14 +140,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapabilityProperty")]
-        public OpMaterialCapabilityPropertyType[] MaterialCapabilityProperty {
+        public List<OpMaterialCapabilityPropertyType> MaterialCapabilityProperty {
             get => _materialCapabilityPropertyField;
             set => _materialCapabilityPropertyField = value;
         }

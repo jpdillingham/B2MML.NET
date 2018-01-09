@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,20 +8,20 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class SyncOperationsDefinitionTypeDataArea {
     
-        private TransActionCriteriaType[] _syncField;
+        private List<TransActionCriteriaType> _syncField;
     
-        private OperationsDefinitionType[] _operationsDefinitionField;
+        private List<OperationsDefinitionType> _operationsDefinitionField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
-        public TransActionCriteriaType[] Sync {
+        public List<TransActionCriteriaType> Sync {
             get => _syncField;
             set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinition")]
-        public OperationsDefinitionType[] OperationsDefinition {
+        public List<OperationsDefinitionType> OperationsDefinition {
             get => _operationsDefinitionField;
             set => _operationsDefinitionField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,15 +12,15 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
         private PublishedDateType _publishedDateField;
     
-        private WorkflowSpecificationType[] _workflowSpecificationField;
+        private List<WorkflowSpecificationType> _workflowSpecificationField;
     
-        private WorkflowSpecificationTypeType[] _workflowSpecificationTypeField;
+        private List<WorkflowSpecificationTypeType> _workflowSpecificationTypeField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -28,7 +30,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -47,14 +49,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
-        public WorkflowSpecificationType[] WorkflowSpecification {
+        public List<WorkflowSpecificationType> WorkflowSpecification {
             get => _workflowSpecificationField;
             set => _workflowSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
-        public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
+        public List<WorkflowSpecificationTypeType> WorkflowSpecificationType {
             get => _workflowSpecificationTypeField;
             set => _workflowSpecificationTypeField = value;
         }

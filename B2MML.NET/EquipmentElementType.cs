@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IDType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private EquipmentElementTypeType _equipmentElementType1Field;
     
@@ -18,15 +20,15 @@
     
         private ClassInstanceAssociationType[] _classInstanceAssociationField;
     
-        private EquipmentElementPropertyType[] _propertyField;
+        private List<EquipmentElementPropertyType> _propertyField;
     
-        private EquipmentProceduralElementClassType[] _equipmentProceduralElementClassField;
+        private List<EquipmentProceduralElementClassType> _equipmentProceduralElementClassField;
     
-        private EquipmentProceduralElementType[] _equipmentProceduralElementField;
+        private List<EquipmentProceduralElementType> _equipmentProceduralElementField;
     
-        private EquipmentConnectionType[] _equipmentConnectionField;
+        private List<EquipmentConnectionType> _equipmentConnectionField;
     
-        private object[] _itemsField;
+        private List<object> _itemsField;
     
         /// <remarks/>
         public IDType ID {
@@ -36,7 +38,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -63,28 +65,28 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
-        public EquipmentElementPropertyType[] Property {
+        public List<EquipmentElementPropertyType> Property {
             get => _propertyField;
             set => _propertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementClass")]
-        public EquipmentProceduralElementClassType[] EquipmentProceduralElementClass {
+        public List<EquipmentProceduralElementClassType> EquipmentProceduralElementClass {
             get => _equipmentProceduralElementClassField;
             set => _equipmentProceduralElementClassField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElement")]
-        public EquipmentProceduralElementType[] EquipmentProceduralElement {
+        public List<EquipmentProceduralElementType> EquipmentProceduralElement {
             get => _equipmentProceduralElementField;
             set => _equipmentProceduralElementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentConnection")]
-        public EquipmentConnectionType[] EquipmentConnection {
+        public List<EquipmentConnectionType> EquipmentConnection {
             get => _equipmentConnectionField;
             set => _equipmentConnectionField = value;
         }
@@ -92,7 +94,7 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElement", typeof(EquipmentElementType)),
          System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
-        public object[] Items {
+        public List<object> Items {
             get => _itemsField;
             set => _itemsField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransShowType _showField;
     
-        private WorkDirectiveType[] _workDirectiveField;
+        private List<WorkDirectiveType> _workDirectiveField;
     
         /// <remarks/>
         public TransShowType Show {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
-        public WorkDirectiveType[] WorkDirective {
+        public List<WorkDirectiveType> WorkDirective {
             get => _workDirectiveField;
             set => _workDirectiveField = value;
         }

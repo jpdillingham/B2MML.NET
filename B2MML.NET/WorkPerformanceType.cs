@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -26,7 +28,7 @@
     
         private PublishedDateType _publishedDateField;
     
-        private WorkResponseType[] _workResponseField;
+        private List<WorkResponseType> _workResponseField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -36,7 +38,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -85,7 +87,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkResponse")]
-        public WorkResponseType[] WorkResponse {
+        public List<WorkResponseType> WorkResponse {
             get => _workResponseField;
             set => _workResponseField = value;
         }

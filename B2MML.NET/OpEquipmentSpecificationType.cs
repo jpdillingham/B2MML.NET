@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,13 +12,13 @@
     
         private EquipmentIDType[] _equipmentIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private EquipmentUseType _equipmentUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private OpEquipmentSpecificationPropertyType[] _equipmentSpecificationPropertyField;
+        private List<OpEquipmentSpecificationPropertyType> _equipmentSpecificationPropertyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
@@ -34,7 +36,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -47,14 +49,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecificationProperty")]
-        public OpEquipmentSpecificationPropertyType[] EquipmentSpecificationProperty {
+        public List<OpEquipmentSpecificationPropertyType> EquipmentSpecificationProperty {
             get => _equipmentSpecificationPropertyField;
             set => _equipmentSpecificationPropertyField = value;
         }

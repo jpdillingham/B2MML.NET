@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransRespondType _respondField;
     
-        private ResourceConstraintLibraryType[] _resourceConstraintLibraryField;
+        private List<ResourceConstraintLibraryType> _resourceConstraintLibraryField;
     
         /// <remarks/>
         public TransRespondType Respond {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
-        public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
+        public List<ResourceConstraintLibraryType> ResourceConstraintLibrary {
             get => _resourceConstraintLibraryField;
             set => _resourceConstraintLibraryField = value;
         }

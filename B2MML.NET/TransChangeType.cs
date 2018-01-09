@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,7 +8,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class TransChangeType {
     
-        private TransActionCriteriaType[] _actionCriteriaField;
+        private List<TransActionCriteriaType> _actionCriteriaField;
     
         private TransResponseCodeType _responseCodeField;
     
@@ -14,7 +16,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActionCriteria")]
-        public TransActionCriteriaType[] ActionCriteria {
+        public List<TransActionCriteriaType> ActionCriteria {
             get => _actionCriteriaField;
             set => _actionCriteriaField = value;
         }

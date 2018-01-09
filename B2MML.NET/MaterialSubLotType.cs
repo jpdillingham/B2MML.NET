@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -18,19 +20,19 @@
     
         private StatusType _statusField;
     
-        private MaterialLotPropertyType[] _materialSublotPropertyField;
+        private List<MaterialLotPropertyType> _materialSublotPropertyField;
     
         private StorageHierarchyScopeType _storageLocationField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private MaterialSubLotType[] _materialSubLotField;
+        private List<MaterialSubLotType> _materialSubLotField;
     
         private MaterialLotIDType _materialLotIDField;
     
-        private MaterialLotType[] _assemblyLotIDField;
+        private List<MaterialLotType> _assemblyLotIDField;
     
-        private MaterialSubLotType[] _assemblySubLotIDField;
+        private List<MaterialSubLotType> _assemblySubLotIDField;
     
         private AssemblyTypeType _assemblyTypeField;
     
@@ -44,7 +46,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -69,7 +71,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSublotProperty")]
-        public MaterialLotPropertyType[] MaterialSublotProperty {
+        public List<MaterialLotPropertyType> MaterialSublotProperty {
             get => _materialSublotPropertyField;
             set => _materialSublotPropertyField = value;
         }
@@ -82,14 +84,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
-        public MaterialSubLotType[] MaterialSubLot {
+        public List<MaterialSubLotType> MaterialSubLot {
             get => _materialSubLotField;
             set => _materialSubLotField = value;
         }
@@ -102,14 +104,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyLotID")]
-        public MaterialLotType[] AssemblyLotID {
+        public List<MaterialLotType> AssemblyLotID {
             get => _assemblyLotIDField;
             set => _assemblyLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblySubLotID")]
-        public MaterialSubLotType[] AssemblySubLotID {
+        public List<MaterialSubLotType> AssemblySubLotID {
             get => _assemblySubLotIDField;
             set => _assemblySubLotIDField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransAcknowledgeType _acknowledgeField;
     
-        private MaterialTestSpecificationType[] _materialTestSpecField;
+        private List<MaterialTestSpecificationType> _materialTestSpecField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpec")]
-        public MaterialTestSpecificationType[] MaterialTestSpec {
+        public List<MaterialTestSpecificationType> MaterialTestSpec {
             get => _materialTestSpecField;
             set => _materialTestSpecField = value;
         }

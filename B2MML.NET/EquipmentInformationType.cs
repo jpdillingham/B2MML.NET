@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -18,11 +20,11 @@
     
         private PublishedDateType _publishedDateField;
     
-        private EquipmentType[] _equipmentField;
+        private List<EquipmentType> _equipmentField;
     
-        private EquipmentClassType[] _equipmentClassField;
+        private List<EquipmentClassType> _equipmentClassField;
     
-        private EquipmentCapabilityTestSpecificationType[] _equipmentCapabilityTestSpecificationField;
+        private List<EquipmentCapabilityTestSpecificationType> _equipmentCapabilityTestSpecificationField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -32,7 +34,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -57,21 +59,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
-        public EquipmentType[] Equipment {
+        public List<EquipmentType> Equipment {
             get => _equipmentField;
             set => _equipmentField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClass")]
-        public EquipmentClassType[] EquipmentClass {
+        public List<EquipmentClassType> EquipmentClass {
             get => _equipmentClassField;
             set => _equipmentClassField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecification")]
-        public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpecification {
+        public List<EquipmentCapabilityTestSpecificationType> EquipmentCapabilityTestSpecification {
             get => _equipmentCapabilityTestSpecificationField;
             set => _equipmentCapabilityTestSpecificationField = value;
         }

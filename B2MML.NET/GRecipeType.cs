@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private GRecipeTypeType _gRecipeType1Field;
     
@@ -22,7 +24,7 @@
     
         private ProcessElementType _processProcedureField;
     
-        private ResourceConstraintType[] _resourceConstraintField;
+        private List<ResourceConstraintType> _resourceConstraintField;
     
         private GROtherInformationType[] _otherInformationField;
     
@@ -34,7 +36,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -72,7 +74,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
-        public ResourceConstraintType[] ResourceConstraint {
+        public List<ResourceConstraintType> ResourceConstraint {
             get => _resourceConstraintField;
             set => _resourceConstraintField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -22,11 +24,11 @@
     
         private HierarchyScopeType _equipmentLevelField;
     
-        private EquipmentAssetMappingType[] _equipmentAssetMappingField;
+        private List<EquipmentAssetMappingType> _equipmentAssetMappingField;
     
-        private PhysicalAssetPropertyType[] _physicalAssetPropertyField;
+        private List<PhysicalAssetPropertyType> _physicalAssetPropertyField;
     
-        private PhysicalAssetType[] _physicalAssetField;
+        private List<PhysicalAssetType> _physicalAssetField;
     
         private PhysicalAssetClassIDType[] _physicalAssetClassIDField;
     
@@ -40,7 +42,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -77,21 +79,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentAssetMapping")]
-        public EquipmentAssetMappingType[] EquipmentAssetMapping {
+        public List<EquipmentAssetMappingType> EquipmentAssetMapping {
             get => _equipmentAssetMappingField;
             set => _equipmentAssetMappingField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetProperty")]
-        public PhysicalAssetPropertyType[] PhysicalAssetProperty {
+        public List<PhysicalAssetPropertyType> PhysicalAssetProperty {
             get => _physicalAssetPropertyField;
             set => _physicalAssetPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
-        public PhysicalAssetType[] PhysicalAsset {
+        public List<PhysicalAssetType> PhysicalAsset {
             get => _physicalAssetField;
             set => _physicalAssetField = value;
         }

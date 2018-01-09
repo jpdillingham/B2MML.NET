@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -28,17 +30,17 @@
     
         private ResponseStateType _jobStateField;
     
-        private OpSegmentDataType[] _jobResponsetDataField;
+        private List<OpSegmentDataType> _jobResponsetDataField;
     
-        private OpPersonnelActualType[] _personnelActualField;
+        private List<OpPersonnelActualType> _personnelActualField;
     
-        private OpEquipmentActualType[] _equipmentActualField;
+        private List<OpEquipmentActualType> _equipmentActualField;
     
-        private OpPhysicalAssetActualType[] _physicalAssetActualField;
+        private List<OpPhysicalAssetActualType> _physicalAssetActualField;
     
-        private OpMaterialActualType[] _materialActualField;
+        private List<OpMaterialActualType> _materialActualField;
     
-        private JobResponseType[] _jobResponseField;
+        private List<JobResponseType> _jobResponseField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -103,42 +105,42 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobResponsetData")]
-        public OpSegmentDataType[] JobResponsetData {
+        public List<OpSegmentDataType> JobResponsetData {
             get => _jobResponsetDataField;
             set => _jobResponsetDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
-        public OpPersonnelActualType[] PersonnelActual {
+        public List<OpPersonnelActualType> PersonnelActual {
             get => _personnelActualField;
             set => _personnelActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
-        public OpEquipmentActualType[] EquipmentActual {
+        public List<OpEquipmentActualType> EquipmentActual {
             get => _equipmentActualField;
             set => _equipmentActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
-        public OpPhysicalAssetActualType[] PhysicalAssetActual {
+        public List<OpPhysicalAssetActualType> PhysicalAssetActual {
             get => _physicalAssetActualField;
             set => _physicalAssetActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
-        public OpMaterialActualType[] MaterialActual {
+        public List<OpMaterialActualType> MaterialActual {
             get => _materialActualField;
             set => _materialActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
-        public JobResponseType[] JobResponse {
+        public List<JobResponseType> JobResponse {
             get => _jobResponseField;
             set => _jobResponseField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransShowType _showField;
     
-        private PersonType[] _personField;
+        private List<PersonType> _personField;
     
         /// <remarks/>
         public TransShowType Show {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Person")]
-        public PersonType[] Person {
+        public List<PersonType> Person {
             get => _personField;
             set => _personField = value;
         }

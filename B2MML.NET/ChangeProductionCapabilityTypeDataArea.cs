@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransChangeType _changeField;
     
-        private ProductionCapabilityType[] _productionCapabilityField;
+        private List<ProductionCapabilityType> _productionCapabilityField;
     
         /// <remarks/>
         public TransChangeType Change {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionCapability")]
-        public ProductionCapabilityType[] ProductionCapability {
+        public List<ProductionCapabilityType> ProductionCapability {
             get => _productionCapabilityField;
             set => _productionCapabilityField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private VersionType _versionField;
     
@@ -18,9 +20,9 @@
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private TestedPersonPropertyType[] _testedPersonPropertyField;
+        private List<TestedPersonPropertyType> _testedPersonPropertyField;
     
-        private TestedPersonnelClassPropertyType[] _testedPersonnelClassPropertyField;
+        private List<TestedPersonnelClassPropertyType> _testedPersonnelClassPropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -30,7 +32,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -55,14 +57,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonProperty")]
-        public TestedPersonPropertyType[] TestedPersonProperty {
+        public List<TestedPersonPropertyType> TestedPersonProperty {
             get => _testedPersonPropertyField;
             set => _testedPersonPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonnelClassProperty")]
-        public TestedPersonnelClassPropertyType[] TestedPersonnelClassProperty {
+        public List<TestedPersonnelClassPropertyType> TestedPersonnelClassProperty {
             get => _testedPersonnelClassPropertyField;
             set => _testedPersonnelClassPropertyField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IDType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private BatchListEntryTypeType _batchListEntryType1Field;
     
@@ -52,15 +54,15 @@
     
         private UnitOfMeasureType _unitOfMeasureField;
     
-        private NoteType[] _noteField;
+        private List<NoteType> _noteField;
     
-        private BatchParameterType[] _parameterField;
+        private List<BatchParameterType> _parameterField;
     
-        private object[] _itemsField;
+        private List<object> _itemsField;
     
         private ActualEquipmentIDType[] _actualEquipmentIDField;
     
-        private BatchListEntryType[] _batchListEntryField;
+        private List<BatchListEntryType> _batchListEntryField;
     
         /// <remarks/>
         public IDType ID {
@@ -70,7 +72,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -198,14 +200,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Note")]
-        public NoteType[] Note {
+        public List<NoteType> Note {
             get => _noteField;
             set => _noteField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
-        public BatchParameterType[] Parameter {
+        public List<BatchParameterType> Parameter {
             get => _parameterField;
             set => _parameterField = value;
         }
@@ -213,7 +215,7 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID", typeof(BatchEquipmentClassIDType)),
          System.Xml.Serialization.XmlElementAttribute("EquipmentID", typeof(BatchEquipmentIDType))]
-        public object[] Items {
+        public List<object> Items {
             get => _itemsField;
             set => _itemsField = value;
         }
@@ -227,7 +229,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
-        public BatchListEntryType[] BatchListEntry {
+        public List<BatchListEntryType> BatchListEntry {
             get => _batchListEntryField;
             set => _batchListEntryField = value;
         }

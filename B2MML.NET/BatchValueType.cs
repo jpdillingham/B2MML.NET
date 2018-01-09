@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
          IsNullable = false)]
     public class BatchValueType {
     
-        private ValueStringType[] _valueStringField;
+        private List<ValueStringType> _valueStringField;
     
         private DataInterpretationType _dataInterpretationField;
     
@@ -18,11 +20,11 @@
     
         private EnumerationSetIDType[] _enumerationSetIDField;
     
-        private string[] _textField;
+        private List<string> _textField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ValueString")]
-        public ValueStringType[] ValueString {
+        public List<ValueStringType> ValueString {
             get => _valueStringField;
             set => _valueStringField = value;
         }
@@ -54,7 +56,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute]
-        public string[] Text {
+        public List<string> Text {
             get => _textField;
             set => _textField = value;
         }

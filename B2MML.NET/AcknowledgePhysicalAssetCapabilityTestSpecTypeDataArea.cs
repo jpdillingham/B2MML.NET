@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransAcknowledgeType _acknowledgeField;
     
-        private PhysicalAssetCapabilityTestSpecificationType[] _physicalAssetCapabilityTestSpecField;
+        private List<PhysicalAssetCapabilityTestSpecificationType> _physicalAssetCapabilityTestSpecField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
-        public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
+        public List<PhysicalAssetCapabilityTestSpecificationType> PhysicalAssetCapabilityTestSpec {
             get => _physicalAssetCapabilityTestSpecField;
             set => _physicalAssetCapabilityTestSpecField = value;
         }

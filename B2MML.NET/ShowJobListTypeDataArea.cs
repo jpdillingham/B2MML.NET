@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransShowType _showField;
     
-        private JobListType[] _jobListField;
+        private List<JobListType> _jobListField;
     
         /// <remarks/>
         public TransShowType Show {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobList")]
-        public JobListType[] JobList {
+        public List<JobListType> JobList {
             get => _jobListField;
             set => _jobListField = value;
         }

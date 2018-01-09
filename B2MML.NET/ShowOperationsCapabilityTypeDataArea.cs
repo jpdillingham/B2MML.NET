@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransShowType _showField;
     
-        private OperationsCapabilityType[] _operationsCapabilityField;
+        private List<OperationsCapabilityType> _operationsCapabilityField;
     
         /// <remarks/>
         public TransShowType Show {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsCapability")]
-        public OperationsCapabilityType[] OperationsCapability {
+        public List<OperationsCapabilityType> OperationsCapability {
             get => _operationsCapabilityField;
             set => _operationsCapabilityField = value;
         }

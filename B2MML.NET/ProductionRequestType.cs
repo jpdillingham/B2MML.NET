@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,11 +12,11 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private ProductProductionRuleIDType[] _productProductionRuleIDField;
     
-        private VersionType[] _versionField;
+        private List<VersionType> _versionField;
     
         private LocationType _locationField;
     
@@ -26,9 +28,9 @@
     
         private PriorityType _priorityField;
     
-        private SegmentRequirementType[] _segmentRequirementField;
+        private List<SegmentRequirementType> _segmentRequirementField;
     
-        private SegmentResponseType[] _segmentResponseField;
+        private List<SegmentResponseType> _segmentResponseField;
     
         private RequestStateType _requestStateField;
     
@@ -40,7 +42,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -54,7 +56,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Version")]
-        public VersionType[] Version {
+        public List<VersionType> Version {
             get => _versionField;
             set => _versionField = value;
         }
@@ -91,14 +93,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
-        public SegmentRequirementType[] SegmentRequirement {
+        public List<SegmentRequirementType> SegmentRequirement {
             get => _segmentRequirementField;
             set => _segmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
-        public SegmentResponseType[] SegmentResponse {
+        public List<SegmentResponseType> SegmentResponse {
             get => _segmentResponseField;
             set => _segmentResponseField = value;
         }

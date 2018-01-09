@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -18,19 +20,19 @@
     
         private ProcessSegmentIDType[] _processSegmentIDField;
     
-        private ParameterType[] _parameterField;
+        private List<ParameterType> _parameterField;
     
-        private OpPersonnelSpecificationType[] _personnelSpecificationField;
+        private List<OpPersonnelSpecificationType> _personnelSpecificationField;
     
-        private OpEquipmentSpecificationType[] _equipmentSpecificationField;
+        private List<OpEquipmentSpecificationType> _equipmentSpecificationField;
     
-        private OpPhysicalAssetSpecificationType[] _physicalAssetSpecificationField;
+        private List<OpPhysicalAssetSpecificationType> _physicalAssetSpecificationField;
     
-        private OpMaterialSpecificationType[] _materialSpecificationField;
+        private List<OpMaterialSpecificationType> _materialSpecificationField;
     
-        private SegmentDependencyType[] _segmentDependencyField;
+        private List<SegmentDependencyType> _segmentDependencyField;
     
-        private OperationsSegmentType[] _operationsSegmentField;
+        private List<OperationsSegmentType> _operationsSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -72,49 +74,49 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
-        public ParameterType[] Parameter {
+        public List<ParameterType> Parameter {
             get => _parameterField;
             set => _parameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
-        public OpPersonnelSpecificationType[] PersonnelSpecification {
+        public List<OpPersonnelSpecificationType> PersonnelSpecification {
             get => _personnelSpecificationField;
             set => _personnelSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
-        public OpEquipmentSpecificationType[] EquipmentSpecification {
+        public List<OpEquipmentSpecificationType> EquipmentSpecification {
             get => _equipmentSpecificationField;
             set => _equipmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
-        public OpPhysicalAssetSpecificationType[] PhysicalAssetSpecification {
+        public List<OpPhysicalAssetSpecificationType> PhysicalAssetSpecification {
             get => _physicalAssetSpecificationField;
             set => _physicalAssetSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
-        public OpMaterialSpecificationType[] MaterialSpecification {
+        public List<OpMaterialSpecificationType> MaterialSpecification {
             get => _materialSpecificationField;
             set => _materialSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentDependency")]
-        public SegmentDependencyType[] SegmentDependency {
+        public List<SegmentDependencyType> SegmentDependency {
             get => _segmentDependencyField;
             set => _segmentDependencyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
-        public OperationsSegmentType[] OperationsSegment {
+        public List<OperationsSegmentType> OperationsSegment {
             get => _operationsSegmentField;
             set => _operationsSegmentField = value;
         }

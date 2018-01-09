@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,15 +10,15 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _connectionTypeField;
     
-        private DescriptionType[] _fromNodeIDField;
+        private List<DescriptionType> _fromNodeIDField;
     
-        private DescriptionType[] _toNodeIDField;
+        private List<DescriptionType> _toNodeIDField;
     
-        private WorkflowSpecificationPropertyType[] _propertyField;
+        private List<WorkflowSpecificationPropertyType> _propertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -26,7 +28,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -39,21 +41,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("FromNodeID")]
-        public DescriptionType[] FromNodeID {
+        public List<DescriptionType> FromNodeID {
             get => _fromNodeIDField;
             set => _fromNodeIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ToNodeID")]
-        public DescriptionType[] ToNodeID {
+        public List<DescriptionType> ToNodeID {
             get => _toNodeIDField;
             set => _toNodeIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
-        public WorkflowSpecificationPropertyType[] Property {
+        public List<WorkflowSpecificationPropertyType> Property {
             get => _propertyField;
             set => _propertyField = value;
         }

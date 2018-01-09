@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -18,7 +20,7 @@
     
         private PublishedDateType _publishedDateField;
     
-        private ProcessSegmentType[] _processSegmentField;
+        private List<ProcessSegmentType> _processSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -28,7 +30,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -53,7 +55,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
-        public ProcessSegmentType[] ProcessSegment {
+        public List<ProcessSegmentType> ProcessSegment {
             get => _processSegmentField;
             set => _processSegmentField = value;
         }

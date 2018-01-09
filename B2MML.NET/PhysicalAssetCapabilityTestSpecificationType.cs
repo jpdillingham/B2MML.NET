@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,15 +12,15 @@
     
         private NameType _nameField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private VersionType _versionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private TestedPhysicalAssetPropertyType[] _testedPhysicalAssetPropertyField;
+        private List<TestedPhysicalAssetPropertyType> _testedPhysicalAssetPropertyField;
     
-        private TestedPhysicalAssetClassPropertyType[] _testedPhysicalAssetClassPropertyField;
+        private List<TestedPhysicalAssetClassPropertyType> _testedPhysicalAssetClassPropertyField;
     
         /// <remarks/>
         public NameType Name {
@@ -28,7 +30,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -47,14 +49,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPhysicalAssetProperty")]
-        public TestedPhysicalAssetPropertyType[] TestedPhysicalAssetProperty {
+        public List<TestedPhysicalAssetPropertyType> TestedPhysicalAssetProperty {
             get => _testedPhysicalAssetPropertyField;
             set => _testedPhysicalAssetPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPhysicalAssetClassProperty")]
-        public TestedPhysicalAssetClassPropertyType[] TestedPhysicalAssetClassProperty {
+        public List<TestedPhysicalAssetClassPropertyType> TestedPhysicalAssetClassProperty {
             get => _testedPhysicalAssetClassPropertyField;
             set => _testedPhysicalAssetClassPropertyField = value;
         }

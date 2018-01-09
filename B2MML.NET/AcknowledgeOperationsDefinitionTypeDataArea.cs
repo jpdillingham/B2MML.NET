@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransAcknowledgeType _acknowledgeField;
     
-        private OperationsDefinitionType[] _operationsDefinitionField;
+        private List<OperationsDefinitionType> _operationsDefinitionField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinition")]
-        public OperationsDefinitionType[] OperationsDefinition {
+        public List<OperationsDefinitionType> OperationsDefinition {
             get => _operationsDefinitionField;
             set => _operationsDefinitionField = value;
         }

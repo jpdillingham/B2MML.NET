@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private ResourceNetworkConnectionIDType _resourceNetworkConnectionIDField;
     
@@ -16,7 +18,7 @@
     
         private ResourceReferenceType _toResourceReferenceField;
     
-        private ResourcePropertyType[] _connectionPropertyField;
+        private List<ResourcePropertyType> _connectionPropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -26,7 +28,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -51,7 +53,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ConnectionProperty")]
-        public ResourcePropertyType[] ConnectionProperty {
+        public List<ResourcePropertyType> ConnectionProperty {
             get => _connectionPropertyField;
             set => _connectionPropertyField = value;
         }

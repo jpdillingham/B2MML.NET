@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransRespondType _respondField;
     
-        private ProductionScheduleType[] _productionScheduleField;
+        private List<ProductionScheduleType> _productionScheduleField;
     
         /// <remarks/>
         public TransRespondType Respond {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
-        public ProductionScheduleType[] ProductionSchedule {
+        public List<ProductionScheduleType> ProductionSchedule {
             get => _productionScheduleField;
             set => _productionScheduleField = value;
         }

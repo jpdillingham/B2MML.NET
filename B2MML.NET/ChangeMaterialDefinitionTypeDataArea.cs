@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransChangeType _changeField;
     
-        private MaterialDefinitionType[] _materialDefinitionField;
+        private List<MaterialDefinitionType> _materialDefinitionField;
     
         /// <remarks/>
         public TransChangeType Change {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
-        public MaterialDefinitionType[] MaterialDefinition {
+        public List<MaterialDefinitionType> MaterialDefinition {
             get => _materialDefinitionField;
             set => _materialDefinitionField = value;
         }

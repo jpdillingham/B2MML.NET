@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private CodeType _alarmTypeField;
     
-        private ValueType[] _alarmLimitField;
+        private List<ValueType> _alarmLimitField;
     
         private IdentifierType[] _priorityField;
     
@@ -28,7 +30,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AlarmLimit")]
-        public ValueType[] AlarmLimit {
+        public List<ValueType> AlarmLimit {
             get => _alarmLimitField;
             set => _alarmLimitField = value;
         }

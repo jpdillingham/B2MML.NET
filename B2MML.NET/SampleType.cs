@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,15 +16,15 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _sampleSourceIDField;
     
-        private QuantityValueType[] _sampleSizeField;
+        private List<QuantityValueType> _sampleSizeField;
     
-        private CodeType[] _sampleType1Field;
+        private List<CodeType> _sampleType1Field;
     
-        private TextType[] _samplePullReasonField;
+        private List<TextType> _samplePullReasonField;
     
         private DateTimeType _sampleExpirationField;
     
@@ -34,7 +36,7 @@
     
         private IdentifierType[] _sOpReferenceField;
     
-        private SampleTestType[] _sampleTestField;
+        private List<SampleTestType> _sampleTestField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -62,7 +64,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -75,21 +77,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleSize")]
-        public QuantityValueType[] SampleSize {
+        public List<QuantityValueType> SampleSize {
             get => _sampleSizeField;
             set => _sampleSizeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleType")]
-        public CodeType[] SampleType1 {
+        public List<CodeType> SampleType1 {
             get => _sampleType1Field;
             set => _sampleType1Field = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SamplePullReason")]
-        public TextType[] SamplePullReason {
+        public List<TextType> SamplePullReason {
             get => _samplePullReasonField;
             set => _samplePullReasonField = value;
         }
@@ -130,7 +132,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleTest")]
-        public SampleTestType[] SampleTest {
+        public List<SampleTestType> SampleTest {
             get => _sampleTestField;
             set => _sampleTestField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,9 +16,9 @@
     
         private MaterialDefinitionIDType _materialDefinitionIDField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private ManufacturingBillType[] _assemblyManufacturingBillField;
+        private List<ManufacturingBillType> _assemblyManufacturingBillField;
     
         private AssemblyTypeType _assemblyTypeField;
     
@@ -50,14 +52,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyManufacturingBill")]
-        public ManufacturingBillType[] AssemblyManufacturingBill {
+        public List<ManufacturingBillType> AssemblyManufacturingBill {
             get => _assemblyManufacturingBillField;
             set => _assemblyManufacturingBillField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -24,17 +26,17 @@
     
         private ResponseStateType _segmentStateField;
     
-        private OpSegmentDataType[] _segmentDataField;
+        private List<OpSegmentDataType> _segmentDataField;
     
-        private OpPersonnelActualType[] _personnelActualField;
+        private List<OpPersonnelActualType> _personnelActualField;
     
-        private OpEquipmentActualType[] _equipmentActualField;
+        private List<OpEquipmentActualType> _equipmentActualField;
     
-        private OpPhysicalAssetActualType[] _physicalAssetActualField;
+        private List<OpPhysicalAssetActualType> _physicalAssetActualField;
     
-        private OpMaterialActualType[] _materialActualField;
+        private List<OpMaterialActualType> _materialActualField;
     
-        private OpSegmentResponseType[] _segmentResponseField;
+        private List<OpSegmentResponseType> _segmentResponseField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -46,7 +48,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -97,42 +99,42 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentData")]
-        public OpSegmentDataType[] SegmentData {
+        public List<OpSegmentDataType> SegmentData {
             get => _segmentDataField;
             set => _segmentDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
-        public OpPersonnelActualType[] PersonnelActual {
+        public List<OpPersonnelActualType> PersonnelActual {
             get => _personnelActualField;
             set => _personnelActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
-        public OpEquipmentActualType[] EquipmentActual {
+        public List<OpEquipmentActualType> EquipmentActual {
             get => _equipmentActualField;
             set => _equipmentActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
-        public OpPhysicalAssetActualType[] PhysicalAssetActual {
+        public List<OpPhysicalAssetActualType> PhysicalAssetActual {
             get => _physicalAssetActualField;
             set => _physicalAssetActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
-        public OpMaterialActualType[] MaterialActual {
+        public List<OpMaterialActualType> MaterialActual {
             get => _materialActualField;
             set => _materialActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
-        public OpSegmentResponseType[] SegmentResponse {
+        public List<OpSegmentResponseType> SegmentResponse {
             get => _segmentResponseField;
             set => _segmentResponseField = value;
         }

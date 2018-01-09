@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private VersionType _versionField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -24,21 +26,21 @@
     
         private OperationsDefinitionIDType _operationsDefinitionIDField;
     
-        private ParameterType[] _parameterField;
+        private List<ParameterType> _parameterField;
     
-        private OpPersonnelSpecificationType[] _personnelSpecificationField;
+        private List<OpPersonnelSpecificationType> _personnelSpecificationField;
     
-        private OpEquipmentSpecificationType[] _equipmentSpecificationField;
+        private List<OpEquipmentSpecificationType> _equipmentSpecificationField;
     
-        private OpPhysicalAssetSpecificationType[] _physicalAssetSpecificationField;
+        private List<OpPhysicalAssetSpecificationType> _physicalAssetSpecificationField;
     
-        private OpMaterialSpecificationType[] _materialSpecificationField;
+        private List<OpMaterialSpecificationType> _materialSpecificationField;
     
-        private WorkflowSpecificationType[] _workflowSpecificationField;
+        private List<WorkflowSpecificationType> _workflowSpecificationField;
     
         private IdentifierType _workMasterIDField;
     
-        private WorkDirectiveType[] _workDirectiveField;
+        private List<WorkDirectiveType> _workDirectiveField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -54,7 +56,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -92,42 +94,42 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
-        public ParameterType[] Parameter {
+        public List<ParameterType> Parameter {
             get => _parameterField;
             set => _parameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
-        public OpPersonnelSpecificationType[] PersonnelSpecification {
+        public List<OpPersonnelSpecificationType> PersonnelSpecification {
             get => _personnelSpecificationField;
             set => _personnelSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
-        public OpEquipmentSpecificationType[] EquipmentSpecification {
+        public List<OpEquipmentSpecificationType> EquipmentSpecification {
             get => _equipmentSpecificationField;
             set => _equipmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
-        public OpPhysicalAssetSpecificationType[] PhysicalAssetSpecification {
+        public List<OpPhysicalAssetSpecificationType> PhysicalAssetSpecification {
             get => _physicalAssetSpecificationField;
             set => _physicalAssetSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
-        public OpMaterialSpecificationType[] MaterialSpecification {
+        public List<OpMaterialSpecificationType> MaterialSpecification {
             get => _materialSpecificationField;
             set => _materialSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
-        public WorkflowSpecificationType[] WorkflowSpecification {
+        public List<WorkflowSpecificationType> WorkflowSpecification {
             get => _workflowSpecificationField;
             set => _workflowSpecificationField = value;
         }
@@ -140,7 +142,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
-        public WorkDirectiveType[] WorkDirective {
+        public List<WorkDirectiveType> WorkDirective {
             get => _workDirectiveField;
             set => _workDirectiveField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,11 +16,11 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _recordReferenceField;
     
-        private TextType[] _commentTextField;
+        private List<TextType> _commentTextField;
     
         private NameType _personIDField;
     
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -61,7 +63,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("CommentText")]
-        public TextType[] CommentText {
+        public List<TextType> CommentText {
             get => _commentTextField;
             set => _commentTextField = value;
         }

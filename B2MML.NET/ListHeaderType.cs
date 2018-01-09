@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,13 +14,13 @@
     
         private VersionType _versionField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private OriginType _originField;
     
         private CreateDateType _createDateField;
     
-        private ModificationLogType[] _modificationLogField;
+        private List<ModificationLogType> _modificationLogField;
     
         /// <remarks/>
         public IDType ID {
@@ -34,7 +36,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -53,7 +55,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
-        public ModificationLogType[] ModificationLog {
+        public List<ModificationLogType> ModificationLog {
             get => _modificationLogField;
             set => _modificationLogField = value;
         }

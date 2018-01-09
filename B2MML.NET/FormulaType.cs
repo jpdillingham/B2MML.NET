@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,11 +10,11 @@
          IsNullable = false)]
     public class FormulaType {
     
-        private BatchParameterType[] _parameterField;
+        private List<BatchParameterType> _parameterField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
-        public BatchParameterType[] Parameter {
+        public List<BatchParameterType> Parameter {
             get => _parameterField;
             set => _parameterField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _testDispositionField;
     
@@ -22,13 +24,13 @@
     
         private IdentifierType[] _physicalAssetIDField;
     
-        private CodeType[] _analysisUsedField;
+        private List<CodeType> _analysisUsedField;
     
         private DateTimeType _expirationField;
     
-        private ValueType[] _resultsField;
+        private List<ValueType> _resultsField;
     
-        private ValueType[] _expectedResultsField;
+        private List<ValueType> _expectedResultsField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -56,7 +58,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -83,7 +85,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AnalysisUsed")]
-        public CodeType[] AnalysisUsed {
+        public List<CodeType> AnalysisUsed {
             get => _analysisUsedField;
             set => _analysisUsedField = value;
         }
@@ -96,14 +98,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Results")]
-        public ValueType[] Results {
+        public List<ValueType> Results {
             get => _resultsField;
             set => _resultsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ExpectedResults")]
-        public ValueType[] ExpectedResults {
+        public List<ValueType> ExpectedResults {
             get => _expectedResultsField;
             set => _expectedResultsField = value;
         }

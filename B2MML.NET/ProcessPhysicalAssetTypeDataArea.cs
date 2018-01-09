@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransProcessType _processField;
     
-        private PhysicalAssetType[] _physicalAssetField;
+        private List<PhysicalAssetType> _physicalAssetField;
     
         /// <remarks/>
         public TransProcessType Process {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
-        public PhysicalAssetType[] PhysicalAsset {
+        public List<PhysicalAssetType> PhysicalAsset {
             get => _physicalAssetField;
             set => _physicalAssetField = value;
         }

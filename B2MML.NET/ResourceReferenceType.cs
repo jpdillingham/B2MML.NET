@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private ResourceReferenceTypeType _resourceTypeField;
     
-        private ResourcePropertyType[] _resourcePropertyField;
+        private List<ResourcePropertyType> _resourcePropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -34,7 +36,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceProperty")]
-        public ResourcePropertyType[] ResourceProperty {
+        public List<ResourcePropertyType> ResourceProperty {
             get => _resourcePropertyField;
             set => _resourcePropertyField = value;
         }

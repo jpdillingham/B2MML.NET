@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,13 +16,13 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _recordReferenceField;
     
-        private ValueType[] _prechangeDataField;
+        private List<ValueType> _prechangeDataField;
     
-        private TextType[] _reasonField;
+        private List<TextType> _reasonField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -61,14 +63,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PrechangeData", IsNullable=true)]
-        public ValueType[] PrechangeData {
+        public List<ValueType> PrechangeData {
             get => _prechangeDataField;
             set => _prechangeDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
-        public TextType[] Reason {
+        public List<TextType> Reason {
             get => _reasonField;
             set => _reasonField = value;
         }

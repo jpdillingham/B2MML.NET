@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,15 +16,15 @@
     
         private MaterialSubLotIDType[] _materialSubLotIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private MaterialUseType _materialUseField;
     
         private StorageLocationType _storageLocationField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private OpMaterialActualType[] _assemblyActualField;
+        private List<OpMaterialActualType> _assemblyActualField;
     
         private AssemblyTypeType _assemblyTypeField;
     
@@ -30,7 +32,7 @@
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private OpMaterialActualPropertyType[] _materialActualPropertyField;
+        private List<OpMaterialActualPropertyType> _materialActualPropertyField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -64,7 +66,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -83,14 +85,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyActual")]
-        public OpMaterialActualType[] AssemblyActual {
+        public List<OpMaterialActualType> AssemblyActual {
             get => _assemblyActualField;
             set => _assemblyActualField = value;
         }
@@ -115,7 +117,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActualProperty")]
-        public OpMaterialActualPropertyType[] MaterialActualProperty {
+        public List<OpMaterialActualPropertyType> MaterialActualProperty {
             get => _materialActualPropertyField;
             set => _materialActualPropertyField = value;
         }

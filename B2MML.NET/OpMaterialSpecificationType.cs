@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,19 +14,19 @@
     
         private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private MaterialUseType _materialUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private OpMaterialSpecificationType[] _assemblySpecificationField;
+        private List<OpMaterialSpecificationType> _assemblySpecificationField;
     
         private AssemblyTypeType _assemblyTypeField;
     
         private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private OpMaterialSpecificationPropertyType[] _materialSpecificationPropertyField;
+        private List<OpMaterialSpecificationPropertyType> _materialSpecificationPropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -61,14 +63,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblySpecification")]
-        public OpMaterialSpecificationType[] AssemblySpecification {
+        public List<OpMaterialSpecificationType> AssemblySpecification {
             get => _assemblySpecificationField;
             set => _assemblySpecificationField = value;
         }
@@ -87,7 +89,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecificationProperty")]
-        public OpMaterialSpecificationPropertyType[] MaterialSpecificationProperty {
+        public List<OpMaterialSpecificationPropertyType> MaterialSpecificationProperty {
             get => _materialSpecificationPropertyField;
             set => _materialSpecificationPropertyField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,20 +8,20 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class SyncWorkflowSpecificationTypeTypeDataArea {
     
-        private TransActionCriteriaType[] _syncField;
+        private List<TransActionCriteriaType> _syncField;
     
-        private WorkflowSpecificationTypeType[] _workflowSpecificationTypeField;
+        private List<WorkflowSpecificationTypeType> _workflowSpecificationTypeField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
-        public TransActionCriteriaType[] Sync {
+        public List<TransActionCriteriaType> Sync {
             get => _syncField;
             set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
-        public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
+        public List<WorkflowSpecificationTypeType> WorkflowSpecificationType {
             get => _workflowSpecificationTypeField;
             set => _workflowSpecificationTypeField = value;
         }

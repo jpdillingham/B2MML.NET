@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,20 +8,20 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class GetPhysicalAssetCapabilityTestSpecTypeDataArea {
     
-        private string[] _getField;
+        private List<string> _getField;
     
-        private PhysicalAssetCapabilityTestSpecificationType[] _physicalAssetCapabilityTestSpecField;
+        private List<PhysicalAssetCapabilityTestSpecificationType> _physicalAssetCapabilityTestSpecField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
-        public string[] Get {
+        public List<string> Get {
             get => _getField;
             set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
-        public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
+        public List<PhysicalAssetCapabilityTestSpecificationType> PhysicalAssetCapabilityTestSpec {
             get => _physicalAssetCapabilityTestSpecField;
             set => _physicalAssetCapabilityTestSpecField = value;
         }

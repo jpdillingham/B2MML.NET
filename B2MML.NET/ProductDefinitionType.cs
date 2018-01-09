@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private VersionType _versionField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -26,9 +28,9 @@
     
         private BillOfResourcesIDType _billOfResourcesIDField;
     
-        private ManufacturingBillType[] _manufacturingBillField;
+        private List<ManufacturingBillType> _manufacturingBillField;
     
-        private ProductSegmentType[] _productSegmentField;
+        private List<ProductSegmentType> _productSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -44,7 +46,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -87,14 +89,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ManufacturingBill")]
-        public ManufacturingBillType[] ManufacturingBill {
+        public List<ManufacturingBillType> ManufacturingBill {
             get => _manufacturingBillField;
             set => _manufacturingBillField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductSegment")]
-        public ProductSegmentType[] ProductSegment {
+        public List<ProductSegmentType> ProductSegment {
             get => _productSegmentField;
             set => _productSegmentField = value;
         }

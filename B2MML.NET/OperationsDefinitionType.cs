@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private VersionType _versionField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -26,9 +28,9 @@
     
         private BillOfResourcesIDType _billOfResourcesIDField;
     
-        private OperationsMaterialBillType[] _operationsMaterialBillField;
+        private List<OperationsMaterialBillType> _operationsMaterialBillField;
     
-        private OperationsSegmentType[] _operationsSegmentField;
+        private List<OperationsSegmentType> _operationsSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -44,7 +46,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -87,14 +89,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsMaterialBill")]
-        public OperationsMaterialBillType[] OperationsMaterialBill {
+        public List<OperationsMaterialBillType> OperationsMaterialBill {
             get => _operationsMaterialBillField;
             set => _operationsMaterialBillField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
-        public OperationsSegmentType[] OperationsSegment {
+        public List<OperationsSegmentType> OperationsSegment {
             get => _operationsSegmentField;
             set => _operationsSegmentField = value;
         }

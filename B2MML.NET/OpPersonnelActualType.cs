@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,15 +12,15 @@
     
         private PersonIDType[] _personIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private PersonnelUseType _personnelUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private OpPersonnelActualPropertyType[] _personnelActualPropertyField;
+        private List<OpPersonnelActualPropertyType> _personnelActualPropertyField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -38,7 +40,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -51,7 +53,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
@@ -64,7 +66,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActualProperty")]
-        public OpPersonnelActualPropertyType[] PersonnelActualProperty {
+        public List<OpPersonnelActualPropertyType> PersonnelActualProperty {
             get => _personnelActualPropertyField;
             set => _personnelActualPropertyField = value;
         }

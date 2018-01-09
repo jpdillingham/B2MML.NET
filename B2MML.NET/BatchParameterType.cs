@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,15 +16,15 @@
     
         private ParameterTypeType _parameterTypeField;
     
-        private ParameterSubTypeType[] _parameterSubTypeField;
+        private List<ParameterSubTypeType> _parameterSubTypeField;
     
-        private BatchValueType[] _valueField;
+        private List<BatchValueType> _valueField;
     
         private ScaledType _scaledField;
     
         private ScaleReferenceType _scaleReferenceField;
     
-        private BatchParameterType[] _parameterField;
+        private List<BatchParameterType> _parameterField;
     
         /// <remarks/>
         public IDType ID {
@@ -44,14 +46,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ParameterSubType")]
-        public ParameterSubTypeType[] ParameterSubType {
+        public List<ParameterSubTypeType> ParameterSubType {
             get => _parameterSubTypeField;
             set => _parameterSubTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public BatchValueType[] Value {
+        public List<BatchValueType> Value {
             get => _valueField;
             set => _valueField = value;
         }
@@ -70,7 +72,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
-        public BatchParameterType[] Parameter {
+        public List<BatchParameterType> Parameter {
             get => _parameterField;
             set => _parameterField = value;
         }

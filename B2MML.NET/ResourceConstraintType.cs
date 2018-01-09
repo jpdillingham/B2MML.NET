@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,15 +12,15 @@
     
         private IdentifierType _constraintIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private ConstraintTypeType[] _constraintTypeField;
+        private List<ConstraintTypeType> _constraintTypeField;
     
         private LifeCycleStateType _lifeCycleStateField;
     
-        private ValueType[] _rangeField;
+        private List<ValueType> _rangeField;
     
-        private ResourceConstraintPropertyType[] _resourceConstraintPropertyField;
+        private List<ResourceConstraintPropertyType> _resourceConstraintPropertyField;
     
         /// <remarks/>
         public IdentifierType ConstraintID {
@@ -28,14 +30,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ConstraintType")]
-        public ConstraintTypeType[] ConstraintType {
+        public List<ConstraintTypeType> ConstraintType {
             get => _constraintTypeField;
             set => _constraintTypeField = value;
         }
@@ -48,14 +50,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Range")]
-        public ValueType[] Range {
+        public List<ValueType> Range {
             get => _rangeField;
             set => _rangeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintProperty")]
-        public ResourceConstraintPropertyType[] ResourceConstraintProperty {
+        public List<ResourceConstraintPropertyType> ResourceConstraintProperty {
             get => _resourceConstraintPropertyField;
             set => _resourceConstraintPropertyField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransRespondType _respondField;
     
-        private EquipmentClassType[] _equipmentClassField;
+        private List<EquipmentClassType> _equipmentClassField;
     
         /// <remarks/>
         public TransRespondType Respond {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClass")]
-        public EquipmentClassType[] EquipmentClass {
+        public List<EquipmentClassType> EquipmentClass {
             get => _equipmentClassField;
             set => _equipmentClassField = value;
         }

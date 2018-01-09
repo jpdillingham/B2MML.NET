@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,13 +10,13 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private ValueType[] _valueField;
+        private List<ValueType> _valueField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
-        private ProductionDataType[] _productionDataField;
+        private List<ProductionDataType> _productionDataField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -24,14 +26,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public ValueType[] Value {
+        public List<ValueType> Value {
             get => _valueField;
             set => _valueField = value;
         }
@@ -44,7 +46,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionData")]
-        public ProductionDataType[] ProductionData {
+        public List<ProductionDataType> ProductionData {
             get => _productionDataField;
             set => _productionDataField = value;
         }

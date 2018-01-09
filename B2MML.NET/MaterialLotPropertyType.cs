@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,15 +10,15 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private ValueType[] _valueField;
+        private List<ValueType> _valueField;
     
-        private MaterialLotPropertyType[] _materialLotPropertyField;
+        private List<MaterialLotPropertyType> _materialLotPropertyField;
     
         private MaterialTestSpecificationIDType[] _materialTestSpecificationIDField;
     
-        private TestResultType[] _testResultField;
+        private List<TestResultType> _testResultField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -26,21 +28,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public ValueType[] Value {
+        public List<ValueType> Value {
             get => _valueField;
             set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotProperty")]
-        public MaterialLotPropertyType[] MaterialLotProperty {
+        public List<MaterialLotPropertyType> MaterialLotProperty {
             get => _materialLotPropertyField;
             set => _materialLotPropertyField = value;
         }
@@ -54,7 +56,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestResult")]
-        public TestResultType[] TestResult {
+        public List<TestResultType> TestResult {
             get => _testResultField;
             set => _testResultField = value;
         }

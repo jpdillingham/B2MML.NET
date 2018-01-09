@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private EventTypeType _eventTypeField;
     
@@ -22,13 +24,13 @@
     
         private IdentifierType[] _equipmentIDField;
     
-        private ValueType[] _valueField;
+        private List<ValueType> _valueField;
     
-        private ValueType[] _previousValueField;
+        private List<ValueType> _previousValueField;
     
-        private TextType[] _messageTextField;
+        private List<TextType> _messageTextField;
     
-        private NameType[] _personIDField;
+        private List<NameType> _personIDField;
     
         private IdentifierType[] _computerIDField;
     
@@ -38,11 +40,11 @@
     
         private IdentifierType[] _categoryField;
     
-        private AlarmDataType[] _alarmDataField;
+        private List<AlarmDataType> _alarmDataField;
     
         private IdentifierType[] _associatedEventIDField;
     
-        private UserAttributeType[] _userAttributeField;
+        private List<UserAttributeType> _userAttributeField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -70,7 +72,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -97,28 +99,28 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
-        public ValueType[] Value {
+        public List<ValueType> Value {
             get => _valueField;
             set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PreviousValue")]
-        public ValueType[] PreviousValue {
+        public List<ValueType> PreviousValue {
             get => _previousValueField;
             set => _previousValueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
-        public TextType[] MessageText {
+        public List<TextType> MessageText {
             get => _messageTextField;
             set => _messageTextField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
-        public NameType[] PersonID {
+        public List<NameType> PersonID {
             get => _personIDField;
             set => _personIDField = value;
         }
@@ -153,7 +155,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AlarmData")]
-        public AlarmDataType[] AlarmData {
+        public List<AlarmDataType> AlarmData {
             get => _alarmDataField;
             set => _alarmDataField = value;
         }
@@ -167,7 +169,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("UserAttribute")]
-        public UserAttributeType[] UserAttribute {
+        public List<UserAttributeType> UserAttribute {
             get => _userAttributeField;
             set => _userAttributeField = value;
         }

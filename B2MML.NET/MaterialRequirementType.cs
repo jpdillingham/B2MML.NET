@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private MaterialSubLotIDType[] _materialSubLotIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -22,15 +24,15 @@
     
         private MaterialUseType _materialUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private MaterialRequirementType[] _assemblyRequirementField;
+        private List<MaterialRequirementType> _assemblyRequirementField;
     
         private AssemblyTypeType _assemblyTypeField;
     
         private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private MaterialRequirementPropertyType[] _materialRequirementPropertyField;
+        private List<MaterialRequirementPropertyType> _materialRequirementPropertyField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -64,7 +66,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -89,14 +91,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyRequirement")]
-        public MaterialRequirementType[] AssemblyRequirement {
+        public List<MaterialRequirementType> AssemblyRequirement {
             get => _assemblyRequirementField;
             set => _assemblyRequirementField = value;
         }
@@ -115,7 +117,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirementProperty")]
-        public MaterialRequirementPropertyType[] MaterialRequirementProperty {
+        public List<MaterialRequirementPropertyType> MaterialRequirementProperty {
             get => _materialRequirementPropertyField;
             set => _materialRequirementPropertyField = value;
         }

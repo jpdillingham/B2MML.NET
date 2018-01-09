@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _messageTextField;
+        private List<DescriptionType> _messageTextField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -20,7 +22,7 @@
     
         private IdentifierType _categoryField;
     
-        private WorkAlertPropertyType[] _propertyField;
+        private List<WorkAlertPropertyType> _propertyField;
     
         /// <remarks/>
         public IdentifierType ID {
@@ -30,7 +32,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
-        public DescriptionType[] MessageText {
+        public List<DescriptionType> MessageText {
             get => _messageTextField;
             set => _messageTextField = value;
         }
@@ -61,7 +63,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
-        public WorkAlertPropertyType[] Property {
+        public List<WorkAlertPropertyType> Property {
             get => _propertyField;
             set => _propertyField = value;
         }

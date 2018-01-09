@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,11 +16,11 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _recordReferenceField;
     
-        private NameType[] _nameField;
+        private List<NameType> _nameField;
     
         private string _changeIndicationField;
     
@@ -50,7 +52,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -63,7 +65,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Name")]
-        public NameType[] Name {
+        public List<NameType> Name {
             get => _nameField;
             set => _nameField = value;
         }

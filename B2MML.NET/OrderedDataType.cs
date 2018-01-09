@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private DateTimeType _timeValueField;
     
-        private DataValueType[] _dataValueField;
+        private List<DataValueType> _dataValueField;
     
         /// <remarks/>
         public NumericType OrderIndex {
@@ -26,7 +28,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("DataValue")]
-        public DataValueType[] DataValue {
+        public List<DataValueType> DataValue {
             get => _dataValueField;
             set => _dataValueField = value;
         }

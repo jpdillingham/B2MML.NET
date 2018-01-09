@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,19 +16,19 @@
     
         private VersionDateType _versionDateField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private BatchIDType _batchIDField;
     
         private HeaderType _headerField;
     
-        private BatchEquipmentRequirementType[] _equipmentRequirementField;
+        private List<BatchEquipmentRequirementType> _equipmentRequirementField;
     
         private FormulaType _formulaField;
     
         private ProcedureLogicType _procedureLogicField;
     
-        private RecipeElementType[] _recipeElementField;
+        private List<RecipeElementType> _recipeElementField;
     
         private OtherInformationType[] _otherInformationField;
     
@@ -50,7 +52,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -69,7 +71,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
-        public BatchEquipmentRequirementType[] EquipmentRequirement {
+        public List<BatchEquipmentRequirementType> EquipmentRequirement {
             get => _equipmentRequirementField;
             set => _equipmentRequirementField = value;
         }
@@ -88,7 +90,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
-        public RecipeElementType[] RecipeElement {
+        public List<RecipeElementType> RecipeElement {
             get => _recipeElementField;
             set => _recipeElementField = value;
         }

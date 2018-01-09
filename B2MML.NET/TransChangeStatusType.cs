@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,9 +16,9 @@
     
         private CodeType _reasonCodeField;
     
-        private CodeType[] _reasonField;
+        private List<CodeType> _reasonField;
     
-        private TransStateChangeType[] _stateChangeField;
+        private List<TransStateChangeType> _stateChangeField;
     
         private TransUserAreaType _userAreaField;
     
@@ -46,14 +48,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
-        public CodeType[] Reason {
+        public List<CodeType> Reason {
             get => _reasonField;
             set => _reasonField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("StateChange")]
-        public TransStateChangeType[] StateChange {
+        public List<TransStateChangeType> StateChange {
             get => _stateChangeField;
             set => _stateChangeField = value;
         }

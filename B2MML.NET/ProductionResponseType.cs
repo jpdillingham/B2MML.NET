@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,7 +16,7 @@
     
         private ProductProductionRuleIDType[] _productProductionRuleIDField;
     
-        private VersionType[] _versionField;
+        private List<VersionType> _versionField;
     
         private LocationType _locationField;
     
@@ -24,7 +26,7 @@
     
         private EndTimeType _endTimeField;
     
-        private SegmentResponseType[] _segmentResponseField;
+        private List<SegmentResponseType> _segmentResponseField;
     
         private ResponseStateType _responseStateField;
     
@@ -49,7 +51,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Version")]
-        public VersionType[] Version {
+        public List<VersionType> Version {
             get => _versionField;
             set => _versionField = value;
         }
@@ -80,7 +82,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
-        public SegmentResponseType[] SegmentResponse {
+        public List<SegmentResponseType> SegmentResponse {
             get => _segmentResponseField;
             set => _segmentResponseField = value;
         }

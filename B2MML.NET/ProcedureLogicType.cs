@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,29 +10,29 @@
          IsNullable = false)]
     public class ProcedureLogicType {
     
-        private LinkType[] _linkField;
+        private List<LinkType> _linkField;
     
-        private StepType[] _stepField;
+        private List<StepType> _stepField;
     
-        private TransitionType[] _transitionField;
+        private List<TransitionType> _transitionField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Link")]
-        public LinkType[] Link {
+        public List<LinkType> Link {
             get => _linkField;
             set => _linkField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Step")]
-        public StepType[] Step {
+        public List<StepType> Step {
             get => _stepField;
             set => _stepField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Transition")]
-        public TransitionType[] Transition {
+        public List<TransitionType> Transition {
             get => _transitionField;
             set => _transitionField = value;
         }

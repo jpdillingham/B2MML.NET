@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,13 +12,13 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private MaterialClassPropertyType[] _materialClassPropertyField;
+        private List<MaterialClassPropertyType> _materialClassPropertyField;
     
         private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
@@ -36,7 +38,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -55,7 +57,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassProperty")]
-        public MaterialClassPropertyType[] MaterialClassProperty {
+        public List<MaterialClassPropertyType> MaterialClassProperty {
             get => _materialClassPropertyField;
             set => _materialClassPropertyField = value;
         }

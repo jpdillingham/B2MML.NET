@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,13 +16,13 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private CodeType _testCodeField;
     
         private IdentifierType _testNameField;
     
-        private SampleTestResultType[] _sampleTestResultField;
+        private List<SampleTestResultType> _sampleTestResultField;
     
         /// <remarks/>
         public IdentifierType EntryID {
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -67,7 +69,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleTestResult")]
-        public SampleTestResultType[] SampleTestResult {
+        public List<SampleTestResultType> SampleTestResult {
             get => _sampleTestResultField;
             set => _sampleTestResultField = value;
         }

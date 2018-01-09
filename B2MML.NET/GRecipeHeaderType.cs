@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,17 +8,17 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class GRecipeHeaderType {
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _derivedFromIDField;
     
         private IdentifierType[] _productIDField;
     
-        private DescriptionType[] _description1Field;
+        private List<DescriptionType> _description1Field;
     
-        private NameType[] _productNameField;
+        private List<NameType> _productNameField;
     
-        private ValueType[] _batchSizeField;
+        private List<ValueType> _batchSizeField;
     
         private DateTimeType _effectiveDateField;
     
@@ -26,7 +28,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=0)]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -47,21 +49,21 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=3)]
-        public DescriptionType[] Description1 {
+        public List<DescriptionType> Description1 {
             get => _description1Field;
             set => _description1Field = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductName", Order=4)]
-        public NameType[] ProductName {
+        public List<NameType> ProductName {
             get => _productNameField;
             set => _productNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchSize", Order=5)]
-        public ValueType[] BatchSize {
+        public List<ValueType> BatchSize {
             get => _batchSizeField;
             set => _batchSizeField = value;
         }

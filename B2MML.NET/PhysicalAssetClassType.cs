@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,13 +12,13 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private NameType[] _manufacturerField;
+        private List<NameType> _manufacturerField;
     
-        private PhysicalAssetClassPropertyType[] _physicalAssetClassPropertyField;
+        private List<PhysicalAssetClassPropertyType> _physicalAssetClassPropertyField;
     
         private PhysicalAssetIDType[] _physicalAssetIDField;
     
@@ -30,7 +32,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -43,14 +45,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Manufacturer")]
-        public NameType[] Manufacturer {
+        public List<NameType> Manufacturer {
             get => _manufacturerField;
             set => _manufacturerField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassProperty")]
-        public PhysicalAssetClassPropertyType[] PhysicalAssetClassProperty {
+        public List<PhysicalAssetClassPropertyType> PhysicalAssetClassProperty {
             get => _physicalAssetClassPropertyField;
             set => _physicalAssetClassPropertyField = value;
         }

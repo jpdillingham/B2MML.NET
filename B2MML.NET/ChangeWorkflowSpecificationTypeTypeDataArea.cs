@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransChangeType _changeField;
     
-        private WorkflowSpecificationTypeType[] _workflowSpecificationTypeField;
+        private List<WorkflowSpecificationTypeType> _workflowSpecificationTypeField;
     
         /// <remarks/>
         public TransChangeType Change {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
-        public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
+        public List<WorkflowSpecificationTypeType> WorkflowSpecificationType {
             get => _workflowSpecificationTypeField;
             set => _workflowSpecificationTypeField = value;
         }

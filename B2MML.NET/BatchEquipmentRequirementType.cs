@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IDType _idField;
     
-        private ConstraintType[] _constraintField;
+        private List<ConstraintType> _constraintField;
     
         private DescriptionType _descriptionField;
     
@@ -22,7 +24,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Constraint")]
-        public ConstraintType[] Constraint {
+        public List<ConstraintType> Constraint {
             get => _constraintField;
             set => _constraintField = value;
         }

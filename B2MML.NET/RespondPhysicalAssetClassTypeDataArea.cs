@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransRespondType _respondField;
     
-        private PhysicalAssetClassType[] _physicalAssetClassField;
+        private List<PhysicalAssetClassType> _physicalAssetClassField;
     
         /// <remarks/>
         public TransRespondType Respond {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
-        public PhysicalAssetClassType[] PhysicalAssetClass {
+        public List<PhysicalAssetClassType> PhysicalAssetClass {
             get => _physicalAssetClassField;
             set => _physicalAssetClassField = value;
         }

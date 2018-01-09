@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,17 +12,17 @@
     
         private EquipmentIDType[] _equipmentIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private EquipmentUseType _equipmentUseField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
         private HierarchyScopeType _equipmentLevelField;
     
-        private OpEquipmentRequirementPropertyType[] _equipmentRequirementPropertyField;
+        private List<OpEquipmentRequirementPropertyType> _equipmentRequirementPropertyField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -40,7 +42,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -53,7 +55,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
@@ -72,7 +74,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirementProperty")]
-        public OpEquipmentRequirementPropertyType[] EquipmentRequirementProperty {
+        public List<OpEquipmentRequirementPropertyType> EquipmentRequirementProperty {
             get => _equipmentRequirementPropertyField;
             set => _equipmentRequirementPropertyField = value;
         }

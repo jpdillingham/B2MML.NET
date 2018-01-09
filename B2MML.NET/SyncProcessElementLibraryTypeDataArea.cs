@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -7,13 +9,13 @@
     public class SyncProcessElementLibraryTypeDataArea
     {
 
-        private TransActionCriteriaType[] _syncField;
+        private List<TransActionCriteriaType> _syncField;
 
-        private ProcessElementLibraryType[] _processElementLibraryField;
+        private List<ProcessElementLibraryType> _processElementLibraryField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable = false)]
-        public TransActionCriteriaType[] Sync
+        public List<TransActionCriteriaType> Sync
         {
             get => _syncField;
             set => _syncField = value;
@@ -21,7 +23,7 @@
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
-        public ProcessElementLibraryType[] ProcessElementLibrary
+        public List<ProcessElementLibraryType> ProcessElementLibrary
         {
             get => _processElementLibraryField;
             set => _processElementLibraryField = value;

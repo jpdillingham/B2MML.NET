@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -16,7 +18,7 @@
     
         private IdentifierType[] _aliasField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType[] _equipmentIDField;
     
@@ -24,7 +26,7 @@
     
         private IdentifierType[] _proceduralElementReferenceField;
     
-        private ValueType[] _deadbandField;
+        private List<ValueType> _deadbandField;
     
         private IdentifierType[] _significantDigitsField;
     
@@ -68,7 +70,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -96,7 +98,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Deadband")]
-        public ValueType[] Deadband {
+        public List<ValueType> Deadband {
             get => _deadbandField;
             set => _deadbandField = value;
         }

@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -12,7 +14,7 @@
     
         private ProcessSegmentIDType _processSegmentIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -24,23 +26,23 @@
     
         private string _durationField;
     
-        private ProductionParameterType[] _productionParameterField;
+        private List<ProductionParameterType> _productionParameterField;
     
-        private PersonnelRequirementType[] _personnelRequirementField;
+        private List<PersonnelRequirementType> _personnelRequirementField;
     
-        private EquipmentRequirementType[] _equipmentRequirementField;
+        private List<EquipmentRequirementType> _equipmentRequirementField;
     
-        private PhysicalAssetRequirementType[] _physicalAssetRequirementField;
+        private List<PhysicalAssetRequirementType> _physicalAssetRequirementField;
     
-        private MaterialRequirementType[] _materialRequirementField;
+        private List<MaterialRequirementType> _materialRequirementField;
     
-        private MaterialProducedRequirementType[] _materialProducedRequirementField;
+        private List<MaterialProducedRequirementType> _materialProducedRequirementField;
     
-        private MaterialConsumedRequirementType[] _materialConsumedRequirementField;
+        private List<MaterialConsumedRequirementType> _materialConsumedRequirementField;
     
-        private ConsumableExpectedRequirementType[] _consumableExpectedRequirementField;
+        private List<ConsumableExpectedRequirementType> _consumableExpectedRequirementField;
     
-        private SegmentRequirementType[] _segmentRequirementField;
+        private List<SegmentRequirementType> _segmentRequirementField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -66,7 +68,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -104,63 +106,63 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionParameter")]
-        public ProductionParameterType[] ProductionParameter {
+        public List<ProductionParameterType> ProductionParameter {
             get => _productionParameterField;
             set => _productionParameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
-        public PersonnelRequirementType[] PersonnelRequirement {
+        public List<PersonnelRequirementType> PersonnelRequirement {
             get => _personnelRequirementField;
             set => _personnelRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
-        public EquipmentRequirementType[] EquipmentRequirement {
+        public List<EquipmentRequirementType> EquipmentRequirement {
             get => _equipmentRequirementField;
             set => _equipmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
-        public PhysicalAssetRequirementType[] PhysicalAssetRequirement {
+        public List<PhysicalAssetRequirementType> PhysicalAssetRequirement {
             get => _physicalAssetRequirementField;
             set => _physicalAssetRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
-        public MaterialRequirementType[] MaterialRequirement {
+        public List<MaterialRequirementType> MaterialRequirement {
             get => _materialRequirementField;
             set => _materialRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialProducedRequirement")]
-        public MaterialProducedRequirementType[] MaterialProducedRequirement {
+        public List<MaterialProducedRequirementType> MaterialProducedRequirement {
             get => _materialProducedRequirementField;
             set => _materialProducedRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialConsumedRequirement")]
-        public MaterialConsumedRequirementType[] MaterialConsumedRequirement {
+        public List<MaterialConsumedRequirementType> MaterialConsumedRequirement {
             get => _materialConsumedRequirementField;
             set => _materialConsumedRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ConsumableExpectedRequirement")]
-        public ConsumableExpectedRequirementType[] ConsumableExpectedRequirement {
+        public List<ConsumableExpectedRequirementType> ConsumableExpectedRequirement {
             get => _consumableExpectedRequirementField;
             set => _consumableExpectedRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
-        public SegmentRequirementType[] SegmentRequirement {
+        public List<SegmentRequirementType> SegmentRequirement {
             get => _segmentRequirementField;
             set => _segmentRequirementField = value;
         }

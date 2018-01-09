@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,9 +10,9 @@
          IsNullable = false)]
     public class HeaderType {
     
-        private ModificationLogType[] _modificationLogField;
+        private List<ModificationLogType> _modificationLogField;
     
-        private ApprovalHistoryType[] _approvalHistoryField;
+        private List<ApprovalHistoryType> _approvalHistoryField;
     
         private EffectiveDateType _effectiveDateField;
     
@@ -22,20 +24,20 @@
     
         private BatchSizeType _batchSizeField;
     
-        private ActualProductProducedType[] _actualProductProducedField;
+        private List<ActualProductProducedType> _actualProductProducedField;
     
         private BatchStatusType _statusField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
-        public ModificationLogType[] ModificationLog {
+        public List<ModificationLogType> ModificationLog {
             get => _modificationLogField;
             set => _modificationLogField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ApprovalHistory")]
-        public ApprovalHistoryType[] ApprovalHistory {
+        public List<ApprovalHistoryType> ApprovalHistory {
             get => _approvalHistoryField;
             set => _approvalHistoryField = value;
         }
@@ -72,7 +74,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActualProductProduced")]
-        public ActualProductProducedType[] ActualProductProduced {
+        public List<ActualProductProducedType> ActualProductProduced {
             get => _actualProductProducedField;
             set => _actualProductProducedField = value;
         }

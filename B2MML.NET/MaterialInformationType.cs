@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -10,7 +12,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private LocationType _locationField;
     
@@ -18,15 +20,15 @@
     
         private PublishedDateType _publishedDateField;
     
-        private MaterialClassType[] _materialClassField;
+        private List<MaterialClassType> _materialClassField;
     
-        private MaterialDefinitionType[] _materialDefinitionField;
+        private List<MaterialDefinitionType> _materialDefinitionField;
     
-        private MaterialLotType[] _materialLotField;
+        private List<MaterialLotType> _materialLotField;
     
-        private MaterialSubLotType[] _materialSubLotField;
+        private List<MaterialSubLotType> _materialSubLotField;
     
-        private MaterialTestSpecificationType[] _materialTestSpecificationField;
+        private List<MaterialTestSpecificationType> _materialTestSpecificationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
@@ -37,7 +39,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", IsNullable=true)]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -64,35 +66,35 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass", IsNullable=true)]
-        public MaterialClassType[] MaterialClass {
+        public List<MaterialClassType> MaterialClass {
             get => _materialClassField;
             set => _materialClassField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition", IsNullable=true)]
-        public MaterialDefinitionType[] MaterialDefinition {
+        public List<MaterialDefinitionType> MaterialDefinition {
             get => _materialDefinitionField;
             set => _materialDefinitionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLot", IsNullable=true)]
-        public MaterialLotType[] MaterialLot {
+        public List<MaterialLotType> MaterialLot {
             get => _materialLotField;
             set => _materialLotField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot", IsNullable=true)]
-        public MaterialSubLotType[] MaterialSubLot {
+        public List<MaterialSubLotType> MaterialSubLot {
             get => _materialSubLotField;
             set => _materialSubLotField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecification", IsNullable=true)]
-        public MaterialTestSpecificationType[] MaterialTestSpecification {
+        public List<MaterialTestSpecificationType> MaterialTestSpecification {
             get => _materialTestSpecificationField;
             set => _materialTestSpecificationField = value;
         }

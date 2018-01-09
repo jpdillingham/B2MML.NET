@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -6,20 +8,20 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public class GetJobListTypeDataArea {
     
-        private string[] _getField;
+        private List<string> _getField;
     
-        private JobListType[] _jobListField;
+        private List<JobListType> _jobListField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
-        public string[] Get {
+        public List<string> Get {
             get => _getField;
             set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobList")]
-        public JobListType[] JobList {
+        public List<JobListType> JobList {
             get => _jobListField;
             set => _jobListField = value;
         }

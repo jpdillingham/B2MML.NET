@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private IdentifierType _idField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private HierarchyScopeType _hierarchyScopeField;
     
@@ -26,17 +28,17 @@
     
         private RequestStateType _segmentStateField;
     
-        private ParameterType[] _segmentParameterField;
+        private List<ParameterType> _segmentParameterField;
     
-        private OpPersonnelRequirementType[] _personnelRequirementField;
+        private List<OpPersonnelRequirementType> _personnelRequirementField;
     
-        private OpEquipmentRequirementType[] _equipmentRequirementField;
+        private List<OpEquipmentRequirementType> _equipmentRequirementField;
     
-        private OpPhysicalAssetRequirementType[] _physicalAssetRequirementField;
+        private List<OpPhysicalAssetRequirementType> _physicalAssetRequirementField;
     
-        private OpMaterialRequirementType[] _materialRequirementField;
+        private List<OpMaterialRequirementType> _materialRequirementField;
     
-        private OpSegmentRequirementType[] _segmentRequirementField;
+        private List<OpSegmentRequirementType> _segmentRequirementField;
     
         private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
@@ -48,7 +50,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -104,42 +106,42 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentParameter")]
-        public ParameterType[] SegmentParameter {
+        public List<ParameterType> SegmentParameter {
             get => _segmentParameterField;
             set => _segmentParameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
-        public OpPersonnelRequirementType[] PersonnelRequirement {
+        public List<OpPersonnelRequirementType> PersonnelRequirement {
             get => _personnelRequirementField;
             set => _personnelRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
-        public OpEquipmentRequirementType[] EquipmentRequirement {
+        public List<OpEquipmentRequirementType> EquipmentRequirement {
             get => _equipmentRequirementField;
             set => _equipmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
-        public OpPhysicalAssetRequirementType[] PhysicalAssetRequirement {
+        public List<OpPhysicalAssetRequirementType> PhysicalAssetRequirement {
             get => _physicalAssetRequirementField;
             set => _physicalAssetRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
-        public OpMaterialRequirementType[] MaterialRequirement {
+        public List<OpMaterialRequirementType> MaterialRequirement {
             get => _materialRequirementField;
             set => _materialRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
-        public OpSegmentRequirementType[] SegmentRequirement {
+        public List<OpSegmentRequirementType> SegmentRequirement {
             get => _segmentRequirementField;
             set => _segmentRequirementField = value;
         }

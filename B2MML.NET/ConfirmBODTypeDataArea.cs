@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,7 +10,7 @@
     
         private TransConfirmType _confirmField;
     
-        private BODType[] _bOdField;
+        private List<BODType> _bOdField;
     
         /// <remarks/>
         public TransConfirmType Confirm {
@@ -18,7 +20,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BOD")]
-        public BODType[] BOD {
+        public List<BODType> BOD {
             get => _bOdField;
             set => _bOdField = value;
         }

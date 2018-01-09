@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -14,13 +16,13 @@
     
         private MaterialSubLotIDType _materialSubLotIDField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private CapabilityTypeType _capabilityTypeField;
     
         private ReasonType _reasonField;
     
-        private EquipmentElementLevelType[] _equipmentElementLevelField;
+        private List<EquipmentElementLevelType> _equipmentElementLevelField;
     
         private MaterialUseType _materialUseField;
     
@@ -32,15 +34,15 @@
     
         private HierarchyScopeType _hierarchyScopeField;
     
-        private QuantityValueType[] _quantityField;
+        private List<QuantityValueType> _quantityField;
     
-        private MaterialCapabilityType[] _assemblyCapabilityField;
+        private List<MaterialCapabilityType> _assemblyCapabilityField;
     
         private AssemblyTypeType _assemblyTypeField;
     
         private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private MaterialCapabilityPropertyType[] _materialCapabilityPropertyField;
+        private List<MaterialCapabilityPropertyType> _materialCapabilityPropertyField;
     
         /// <remarks/>
         public MaterialClassIDType MaterialClassID {
@@ -68,7 +70,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -87,7 +89,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
-        public EquipmentElementLevelType[] EquipmentElementLevel {
+        public List<EquipmentElementLevelType> EquipmentElementLevel {
             get => _equipmentElementLevelField;
             set => _equipmentElementLevelField = value;
         }
@@ -124,14 +126,14 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
-        public QuantityValueType[] Quantity {
+        public List<QuantityValueType> Quantity {
             get => _quantityField;
             set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyCapability")]
-        public MaterialCapabilityType[] AssemblyCapability {
+        public List<MaterialCapabilityType> AssemblyCapability {
             get => _assemblyCapabilityField;
             set => _assemblyCapabilityField = value;
         }
@@ -150,7 +152,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapabilityProperty")]
-        public MaterialCapabilityPropertyType[] MaterialCapabilityProperty {
+        public List<MaterialCapabilityPropertyType> MaterialCapabilityProperty {
             get => _materialCapabilityPropertyField;
             set => _materialCapabilityPropertyField = value;
         }

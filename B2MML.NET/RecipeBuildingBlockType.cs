@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -8,20 +10,20 @@
          IsNullable = false)]
     public class RecipeBuildingBlockType {
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
-        private RecipeElementType[] _recipeElementField;
+        private List<RecipeElementType> _recipeElementField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
-        public RecipeElementType[] RecipeElement {
+        public List<RecipeElementType> RecipeElement {
             get => _recipeElementField;
             set => _recipeElementField = value;
         }

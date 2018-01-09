@@ -1,4 +1,6 @@
-﻿namespace B2MML.NET
+﻿using System.Collections.Generic;
+
+namespace B2MML.NET
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
@@ -18,7 +20,7 @@
     
         private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] _descriptionField;
+        private List<DescriptionType> _descriptionField;
     
         private IdentifierType _equipmentScopeField;
     
@@ -54,45 +56,45 @@
     
         private IdentifierType _versionField;
     
-        private ChangeType[] _changeHistoryField;
+        private List<ChangeType> _changeHistoryField;
     
-        private CommentType[] _commentsField;
+        private List<CommentType> _commentsField;
     
-        private ControlRecipeRecordType[] _controlRecipesField;
+        private List<ControlRecipeRecordType> _controlRecipesField;
     
-        private DataSetType[] _dataSetsField;
+        private List<DataSetType> _dataSetsField;
     
-        private SingleEventType[] _eventsField;
+        private List<SingleEventType> _eventsField;
     
-        private MasterRecipeRecordType[] _masterRecipesField;
+        private List<MasterRecipeRecordType> _masterRecipesField;
     
         private PersonnelIdentificationManifestType[] _personnelIdentificationField;
     
-        private OperationsDefinitionRecordType[] _operationsDefinitionsField;
+        private List<OperationsDefinitionRecordType> _operationsDefinitionsField;
     
-        private OperationsPerformanceRecordType[] _operationsPerformancesField;
+        private List<OperationsPerformanceRecordType> _operationsPerformancesField;
     
-        private OperationsScheduleRecordType[] _operationsSchedulesField;
+        private List<OperationsScheduleRecordType> _operationsSchedulesField;
     
-        private ProductDefinitionRecordType[] _productDefinitionsField;
+        private List<ProductDefinitionRecordType> _productDefinitionsField;
     
-        private ProductionPerformanceRecordType[] _productionPerformancesField;
+        private List<ProductionPerformanceRecordType> _productionPerformancesField;
     
-        private ProductionScheduleRecordType[] _productionSchedulesField;
+        private List<ProductionScheduleRecordType> _productionSchedulesField;
     
-        private RecipeElementRecordType[] _recipeElementsField;
+        private List<RecipeElementRecordType> _recipeElementsField;
     
-        private ResourceQualificationsManifestType[] _resourceQualificationsField;
+        private List<ResourceQualificationsManifestType> _resourceQualificationsField;
     
-        private SampleType[] _samplesField;
+        private List<SampleType> _samplesField;
     
-        private WorkDirectiveRecordType[] _workDirectivesField;
+        private List<WorkDirectiveRecordType> _workDirectivesField;
     
-        private WorkMasterRecordType[] _workMastersField;
+        private List<WorkMasterRecordType> _workMastersField;
     
-        private WorkPerformanceRecordType[] _workPerformancesField;
+        private List<WorkPerformanceRecordType> _workPerformancesField;
     
-        private WorkScheduleRecordType[] _workSchedulesField;
+        private List<WorkScheduleRecordType> _workSchedulesField;
     
         private BatchProductionRecordType _batchProductionRecordField;
     
@@ -128,7 +130,7 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
-        public DescriptionType[] Description {
+        public List<DescriptionType> Description {
             get => _descriptionField;
             set => _descriptionField = value;
         }
@@ -237,42 +239,42 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Change", IsNullable=false)]
-        public ChangeType[] ChangeHistory {
+        public List<ChangeType> ChangeHistory {
             get => _changeHistoryField;
             set => _changeHistoryField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Comment", IsNullable=false)]
-        public CommentType[] Comments {
+        public List<CommentType> Comments {
             get => _commentsField;
             set => _commentsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ControlRecipeRecord", IsNullable=false)]
-        public ControlRecipeRecordType[] ControlRecipes {
+        public List<ControlRecipeRecordType> ControlRecipes {
             get => _controlRecipesField;
             set => _controlRecipesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("DataSet", IsNullable=false)]
-        public DataSetType[] DataSets {
+        public List<DataSetType> DataSets {
             get => _dataSetsField;
             set => _dataSetsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Event", IsNullable=false)]
-        public SingleEventType[] Events {
+        public List<SingleEventType> Events {
             get => _eventsField;
             set => _eventsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("MasterRecipeRecord", IsNullable=false)]
-        public MasterRecipeRecordType[] MasterRecipes {
+        public List<MasterRecipeRecordType> MasterRecipes {
             get => _masterRecipesField;
             set => _masterRecipesField = value;
         }
@@ -286,91 +288,91 @@
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsDefinitionRecord", IsNullable=false)]
-        public OperationsDefinitionRecordType[] OperationsDefinitions {
+        public List<OperationsDefinitionRecordType> OperationsDefinitions {
             get => _operationsDefinitionsField;
             set => _operationsDefinitionsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsPerformanceRecord", IsNullable=false)]
-        public OperationsPerformanceRecordType[] OperationsPerformances {
+        public List<OperationsPerformanceRecordType> OperationsPerformances {
             get => _operationsPerformancesField;
             set => _operationsPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsScheduleRecord", IsNullable=false)]
-        public OperationsScheduleRecordType[] OperationsSchedules {
+        public List<OperationsScheduleRecordType> OperationsSchedules {
             get => _operationsSchedulesField;
             set => _operationsSchedulesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductDefinitionRecord", IsNullable=false)]
-        public ProductDefinitionRecordType[] ProductDefinitions {
+        public List<ProductDefinitionRecordType> ProductDefinitions {
             get => _productDefinitionsField;
             set => _productDefinitionsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionPerformanceRecord", IsNullable=false)]
-        public ProductionPerformanceRecordType[] ProductionPerformances {
+        public List<ProductionPerformanceRecordType> ProductionPerformances {
             get => _productionPerformancesField;
             set => _productionPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionScheduleRecord", IsNullable=false)]
-        public ProductionScheduleRecordType[] ProductionSchedules {
+        public List<ProductionScheduleRecordType> ProductionSchedules {
             get => _productionSchedulesField;
             set => _productionSchedulesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("RecipeElementRecord", IsNullable=false)]
-        public RecipeElementRecordType[] RecipeElements {
+        public List<RecipeElementRecordType> RecipeElements {
             get => _recipeElementsField;
             set => _recipeElementsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ResourceQualificationsManifest", IsNullable=false)]
-        public ResourceQualificationsManifestType[] ResourceQualifications {
+        public List<ResourceQualificationsManifestType> ResourceQualifications {
             get => _resourceQualificationsField;
             set => _resourceQualificationsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Sample", IsNullable=false)]
-        public SampleType[] Samples {
+        public List<SampleType> Samples {
             get => _samplesField;
             set => _samplesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkDirectiverRecord", IsNullable=false)]
-        public WorkDirectiveRecordType[] WorkDirectives {
+        public List<WorkDirectiveRecordType> WorkDirectives {
             get => _workDirectivesField;
             set => _workDirectivesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkMasterRecord", IsNullable=false)]
-        public WorkMasterRecordType[] WorkMasters {
+        public List<WorkMasterRecordType> WorkMasters {
             get => _workMastersField;
             set => _workMastersField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkPerformanceRecord", IsNullable=false)]
-        public WorkPerformanceRecordType[] WorkPerformances {
+        public List<WorkPerformanceRecordType> WorkPerformances {
             get => _workPerformancesField;
             set => _workPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkScheduleRecord", IsNullable=false)]
-        public WorkScheduleRecordType[] WorkSchedules {
+        public List<WorkScheduleRecordType> WorkSchedules {
             get => _workSchedulesField;
             set => _workSchedulesField = value;
         }
