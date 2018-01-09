@@ -1,0 +1,33 @@
+﻿namespace B2MML.NET
+{
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
+    public class DelimitedDataBlockType {
+    
+        private string _tagDelimiterField;
+    
+        private string _orderDelimiterField;
+    
+        private string _delimitedDataField;
+    
+        /// <remarks/>
+        public string TagDelimiter {
+            get => _tagDelimiterField;
+            set => _tagDelimiterField = value;
+        }
+    
+        /// <remarks/>
+        public string OrderDelimiter {
+            get => _orderDelimiterField;
+            set => _orderDelimiterField = value;
+        }
+    
+        /// <remarks/>
+        public string DelimitedData {
+            get => _delimitedDataField;
+            set => _delimitedDataField = value;
+        }
+    }
+}
