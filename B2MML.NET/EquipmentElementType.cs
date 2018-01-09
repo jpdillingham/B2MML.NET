@@ -1,12 +1,11 @@
 ﻿namespace B2MML.NET
 {
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.mesa.org/xml/B2MML-V0600")]
-    [System.Xml.Serialization.XmlRootAttribute("EquipmentElement", Namespace="http://www.mesa.org/xml/B2MML-V0600", IsNullable=false)]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
+     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
+     System.Xml.Serialization.XmlRootAttribute("EquipmentElement", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
+         IsNullable = false)]
     public partial class EquipmentElementType {
     
         private IDType idField;
@@ -127,8 +126,8 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("EquipmentElement", typeof(EquipmentElementType))]
-        [System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
+        [System.Xml.Serialization.XmlElementAttribute("EquipmentElement", typeof(EquipmentElementType)),
+         System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
         public object[] Items {
             get {
                 return this.itemsField;

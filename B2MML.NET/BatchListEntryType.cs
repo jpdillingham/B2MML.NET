@@ -1,12 +1,11 @@
 ﻿namespace B2MML.NET
 {
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.mesa.org/xml/B2MML-V0600")]
-    [System.Xml.Serialization.XmlRootAttribute("BatchListEntry", Namespace="http://www.mesa.org/xml/B2MML-V0600", IsNullable=false)]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
+     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
+     System.Xml.Serialization.XmlRootAttribute("BatchListEntry", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
+         IsNullable = false)]
     public partial class BatchListEntryType {
     
         private IDType idField;
@@ -308,8 +307,8 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID", typeof(BatchEquipmentClassIDType))]
-        [System.Xml.Serialization.XmlElementAttribute("EquipmentID", typeof(BatchEquipmentIDType))]
+        [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID", typeof(BatchEquipmentClassIDType)),
+         System.Xml.Serialization.XmlElementAttribute("EquipmentID", typeof(BatchEquipmentIDType))]
         public object[] Items {
             get {
                 return this.itemsField;

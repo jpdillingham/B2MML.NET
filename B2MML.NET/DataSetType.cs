@@ -1,11 +1,9 @@
 ﻿namespace B2MML.NET
 {
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.mesa.org/xml/B2MML-V0600")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
+     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class DataSetType {
     
         private IdentifierType entryIDField;
@@ -133,8 +131,8 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("DelimitedDataBlock", typeof(DelimitedDataBlockType))]
-        [System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
+        [System.Xml.Serialization.XmlElementAttribute("DelimitedDataBlock", typeof(DelimitedDataBlockType)),
+         System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
         public object[] Items {
             get {
                 return this.itemsField;

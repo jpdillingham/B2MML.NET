@@ -1,11 +1,9 @@
 ﻿namespace B2MML.NET
 {
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]
-    [System.SerializableAttribute()]
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.ComponentModel.DesignerCategoryAttribute("code")]
-    [System.Xml.Serialization.XmlTypeAttribute(Namespace="http://www.mesa.org/xml/B2MML-V0600")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
+     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SegmentDependencyType {
     
         private IdentifierType idField;
@@ -61,9 +59,9 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID", typeof(ProcessSegmentIDType))]
-        [System.Xml.Serialization.XmlElementAttribute("ProductSegmentID", typeof(ProductSegmentIDType))]
-        [System.Xml.Serialization.XmlElementAttribute("SegmentID", typeof(IdentifierType))]
+        [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID", typeof(ProcessSegmentIDType)),
+         System.Xml.Serialization.XmlElementAttribute("ProductSegmentID", typeof(ProductSegmentIDType)),
+         System.Xml.Serialization.XmlElementAttribute("SegmentID", typeof(IdentifierType))]
         public IdentifierType[] Items {
             get {
                 return this.itemsField;
