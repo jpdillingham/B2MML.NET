@@ -101,8 +101,8 @@
      System.Xml.Serialization.XmlIncludeAttribute(typeof(AssemblyTypeType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(AssemblyRelationship1Type)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(AssemblyRelationshipType)),
-     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
-     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CodeType {
     
@@ -141,14 +141,14 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string ListAgencyName {
             get => _listAgencyNameField;
             set => _listAgencyNameField = value;
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string ListName {
             get => _listNameField;
             set => _listNameField = value;
@@ -162,7 +162,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string Name {
             get => _nameField;
             set => _nameField = value;

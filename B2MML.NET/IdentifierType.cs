@@ -75,8 +75,8 @@
      System.Xml.Serialization.XmlIncludeAttribute(typeof(BillOfResourcesIDType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(BillOfMaterialsIDType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(BillOfMaterialIDType)),
-     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
-     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class IdentifierType {
     
@@ -104,7 +104,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string SchemeName {
             get => _schemeNameField;
             set => _schemeNameField = value;
@@ -118,7 +118,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string SchemeAgencyName {
             get => _schemeAgencyNameField;
             set => _schemeAgencyNameField = value;

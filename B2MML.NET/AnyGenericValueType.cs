@@ -3,8 +3,8 @@
     /// <remarks/>
     [System.Xml.Serialization.XmlIncludeAttribute(typeof(ValueStringType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(QuantityStringType)),
-     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
-     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AnyGenericValueType {
     
@@ -92,7 +92,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string Format {
             get => _formatField;
             set => _formatField = value;
@@ -120,14 +120,14 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string ListAgencyName {
             get => _listAgencyNameField;
             set => _listAgencyNameField = value;
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string ListName {
             get => _listNameField;
             set => _listNameField = value;
@@ -176,7 +176,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string Name {
             get => _nameField;
             set => _nameField = value;
@@ -190,7 +190,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string SchemaName {
             get => _schemaNameField;
             set => _schemaNameField = value;
@@ -204,7 +204,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string SchemaAgencyName {
             get => _schemaAgencyNameField;
             set => _schemaAgencyNameField = value;
@@ -253,7 +253,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string UnitCodeListAgencyName {
             get => _unitCodeListAgencyNameField;
             set => _unitCodeListAgencyNameField = value;
@@ -267,7 +267,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string Filename {
             get => _filenameField;
             set => _filenameField = value;
@@ -281,7 +281,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
+        [System.Xml.Serialization.XmlTextAttribute]
         public string Value {
             get => _valueField;
             set => _valueField = value;

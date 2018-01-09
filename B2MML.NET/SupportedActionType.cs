@@ -1,8 +1,8 @@
 ﻿namespace B2MML.NET
 {
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
-     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SupportedActionType {
     
@@ -74,7 +74,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool InformationUserSpecified {
             get => _informationUserFieldSpecified;
             set => _informationUserFieldSpecified = value;
@@ -87,7 +87,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool InformationProviderSpecified {
             get => _informationProviderFieldSpecified;
             set => _informationProviderFieldSpecified = value;
@@ -100,7 +100,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool InformationSenderSpecified {
             get => _informationSenderFieldSpecified;
             set => _informationSenderFieldSpecified = value;
@@ -113,7 +113,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool InformationReceiverSpecified {
             get => _informationReceiverFieldSpecified;
             set => _informationReceiverFieldSpecified = value;
@@ -126,7 +126,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool ObjectWildcardSupportedSpecified {
             get => _objectWildcardSupportedFieldSpecified;
             set => _objectWildcardSupportedFieldSpecified = value;
@@ -139,7 +139,7 @@
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlIgnoreAttribute()]
+        [System.Xml.Serialization.XmlIgnoreAttribute]
         public bool PropertyWildcardSupportedSpecified {
             get => _propertyWildcardSupportedFieldSpecified;
             set => _propertyWildcardSupportedFieldSpecified = value;

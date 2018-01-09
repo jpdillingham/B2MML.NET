@@ -7,8 +7,8 @@
      System.Xml.Serialization.XmlIncludeAttribute(typeof(ActualBatchSizeType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(RequestedPriorityType)),
      System.Xml.Serialization.XmlIncludeAttribute(typeof(PriorityType)),
-     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute(),
-     System.Diagnostics.DebuggerStepThroughAttribute(), System.ComponentModel.DesignerCategoryAttribute("code"),
+     System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
+     System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class NumericType {
     
@@ -17,14 +17,14 @@
         private decimal _valueField;
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
+        [System.Xml.Serialization.XmlAttributeAttribute]
         public string Format {
             get => _formatField;
             set => _formatField = value;
         }
     
         /// <remarks/>
-        [System.Xml.Serialization.XmlTextAttribute()]
+        [System.Xml.Serialization.XmlTextAttribute]
         public decimal Value {
             get => _valueField;
             set => _valueField = value;
