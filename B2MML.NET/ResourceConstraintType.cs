@@ -23,10 +23,10 @@
         /// <remarks/>
         public IdentifierType ConstraintID {
             get {
-                return this.constraintIDField;
+                return constraintIDField;
             }
             set {
-                this.constraintIDField = value;
+                constraintIDField = value;
             }
         }
     
@@ -34,10 +34,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -45,20 +45,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ConstraintType")]
         public ConstraintTypeType[] ConstraintType {
             get {
-                return this.constraintTypeField;
+                return constraintTypeField;
             }
             set {
-                this.constraintTypeField = value;
+                constraintTypeField = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return this.lifeCycleStateField;
+                return lifeCycleStateField;
             }
             set {
-                this.lifeCycleStateField = value;
+                lifeCycleStateField = value;
             }
         }
     
@@ -66,10 +66,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Range")]
         public ValueType[] Range {
             get {
-                return this.rangeField;
+                return rangeField;
             }
             set {
-                this.rangeField = value;
+                rangeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintProperty")]
         public ResourceConstraintPropertyType[] ResourceConstraintProperty {
             get {
-                return this.resourceConstraintPropertyField;
+                return resourceConstraintPropertyField;
             }
             set {
-                this.resourceConstraintPropertyField = value;
+                resourceConstraintPropertyField = value;
             }
         }
     }

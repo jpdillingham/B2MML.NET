@@ -19,20 +19,20 @@
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
             get {
-                return this.applicationAreaField;
+                return applicationAreaField;
             }
             set {
-                this.applicationAreaField = value;
+                applicationAreaField = value;
             }
         }
     
         /// <remarks/>
         public ProcessProcessSegmentInformationTypeDataArea DataArea {
             get {
-                return this.dataAreaField;
+                return dataAreaField;
             }
             set {
-                this.dataAreaField = value;
+                dataAreaField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string releaseID {
             get {
-                return this.releaseIDField;
+                return releaseIDField;
             }
             set {
-                this.releaseIDField = value;
+                releaseIDField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string versionID {
             get {
-                return this.versionIDField;
+                return versionIDField;
             }
             set {
-                this.versionIDField = value;
+                versionIDField = value;
             }
         }
     }

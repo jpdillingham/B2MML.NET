@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialInformation")]
         public MaterialInformationType[] MaterialInformation {
             get {
-                return this.materialInformationField;
+                return materialInformationField;
             }
             set {
-                this.materialInformationField = value;
+                materialInformationField = value;
             }
         }
     }

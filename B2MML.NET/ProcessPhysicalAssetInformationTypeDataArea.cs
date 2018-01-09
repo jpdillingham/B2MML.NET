@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return this.processField;
+                return processField;
             }
             set {
-                this.processField = value;
+                processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetInformation")]
         public PhysicalAssetInformationType[] PhysicalAssetInformation {
             get {
-                return this.physicalAssetInformationField;
+                return physicalAssetInformationField;
             }
             set {
-                this.physicalAssetInformationField = value;
+                physicalAssetInformationField = value;
             }
         }
     }

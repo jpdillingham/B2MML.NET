@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return this.changeField;
+                return changeField;
             }
             set {
-                this.changeField = value;
+                changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClass")]
         public EquipmentClassType[] EquipmentClass {
             get {
-                return this.equipmentClassField;
+                return equipmentClassField;
             }
             set {
-                this.equipmentClassField = value;
+                equipmentClassField = value;
             }
         }
     }

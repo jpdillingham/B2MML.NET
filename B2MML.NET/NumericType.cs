@@ -20,10 +20,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string format {
             get {
-                return this.formatField;
+                return formatField;
             }
             set {
-                this.formatField = value;
+                formatField = value;
             }
         }
     
@@ -31,10 +31,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public decimal Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

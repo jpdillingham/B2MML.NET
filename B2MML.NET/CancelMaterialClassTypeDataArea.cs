@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return this.cancelField;
+                return cancelField;
             }
             set {
-                this.cancelField = value;
+                cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass")]
         public MaterialClassType[] MaterialClass {
             get {
-                return this.materialClassField;
+                return materialClassField;
             }
             set {
-                this.materialClassField = value;
+                materialClassField = value;
             }
         }
     }

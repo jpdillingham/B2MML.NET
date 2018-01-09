@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return this.materialSubLotField;
+                return materialSubLotField;
             }
             set {
-                this.materialSubLotField = value;
+                materialSubLotField = value;
             }
         }
     }

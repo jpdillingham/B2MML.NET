@@ -23,60 +23,60 @@
         /// <remarks/>
         public NominalType Nominal {
             get {
-                return this.nominalField;
+                return nominalField;
             }
             set {
-                this.nominalField = value;
+                nominalField = value;
             }
         }
     
         /// <remarks/>
         public MinType Min {
             get {
-                return this.minField;
+                return minField;
             }
             set {
-                this.minField = value;
+                minField = value;
             }
         }
     
         /// <remarks/>
         public MaxType Max {
             get {
-                return this.maxField;
+                return maxField;
             }
             set {
-                this.maxField = value;
+                maxField = value;
             }
         }
     
         /// <remarks/>
         public ScaleReferenceType ScaleReference {
             get {
-                return this.scaleReferenceField;
+                return scaleReferenceField;
             }
             set {
-                this.scaleReferenceField = value;
+                scaleReferenceField = value;
             }
         }
     
         /// <remarks/>
         public ScaledSizeType ScaledSize {
             get {
-                return this.scaledSizeField;
+                return scaledSizeField;
             }
             set {
-                this.scaledSizeField = value;
+                scaledSizeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return this.unitOfMeasureField;
+                return unitOfMeasureField;
             }
             set {
-                this.unitOfMeasureField = value;
+                unitOfMeasureField = value;
             }
         }
     }

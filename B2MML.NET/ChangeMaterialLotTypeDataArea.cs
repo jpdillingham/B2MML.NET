@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return this.changeField;
+                return changeField;
             }
             set {
-                this.changeField = value;
+                changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLot")]
         public MaterialLotType[] MaterialLot {
             get {
-                return this.materialLotField;
+                return materialLotField;
             }
             set {
-                this.materialLotField = value;
+                materialLotField = value;
             }
         }
     }

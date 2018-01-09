@@ -23,10 +23,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -34,30 +34,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMaster")]
         public WorkMasterType[] WorkMaster {
             get {
-                return this.workMasterField;
+                return workMasterField;
             }
             set {
-                this.workMasterField = value;
+                workMasterField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
             get {
-                return this.workDirectiveField;
+                return workDirectiveField;
             }
             set {
-                this.workDirectiveField = value;
+                workDirectiveField = value;
             }
         }
     }

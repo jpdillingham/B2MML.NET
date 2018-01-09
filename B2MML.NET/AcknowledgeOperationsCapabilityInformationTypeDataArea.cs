@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return this.acknowledgeField;
+                return acknowledgeField;
             }
             set {
-                this.acknowledgeField = value;
+                acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsCapabilityInformation")]
         public OperationsCapabilityInformationType[] OperationsCapabilityInformation {
             get {
-                return this.operationsCapabilityInformationField;
+                return operationsCapabilityInformationField;
             }
             set {
-                this.operationsCapabilityInformationField = value;
+                operationsCapabilityInformationField = value;
             }
         }
     }

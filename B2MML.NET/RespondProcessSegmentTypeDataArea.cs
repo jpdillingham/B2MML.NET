@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
         public ProcessSegmentType[] ProcessSegment {
             get {
-                return this.processSegmentField;
+                return processSegmentField;
             }
             set {
-                this.processSegmentField = value;
+                processSegmentField = value;
             }
         }
     }

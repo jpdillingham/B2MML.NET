@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
             get {
-                return this.jobResponseField;
+                return jobResponseField;
             }
             set {
-                this.jobResponseField = value;
+                jobResponseField = value;
             }
         }
     }

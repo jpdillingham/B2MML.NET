@@ -19,10 +19,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public TestDateTimeType TestDateTime {
             get {
-                return this.testDateTimeField;
+                return testDateTimeField;
             }
             set {
-                this.testDateTimeField = value;
+                testDateTimeField = value;
             }
         }
     
@@ -51,20 +51,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Result")]
         public ResultType[] Result {
             get {
-                return this.resultField;
+                return resultField;
             }
             set {
-                this.resultField = value;
+                resultField = value;
             }
         }
     
         /// <remarks/>
         public ExpirationTimeType ExpirationTime {
             get {
-                return this.expirationTimeField;
+                return expirationTimeField;
             }
             set {
-                this.expirationTimeField = value;
+                expirationTimeField = value;
             }
         }
     }

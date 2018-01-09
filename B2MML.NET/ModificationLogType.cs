@@ -17,10 +17,10 @@
         /// <remarks/>
         public ModifiedDateType ModifiedDate {
             get {
-                return this.modifiedDateField;
+                return modifiedDateField;
             }
             set {
-                this.modifiedDateField = value;
+                modifiedDateField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public AuthorType Author {
             get {
-                return this.authorField;
+                return authorField;
             }
             set {
-                this.authorField = value;
+                authorField = value;
             }
         }
     }

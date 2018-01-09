@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
             get {
-                return this.processElementLibraryField;
+                return processElementLibraryField;
             }
             set {
-                this.processElementLibraryField = value;
+                processElementLibraryField = value;
             }
         }
     }

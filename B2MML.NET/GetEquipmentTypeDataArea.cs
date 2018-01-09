@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return this.getField;
+                return getField;
             }
             set {
-                this.getField = value;
+                getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
         public EquipmentType[] Equipment {
             get {
-                return this.equipmentField;
+                return equipmentField;
             }
             set {
-                this.equipmentField = value;
+                equipmentField = value;
             }
         }
     }

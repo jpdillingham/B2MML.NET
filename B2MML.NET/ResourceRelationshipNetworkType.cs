@@ -25,10 +25,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -36,50 +36,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public RelationshipTypeType RelationshipType {
             get {
-                return this.relationshipTypeField;
+                return relationshipTypeField;
             }
             set {
-                this.relationshipTypeField = value;
+                relationshipTypeField = value;
             }
         }
     
         /// <remarks/>
         public RelationshipFormType RelationshipForm {
             get {
-                return this.relationshipFormField;
+                return relationshipFormField;
             }
             set {
-                this.relationshipFormField = value;
+                relationshipFormField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
@@ -87,10 +87,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnection")]
         public ResourceNetworkConnectionType[] ResourceNetworkConnection {
             get {
-                return this.resourceNetworkConnectionField;
+                return resourceNetworkConnectionField;
             }
             set {
-                this.resourceNetworkConnectionField = value;
+                resourceNetworkConnectionField = value;
             }
         }
     }

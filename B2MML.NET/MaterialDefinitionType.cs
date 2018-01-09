@@ -33,10 +33,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -44,30 +44,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionProperty")]
         public MaterialDefinitionPropertyType[] MaterialDefinitionProperty {
             get {
-                return this.materialDefinitionPropertyField;
+                return materialDefinitionPropertyField;
             }
             set {
-                this.materialDefinitionPropertyField = value;
+                materialDefinitionPropertyField = value;
             }
         }
     
@@ -86,10 +86,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
             get {
-                return this.materialClassIDField;
+                return materialClassIDField;
             }
             set {
-                this.materialClassIDField = value;
+                materialClassIDField = value;
             }
         }
     
@@ -97,10 +97,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
             get {
-                return this.materialLotIDField;
+                return materialLotIDField;
             }
             set {
-                this.materialLotIDField = value;
+                materialLotIDField = value;
             }
         }
     
@@ -108,10 +108,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
             get {
-                return this.materialTestSpecificationIDField;
+                return materialTestSpecificationIDField;
             }
             set {
-                this.materialTestSpecificationIDField = value;
+                materialTestSpecificationIDField = value;
             }
         }
     
@@ -119,30 +119,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblylDefinitionID")]
         public MaterialDefinitionIDType[] AssemblylDefinitionID {
             get {
-                return this.assemblylDefinitionIDField;
+                return assemblylDefinitionIDField;
             }
             set {
-                this.assemblylDefinitionIDField = value;
+                assemblylDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return this.assemblyTypeField;
+                return assemblyTypeField;
             }
             set {
-                this.assemblyTypeField = value;
+                assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return this.assemblyRelationshipField;
+                return assemblyRelationshipField;
             }
             set {
-                this.assemblyRelationshipField = value;
+                assemblyRelationshipField = value;
             }
         }
     }

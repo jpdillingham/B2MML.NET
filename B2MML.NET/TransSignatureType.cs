@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
             get {
-                return this.anyField;
+                return anyField;
             }
             set {
-                this.anyField = value;
+                anyField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string qualifyingAgencyID {
             get {
-                return this.qualifyingAgencyIDField;
+                return qualifyingAgencyIDField;
             }
             set {
-                this.qualifyingAgencyIDField = value;
+                qualifyingAgencyIDField = value;
             }
         }
     }

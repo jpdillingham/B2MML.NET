@@ -27,10 +27,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -38,40 +38,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
         public EquipmentType[] Equipment {
             get {
-                return this.equipmentField;
+                return equipmentField;
             }
             set {
-                this.equipmentField = value;
+                equipmentField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClass")]
         public EquipmentClassType[] EquipmentClass {
             get {
-                return this.equipmentClassField;
+                return equipmentClassField;
             }
             set {
-                this.equipmentClassField = value;
+                equipmentClassField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecification")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpecification {
             get {
-                return this.equipmentCapabilityTestSpecificationField;
+                return equipmentCapabilityTestSpecificationField;
             }
             set {
-                this.equipmentCapabilityTestSpecificationField = value;
+                equipmentCapabilityTestSpecificationField = value;
             }
         }
     }

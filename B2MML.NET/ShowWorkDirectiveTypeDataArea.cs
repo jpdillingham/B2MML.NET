@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
             get {
-                return this.workDirectiveField;
+                return workDirectiveField;
             }
             set {
-                this.workDirectiveField = value;
+                workDirectiveField = value;
             }
         }
     }

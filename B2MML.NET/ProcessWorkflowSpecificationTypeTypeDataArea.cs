@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return this.processField;
+                return processField;
             }
             set {
-                this.processField = value;
+                processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
         public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
             get {
-                return this.workflowSpecificationTypeField;
+                return workflowSpecificationTypeField;
             }
             set {
-                this.workflowSpecificationTypeField = value;
+                workflowSpecificationTypeField = value;
             }
         }
     }

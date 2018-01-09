@@ -21,10 +21,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -32,10 +32,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -43,10 +43,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     
@@ -54,10 +54,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetProperty")]
         public PhysicalAssetPropertyType[] PhysicalAssetProperty {
             get {
-                return this.physicalAssetPropertyField;
+                return physicalAssetPropertyField;
             }
             set {
-                this.physicalAssetPropertyField = value;
+                physicalAssetPropertyField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecificationID")]
         public PhysicalAssetCapabilityTestSpecificationIDType[] PhysicalAssetCapabilityTestSpecificationID {
             get {
-                return this.physicalAssetCapabilityTestSpecificationIDField;
+                return physicalAssetCapabilityTestSpecificationIDField;
             }
             set {
-                this.physicalAssetCapabilityTestSpecificationIDField = value;
+                physicalAssetCapabilityTestSpecificationIDField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestResult")]
         public TestResultType[] TestResult {
             get {
-                return this.testResultField;
+                return testResultField;
             }
             set {
-                this.testResultField = value;
+                testResultField = value;
             }
         }
     }

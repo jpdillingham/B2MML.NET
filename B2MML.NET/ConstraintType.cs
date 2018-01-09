@@ -15,20 +15,20 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return this.conditionField;
+                return conditionField;
             }
             set {
-                this.conditionField = value;
+                conditionField = value;
             }
         }
     }

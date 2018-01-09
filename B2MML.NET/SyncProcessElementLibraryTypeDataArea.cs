@@ -17,11 +17,11 @@
         {
             get
             {
-                return this.syncField;
+                return syncField;
             }
             set
             {
-                this.syncField = value;
+                syncField = value;
             }
         }
 
@@ -31,11 +31,11 @@
         {
             get
             {
-                return this.processElementLibraryField;
+                return processElementLibraryField;
             }
             set
             {
-                this.processElementLibraryField = value;
+                processElementLibraryField = value;
             }
         }
     }

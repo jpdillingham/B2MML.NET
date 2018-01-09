@@ -21,40 +21,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -62,20 +62,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ProductDefinitionType ProductDefinition {
             get {
-                return this.productDefinitionField;
+                return productDefinitionField;
             }
             set {
-                this.productDefinitionField = value;
+                productDefinitionField = value;
             }
         }
     }

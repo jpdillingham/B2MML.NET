@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return this.acknowledgeField;
+                return acknowledgeField;
             }
             set {
-                this.acknowledgeField = value;
+                acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return this.resourceConstraintLibraryField;
+                return resourceConstraintLibraryField;
             }
             set {
-                this.resourceConstraintLibraryField = value;
+                resourceConstraintLibraryField = value;
             }
         }
     }

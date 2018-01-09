@@ -18,10 +18,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Link")]
         public LinkType[] Link {
             get {
-                return this.linkField;
+                return linkField;
             }
             set {
-                this.linkField = value;
+                linkField = value;
             }
         }
     
@@ -29,10 +29,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Step")]
         public StepType[] Step {
             get {
-                return this.stepField;
+                return stepField;
             }
             set {
-                this.stepField = value;
+                stepField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Transition")]
         public TransitionType[] Transition {
             get {
-                return this.transitionField;
+                return transitionField;
             }
             set {
-                this.transitionField = value;
+                transitionField = value;
             }
         }
     }

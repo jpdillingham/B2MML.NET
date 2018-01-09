@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return this.acknowledgeField;
+                return acknowledgeField;
             }
             set {
-                this.acknowledgeField = value;
+                acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
             get {
-                return this.resourceNetworkConnectionInformationField;
+                return resourceNetworkConnectionInformationField;
             }
             set {
-                this.resourceNetworkConnectionInformationField = value;
+                resourceNetworkConnectionInformationField = value;
             }
         }
     }

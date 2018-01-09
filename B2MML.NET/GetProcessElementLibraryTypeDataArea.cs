@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return this.getField;
+                return getField;
             }
             set {
-                this.getField = value;
+                getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
             get {
-                return this.processElementLibraryField;
+                return processElementLibraryField;
             }
             set {
-                this.processElementLibraryField = value;
+                processElementLibraryField = value;
             }
         }
     }

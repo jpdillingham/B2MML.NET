@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationInformation")]
         public WorkflowSpecificationInformationType[] WorkflowSpecificationInformation {
             get {
-                return this.workflowSpecificationInformationField;
+                return workflowSpecificationInformationField;
             }
             set {
-                this.workflowSpecificationInformationField = value;
+                workflowSpecificationInformationField = value;
             }
         }
     }

@@ -21,60 +21,60 @@
         /// <remarks/>
         public IdentifierType LogicalID {
             get {
-                return this.logicalIDField;
+                return logicalIDField;
             }
             set {
-                this.logicalIDField = value;
+                logicalIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
             get {
-                return this.componentIDField;
+                return componentIDField;
             }
             set {
-                this.componentIDField = value;
+                componentIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TaskID {
             get {
-                return this.taskIDField;
+                return taskIDField;
             }
             set {
-                this.taskIDField = value;
+                taskIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ReferenceID {
             get {
-                return this.referenceIDField;
+                return referenceIDField;
             }
             set {
-                this.referenceIDField = value;
+                referenceIDField = value;
             }
         }
     
         /// <remarks/>
         public TransConfirmationCodeType ConfirmationCode {
             get {
-                return this.confirmationCodeField;
+                return confirmationCodeField;
             }
             set {
-                this.confirmationCodeField = value;
+                confirmationCodeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType AuthorizationID {
             get {
-                return this.authorizationIDField;
+                return authorizationIDField;
             }
             set {
-                this.authorizationIDField = value;
+                authorizationIDField = value;
             }
         }
     }

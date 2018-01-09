@@ -19,30 +19,30 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return this.conditionField;
+                return conditionField;
             }
             set {
-                this.conditionField = value;
+                conditionField = value;
             }
         }
     
         /// <remarks/>
         public ConditionAnnotationType ConditionAnnotation {
             get {
-                return this.conditionAnnotationField;
+                return conditionAnnotationField;
             }
             set {
-                this.conditionAnnotationField = value;
+                conditionAnnotationField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return this.processField;
+                return processField;
             }
             set {
-                this.processField = value;
+                processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchProductionRecord")]
         public BatchProductionRecordType[] BatchProductionRecord {
             get {
-                return this.batchProductionRecordField;
+                return batchProductionRecordField;
             }
             set {
-                this.batchProductionRecordField = value;
+                batchProductionRecordField = value;
             }
         }
     }

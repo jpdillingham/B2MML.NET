@@ -13,20 +13,20 @@
         /// <remarks/>
         public MaterialLotIDType MaterialLotID {
             get {
-                return this.materialLotIDField;
+                return materialLotIDField;
             }
             set {
-                this.materialLotIDField = value;
+                materialLotIDField = value;
             }
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
             get {
-                return this.propertyIDField;
+                return propertyIDField;
             }
             set {
-                this.propertyIDField = value;
+                propertyIDField = value;
             }
         }
     }

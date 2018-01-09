@@ -12,10 +12,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string OtherValue {
             get {
-                return this.otherValueField;
+                return otherValueField;
             }
             set {
-                this.otherValueField = value;
+                otherValueField = value;
             }
         }
     }

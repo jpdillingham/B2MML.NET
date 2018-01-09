@@ -19,10 +19,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,10 +30,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -41,10 +41,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementType")]
         public EquipmentProceduralElementTypeType EquipmentProceduralElementType1 {
             get {
-                return this.equipmentProceduralElementType1Field;
+                return equipmentProceduralElementType1Field;
             }
             set {
-                this.equipmentProceduralElementType1Field = value;
+                equipmentProceduralElementType1Field = value;
             }
         }
     
@@ -54,10 +54,10 @@
          System.Xml.Serialization.XmlElementAttribute("Parameter", typeof(BatchParameterType))]
         public object[] Items {
             get {
-                return this.itemsField;
+                return itemsField;
             }
             set {
-                this.itemsField = value;
+                itemsField = value;
             }
         }
     }

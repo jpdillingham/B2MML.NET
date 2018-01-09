@@ -41,10 +41,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -52,30 +52,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return this.operationsTypeField;
+                return operationsTypeField;
             }
             set {
-                this.operationsTypeField = value;
+                operationsTypeField = value;
             }
         }
     
@@ -83,30 +83,30 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID")]
         public ProcessSegmentIDType[] ProcessSegmentID {
             get {
-                return this.processSegmentIDField;
+                return processSegmentIDField;
             }
             set {
-                this.processSegmentIDField = value;
+                processSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ActualStartTimeType ActualStartTime {
             get {
-                return this.actualStartTimeField;
+                return actualStartTimeField;
             }
             set {
-                this.actualStartTimeField = value;
+                actualStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualEndTimeType ActualEndTime {
             get {
-                return this.actualEndTimeField;
+                return actualEndTimeField;
             }
             set {
-                this.actualEndTimeField = value;
+                actualEndTimeField = value;
             }
         }
     
@@ -114,20 +114,20 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionID")]
         public OperationsDefinitionIDType[] OperationsDefinitionID {
             get {
-                return this.operationsDefinitionIDField;
+                return operationsDefinitionIDField;
             }
             set {
-                this.operationsDefinitionIDField = value;
+                operationsDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType SegmentState {
             get {
-                return this.segmentStateField;
+                return segmentStateField;
             }
             set {
-                this.segmentStateField = value;
+                segmentStateField = value;
             }
         }
     
@@ -135,10 +135,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentData")]
         public OpSegmentDataType[] SegmentData {
             get {
-                return this.segmentDataField;
+                return segmentDataField;
             }
             set {
-                this.segmentDataField = value;
+                segmentDataField = value;
             }
         }
     
@@ -146,10 +146,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
         public OpPersonnelActualType[] PersonnelActual {
             get {
-                return this.personnelActualField;
+                return personnelActualField;
             }
             set {
-                this.personnelActualField = value;
+                personnelActualField = value;
             }
         }
     
@@ -157,10 +157,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
         public OpEquipmentActualType[] EquipmentActual {
             get {
-                return this.equipmentActualField;
+                return equipmentActualField;
             }
             set {
-                this.equipmentActualField = value;
+                equipmentActualField = value;
             }
         }
     
@@ -168,10 +168,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
         public OpPhysicalAssetActualType[] PhysicalAssetActual {
             get {
-                return this.physicalAssetActualField;
+                return physicalAssetActualField;
             }
             set {
-                this.physicalAssetActualField = value;
+                physicalAssetActualField = value;
             }
         }
     
@@ -179,10 +179,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
         public OpMaterialActualType[] MaterialActual {
             get {
-                return this.materialActualField;
+                return materialActualField;
             }
             set {
-                this.materialActualField = value;
+                materialActualField = value;
             }
         }
     
@@ -190,20 +190,20 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public OpSegmentResponseType[] SegmentResponse {
             get {
-                return this.segmentResponseField;
+                return segmentResponseField;
             }
             set {
-                this.segmentResponseField = value;
+                segmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return this.requiredByRequestedSegmentResponseField;
+                return requiredByRequestedSegmentResponseField;
             }
             set {
-                this.requiredByRequestedSegmentResponseField = value;
+                requiredByRequestedSegmentResponseField = value;
             }
         }
     }

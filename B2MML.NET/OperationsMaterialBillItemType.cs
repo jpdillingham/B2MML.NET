@@ -29,20 +29,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
             get {
-                return this.materialClassIDField;
+                return materialClassIDField;
             }
             set {
-                this.materialClassIDField = value;
+                materialClassIDField = value;
             }
         }
     
@@ -61,20 +61,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
             get {
-                return this.materialDefinitionIDField;
+                return materialDefinitionIDField;
             }
             set {
-                this.materialDefinitionIDField = value;
+                materialDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public CodeType UseType {
             get {
-                return this.useTypeField;
+                return useTypeField;
             }
             set {
-                this.useTypeField = value;
+                useTypeField = value;
             }
         }
     
@@ -82,30 +82,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyBillOfMaterialItem")]
         public OperationsMaterialBillItemType[] AssemblyBillOfMaterialItem {
             get {
-                return this.assemblyBillOfMaterialItemField;
+                return assemblyBillOfMaterialItemField;
             }
             set {
-                this.assemblyBillOfMaterialItemField = value;
+                assemblyBillOfMaterialItemField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return this.assemblyTypeField;
+                return assemblyTypeField;
             }
             set {
-                this.assemblyTypeField = value;
+                assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return this.assemblyRelationshipField;
+                return assemblyRelationshipField;
             }
             set {
-                this.assemblyRelationshipField = value;
+                assemblyRelationshipField = value;
             }
         }
     
@@ -113,10 +113,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecificationID")]
         public IdentifierType[] MaterialSpecificationID {
             get {
-                return this.materialSpecificationIDField;
+                return materialSpecificationIDField;
             }
             set {
-                this.materialSpecificationIDField = value;
+                materialSpecificationIDField = value;
             }
         }
     
@@ -124,10 +124,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     }

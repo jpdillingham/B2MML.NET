@@ -19,10 +19,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,30 +30,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType NodeType {
             get {
-                return this.nodeTypeField;
+                return nodeTypeField;
             }
             set {
-                this.nodeTypeField = value;
+                nodeTypeField = value;
             }
         }
     
         /// <remarks/>
         public WorkflowSpecificationType WorkflowSpecification {
             get {
-                return this.workflowSpecificationField;
+                return workflowSpecificationField;
             }
             set {
-                this.workflowSpecificationField = value;
+                workflowSpecificationField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkflowSpecificationPropertyType[] Property {
             get {
-                return this.propertyField;
+                return propertyField;
             }
             set {
-                this.propertyField = value;
+                propertyField = value;
             }
         }
     }

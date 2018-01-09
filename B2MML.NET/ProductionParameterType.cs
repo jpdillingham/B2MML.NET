@@ -15,30 +15,30 @@
         /// <remarks/>
         public ProductSegmentIDType ProductSegmentID {
             get {
-                return this.productSegmentIDField;
+                return productSegmentIDField;
             }
             set {
-                this.productSegmentIDField = value;
+                productSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ProcessSegmentIDType ProcessSegmentID {
             get {
-                return this.processSegmentIDField;
+                return processSegmentIDField;
             }
             set {
-                this.processSegmentIDField = value;
+                processSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ParameterType Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     }

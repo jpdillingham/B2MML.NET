@@ -31,30 +31,30 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public VersionDateType VersionDate {
             get {
-                return this.versionDateField;
+                return versionDateField;
             }
             set {
-                this.versionDateField = value;
+                versionDateField = value;
             }
         }
     
@@ -62,20 +62,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HeaderType Header {
             get {
-                return this.headerField;
+                return headerField;
             }
             set {
-                this.headerField = value;
+                headerField = value;
             }
         }
     
@@ -83,30 +83,30 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public BatchEquipmentRequirementType[] EquipmentRequirement {
             get {
-                return this.equipmentRequirementField;
+                return equipmentRequirementField;
             }
             set {
-                this.equipmentRequirementField = value;
+                equipmentRequirementField = value;
             }
         }
     
         /// <remarks/>
         public FormulaType Formula {
             get {
-                return this.formulaField;
+                return formulaField;
             }
             set {
-                this.formulaField = value;
+                formulaField = value;
             }
         }
     
         /// <remarks/>
         public ProcedureLogicType ProcedureLogic {
             get {
-                return this.procedureLogicField;
+                return procedureLogicField;
             }
             set {
-                this.procedureLogicField = value;
+                procedureLogicField = value;
             }
         }
     
@@ -114,10 +114,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
             get {
-                return this.recipeElementField;
+                return recipeElementField;
             }
             set {
-                this.recipeElementField = value;
+                recipeElementField = value;
             }
         }
     
@@ -125,10 +125,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public OtherInformationType[] OtherInformation {
             get {
-                return this.otherInformationField;
+                return otherInformationField;
             }
             set {
-                this.otherInformationField = value;
+                otherInformationField = value;
             }
         }
     }

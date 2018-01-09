@@ -33,40 +33,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -74,20 +74,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TestDisposition {
             get {
-                return this.testDispositionField;
+                return testDispositionField;
             }
             set {
-                this.testDispositionField = value;
+                testDispositionField = value;
             }
         }
     
@@ -95,10 +95,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -106,10 +106,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
@@ -117,20 +117,20 @@
         [System.Xml.Serialization.XmlElementAttribute("AnalysisUsed")]
         public CodeType[] AnalysisUsed {
             get {
-                return this.analysisUsedField;
+                return analysisUsedField;
             }
             set {
-                this.analysisUsedField = value;
+                analysisUsedField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType Expiration {
             get {
-                return this.expirationField;
+                return expirationField;
             }
             set {
-                this.expirationField = value;
+                expirationField = value;
             }
         }
     
@@ -138,10 +138,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Results")]
         public ValueType[] Results {
             get {
-                return this.resultsField;
+                return resultsField;
             }
             set {
-                this.resultsField = value;
+                resultsField = value;
             }
         }
     
@@ -149,10 +149,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ExpectedResults")]
         public ValueType[] ExpectedResults {
             get {
-                return this.expectedResultsField;
+                return expectedResultsField;
             }
             set {
-                this.expectedResultsField = value;
+                expectedResultsField = value;
             }
         }
     }

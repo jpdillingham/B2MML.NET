@@ -31,20 +31,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public ProductionRequestIDType ProductionRequestID {
             get {
-                return this.productionRequestIDField;
+                return productionRequestIDField;
             }
             set {
-                this.productionRequestIDField = value;
+                productionRequestIDField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductProductionRuleID")]
         public ProductProductionRuleIDType[] ProductProductionRuleID {
             get {
-                return this.productProductionRuleIDField;
+                return productProductionRuleIDField;
             }
             set {
-                this.productProductionRuleIDField = value;
+                productProductionRuleIDField = value;
             }
         }
     
@@ -63,50 +63,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Version")]
         public VersionType[] Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
@@ -114,20 +114,20 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
             get {
-                return this.segmentResponseField;
+                return segmentResponseField;
             }
             set {
-                this.segmentResponseField = value;
+                segmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
             get {
-                return this.responseStateField;
+                return responseStateField;
             }
             set {
-                this.responseStateField = value;
+                responseStateField = value;
             }
         }
     }

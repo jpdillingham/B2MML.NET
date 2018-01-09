@@ -27,10 +27,10 @@
         /// <remarks/>
         public NameType Name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
@@ -38,40 +38,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialClassProperty")]
         public TestedMaterialClassPropertyType[] TestedMaterialClassProperty {
             get {
-                return this.testedMaterialClassPropertyField;
+                return testedMaterialClassPropertyField;
             }
             set {
-                this.testedMaterialClassPropertyField = value;
+                testedMaterialClassPropertyField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialDefinitionProperty")]
         public TestedMaterialDefinitionPropertyType[] TestedMaterialDefinitionProperty {
             get {
-                return this.testedMaterialDefinitionPropertyField;
+                return testedMaterialDefinitionPropertyField;
             }
             set {
-                this.testedMaterialDefinitionPropertyField = value;
+                testedMaterialDefinitionPropertyField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialLotProperty")]
         public TestedMaterialLotPropertyType[] TestedMaterialLotProperty {
             get {
-                return this.testedMaterialLotPropertyField;
+                return testedMaterialLotPropertyField;
             }
             set {
-                this.testedMaterialLotPropertyField = value;
+                testedMaterialLotPropertyField = value;
             }
         }
     }

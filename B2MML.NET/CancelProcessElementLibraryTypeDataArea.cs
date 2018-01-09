@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return this.cancelField;
+                return cancelField;
             }
             set {
-                this.cancelField = value;
+                cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
             get {
-                return this.processElementLibraryField;
+                return processElementLibraryField;
             }
             set {
-                this.processElementLibraryField = value;
+                processElementLibraryField = value;
             }
         }
     }

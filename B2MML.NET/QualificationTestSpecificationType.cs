@@ -25,10 +25,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -36,40 +36,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonProperty")]
         public TestedPersonPropertyType[] TestedPersonProperty {
             get {
-                return this.testedPersonPropertyField;
+                return testedPersonPropertyField;
             }
             set {
-                this.testedPersonPropertyField = value;
+                testedPersonPropertyField = value;
             }
         }
     
@@ -88,10 +88,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonnelClassProperty")]
         public TestedPersonnelClassPropertyType[] TestedPersonnelClassProperty {
             get {
-                return this.testedPersonnelClassPropertyField;
+                return testedPersonnelClassPropertyField;
             }
             set {
-                this.testedPersonnelClassPropertyField = value;
+                testedPersonnelClassPropertyField = value;
             }
         }
     }

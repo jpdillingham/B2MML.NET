@@ -65,10 +65,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -87,200 +87,200 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntryType")]
         public BatchListEntryTypeType BatchListEntryType1 {
             get {
-                return this.batchListEntryType1Field;
+                return batchListEntryType1Field;
             }
             set {
-                this.batchListEntryType1Field = value;
+                batchListEntryType1Field = value;
             }
         }
     
         /// <remarks/>
         public BatchStatusType Status {
             get {
-                return this.statusField;
+                return statusField;
             }
             set {
-                this.statusField = value;
+                statusField = value;
             }
         }
     
         /// <remarks/>
         public ModeType Mode {
             get {
-                return this.modeField;
+                return modeField;
             }
             set {
-                this.modeField = value;
+                modeField = value;
             }
         }
     
         /// <remarks/>
         public ExternalIDType ExternalID {
             get {
-                return this.externalIDField;
+                return externalIDField;
             }
             set {
-                this.externalIDField = value;
+                externalIDField = value;
             }
         }
     
         /// <remarks/>
         public RecipeIDType RecipeID {
             get {
-                return this.recipeIDField;
+                return recipeIDField;
             }
             set {
-                this.recipeIDField = value;
+                recipeIDField = value;
             }
         }
     
         /// <remarks/>
         public RecipeVersionType RecipeVersion {
             get {
-                return this.recipeVersionField;
+                return recipeVersionField;
             }
             set {
-                this.recipeVersionField = value;
+                recipeVersionField = value;
             }
         }
     
         /// <remarks/>
         public BatchIDType BatchID {
             get {
-                return this.batchIDField;
+                return batchIDField;
             }
             set {
-                this.batchIDField = value;
+                batchIDField = value;
             }
         }
     
         /// <remarks/>
         public LotIDType LotID {
             get {
-                return this.lotIDField;
+                return lotIDField;
             }
             set {
-                this.lotIDField = value;
+                lotIDField = value;
             }
         }
     
         /// <remarks/>
         public CampaignIDType CampaignID {
             get {
-                return this.campaignIDField;
+                return campaignIDField;
             }
             set {
-                this.campaignIDField = value;
+                campaignIDField = value;
             }
         }
     
         /// <remarks/>
         public ProductIDType ProductID {
             get {
-                return this.productIDField;
+                return productIDField;
             }
             set {
-                this.productIDField = value;
+                productIDField = value;
             }
         }
     
         /// <remarks/>
         public OrderIDType OrderID {
             get {
-                return this.orderIDField;
+                return orderIDField;
             }
             set {
-                this.orderIDField = value;
+                orderIDField = value;
             }
         }
     
         /// <remarks/>
         public StartConditionType StartCondition {
             get {
-                return this.startConditionField;
+                return startConditionField;
             }
             set {
-                this.startConditionField = value;
+                startConditionField = value;
             }
         }
     
         /// <remarks/>
         public RequestedStartTimeType RequestedStartTime {
             get {
-                return this.requestedStartTimeField;
+                return requestedStartTimeField;
             }
             set {
-                this.requestedStartTimeField = value;
+                requestedStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualStartTimeType ActualStartTime {
             get {
-                return this.actualStartTimeField;
+                return actualStartTimeField;
             }
             set {
-                this.actualStartTimeField = value;
+                actualStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public RequestedEndTimeType RequestedEndTime {
             get {
-                return this.requestedEndTimeField;
+                return requestedEndTimeField;
             }
             set {
-                this.requestedEndTimeField = value;
+                requestedEndTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualEndTimeType ActualEndTime {
             get {
-                return this.actualEndTimeField;
+                return actualEndTimeField;
             }
             set {
-                this.actualEndTimeField = value;
+                actualEndTimeField = value;
             }
         }
     
         /// <remarks/>
         public BatchPriorityType BatchPriority {
             get {
-                return this.batchPriorityField;
+                return batchPriorityField;
             }
             set {
-                this.batchPriorityField = value;
+                batchPriorityField = value;
             }
         }
     
         /// <remarks/>
         public RequestedBatchSizeType RequestedBatchSize {
             get {
-                return this.requestedBatchSizeField;
+                return requestedBatchSizeField;
             }
             set {
-                this.requestedBatchSizeField = value;
+                requestedBatchSizeField = value;
             }
         }
     
         /// <remarks/>
         public ActualBatchSizeType ActualBatchSize {
             get {
-                return this.actualBatchSizeField;
+                return actualBatchSizeField;
             }
             set {
-                this.actualBatchSizeField = value;
+                actualBatchSizeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return this.unitOfMeasureField;
+                return unitOfMeasureField;
             }
             set {
-                this.unitOfMeasureField = value;
+                unitOfMeasureField = value;
             }
         }
     
@@ -288,10 +288,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public NoteType[] Note {
             get {
-                return this.noteField;
+                return noteField;
             }
             set {
-                this.noteField = value;
+                noteField = value;
             }
         }
     
@@ -299,10 +299,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     
@@ -311,10 +311,10 @@
          System.Xml.Serialization.XmlElementAttribute("EquipmentID", typeof(BatchEquipmentIDType))]
         public object[] Items {
             get {
-                return this.itemsField;
+                return itemsField;
             }
             set {
-                this.itemsField = value;
+                itemsField = value;
             }
         }
     
@@ -322,10 +322,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ActualEquipmentID")]
         public ActualEquipmentIDType[] ActualEquipmentID {
             get {
-                return this.actualEquipmentIDField;
+                return actualEquipmentIDField;
             }
             set {
-                this.actualEquipmentIDField = value;
+                actualEquipmentIDField = value;
             }
         }
     
@@ -333,10 +333,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
         public BatchListEntryType[] BatchListEntry {
             get {
-                return this.batchListEntryField;
+                return batchListEntryField;
             }
             set {
-                this.batchListEntryField = value;
+                batchListEntryField = value;
             }
         }
     }

@@ -17,10 +17,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public MaterialsTypeType MaterialsType {
             get {
-                return this.materialsTypeField;
+                return materialsTypeField;
             }
             set {
-                this.materialsTypeField = value;
+                materialsTypeField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Material")]
         public GRecipeMaterialType[] Material {
             get {
-                return this.materialField;
+                return materialField;
             }
             set {
-                this.materialField = value;
+                materialField = value;
             }
         }
     }

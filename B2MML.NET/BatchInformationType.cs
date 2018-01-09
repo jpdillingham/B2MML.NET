@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ListHeader")]
         public ListHeaderType[] ListHeader {
             get {
-                return this.listHeaderField;
+                return listHeaderField;
             }
             set {
-                this.listHeaderField = value;
+                listHeaderField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MasterRecipe")]
         public MasterRecipeType[] MasterRecipe {
             get {
-                return this.masterRecipeField;
+                return masterRecipeField;
             }
             set {
-                this.masterRecipeField = value;
+                masterRecipeField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ControlRecipe")]
         public ControlRecipeType[] ControlRecipe {
             get {
-                return this.controlRecipeField;
+                return controlRecipeField;
             }
             set {
-                this.controlRecipeField = value;
+                controlRecipeField = value;
             }
         }
     
@@ -72,10 +72,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeBuildingBlock")]
         public RecipeBuildingBlockType[] RecipeBuildingBlock {
             get {
-                return this.recipeBuildingBlockField;
+                return recipeBuildingBlockField;
             }
             set {
-                this.recipeBuildingBlockField = value;
+                recipeBuildingBlockField = value;
             }
         }
     
@@ -83,10 +83,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElement")]
         public EquipmentElementType[] EquipmentElement {
             get {
-                return this.equipmentElementField;
+                return equipmentElementField;
             }
             set {
-                this.equipmentElementField = value;
+                equipmentElementField = value;
             }
         }
     
@@ -94,10 +94,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchList")]
         public BatchListType[] BatchList {
             get {
-                return this.batchListField;
+                return batchListField;
             }
             set {
-                this.batchListField = value;
+                batchListField = value;
             }
         }
     
@@ -105,10 +105,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSet")]
         public EnumerationSetType[] EnumerationSet {
             get {
-                return this.enumerationSetField;
+                return enumerationSetField;
             }
             set {
-                this.enumerationSetField = value;
+                enumerationSetField = value;
             }
         }
     }

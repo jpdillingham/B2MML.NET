@@ -37,10 +37,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -48,10 +48,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -59,40 +59,40 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementType")]
         public ProcessElementTypeType ProcessElementType1 {
             get {
-                return this.processElementType1Field;
+                return processElementType1Field;
             }
             set {
-                this.processElementType1Field = value;
+                processElementType1Field = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return this.lifeCycleStateField;
+                return lifeCycleStateField;
             }
             set {
-                this.lifeCycleStateField = value;
+                lifeCycleStateField = value;
             }
         }
     
         /// <remarks/>
         public SequenceOrderType SequenceOrder {
             get {
-                return this.sequenceOrderField;
+                return sequenceOrderField;
             }
             set {
-                this.sequenceOrderField = value;
+                sequenceOrderField = value;
             }
         }
     
         /// <remarks/>
         public NumericType SequencePath {
             get {
-                return this.sequencePathField;
+                return sequencePathField;
             }
             set {
-                this.sequencePathField = value;
+                sequencePathField = value;
             }
         }
     
@@ -100,10 +100,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Materials")]
         public GRecipeMaterialsType[] Materials {
             get {
-                return this.materialsField;
+                return materialsField;
             }
             set {
-                this.materialsField = value;
+                materialsField = value;
             }
         }
     
@@ -111,10 +111,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DirectedLink")]
         public DirectedLinkType[] DirectedLink {
             get {
-                return this.directedLinkField;
+                return directedLinkField;
             }
             set {
-                this.directedLinkField = value;
+                directedLinkField = value;
             }
         }
     
@@ -122,10 +122,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcedureChartElement")]
         public ProcedureChartElementType[] ProcedureChartElement {
             get {
-                return this.procedureChartElementField;
+                return procedureChartElementField;
             }
             set {
-                this.procedureChartElementField = value;
+                procedureChartElementField = value;
             }
         }
     
@@ -133,10 +133,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElement")]
         public ProcessElementType[] ProcessElement {
             get {
-                return this.processElementField;
+                return processElementField;
             }
             set {
-                this.processElementField = value;
+                processElementField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementParameter")]
         public ProcessElementParameterType[] ProcessElementParameter {
             get {
-                return this.processElementParameterField;
+                return processElementParameterField;
             }
             set {
-                this.processElementParameterField = value;
+                processElementParameterField = value;
             }
         }
     
@@ -155,10 +155,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
         public ResourceConstraintType[] ResourceConstraint {
             get {
-                return this.resourceConstraintField;
+                return resourceConstraintField;
             }
             set {
-                this.resourceConstraintField = value;
+                resourceConstraintField = value;
             }
         }
     
@@ -166,10 +166,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public GROtherInformationType[] OtherInformation {
             get {
-                return this.otherInformationField;
+                return otherInformationField;
             }
             set {
-                this.otherInformationField = value;
+                otherInformationField = value;
             }
         }
     }

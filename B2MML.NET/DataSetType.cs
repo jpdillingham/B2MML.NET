@@ -31,40 +31,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -72,50 +72,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TrendSystemReference {
             get {
-                return this.trendSystemReferenceField;
+                return trendSystemReferenceField;
             }
             set {
-                this.trendSystemReferenceField = value;
+                trendSystemReferenceField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
         /// <remarks/>
         public TimeSpecificationType TimeSpecification {
             get {
-                return this.timeSpecificationField;
+                return timeSpecificationField;
             }
             set {
-                this.timeSpecificationField = value;
+                timeSpecificationField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TagSpecification")]
         public TagSpecificationType[] TagSpecification {
             get {
-                return this.tagSpecificationField;
+                return tagSpecificationField;
             }
             set {
-                this.tagSpecificationField = value;
+                tagSpecificationField = value;
             }
         }
     
@@ -135,10 +135,10 @@
          System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
         public object[] Items {
             get {
-                return this.itemsField;
+                return itemsField;
             }
             set {
-                this.itemsField = value;
+                itemsField = value;
             }
         }
     }

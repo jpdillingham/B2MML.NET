@@ -22,10 +22,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCode {
             get {
-                return this.unitCodeField;
+                return unitCodeField;
             }
             set {
-                this.unitCodeField = value;
+                unitCodeField = value;
             }
         }
     
@@ -33,10 +33,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCodeListVersionID {
             get {
-                return this.unitCodeListVersionIDField;
+                return unitCodeListVersionIDField;
             }
             set {
-                this.unitCodeListVersionIDField = value;
+                unitCodeListVersionIDField = value;
             }
         }
     
@@ -44,10 +44,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public decimal Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

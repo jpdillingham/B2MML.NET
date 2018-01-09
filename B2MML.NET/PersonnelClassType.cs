@@ -25,10 +25,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -36,30 +36,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -67,10 +67,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassProperty")]
         public PersonnelClassPropertyType[] PersonnelClassProperty {
             get {
-                return this.personnelClassPropertyField;
+                return personnelClassPropertyField;
             }
             set {
-                this.personnelClassPropertyField = value;
+                personnelClassPropertyField = value;
             }
         }
     
@@ -78,10 +78,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
             get {
-                return this.personIDField;
+                return personIDField;
             }
             set {
-                this.personIDField = value;
+                personIDField = value;
             }
         }
     
@@ -89,10 +89,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecificationID")]
         public QualificationTestSpecificationIDType[] QualificationTestSpecificationID {
             get {
-                return this.qualificationTestSpecificationIDField;
+                return qualificationTestSpecificationIDField;
             }
             set {
-                this.qualificationTestSpecificationIDField = value;
+                qualificationTestSpecificationIDField = value;
             }
         }
     }

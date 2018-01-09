@@ -34,10 +34,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassID")]
         public PersonnelClassIDType[] PersonnelClassID {
             get {
-                return this.personnelClassIDField;
+                return personnelClassIDField;
             }
             set {
-                this.personnelClassIDField = value;
+                personnelClassIDField = value;
             }
         }
     
@@ -45,10 +45,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
             get {
-                return this.personIDField;
+                return personIDField;
             }
             set {
-                this.personIDField = value;
+                personIDField = value;
             }
         }
     
@@ -56,80 +56,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return this.capabilityTypeField;
+                return capabilityTypeField;
             }
             set {
-                this.capabilityTypeField = value;
+                capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return this.reasonField;
+                return reasonField;
             }
             set {
-                this.reasonField = value;
+                reasonField = value;
             }
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
             get {
-                return this.confidenceFactorField;
+                return confidenceFactorField;
             }
             set {
-                this.confidenceFactorField = value;
+                confidenceFactorField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PersonnelUseType PersonnelUse {
             get {
-                return this.personnelUseField;
+                return personnelUseField;
             }
             set {
-                this.personnelUseField = value;
+                personnelUseField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
@@ -137,10 +137,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -148,10 +148,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapabilityProperty")]
         public OpPersonnelCapabilityPropertyType[] PersonnelCapabilityProperty {
             get {
-                return this.personnelCapabilityPropertyField;
+                return personnelCapabilityPropertyField;
             }
             set {
-                this.personnelCapabilityPropertyField = value;
+                personnelCapabilityPropertyField = value;
             }
         }
     }

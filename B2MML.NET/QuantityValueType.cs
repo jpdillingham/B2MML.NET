@@ -18,10 +18,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public QuantityStringType QuantityString {
             get {
-                return this.quantityStringField;
+                return quantityStringField;
             }
             set {
-                this.quantityStringField = value;
+                quantityStringField = value;
             }
         }
     
@@ -29,10 +29,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public DataTypeType DataType {
             get {
-                return this.dataTypeField;
+                return dataTypeField;
             }
             set {
-                this.dataTypeField = value;
+                dataTypeField = value;
             }
         }
     
@@ -40,20 +40,20 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return this.unitOfMeasureField;
+                return unitOfMeasureField;
             }
             set {
-                this.unitOfMeasureField = value;
+                unitOfMeasureField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Key {
             get {
-                return this.keyField;
+                return keyField;
             }
             set {
-                this.keyField = value;
+                keyField = value;
             }
         }
     }

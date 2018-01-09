@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchProductionRecord")]
         public BatchProductionRecordType[] BatchProductionRecord {
             get {
-                return this.batchProductionRecordField;
+                return batchProductionRecordField;
             }
             set {
-                this.batchProductionRecordField = value;
+                batchProductionRecordField = value;
             }
         }
     }

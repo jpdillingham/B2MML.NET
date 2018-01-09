@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
             get {
-                return this.resourceNetworkConnectionInformationField;
+                return resourceNetworkConnectionInformationField;
             }
             set {
-                this.resourceNetworkConnectionInformationField = value;
+                resourceNetworkConnectionInformationField = value;
             }
         }
     }

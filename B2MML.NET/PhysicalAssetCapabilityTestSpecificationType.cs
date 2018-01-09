@@ -23,10 +23,10 @@
         /// <remarks/>
         public NameType Name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
@@ -34,30 +34,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPhysicalAssetProperty")]
         public TestedPhysicalAssetPropertyType[] TestedPhysicalAssetProperty {
             get {
-                return this.testedPhysicalAssetPropertyField;
+                return testedPhysicalAssetPropertyField;
             }
             set {
-                this.testedPhysicalAssetPropertyField = value;
+                testedPhysicalAssetPropertyField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPhysicalAssetClassProperty")]
         public TestedPhysicalAssetClassPropertyType[] TestedPhysicalAssetClassProperty {
             get {
-                return this.testedPhysicalAssetClassPropertyField;
+                return testedPhysicalAssetClassPropertyField;
             }
             set {
-                this.testedPhysicalAssetClassPropertyField = value;
+                testedPhysicalAssetClassPropertyField = value;
             }
         }
     }

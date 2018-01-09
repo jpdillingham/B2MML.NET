@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     }

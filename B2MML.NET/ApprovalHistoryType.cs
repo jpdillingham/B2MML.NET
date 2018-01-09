@@ -19,20 +19,20 @@
         /// <remarks/>
         public FinalApprovalDateType FinalApprovalDate {
             get {
-                return this.finalApprovalDateField;
+                return finalApprovalDateField;
             }
             set {
-                this.finalApprovalDateField = value;
+                finalApprovalDateField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("IndividualApproval")]
         public IndividualApprovalType[] IndividualApproval {
             get {
-                return this.individualApprovalField;
+                return individualApprovalField;
             }
             set {
-                this.individualApprovalField = value;
+                individualApprovalField = value;
             }
         }
     }

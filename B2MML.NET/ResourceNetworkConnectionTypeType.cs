@@ -17,10 +17,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ResourceNetworkConnectionIDType ResourceNetworkConnectionID {
             get {
-                return this.resourceNetworkConnectionIDField;
+                return resourceNetworkConnectionIDField;
             }
             set {
-                this.resourceNetworkConnectionIDField = value;
+                resourceNetworkConnectionIDField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ConnectionProperty")]
         public ResourcePropertyType[] ConnectionProperty {
             get {
-                return this.connectionPropertyField;
+                return connectionPropertyField;
             }
             set {
-                this.connectionPropertyField = value;
+                connectionPropertyField = value;
             }
         }
     }

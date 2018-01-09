@@ -41,20 +41,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -62,30 +62,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public WorkTypeType WorkType {
             get {
-                return this.workTypeField;
+                return workTypeField;
             }
             set {
-                this.workTypeField = value;
+                workTypeField = value;
             }
         }
     
@@ -93,30 +93,30 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return this.durationField;
+                return durationField;
             }
             set {
-                this.durationField = value;
+                durationField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public OperationsDefinitionIDType OperationsDefinitionID {
             get {
-                return this.operationsDefinitionIDField;
+                return operationsDefinitionIDField;
             }
             set {
-                this.operationsDefinitionIDField = value;
+                operationsDefinitionIDField = value;
             }
         }
     
@@ -124,10 +124,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     
@@ -135,10 +135,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
         public OpPersonnelSpecificationType[] PersonnelSpecification {
             get {
-                return this.personnelSpecificationField;
+                return personnelSpecificationField;
             }
             set {
-                this.personnelSpecificationField = value;
+                personnelSpecificationField = value;
             }
         }
     
@@ -146,10 +146,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
         public OpEquipmentSpecificationType[] EquipmentSpecification {
             get {
-                return this.equipmentSpecificationField;
+                return equipmentSpecificationField;
             }
             set {
-                this.equipmentSpecificationField = value;
+                equipmentSpecificationField = value;
             }
         }
     
@@ -157,10 +157,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
         public OpPhysicalAssetSpecificationType[] PhysicalAssetSpecification {
             get {
-                return this.physicalAssetSpecificationField;
+                return physicalAssetSpecificationField;
             }
             set {
-                this.physicalAssetSpecificationField = value;
+                physicalAssetSpecificationField = value;
             }
         }
     
@@ -168,10 +168,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
         public OpMaterialSpecificationType[] MaterialSpecification {
             get {
-                return this.materialSpecificationField;
+                return materialSpecificationField;
             }
             set {
-                this.materialSpecificationField = value;
+                materialSpecificationField = value;
             }
         }
     
@@ -179,10 +179,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
             get {
-                return this.workflowSpecificationField;
+                return workflowSpecificationField;
             }
             set {
-                this.workflowSpecificationField = value;
+                workflowSpecificationField = value;
             }
         }
     
@@ -190,10 +190,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMaster")]
         public WorkMasterType[] WorkMaster {
             get {
-                return this.workMasterField;
+                return workMasterField;
             }
             set {
-                this.workMasterField = value;
+                workMasterField = value;
             }
         }
     }

@@ -32,10 +32,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -43,20 +43,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", IsNullable=true)]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
@@ -86,10 +86,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass", IsNullable=true)]
         public MaterialClassType[] MaterialClass {
             get {
-                return this.materialClassField;
+                return materialClassField;
             }
             set {
-                this.materialClassField = value;
+                materialClassField = value;
             }
         }
     
@@ -97,10 +97,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition", IsNullable=true)]
         public MaterialDefinitionType[] MaterialDefinition {
             get {
-                return this.materialDefinitionField;
+                return materialDefinitionField;
             }
             set {
-                this.materialDefinitionField = value;
+                materialDefinitionField = value;
             }
         }
     
@@ -108,10 +108,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLot", IsNullable=true)]
         public MaterialLotType[] MaterialLot {
             get {
-                return this.materialLotField;
+                return materialLotField;
             }
             set {
-                this.materialLotField = value;
+                materialLotField = value;
             }
         }
     
@@ -119,10 +119,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot", IsNullable=true)]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return this.materialSubLotField;
+                return materialSubLotField;
             }
             set {
-                this.materialSubLotField = value;
+                materialSubLotField = value;
             }
         }
     
@@ -130,10 +130,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecification", IsNullable=true)]
         public MaterialTestSpecificationType[] MaterialTestSpecification {
             get {
-                return this.materialTestSpecificationField;
+                return materialTestSpecificationField;
             }
             set {
-                this.materialTestSpecificationField = value;
+                materialTestSpecificationField = value;
             }
         }
     }

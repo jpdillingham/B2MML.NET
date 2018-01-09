@@ -23,10 +23,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -34,20 +34,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -55,10 +55,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Priority")]
         public PriorityType[] Priority {
             get {
-                return this.priorityField;
+                return priorityField;
             }
             set {
-                this.priorityField = value;
+                priorityField = value;
             }
         }
     
@@ -66,10 +66,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Category")]
         public IdentifierType[] Category {
             get {
-                return this.categoryField;
+                return categoryField;
             }
             set {
-                this.categoryField = value;
+                categoryField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkAlertPropertyType[] Property {
             get {
-                return this.propertyField;
+                return propertyField;
             }
             set {
-                this.propertyField = value;
+                propertyField = value;
             }
         }
     }

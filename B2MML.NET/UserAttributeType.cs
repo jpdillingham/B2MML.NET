@@ -15,10 +15,10 @@
         /// <remarks/>
         public CodeType AttributeID {
             get {
-                return this.attributeIDField;
+                return attributeIDField;
             }
             set {
-                this.attributeIDField = value;
+                attributeIDField = value;
             }
         }
     
@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public TextType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

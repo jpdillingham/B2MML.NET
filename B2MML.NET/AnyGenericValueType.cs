@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string currencyID {
             get {
-                return this.currencyIDField;
+                return currencyIDField;
             }
             set {
-                this.currencyIDField = value;
+                currencyIDField = value;
             }
         }
     
@@ -85,10 +85,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string currencyCodeListVersionID {
             get {
-                return this.currencyCodeListVersionIDField;
+                return currencyCodeListVersionIDField;
             }
             set {
-                this.currencyCodeListVersionIDField = value;
+                currencyCodeListVersionIDField = value;
             }
         }
     
@@ -96,10 +96,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string encodingCode {
             get {
-                return this.encodingCodeField;
+                return encodingCodeField;
             }
             set {
-                this.encodingCodeField = value;
+                encodingCodeField = value;
             }
         }
     
@@ -107,10 +107,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string format {
             get {
-                return this.formatField;
+                return formatField;
             }
             set {
-                this.formatField = value;
+                formatField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string characterSetCode {
             get {
-                return this.characterSetCodeField;
+                return characterSetCodeField;
             }
             set {
-                this.characterSetCodeField = value;
+                characterSetCodeField = value;
             }
         }
     
@@ -129,10 +129,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listID {
             get {
-                return this.listIDField;
+                return listIDField;
             }
             set {
-                this.listIDField = value;
+                listIDField = value;
             }
         }
     
@@ -140,10 +140,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listAgencyID {
             get {
-                return this.listAgencyIDField;
+                return listAgencyIDField;
             }
             set {
-                this.listAgencyIDField = value;
+                listAgencyIDField = value;
             }
         }
     
@@ -151,10 +151,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string listAgencyName {
             get {
-                return this.listAgencyNameField;
+                return listAgencyNameField;
             }
             set {
-                this.listAgencyNameField = value;
+                listAgencyNameField = value;
             }
         }
     
@@ -162,10 +162,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string listName {
             get {
-                return this.listNameField;
+                return listNameField;
             }
             set {
-                this.listNameField = value;
+                listNameField = value;
             }
         }
     
@@ -173,10 +173,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listVersionID {
             get {
-                return this.listVersionIDField;
+                return listVersionIDField;
             }
             set {
-                this.listVersionIDField = value;
+                listVersionIDField = value;
             }
         }
     
@@ -184,10 +184,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
         public string languageID {
             get {
-                return this.languageIDField;
+                return languageIDField;
             }
             set {
-                this.languageIDField = value;
+                languageIDField = value;
             }
         }
     
@@ -195,10 +195,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string languageLocaleID {
             get {
-                return this.languageLocaleIDField;
+                return languageLocaleIDField;
             }
             set {
-                this.languageLocaleIDField = value;
+                languageLocaleIDField = value;
             }
         }
     
@@ -206,10 +206,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string listURI {
             get {
-                return this.listURIField;
+                return listURIField;
             }
             set {
-                this.listURIField = value;
+                listURIField = value;
             }
         }
     
@@ -217,10 +217,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string listSchemaURI {
             get {
-                return this.listSchemaURIField;
+                return listSchemaURIField;
             }
             set {
-                this.listSchemaURIField = value;
+                listSchemaURIField = value;
             }
         }
     
@@ -228,10 +228,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string mimeCode {
             get {
-                return this.mimeCodeField;
+                return mimeCodeField;
             }
             set {
-                this.mimeCodeField = value;
+                mimeCodeField = value;
             }
         }
     
@@ -239,10 +239,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
@@ -250,10 +250,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemaID {
             get {
-                return this.schemaIDField;
+                return schemaIDField;
             }
             set {
-                this.schemaIDField = value;
+                schemaIDField = value;
             }
         }
     
@@ -261,10 +261,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string schemaName {
             get {
-                return this.schemaNameField;
+                return schemaNameField;
             }
             set {
-                this.schemaNameField = value;
+                schemaNameField = value;
             }
         }
     
@@ -272,10 +272,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemaAgencyID {
             get {
-                return this.schemaAgencyIDField;
+                return schemaAgencyIDField;
             }
             set {
-                this.schemaAgencyIDField = value;
+                schemaAgencyIDField = value;
             }
         }
     
@@ -283,10 +283,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string schemaAgencyName {
             get {
-                return this.schemaAgencyNameField;
+                return schemaAgencyNameField;
             }
             set {
-                this.schemaAgencyNameField = value;
+                schemaAgencyNameField = value;
             }
         }
     
@@ -294,10 +294,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemaVersionID {
             get {
-                return this.schemaVersionIDField;
+                return schemaVersionIDField;
             }
             set {
-                this.schemaVersionIDField = value;
+                schemaVersionIDField = value;
             }
         }
     
@@ -305,10 +305,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string schemaDataURI {
             get {
-                return this.schemaDataURIField;
+                return schemaDataURIField;
             }
             set {
-                this.schemaDataURIField = value;
+                schemaDataURIField = value;
             }
         }
     
@@ -316,10 +316,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string schemaURI {
             get {
-                return this.schemaURIField;
+                return schemaURIField;
             }
             set {
-                this.schemaURIField = value;
+                schemaURIField = value;
             }
         }
     
@@ -327,10 +327,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCode {
             get {
-                return this.unitCodeField;
+                return unitCodeField;
             }
             set {
-                this.unitCodeField = value;
+                unitCodeField = value;
             }
         }
     
@@ -338,10 +338,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCodeListID {
             get {
-                return this.unitCodeListIDField;
+                return unitCodeListIDField;
             }
             set {
-                this.unitCodeListIDField = value;
+                unitCodeListIDField = value;
             }
         }
     
@@ -349,10 +349,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCodeListAgencyID {
             get {
-                return this.unitCodeListAgencyIDField;
+                return unitCodeListAgencyIDField;
             }
             set {
-                this.unitCodeListAgencyIDField = value;
+                unitCodeListAgencyIDField = value;
             }
         }
     
@@ -360,10 +360,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string unitCodeListAgencyName {
             get {
-                return this.unitCodeListAgencyNameField;
+                return unitCodeListAgencyNameField;
             }
             set {
-                this.unitCodeListAgencyNameField = value;
+                unitCodeListAgencyNameField = value;
             }
         }
     
@@ -371,10 +371,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string unitCodeListVersionID {
             get {
-                return this.unitCodeListVersionIDField;
+                return unitCodeListVersionIDField;
             }
             set {
-                this.unitCodeListVersionIDField = value;
+                unitCodeListVersionIDField = value;
             }
         }
     
@@ -382,10 +382,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string filename {
             get {
-                return this.filenameField;
+                return filenameField;
             }
             set {
-                this.filenameField = value;
+                filenameField = value;
             }
         }
     
@@ -393,10 +393,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string uri {
             get {
-                return this.uriField;
+                return uriField;
             }
             set {
-                this.uriField = value;
+                uriField = value;
             }
         }
     
@@ -404,10 +404,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

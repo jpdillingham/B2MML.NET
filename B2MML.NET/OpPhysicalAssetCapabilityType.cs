@@ -34,10 +34,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
             get {
-                return this.physicalAssetClassIDField;
+                return physicalAssetClassIDField;
             }
             set {
-                this.physicalAssetClassIDField = value;
+                physicalAssetClassIDField = value;
             }
         }
     
@@ -45,10 +45,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
@@ -56,80 +56,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return this.capabilityTypeField;
+                return capabilityTypeField;
             }
             set {
-                this.capabilityTypeField = value;
+                capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return this.reasonField;
+                return reasonField;
             }
             set {
-                this.reasonField = value;
+                reasonField = value;
             }
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
             get {
-                return this.confidenceFactorField;
+                return confidenceFactorField;
             }
             set {
-                this.confidenceFactorField = value;
+                confidenceFactorField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetUseType PhysicalAssetUse {
             get {
-                return this.physicalAssetUseField;
+                return physicalAssetUseField;
             }
             set {
-                this.physicalAssetUseField = value;
+                physicalAssetUseField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
@@ -137,10 +137,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -148,10 +148,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityProperty")]
         public OpPhysicalAssetCapabilityPropertyType[] PhysicalAssetCapabilityProperty {
             get {
-                return this.physicalAssetCapabilityPropertyField;
+                return physicalAssetCapabilityPropertyField;
             }
             set {
-                this.physicalAssetCapabilityPropertyField = value;
+                physicalAssetCapabilityPropertyField = value;
             }
         }
     }

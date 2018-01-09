@@ -19,10 +19,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,40 +30,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType MaterialID {
             get {
-                return this.materialIDField;
+                return materialIDField;
             }
             set {
-                this.materialIDField = value;
+                materialIDField = value;
             }
         }
     
         /// <remarks/>
         public NumericType Order {
             get {
-                return this.orderField;
+                return orderField;
             }
             set {
-                this.orderField = value;
+                orderField = value;
             }
         }
     
         /// <remarks/>
         public QuantityValueType Amount {
             get {
-                return this.amountField;
+                return amountField;
             }
             set {
-                this.amountField = value;
+                amountField = value;
             }
         }
     }

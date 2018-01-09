@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransConfirmType Confirm {
             get {
-                return this.confirmField;
+                return confirmField;
             }
             set {
-                this.confirmField = value;
+                confirmField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BOD")]
         public BODType[] BOD {
             get {
-                return this.bODField;
+                return bODField;
             }
             set {
-                this.bODField = value;
+                bODField = value;
             }
         }
     }

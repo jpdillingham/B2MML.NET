@@ -21,20 +21,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -42,10 +42,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -53,10 +53,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Node")]
         public WorkflowSpecificationNodeType[] Node {
             get {
-                return this.nodeField;
+                return nodeField;
             }
             set {
-                this.nodeField = value;
+                nodeField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Connection")]
         public WorkflowSpecificationConnectionType[] Connection {
             get {
-                return this.connectionField;
+                return connectionField;
             }
             set {
-                this.connectionField = value;
+                connectionField = value;
             }
         }
     }

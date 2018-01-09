@@ -17,30 +17,30 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public ResourceIDType ResourceID {
             get {
-                return this.resourceIDField;
+                return resourceIDField;
             }
             set {
-                this.resourceIDField = value;
+                resourceIDField = value;
             }
         }
     
         /// <remarks/>
         public ResourceReferenceTypeType ResourceType {
             get {
-                return this.resourceTypeField;
+                return resourceTypeField;
             }
             set {
-                this.resourceTypeField = value;
+                resourceTypeField = value;
             }
         }
     
@@ -48,10 +48,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceProperty")]
         public ResourcePropertyType[] ResourceProperty {
             get {
-                return this.resourcePropertyField;
+                return resourcePropertyField;
             }
             set {
-                this.resourcePropertyField = value;
+                resourcePropertyField = value;
             }
         }
     }

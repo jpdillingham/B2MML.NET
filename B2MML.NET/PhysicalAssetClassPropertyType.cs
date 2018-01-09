@@ -19,10 +19,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,10 +30,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -41,10 +41,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassProperty")]
         public PhysicalAssetClassPropertyType[] PhysicalAssetClassProperty {
             get {
-                return this.physicalAssetClassPropertyField;
+                return physicalAssetClassPropertyField;
             }
             set {
-                this.physicalAssetClassPropertyField = value;
+                physicalAssetClassPropertyField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecificationID")]
         public PhysicalAssetCapabilityTestSpecificationIDType[] PhysicalAssetCapabilityTestSpecificationID {
             get {
-                return this.physicalAssetCapabilityTestSpecificationIDField;
+                return physicalAssetCapabilityTestSpecificationIDField;
             }
             set {
-                this.physicalAssetCapabilityTestSpecificationIDField = value;
+                physicalAssetCapabilityTestSpecificationIDField = value;
             }
         }
     }

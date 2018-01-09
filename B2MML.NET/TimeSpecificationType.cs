@@ -15,10 +15,10 @@
         /// <remarks/>
         public bool Relative {
             get {
-                return this.relativeField;
+                return relativeField;
             }
             set {
-                this.relativeField = value;
+                relativeField = value;
             }
         }
     
@@ -26,20 +26,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool RelativeSpecified {
             get {
-                return this.relativeFieldSpecified;
+                return relativeFieldSpecified;
             }
             set {
-                this.relativeFieldSpecified = value;
+                relativeFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType OffsetTime {
             get {
-                return this.offsetTimeField;
+                return offsetTimeField;
             }
             set {
-                this.offsetTimeField = value;
+                offsetTimeField = value;
             }
         }
     }

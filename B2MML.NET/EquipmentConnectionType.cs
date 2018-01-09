@@ -21,10 +21,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -32,20 +32,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ConnectionTypeType ConnectionType {
             get {
-                return this.connectionTypeField;
+                return connectionTypeField;
             }
             set {
-                this.connectionTypeField = value;
+                connectionTypeField = value;
             }
         }
     
@@ -53,10 +53,10 @@
         [System.Xml.Serialization.XmlElementAttribute("FromEquipmentID")]
         public FromEquipmentIDType[] FromEquipmentID {
             get {
-                return this.fromEquipmentIDField;
+                return fromEquipmentIDField;
             }
             set {
-                this.fromEquipmentIDField = value;
+                fromEquipmentIDField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ToEquipmentID")]
         public ToEquipmentIDType[] ToEquipmentID {
             get {
-                return this.toEquipmentIDField;
+                return toEquipmentIDField;
             }
             set {
-                this.toEquipmentIDField = value;
+                toEquipmentIDField = value;
             }
         }
     }

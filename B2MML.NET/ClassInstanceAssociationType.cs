@@ -17,20 +17,20 @@
         /// <remarks/>
         public ClassEquipmentIDType ClassEquipmentID {
             get {
-                return this.classEquipmentIDField;
+                return classEquipmentIDField;
             }
             set {
-                this.classEquipmentIDField = value;
+                classEquipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public MemberEquipmentIDType MemberEquipmentID {
             get {
-                return this.memberEquipmentIDField;
+                return memberEquipmentIDField;
             }
             set {
-                this.memberEquipmentIDField = value;
+                memberEquipmentIDField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

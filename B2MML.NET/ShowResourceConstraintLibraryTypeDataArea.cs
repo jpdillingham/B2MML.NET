@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return this.resourceConstraintLibraryField;
+                return resourceConstraintLibraryField;
             }
             set {
-                this.resourceConstraintLibraryField = value;
+                resourceConstraintLibraryField = value;
             }
         }
     }

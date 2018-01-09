@@ -35,10 +35,10 @@
         /// <remarks/>
         public NumericType TagIndex {
             get {
-                return this.tagIndexField;
+                return tagIndexField;
             }
             set {
-                this.tagIndexField = value;
+                tagIndexField = value;
             }
         }
     
@@ -46,10 +46,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public DataTypeType DataType {
             get {
-                return this.dataTypeField;
+                return dataTypeField;
             }
             set {
-                this.dataTypeField = value;
+                dataTypeField = value;
             }
         }
     
@@ -57,10 +57,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return this.unitOfMeasureField;
+                return unitOfMeasureField;
             }
             set {
-                this.unitOfMeasureField = value;
+                unitOfMeasureField = value;
             }
         }
     
@@ -68,10 +68,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DataSource")]
         public IdentifierType[] DataSource {
             get {
-                return this.dataSourceField;
+                return dataSourceField;
             }
             set {
-                this.dataSourceField = value;
+                dataSourceField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Alias")]
         public IdentifierType[] Alias {
             get {
-                return this.aliasField;
+                return aliasField;
             }
             set {
-                this.aliasField = value;
+                aliasField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -112,10 +112,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProceduralElementReference")]
         public IdentifierType[] ProceduralElementReference {
             get {
-                return this.proceduralElementReferenceField;
+                return proceduralElementReferenceField;
             }
             set {
-                this.proceduralElementReferenceField = value;
+                proceduralElementReferenceField = value;
             }
         }
     
@@ -134,10 +134,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Deadband")]
         public ValueType[] Deadband {
             get {
-                return this.deadbandField;
+                return deadbandField;
             }
             set {
-                this.deadbandField = value;
+                deadbandField = value;
             }
         }
     
@@ -145,10 +145,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SignificantDigits")]
         public IdentifierType[] SignificantDigits {
             get {
-                return this.significantDigitsField;
+                return significantDigitsField;
             }
             set {
-                this.significantDigitsField = value;
+                significantDigitsField = value;
             }
         }
     
@@ -156,10 +156,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DataCompression")]
         public IdentifierType[] DataCompression {
             get {
-                return this.dataCompressionField;
+                return dataCompressionField;
             }
             set {
-                this.dataCompressionField = value;
+                dataCompressionField = value;
             }
         }
     
@@ -167,10 +167,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SamplingType")]
         public IdentifierType[] SamplingType {
             get {
-                return this.samplingTypeField;
+                return samplingTypeField;
             }
             set {
-                this.samplingTypeField = value;
+                samplingTypeField = value;
             }
         }
     }

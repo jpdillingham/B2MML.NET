@@ -17,10 +17,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -28,30 +28,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType FromID {
             get {
-                return this.fromIDField;
+                return fromIDField;
             }
             set {
-                this.fromIDField = value;
+                fromIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ToID {
             get {
-                return this.toIDField;
+                return toIDField;
             }
             set {
-                this.toIDField = value;
+                toIDField = value;
             }
         }
     }

@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return this.syncField;
+                return syncField;
             }
             set {
-                this.syncField = value;
+                syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionPerformance")]
         public ProductionPerformanceType[] ProductionPerformance {
             get {
-                return this.productionPerformanceField;
+                return productionPerformanceField;
             }
             set {
-                this.productionPerformanceField = value;
+                productionPerformanceField = value;
             }
         }
     }

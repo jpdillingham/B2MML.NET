@@ -33,40 +33,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -74,80 +74,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType RecordReference {
             get {
-                return this.recordReferenceField;
+                return recordReferenceField;
             }
             set {
-                this.recordReferenceField = value;
+                recordReferenceField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceID {
             get {
-                return this.resourceIDField;
+                return resourceIDField;
             }
             set {
-                this.resourceIDField = value;
+                resourceIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceUse {
             get {
-                return this.resourceUseField;
+                return resourceUseField;
             }
             set {
-                this.resourceUseField = value;
+                resourceUseField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceType {
             get {
-                return this.resourceTypeField;
+                return resourceTypeField;
             }
             set {
-                this.resourceTypeField = value;
+                resourceTypeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType QualificationStatus {
             get {
-                return this.qualificationStatusField;
+                return qualificationStatusField;
             }
             set {
-                this.qualificationStatusField = value;
+                qualificationStatusField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EffectiveTimeStamp {
             get {
-                return this.effectiveTimeStampField;
+                return effectiveTimeStampField;
             }
             set {
-                this.effectiveTimeStampField = value;
+                effectiveTimeStampField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType ExpirationTimeStamp {
             get {
-                return this.expirationTimeStampField;
+                return expirationTimeStampField;
             }
             set {
-                this.expirationTimeStampField = value;
+                expirationTimeStampField = value;
             }
         }
     }

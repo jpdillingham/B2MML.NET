@@ -25,10 +25,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -36,50 +36,50 @@
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
         public DescriptionType[] MessageText {
             get {
-                return this.messageTextField;
+                return messageTextField;
             }
             set {
-                this.messageTextField = value;
+                messageTextField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public PriorityType Priority {
             get {
-                return this.priorityField;
+                return priorityField;
             }
             set {
-                this.priorityField = value;
+                priorityField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Category {
             get {
-                return this.categoryField;
+                return categoryField;
             }
             set {
-                this.categoryField = value;
+                categoryField = value;
             }
         }
     
@@ -87,10 +87,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkAlertPropertyType[] Property {
             get {
-                return this.propertyField;
+                return propertyField;
             }
             set {
-                this.propertyField = value;
+                propertyField = value;
             }
         }
     }

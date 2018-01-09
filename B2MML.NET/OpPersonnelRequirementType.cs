@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassID")]
         public PersonnelClassIDType[] PersonnelClassID {
             get {
-                return this.personnelClassIDField;
+                return personnelClassIDField;
             }
             set {
-                this.personnelClassIDField = value;
+                personnelClassIDField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
             get {
-                return this.personIDField;
+                return personIDField;
             }
             set {
-                this.personIDField = value;
+                personIDField = value;
             }
         }
     
@@ -48,20 +48,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public PersonnelUseType PersonnelUse {
             get {
-                return this.personnelUseField;
+                return personnelUseField;
             }
             set {
-                this.personnelUseField = value;
+                personnelUseField = value;
             }
         }
     
@@ -69,20 +69,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -90,20 +90,20 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirementProperty")]
         public OpPersonnelRequirementPropertyType[] PersonnelRequirementProperty {
             get {
-                return this.personnelRequirementPropertyField;
+                return personnelRequirementPropertyField;
             }
             set {
-                this.personnelRequirementPropertyField = value;
+                personnelRequirementPropertyField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return this.requiredByRequestedSegmentResponseField;
+                return requiredByRequestedSegmentResponseField;
             }
             set {
-                this.requiredByRequestedSegmentResponseField = value;
+                requiredByRequestedSegmentResponseField = value;
             }
         }
     }

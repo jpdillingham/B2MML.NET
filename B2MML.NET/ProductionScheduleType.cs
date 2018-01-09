@@ -31,10 +31,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -42,70 +42,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return this.equipmentElementLevelField;
+                return equipmentElementLevelField;
             }
             set {
-                this.equipmentElementLevelField = value;
+                equipmentElementLevelField = value;
             }
         }
     
@@ -113,20 +113,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionRequest")]
         public ProductionRequestType[] ProductionRequest {
             get {
-                return this.productionRequestField;
+                return productionRequestField;
             }
             set {
-                this.productionRequestField = value;
+                productionRequestField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType ScheduleState {
             get {
-                return this.scheduleStateField;
+                return scheduleStateField;
             }
             set {
-                this.scheduleStateField = value;
+                scheduleStateField = value;
             }
         }
     }

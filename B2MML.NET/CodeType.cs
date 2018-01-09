@@ -130,10 +130,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listID {
             get {
-                return this.listIDField;
+                return listIDField;
             }
             set {
-                this.listIDField = value;
+                listIDField = value;
             }
         }
     
@@ -141,10 +141,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listAgencyID {
             get {
-                return this.listAgencyIDField;
+                return listAgencyIDField;
             }
             set {
-                this.listAgencyIDField = value;
+                listAgencyIDField = value;
             }
         }
     
@@ -152,10 +152,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string listAgencyName {
             get {
-                return this.listAgencyNameField;
+                return listAgencyNameField;
             }
             set {
-                this.listAgencyNameField = value;
+                listAgencyNameField = value;
             }
         }
     
@@ -163,10 +163,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string listName {
             get {
-                return this.listNameField;
+                return listNameField;
             }
             set {
-                this.listNameField = value;
+                listNameField = value;
             }
         }
     
@@ -174,10 +174,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string listVersionID {
             get {
-                return this.listVersionIDField;
+                return listVersionIDField;
             }
             set {
-                this.listVersionIDField = value;
+                listVersionIDField = value;
             }
         }
     
@@ -185,10 +185,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
@@ -196,10 +196,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
         public string languageID {
             get {
-                return this.languageIDField;
+                return languageIDField;
             }
             set {
-                this.languageIDField = value;
+                languageIDField = value;
             }
         }
     
@@ -207,10 +207,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string listURI {
             get {
-                return this.listURIField;
+                return listURIField;
             }
             set {
-                this.listURIField = value;
+                listURIField = value;
             }
         }
     
@@ -218,10 +218,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string listSchemeURI {
             get {
-                return this.listSchemeURIField;
+                return listSchemeURIField;
             }
             set {
-                this.listSchemeURIField = value;
+                listSchemeURIField = value;
             }
         }
     
@@ -229,10 +229,10 @@
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

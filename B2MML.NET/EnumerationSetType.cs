@@ -17,10 +17,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Enumeration")]
         public EnumerationType[] Enumeration {
             get {
-                return this.enumerationField;
+                return enumerationField;
             }
             set {
-                this.enumerationField = value;
+                enumerationField = value;
             }
         }
     }

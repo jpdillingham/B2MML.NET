@@ -13,20 +13,20 @@
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
             get {
-                return this.physicalAssetClassIDField;
+                return physicalAssetClassIDField;
             }
             set {
-                this.physicalAssetClassIDField = value;
+                physicalAssetClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
             get {
-                return this.propertyIDField;
+                return propertyIDField;
             }
             set {
-                this.propertyIDField = value;
+                propertyIDField = value;
             }
         }
     }

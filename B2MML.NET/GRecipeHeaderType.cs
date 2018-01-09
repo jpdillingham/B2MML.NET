@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=0)]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
         public IdentifierType DerivedFromID {
             get {
-                return this.derivedFromIDField;
+                return derivedFromIDField;
             }
             set {
-                this.derivedFromIDField = value;
+                derivedFromIDField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductID", Order=2)]
         public IdentifierType[] ProductID {
             get {
-                return this.productIDField;
+                return productIDField;
             }
             set {
-                this.productIDField = value;
+                productIDField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=3)]
         public DescriptionType[] Description1 {
             get {
-                return this.description1Field;
+                return description1Field;
             }
             set {
-                this.description1Field = value;
+                description1Field = value;
             }
         }
     
@@ -72,10 +72,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductName", Order=4)]
         public NameType[] ProductName {
             get {
-                return this.productNameField;
+                return productNameField;
             }
             set {
-                this.productNameField = value;
+                productNameField = value;
             }
         }
     
@@ -83,10 +83,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchSize", Order=5)]
         public ValueType[] BatchSize {
             get {
-                return this.batchSizeField;
+                return batchSizeField;
             }
             set {
-                this.batchSizeField = value;
+                batchSizeField = value;
             }
         }
     
@@ -94,10 +94,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public DateTimeType EffectiveDate {
             get {
-                return this.effectiveDateField;
+                return effectiveDateField;
             }
             set {
-                this.effectiveDateField = value;
+                effectiveDateField = value;
             }
         }
     
@@ -105,10 +105,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public DateTimeType ExpirationDate {
             get {
-                return this.expirationDateField;
+                return expirationDateField;
             }
             set {
-                this.expirationDateField = value;
+                expirationDateField = value;
             }
         }
     
@@ -116,10 +116,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public HeaderPropertyType HeaderProperty {
             get {
-                return this.headerPropertyField;
+                return headerPropertyField;
             }
             set {
-                this.headerPropertyField = value;
+                headerPropertyField = value;
             }
         }
     }

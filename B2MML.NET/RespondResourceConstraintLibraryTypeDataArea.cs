@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return this.resourceConstraintLibraryField;
+                return resourceConstraintLibraryField;
             }
             set {
-                this.resourceConstraintLibraryField = value;
+                resourceConstraintLibraryField = value;
             }
         }
     }

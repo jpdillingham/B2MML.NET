@@ -16,10 +16,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ActionCriteria")]
         public TransActionCriteriaType[] ActionCriteria {
             get {
-                return this.actionCriteriaField;
+                return actionCriteriaField;
             }
             set {
-                this.actionCriteriaField = value;
+                actionCriteriaField = value;
             }
         }
     
@@ -27,10 +27,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public TransResponseCodeType responseCode {
             get {
-                return this.responseCodeField;
+                return responseCodeField;
             }
             set {
-                this.responseCodeField = value;
+                responseCodeField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool responseCodeSpecified {
             get {
-                return this.responseCodeFieldSpecified;
+                return responseCodeFieldSpecified;
             }
             set {
-                this.responseCodeFieldSpecified = value;
+                responseCodeFieldSpecified = value;
             }
         }
     }

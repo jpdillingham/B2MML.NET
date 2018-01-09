@@ -17,20 +17,20 @@
         /// <remarks/>
         public EnumerationNumberType EnumerationNumber {
             get {
-                return this.enumerationNumberField;
+                return enumerationNumberField;
             }
             set {
-                this.enumerationNumberField = value;
+                enumerationNumberField = value;
             }
         }
     
         /// <remarks/>
         public EnumerationStringType EnumerationString {
             get {
-                return this.enumerationStringField;
+                return enumerationStringField;
             }
             set {
-                this.enumerationStringField = value;
+                enumerationStringField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

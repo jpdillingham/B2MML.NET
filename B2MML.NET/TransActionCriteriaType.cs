@@ -14,20 +14,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ActionExpression")]
         public TransExpressionType[] ActionExpression {
             get {
-                return this.actionExpressionField;
+                return actionExpressionField;
             }
             set {
-                this.actionExpressionField = value;
+                actionExpressionField = value;
             }
         }
     
         /// <remarks/>
         public TransChangeStatusType ChangeStatus {
             get {
-                return this.changeStatusField;
+                return changeStatusField;
             }
             set {
-                this.changeStatusField = value;
+                changeStatusField = value;
             }
         }
     }

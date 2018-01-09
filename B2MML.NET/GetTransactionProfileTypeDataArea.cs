@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return this.getField;
+                return getField;
             }
             set {
-                this.getField = value;
+                getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TransactionProfile")]
         public TransactionProfileType[] TransactionProfile {
             get {
-                return this.transactionProfileField;
+                return transactionProfileField;
             }
             set {
-                this.transactionProfileField = value;
+                transactionProfileField = value;
             }
         }
     }

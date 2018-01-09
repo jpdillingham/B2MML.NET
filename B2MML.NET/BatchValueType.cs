@@ -24,40 +24,40 @@
         [System.Xml.Serialization.XmlElementAttribute("ValueString")]
         public ValueStringType[] ValueString {
             get {
-                return this.valueStringField;
+                return valueStringField;
             }
             set {
-                this.valueStringField = value;
+                valueStringField = value;
             }
         }
     
         /// <remarks/>
         public DataInterpretationType DataInterpretation {
             get {
-                return this.dataInterpretationField;
+                return dataInterpretationField;
             }
             set {
-                this.dataInterpretationField = value;
+                dataInterpretationField = value;
             }
         }
     
         /// <remarks/>
         public DataTypeType DataType {
             get {
-                return this.dataTypeField;
+                return dataTypeField;
             }
             set {
-                this.dataTypeField = value;
+                dataTypeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return this.unitOfMeasureField;
+                return unitOfMeasureField;
             }
             set {
-                this.unitOfMeasureField = value;
+                unitOfMeasureField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSetID")]
         public EnumerationSetIDType[] EnumerationSetID {
             get {
-                return this.enumerationSetIDField;
+                return enumerationSetIDField;
             }
             set {
-                this.enumerationSetIDField = value;
+                enumerationSetIDField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string[] Text {
             get {
-                return this.textField;
+                return textField;
             }
             set {
-                this.textField = value;
+                textField = value;
             }
         }
     }

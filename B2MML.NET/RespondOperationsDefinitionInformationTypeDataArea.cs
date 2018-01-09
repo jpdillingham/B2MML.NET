@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return this.respondField;
+                return respondField;
             }
             set {
-                this.respondField = value;
+                respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
             get {
-                return this.operationsDefinitionInformationField;
+                return operationsDefinitionInformationField;
             }
             set {
-                this.operationsDefinitionInformationField = value;
+                operationsDefinitionInformationField = value;
             }
         }
     }

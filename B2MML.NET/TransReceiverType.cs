@@ -15,20 +15,20 @@
         /// <remarks/>
         public IdentifierType LogicalID {
             get {
-                return this.logicalIDField;
+                return logicalIDField;
             }
             set {
-                this.logicalIDField = value;
+                logicalIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
             get {
-                return this.componentIDField;
+                return componentIDField;
             }
             set {
-                this.componentIDField = value;
+                componentIDField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ID")]
         public IdentifierType[] ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     }

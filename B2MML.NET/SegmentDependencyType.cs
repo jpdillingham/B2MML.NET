@@ -19,10 +19,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public DependencyType Dependency {
             get {
-                return this.dependencyField;
+                return dependencyField;
             }
             set {
-                this.dependencyField = value;
+                dependencyField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TimingFactor")]
         public ValueType[] TimingFactor {
             get {
-                return this.timingFactorField;
+                return timingFactorField;
             }
             set {
-                this.timingFactorField = value;
+                timingFactorField = value;
             }
         }
     
@@ -64,10 +64,10 @@
          System.Xml.Serialization.XmlElementAttribute("SegmentID", typeof(IdentifierType))]
         public IdentifierType[] Items {
             get {
-                return this.itemsField;
+                return itemsField;
             }
             set {
-                this.itemsField = value;
+                itemsField = value;
             }
         }
     }

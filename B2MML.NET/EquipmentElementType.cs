@@ -31,10 +31,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -42,10 +42,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -53,20 +53,20 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementType")]
         public EquipmentElementTypeType EquipmentElementType1 {
             get {
-                return this.equipmentElementType1Field;
+                return equipmentElementType1Field;
             }
             set {
-                this.equipmentElementType1Field = value;
+                equipmentElementType1Field = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return this.equipmentElementLevelField;
+                return equipmentElementLevelField;
             }
             set {
-                this.equipmentElementLevelField = value;
+                equipmentElementLevelField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ClassInstanceAssociation")]
         public ClassInstanceAssociationType[] ClassInstanceAssociation {
             get {
-                return this.classInstanceAssociationField;
+                return classInstanceAssociationField;
             }
             set {
-                this.classInstanceAssociationField = value;
+                classInstanceAssociationField = value;
             }
         }
     
@@ -85,10 +85,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public EquipmentElementPropertyType[] Property {
             get {
-                return this.propertyField;
+                return propertyField;
             }
             set {
-                this.propertyField = value;
+                propertyField = value;
             }
         }
     
@@ -96,10 +96,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementClass")]
         public EquipmentProceduralElementClassType[] EquipmentProceduralElementClass {
             get {
-                return this.equipmentProceduralElementClassField;
+                return equipmentProceduralElementClassField;
             }
             set {
-                this.equipmentProceduralElementClassField = value;
+                equipmentProceduralElementClassField = value;
             }
         }
     
@@ -107,10 +107,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElement")]
         public EquipmentProceduralElementType[] EquipmentProceduralElement {
             get {
-                return this.equipmentProceduralElementField;
+                return equipmentProceduralElementField;
             }
             set {
-                this.equipmentProceduralElementField = value;
+                equipmentProceduralElementField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentConnection")]
         public EquipmentConnectionType[] EquipmentConnection {
             get {
-                return this.equipmentConnectionField;
+                return equipmentConnectionField;
             }
             set {
-                this.equipmentConnectionField = value;
+                equipmentConnectionField = value;
             }
         }
     
@@ -130,10 +130,10 @@
          System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
         public object[] Items {
             get {
-                return this.itemsField;
+                return itemsField;
             }
             set {
-                this.itemsField = value;
+                itemsField = value;
             }
         }
     }

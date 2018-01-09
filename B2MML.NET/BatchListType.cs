@@ -17,10 +17,10 @@
         /// <remarks/>
         public ListHeaderType ListHeader {
             get {
-                return this.listHeaderField;
+                return listHeaderField;
             }
             set {
-                this.listHeaderField = value;
+                listHeaderField = value;
             }
         }
     
@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
         public BatchListEntryType[] BatchListEntry {
             get {
-                return this.batchListEntryField;
+                return batchListEntryField;
             }
             set {
-                this.batchListEntryField = value;
+                batchListEntryField = value;
             }
         }
     }

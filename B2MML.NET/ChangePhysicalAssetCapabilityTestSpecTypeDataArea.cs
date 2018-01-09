@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return this.changeField;
+                return changeField;
             }
             set {
-                this.changeField = value;
+                changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
             get {
-                return this.physicalAssetCapabilityTestSpecField;
+                return physicalAssetCapabilityTestSpecField;
             }
             set {
-                this.physicalAssetCapabilityTestSpecField = value;
+                physicalAssetCapabilityTestSpecField = value;
             }
         }
     }

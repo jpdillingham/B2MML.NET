@@ -21,10 +21,10 @@
         /// <remarks/>
         public TransSenderType Sender {
             get {
-                return this.senderField;
+                return senderField;
             }
             set {
-                this.senderField = value;
+                senderField = value;
             }
         }
     
@@ -32,50 +32,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Receiver")]
         public TransReceiverType[] Receiver {
             get {
-                return this.receiverField;
+                return receiverField;
             }
             set {
-                this.receiverField = value;
+                receiverField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType CreationDateTime {
             get {
-                return this.creationDateTimeField;
+                return creationDateTimeField;
             }
             set {
-                this.creationDateTimeField = value;
+                creationDateTimeField = value;
             }
         }
     
         /// <remarks/>
         public TransSignatureType Signature {
             get {
-                return this.signatureField;
+                return signatureField;
             }
             set {
-                this.signatureField = value;
+                signatureField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType BODID {
             get {
-                return this.bODIDField;
+                return bODIDField;
             }
             set {
-                this.bODIDField = value;
+                bODIDField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return this.userAreaField;
+                return userAreaField;
             }
             set {
-                this.userAreaField = value;
+                userAreaField = value;
             }
         }
     }

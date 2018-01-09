@@ -12,10 +12,10 @@
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
             get {
-                return this.anyField;
+                return anyField;
             }
             set {
-                this.anyField = value;
+                anyField = value;
             }
         }
     }

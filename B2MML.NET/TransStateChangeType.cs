@@ -21,30 +21,30 @@
         /// <remarks/>
         public CodeType FromStateCode {
             get {
-                return this.fromStateCodeField;
+                return fromStateCodeField;
             }
             set {
-                this.fromStateCodeField = value;
+                fromStateCodeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType ToStateCode {
             get {
-                return this.toStateCodeField;
+                return toStateCodeField;
             }
             set {
-                this.toStateCodeField = value;
+                toStateCodeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType ChangeDateTime {
             get {
-                return this.changeDateTimeField;
+                return changeDateTimeField;
             }
             set {
-                this.changeDateTimeField = value;
+                changeDateTimeField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -63,20 +63,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
             get {
-                return this.noteField;
+                return noteField;
             }
             set {
-                this.noteField = value;
+                noteField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return this.userAreaField;
+                return userAreaField;
             }
             set {
-                this.userAreaField = value;
+                userAreaField = value;
             }
         }
     }

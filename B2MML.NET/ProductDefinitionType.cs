@@ -33,20 +33,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -54,70 +54,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public ProductProductionRuleType ProductProductionRule {
             get {
-                return this.productProductionRuleField;
+                return productProductionRuleField;
             }
             set {
-                this.productProductionRuleField = value;
+                productProductionRuleField = value;
             }
         }
     
         /// <remarks/>
         public BillOfMaterialsIDType BillOfMaterialsID {
             get {
-                return this.billOfMaterialsIDField;
+                return billOfMaterialsIDField;
             }
             set {
-                this.billOfMaterialsIDField = value;
+                billOfMaterialsIDField = value;
             }
         }
     
         /// <remarks/>
         public BillOfResourcesIDType BillOfResourcesID {
             get {
-                return this.billOfResourcesIDField;
+                return billOfResourcesIDField;
             }
             set {
-                this.billOfResourcesIDField = value;
+                billOfResourcesIDField = value;
             }
         }
     
@@ -125,10 +125,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ManufacturingBill")]
         public ManufacturingBillType[] ManufacturingBill {
             get {
-                return this.manufacturingBillField;
+                return manufacturingBillField;
             }
             set {
-                this.manufacturingBillField = value;
+                manufacturingBillField = value;
             }
         }
     
@@ -136,10 +136,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductSegment")]
         public ProductSegmentType[] ProductSegment {
             get {
-                return this.productSegmentField;
+                return productSegmentField;
             }
             set {
-                this.productSegmentField = value;
+                productSegmentField = value;
             }
         }
     }

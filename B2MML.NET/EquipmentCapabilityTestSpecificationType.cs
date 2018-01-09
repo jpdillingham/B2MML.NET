@@ -25,10 +25,10 @@
         /// <remarks/>
         public NameType Name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
@@ -36,40 +36,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentProperty")]
         public TestedEquipmentPropertyType[] TestedEquipmentProperty {
             get {
-                return this.testedEquipmentPropertyField;
+                return testedEquipmentPropertyField;
             }
             set {
-                this.testedEquipmentPropertyField = value;
+                testedEquipmentPropertyField = value;
             }
         }
     
@@ -88,10 +88,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentClassProperty")]
         public TestedEquipmentClassPropertyType[] TestedEquipmentClassProperty {
             get {
-                return this.testedEquipmentClassPropertyField;
+                return testedEquipmentClassPropertyField;
             }
             set {
-                this.testedEquipmentClassPropertyField = value;
+                testedEquipmentClassPropertyField = value;
             }
         }
     }

@@ -27,40 +27,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -68,20 +68,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType RecordReference {
             get {
-                return this.recordReferenceField;
+                return recordReferenceField;
             }
             set {
-                this.recordReferenceField = value;
+                recordReferenceField = value;
             }
         }
     
@@ -89,30 +89,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Name")]
         public NameType[] Name {
             get {
-                return this.nameField;
+                return nameField;
             }
             set {
-                this.nameField = value;
+                nameField = value;
             }
         }
     
         /// <remarks/>
         public string ChangeIndication {
             get {
-                return this.changeIndicationField;
+                return changeIndicationField;
             }
             set {
-                this.changeIndicationField = value;
+                changeIndicationField = value;
             }
         }
     
         /// <remarks/>
         public TextType Reason {
             get {
-                return this.reasonField;
+                return reasonField;
             }
             set {
-                this.reasonField = value;
+                reasonField = value;
             }
         }
     }

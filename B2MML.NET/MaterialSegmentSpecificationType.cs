@@ -29,30 +29,30 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public MaterialClassIDType MaterialClassID {
             get {
-                return this.materialClassIDField;
+                return materialClassIDField;
             }
             set {
-                this.materialClassIDField = value;
+                materialClassIDField = value;
             }
         }
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
             get {
-                return this.materialDefinitionIDField;
+                return materialDefinitionIDField;
             }
             set {
-                this.materialDefinitionIDField = value;
+                materialDefinitionIDField = value;
             }
         }
     
@@ -60,30 +60,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return this.assemblyTypeField;
+                return assemblyTypeField;
             }
             set {
-                this.assemblyTypeField = value;
+                assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return this.assemblyRelationshipField;
+                return assemblyRelationshipField;
             }
             set {
-                this.assemblyRelationshipField = value;
+                assemblyRelationshipField = value;
             }
         }
     
@@ -91,20 +91,20 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblySpecificationID")]
         public IdentifierType[] AssemblySpecificationID {
             get {
-                return this.assemblySpecificationIDField;
+                return assemblySpecificationIDField;
             }
             set {
-                this.assemblySpecificationIDField = value;
+                assemblySpecificationIDField = value;
             }
         }
     
         /// <remarks/>
         public MaterialUseType MaterialUse {
             get {
-                return this.materialUseField;
+                return materialUseField;
             }
             set {
-                this.materialUseField = value;
+                materialUseField = value;
             }
         }
     
@@ -112,10 +112,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSegmentSpecificationProperty")]
         public MaterialSegmentSpecificationPropertyType[] MaterialSegmentSpecificationProperty {
             get {
-                return this.materialSegmentSpecificationPropertyField;
+                return materialSegmentSpecificationPropertyField;
             }
             set {
-                this.materialSegmentSpecificationPropertyField = value;
+                materialSegmentSpecificationPropertyField = value;
             }
         }
     }

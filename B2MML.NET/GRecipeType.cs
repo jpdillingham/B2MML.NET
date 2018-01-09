@@ -29,10 +29,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -51,50 +51,50 @@
         [System.Xml.Serialization.XmlElementAttribute("GRecipeType")]
         public GRecipeTypeType GRecipeType1 {
             get {
-                return this.gRecipeType1Field;
+                return gRecipeType1Field;
             }
             set {
-                this.gRecipeType1Field = value;
+                gRecipeType1Field = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return this.lifeCycleStateField;
+                return lifeCycleStateField;
             }
             set {
-                this.lifeCycleStateField = value;
+                lifeCycleStateField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeHeaderType Header {
             get {
-                return this.headerField;
+                return headerField;
             }
             set {
-                this.headerField = value;
+                headerField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeFormulaType Formula {
             get {
-                return this.formulaField;
+                return formulaField;
             }
             set {
-                this.formulaField = value;
+                formulaField = value;
             }
         }
     
         /// <remarks/>
         public ProcessElementType ProcessProcedure {
             get {
-                return this.processProcedureField;
+                return processProcedureField;
             }
             set {
-                this.processProcedureField = value;
+                processProcedureField = value;
             }
         }
     
@@ -102,10 +102,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
         public ResourceConstraintType[] ResourceConstraint {
             get {
-                return this.resourceConstraintField;
+                return resourceConstraintField;
             }
             set {
-                this.resourceConstraintField = value;
+                resourceConstraintField = value;
             }
         }
     
@@ -113,10 +113,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public GROtherInformationType[] OtherInformation {
             get {
-                return this.otherInformationField;
+                return otherInformationField;
             }
             set {
-                this.otherInformationField = value;
+                otherInformationField = value;
             }
         }
     }

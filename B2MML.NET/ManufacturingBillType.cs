@@ -27,40 +27,40 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public MaterialClassIDType MaterialClassID {
             get {
-                return this.materialClassIDField;
+                return materialClassIDField;
             }
             set {
-                this.materialClassIDField = value;
+                materialClassIDField = value;
             }
         }
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
             get {
-                return this.materialDefinitionIDField;
+                return materialDefinitionIDField;
             }
             set {
-                this.materialDefinitionIDField = value;
+                materialDefinitionIDField = value;
             }
         }
     
@@ -68,10 +68,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -79,40 +79,40 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyManufacturingBill")]
         public ManufacturingBillType[] AssemblyManufacturingBill {
             get {
-                return this.assemblyManufacturingBillField;
+                return assemblyManufacturingBillField;
             }
             set {
-                this.assemblyManufacturingBillField = value;
+                assemblyManufacturingBillField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return this.assemblyTypeField;
+                return assemblyTypeField;
             }
             set {
-                this.assemblyTypeField = value;
+                assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return this.assemblyRelationshipField;
+                return assemblyRelationshipField;
             }
             set {
-                this.assemblyRelationshipField = value;
+                assemblyRelationshipField = value;
             }
         }
     
         /// <remarks/>
         public BillOfMaterialIDType BillOfMaterialID {
             get {
-                return this.billOfMaterialIDField;
+                return billOfMaterialIDField;
             }
             set {
-                this.billOfMaterialIDField = value;
+                billOfMaterialIDField = value;
             }
         }
     }

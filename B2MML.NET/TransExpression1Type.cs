@@ -13,10 +13,10 @@
         [System.Xml.Serialization.XmlTextAttribute(DataType="token")]
         public string Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

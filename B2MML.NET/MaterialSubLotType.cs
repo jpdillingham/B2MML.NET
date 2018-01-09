@@ -39,10 +39,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -50,40 +50,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StatusType Status {
             get {
-                return this.statusField;
+                return statusField;
             }
             set {
-                this.statusField = value;
+                statusField = value;
             }
         }
     
@@ -91,20 +91,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSublotProperty")]
         public MaterialLotPropertyType[] MaterialSublotProperty {
             get {
-                return this.materialSublotPropertyField;
+                return materialSublotPropertyField;
             }
             set {
-                this.materialSublotPropertyField = value;
+                materialSublotPropertyField = value;
             }
         }
     
         /// <remarks/>
         public StorageHierarchyScopeType StorageLocation {
             get {
-                return this.storageLocationField;
+                return storageLocationField;
             }
             set {
-                this.storageLocationField = value;
+                storageLocationField = value;
             }
         }
     
@@ -112,10 +112,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -123,20 +123,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return this.materialSubLotField;
+                return materialSubLotField;
             }
             set {
-                this.materialSubLotField = value;
+                materialSubLotField = value;
             }
         }
     
         /// <remarks/>
         public MaterialLotIDType MaterialLotID {
             get {
-                return this.materialLotIDField;
+                return materialLotIDField;
             }
             set {
-                this.materialLotIDField = value;
+                materialLotIDField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyLotID")]
         public MaterialLotType[] AssemblyLotID {
             get {
-                return this.assemblyLotIDField;
+                return assemblyLotIDField;
             }
             set {
-                this.assemblyLotIDField = value;
+                assemblyLotIDField = value;
             }
         }
     
@@ -155,30 +155,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblySubLotID")]
         public MaterialSubLotType[] AssemblySubLotID {
             get {
-                return this.assemblySubLotIDField;
+                return assemblySubLotIDField;
             }
             set {
-                this.assemblySubLotIDField = value;
+                assemblySubLotIDField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return this.assemblyTypeField;
+                return assemblyTypeField;
             }
             set {
-                this.assemblyTypeField = value;
+                assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return this.assemblyRelationshipField;
+                return assemblyRelationshipField;
             }
             set {
-                this.assemblyRelationshipField = value;
+                assemblyRelationshipField = value;
             }
         }
     }

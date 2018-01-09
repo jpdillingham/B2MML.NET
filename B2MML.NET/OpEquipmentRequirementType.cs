@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
         public EquipmentClassIDType[] EquipmentClassID {
             get {
-                return this.equipmentClassIDField;
+                return equipmentClassIDField;
             }
             set {
-                this.equipmentClassIDField = value;
+                equipmentClassIDField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -50,20 +50,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentUseType EquipmentUse {
             get {
-                return this.equipmentUseField;
+                return equipmentUseField;
             }
             set {
-                this.equipmentUseField = value;
+                equipmentUseField = value;
             }
         }
     
@@ -71,30 +71,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
             get {
-                return this.equipmentLevelField;
+                return equipmentLevelField;
             }
             set {
-                this.equipmentLevelField = value;
+                equipmentLevelField = value;
             }
         }
     
@@ -102,20 +102,20 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirementProperty")]
         public OpEquipmentRequirementPropertyType[] EquipmentRequirementProperty {
             get {
-                return this.equipmentRequirementPropertyField;
+                return equipmentRequirementPropertyField;
             }
             set {
-                this.equipmentRequirementPropertyField = value;
+                equipmentRequirementPropertyField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return this.requiredByRequestedSegmentResponseField;
+                return requiredByRequestedSegmentResponseField;
             }
             set {
-                this.requiredByRequestedSegmentResponseField = value;
+                requiredByRequestedSegmentResponseField = value;
             }
         }
     }

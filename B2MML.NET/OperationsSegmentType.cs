@@ -35,40 +35,40 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return this.operationsTypeField;
+                return operationsTypeField;
             }
             set {
-                this.operationsTypeField = value;
+                operationsTypeField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return this.durationField;
+                return durationField;
             }
             set {
-                this.durationField = value;
+                durationField = value;
             }
         }
     
@@ -87,10 +87,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID")]
         public ProcessSegmentIDType[] ProcessSegmentID {
             get {
-                return this.processSegmentIDField;
+                return processSegmentIDField;
             }
             set {
-                this.processSegmentIDField = value;
+                processSegmentIDField = value;
             }
         }
     
@@ -98,10 +98,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     
@@ -109,10 +109,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
         public OpPersonnelSpecificationType[] PersonnelSpecification {
             get {
-                return this.personnelSpecificationField;
+                return personnelSpecificationField;
             }
             set {
-                this.personnelSpecificationField = value;
+                personnelSpecificationField = value;
             }
         }
     
@@ -120,10 +120,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
         public OpEquipmentSpecificationType[] EquipmentSpecification {
             get {
-                return this.equipmentSpecificationField;
+                return equipmentSpecificationField;
             }
             set {
-                this.equipmentSpecificationField = value;
+                equipmentSpecificationField = value;
             }
         }
     
@@ -131,10 +131,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
         public OpPhysicalAssetSpecificationType[] PhysicalAssetSpecification {
             get {
-                return this.physicalAssetSpecificationField;
+                return physicalAssetSpecificationField;
             }
             set {
-                this.physicalAssetSpecificationField = value;
+                physicalAssetSpecificationField = value;
             }
         }
     
@@ -142,10 +142,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
         public OpMaterialSpecificationType[] MaterialSpecification {
             get {
-                return this.materialSpecificationField;
+                return materialSpecificationField;
             }
             set {
-                this.materialSpecificationField = value;
+                materialSpecificationField = value;
             }
         }
     
@@ -153,10 +153,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentDependency")]
         public SegmentDependencyType[] SegmentDependency {
             get {
-                return this.segmentDependencyField;
+                return segmentDependencyField;
             }
             set {
-                this.segmentDependencyField = value;
+                segmentDependencyField = value;
             }
         }
     
@@ -164,10 +164,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
         public OperationsSegmentType[] OperationsSegment {
             get {
-                return this.operationsSegmentField;
+                return operationsSegmentField;
             }
             set {
-                this.operationsSegmentField = value;
+                operationsSegmentField = value;
             }
         }
     }

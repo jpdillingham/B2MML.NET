@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return this.processField;
+                return processField;
             }
             set {
-                this.processField = value;
+                processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return this.resourceConstraintLibraryField;
+                return resourceConstraintLibraryField;
             }
             set {
-                this.resourceConstraintLibraryField = value;
+                resourceConstraintLibraryField = value;
             }
         }
     }

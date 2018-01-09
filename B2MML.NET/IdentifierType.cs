@@ -100,10 +100,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemeID {
             get {
-                return this.schemeIDField;
+                return schemeIDField;
             }
             set {
-                this.schemeIDField = value;
+                schemeIDField = value;
             }
         }
     
@@ -111,10 +111,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string schemeName {
             get {
-                return this.schemeNameField;
+                return schemeNameField;
             }
             set {
-                this.schemeNameField = value;
+                schemeNameField = value;
             }
         }
     
@@ -122,10 +122,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemeAgencyID {
             get {
-                return this.schemeAgencyIDField;
+                return schemeAgencyIDField;
             }
             set {
-                this.schemeAgencyIDField = value;
+                schemeAgencyIDField = value;
             }
         }
     
@@ -133,10 +133,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string schemeAgencyName {
             get {
-                return this.schemeAgencyNameField;
+                return schemeAgencyNameField;
             }
             set {
-                this.schemeAgencyNameField = value;
+                schemeAgencyNameField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string schemeVersionID {
             get {
-                return this.schemeVersionIDField;
+                return schemeVersionIDField;
             }
             set {
-                this.schemeVersionIDField = value;
+                schemeVersionIDField = value;
             }
         }
     
@@ -155,10 +155,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string schemeDataURI {
             get {
-                return this.schemeDataURIField;
+                return schemeDataURIField;
             }
             set {
-                this.schemeDataURIField = value;
+                schemeDataURIField = value;
             }
         }
     
@@ -166,10 +166,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string schemeURI {
             get {
-                return this.schemeURIField;
+                return schemeURIField;
             }
             set {
-                this.schemeURIField = value;
+                schemeURIField = value;
             }
         }
     
@@ -177,10 +177,10 @@
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

@@ -15,10 +15,10 @@
         /// <remarks/>
         public IdentifierType OtherInfoID {
             get {
-                return this.otherInfoIDField;
+                return otherInfoIDField;
             }
             set {
-                this.otherInfoIDField = value;
+                otherInfoIDField = value;
             }
         }
     
@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherValue")]
         public ValueType[] OtherValue {
             get {
-                return this.otherValueField;
+                return otherValueField;
             }
             set {
-                this.otherValueField = value;
+                otherValueField = value;
             }
         }
     }

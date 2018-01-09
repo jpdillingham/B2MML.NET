@@ -33,20 +33,20 @@
         /// <remarks/>
         public EquipmentClassIDType EquipmentClassID {
             get {
-                return this.equipmentClassIDField;
+                return equipmentClassIDField;
             }
             set {
-                this.equipmentClassIDField = value;
+                equipmentClassIDField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -54,30 +54,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return this.capabilityTypeField;
+                return capabilityTypeField;
             }
             set {
-                this.capabilityTypeField = value;
+                capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return this.reasonField;
+                return reasonField;
             }
             set {
-                this.reasonField = value;
+                reasonField = value;
             }
         }
     
@@ -85,50 +85,50 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
         public EquipmentElementLevelType[] EquipmentElementLevel {
             get {
-                return this.equipmentElementLevelField;
+                return equipmentElementLevelField;
             }
             set {
-                this.equipmentElementLevelField = value;
+                equipmentElementLevelField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
@@ -136,10 +136,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -147,10 +147,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityProperty")]
         public EquipmentCapabilityPropertyType[] EquipmentCapabilityProperty {
             get {
-                return this.equipmentCapabilityPropertyField;
+                return equipmentCapabilityPropertyField;
             }
             set {
-                this.equipmentCapabilityPropertyField = value;
+                equipmentCapabilityPropertyField = value;
             }
         }
     }

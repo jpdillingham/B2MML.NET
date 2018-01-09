@@ -21,20 +21,20 @@
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
             get {
-                return this.personnelClassIDField;
+                return personnelClassIDField;
             }
             set {
-                this.personnelClassIDField = value;
+                personnelClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PersonIDType PersonID {
             get {
-                return this.personIDField;
+                return personIDField;
             }
             set {
-                this.personIDField = value;
+                personIDField = value;
             }
         }
     
@@ -42,20 +42,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CodeType PersonnelUse {
             get {
-                return this.personnelUseField;
+                return personnelUseField;
             }
             set {
-                this.personnelUseField = value;
+                personnelUseField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSegmentSpecificationProperty")]
         public PersonnelSegmentSpecificationPropertyType[] PersonnelSegmentSpecificationProperty {
             get {
-                return this.personnelSegmentSpecificationPropertyField;
+                return personnelSegmentSpecificationPropertyField;
             }
             set {
-                this.personnelSegmentSpecificationPropertyField = value;
+                personnelSegmentSpecificationPropertyField = value;
             }
         }
     }

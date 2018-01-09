@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return this.processField;
+                return processField;
             }
             set {
-                this.processField = value;
+                processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpec")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpec {
             get {
-                return this.equipmentCapabilityTestSpecField;
+                return equipmentCapabilityTestSpecField;
             }
             set {
-                this.equipmentCapabilityTestSpecField = value;
+                equipmentCapabilityTestSpecField = value;
             }
         }
     }

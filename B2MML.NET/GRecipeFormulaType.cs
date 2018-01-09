@@ -20,40 +20,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessInputs {
             get {
-                return this.processInputsField;
+                return processInputsField;
             }
             set {
-                this.processInputsField = value;
+                processInputsField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessOutputs {
             get {
-                return this.processOutputsField;
+                return processOutputsField;
             }
             set {
-                this.processOutputsField = value;
+                processOutputsField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessIntermediates {
             get {
-                return this.processIntermediatesField;
+                return processIntermediatesField;
             }
             set {
-                this.processIntermediatesField = value;
+                processIntermediatesField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementParameter")]
         public ProcessElementParameterType[] ProcessElementParameter {
             get {
-                return this.processElementParameterField;
+                return processElementParameterField;
             }
             set {
-                this.processElementParameterField = value;
+                processElementParameterField = value;
             }
         }
     }

@@ -25,10 +25,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("FromID")]
         public FromIDType[] FromID {
             get {
-                return this.fromIDField;
+                return fromIDField;
             }
             set {
-                this.fromIDField = value;
+                fromIDField = value;
             }
         }
     
@@ -47,10 +47,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ToID")]
         public ToIDType[] ToID {
             get {
-                return this.toIDField;
+                return toIDField;
             }
             set {
-                this.toIDField = value;
+                toIDField = value;
             }
         }
     
@@ -58,30 +58,30 @@
         [System.Xml.Serialization.XmlElementAttribute("LinkType")]
         public LinkTypeType LinkType1 {
             get {
-                return this.linkType1Field;
+                return linkType1Field;
             }
             set {
-                this.linkType1Field = value;
+                linkType1Field = value;
             }
         }
     
         /// <remarks/>
         public DepictionType Depiction {
             get {
-                return this.depictionField;
+                return depictionField;
             }
             set {
-                this.depictionField = value;
+                depictionField = value;
             }
         }
     
         /// <remarks/>
         public EvaluationOrderType EvaluationOrder {
             get {
-                return this.evaluationOrderField;
+                return evaluationOrderField;
             }
             set {
-                this.evaluationOrderField = value;
+                evaluationOrderField = value;
             }
         }
     
@@ -89,10 +89,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

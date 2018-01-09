@@ -15,20 +15,20 @@
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
             get {
-                return this.applicationAreaField;
+                return applicationAreaField;
             }
             set {
-                this.applicationAreaField = value;
+                applicationAreaField = value;
             }
         }
     
         /// <remarks/>
         public CancelPersonnelInformationTypeDataArea DataArea {
             get {
-                return this.dataAreaField;
+                return dataAreaField;
             }
             set {
-                this.dataAreaField = value;
+                dataAreaField = value;
             }
         }
     }

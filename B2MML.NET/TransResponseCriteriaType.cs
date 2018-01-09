@@ -13,20 +13,20 @@
         /// <remarks/>
         public TransExpressionType ResponseExpression {
             get {
-                return this.responseExpressionField;
+                return responseExpressionField;
             }
             set {
-                this.responseExpressionField = value;
+                responseExpressionField = value;
             }
         }
     
         /// <remarks/>
         public TransChangeStatusType ChangeStatus {
             get {
-                return this.changeStatusField;
+                return changeStatusField;
             }
             set {
-                this.changeStatusField = value;
+                changeStatusField = value;
             }
         }
     }

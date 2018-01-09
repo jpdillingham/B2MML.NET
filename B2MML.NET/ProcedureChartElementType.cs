@@ -17,20 +17,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public TextType Label {
             get {
-                return this.labelField;
+                return labelField;
             }
             set {
-                this.labelField = value;
+                labelField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcedureChartElementType")]
         public ProcedureChartElementTypeType ProcedureChartElementType1 {
             get {
-                return this.procedureChartElementType1Field;
+                return procedureChartElementType1Field;
             }
             set {
-                this.procedureChartElementType1Field = value;
+                procedureChartElementType1Field = value;
             }
         }
     }

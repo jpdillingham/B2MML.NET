@@ -15,20 +15,20 @@
         /// <remarks/>
         public NumericType OrderIndex {
             get {
-                return this.orderIndexField;
+                return orderIndexField;
             }
             set {
-                this.orderIndexField = value;
+                orderIndexField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeValue {
             get {
-                return this.timeValueField;
+                return timeValueField;
             }
             set {
-                this.timeValueField = value;
+                timeValueField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DataValue")]
         public DataValueType[] DataValue {
             get {
-                return this.dataValueField;
+                return dataValueField;
             }
             set {
-                this.dataValueField = value;
+                dataValueField = value;
             }
         }
     }

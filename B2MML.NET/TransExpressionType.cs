@@ -14,10 +14,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string actionCode {
             get {
-                return this.actionCodeField;
+                return actionCodeField;
             }
             set {
-                this.actionCodeField = value;
+                actionCodeField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="token")]
         public string expressionLanguage {
             get {
-                return this.expressionLanguageField;
+                return expressionLanguageField;
             }
             set {
-                this.expressionLanguageField = value;
+                expressionLanguageField = value;
             }
         }
     }

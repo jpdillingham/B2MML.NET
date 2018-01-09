@@ -30,10 +30,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
         public ModificationLogType[] ModificationLog {
             get {
-                return this.modificationLogField;
+                return modificationLogField;
             }
             set {
-                this.modificationLogField = value;
+                modificationLogField = value;
             }
         }
     
@@ -41,60 +41,60 @@
         [System.Xml.Serialization.XmlElementAttribute("ApprovalHistory")]
         public ApprovalHistoryType[] ApprovalHistory {
             get {
-                return this.approvalHistoryField;
+                return approvalHistoryField;
             }
             set {
-                this.approvalHistoryField = value;
+                approvalHistoryField = value;
             }
         }
     
         /// <remarks/>
         public EffectiveDateType EffectiveDate {
             get {
-                return this.effectiveDateField;
+                return effectiveDateField;
             }
             set {
-                this.effectiveDateField = value;
+                effectiveDateField = value;
             }
         }
     
         /// <remarks/>
         public ExpirationDateType ExpirationDate {
             get {
-                return this.expirationDateField;
+                return expirationDateField;
             }
             set {
-                this.expirationDateField = value;
+                expirationDateField = value;
             }
         }
     
         /// <remarks/>
         public ProductIDType ProductID {
             get {
-                return this.productIDField;
+                return productIDField;
             }
             set {
-                this.productIDField = value;
+                productIDField = value;
             }
         }
     
         /// <remarks/>
         public ProductNameType ProductName {
             get {
-                return this.productNameField;
+                return productNameField;
             }
             set {
-                this.productNameField = value;
+                productNameField = value;
             }
         }
     
         /// <remarks/>
         public BatchSizeType BatchSize {
             get {
-                return this.batchSizeField;
+                return batchSizeField;
             }
             set {
-                this.batchSizeField = value;
+                batchSizeField = value;
             }
         }
     
@@ -102,20 +102,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ActualProductProduced")]
         public ActualProductProducedType[] ActualProductProduced {
             get {
-                return this.actualProductProducedField;
+                return actualProductProducedField;
             }
             set {
-                this.actualProductProducedField = value;
+                actualProductProducedField = value;
             }
         }
     
         /// <remarks/>
         public BatchStatusType Status {
             get {
-                return this.statusField;
+                return statusField;
             }
             set {
-                this.statusField = value;
+                statusField = value;
             }
         }
     }

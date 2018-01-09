@@ -15,10 +15,10 @@
         /// <remarks/>
         public NumericType TagIndex {
             get {
-                return this.tagIndexField;
+                return tagIndexField;
             }
             set {
-                this.tagIndexField = value;
+                tagIndexField = value;
             }
         }
     
@@ -26,20 +26,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public string[] Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Quality {
             get {
-                return this.qualityField;
+                return qualityField;
             }
             set {
-                this.qualityField = value;
+                qualityField = value;
             }
         }
     }

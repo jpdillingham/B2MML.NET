@@ -21,20 +21,20 @@
         /// <remarks/>
         public EquipmentClassIDType EquipmentClassID {
             get {
-                return this.equipmentClassIDField;
+                return equipmentClassIDField;
             }
             set {
-                this.equipmentClassIDField = value;
+                equipmentClassIDField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -42,20 +42,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CodeType EquipmentUse {
             get {
-                return this.equipmentUseField;
+                return equipmentUseField;
             }
             set {
-                this.equipmentUseField = value;
+                equipmentUseField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSegmentSpecificationProperty")]
         public EquipmentSegmentSpecificationPropertyType[] EquipmentSegmentSpecificationProperty {
             get {
-                return this.equipmentSegmentSpecificationPropertyField;
+                return equipmentSegmentSpecificationPropertyField;
             }
             set {
-                this.equipmentSegmentSpecificationPropertyField = value;
+                equipmentSegmentSpecificationPropertyField = value;
             }
         }
     }

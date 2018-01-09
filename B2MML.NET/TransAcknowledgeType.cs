@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
             get {
-                return this.originalApplicationAreaField;
+                return originalApplicationAreaField;
             }
             set {
-                this.originalApplicationAreaField = value;
+                originalApplicationAreaField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResponseCriteria")]
         public TransResponseCriteriaType[] ResponseCriteria {
             get {
-                return this.responseCriteriaField;
+                return responseCriteriaField;
             }
             set {
-                this.responseCriteriaField = value;
+                responseCriteriaField = value;
             }
         }
     }

@@ -39,40 +39,40 @@
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -80,20 +80,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType SampleSourceID {
             get {
-                return this.sampleSourceIDField;
+                return sampleSourceIDField;
             }
             set {
-                this.sampleSourceIDField = value;
+                sampleSourceIDField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SampleSize")]
         public QuantityValueType[] SampleSize {
             get {
-                return this.sampleSizeField;
+                return sampleSizeField;
             }
             set {
-                this.sampleSizeField = value;
+                sampleSizeField = value;
             }
         }
     
@@ -112,10 +112,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SampleType")]
         public CodeType[] SampleType1 {
             get {
-                return this.sampleType1Field;
+                return sampleType1Field;
             }
             set {
-                this.sampleType1Field = value;
+                sampleType1Field = value;
             }
         }
     
@@ -123,20 +123,20 @@
         [System.Xml.Serialization.XmlElementAttribute("SamplePullReason")]
         public TextType[] SamplePullReason {
             get {
-                return this.samplePullReasonField;
+                return samplePullReasonField;
             }
             set {
-                this.samplePullReasonField = value;
+                samplePullReasonField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType SampleExpiration {
             get {
-                return this.sampleExpirationField;
+                return sampleExpirationField;
             }
             set {
-                this.sampleExpirationField = value;
+                sampleExpirationField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
@@ -155,10 +155,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
@@ -166,10 +166,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProceduralElementReference")]
         public IdentifierType[] ProceduralElementReference {
             get {
-                return this.proceduralElementReferenceField;
+                return proceduralElementReferenceField;
             }
             set {
-                this.proceduralElementReferenceField = value;
+                proceduralElementReferenceField = value;
             }
         }
     
@@ -177,10 +177,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SOPReference")]
         public IdentifierType[] SOPReference {
             get {
-                return this.sOPReferenceField;
+                return sOPReferenceField;
             }
             set {
-                this.sOPReferenceField = value;
+                sOPReferenceField = value;
             }
         }
     
@@ -188,10 +188,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SampleTest")]
         public SampleTestType[] SampleTest {
             get {
-                return this.sampleTestField;
+                return sampleTestField;
             }
             set {
-                this.sampleTestField = value;
+                sampleTestField = value;
             }
         }
     }

@@ -17,20 +17,20 @@
         /// <remarks/>
         public CodeType AlarmEvent {
             get {
-                return this.alarmEventField;
+                return alarmEventField;
             }
             set {
-                this.alarmEventField = value;
+                alarmEventField = value;
             }
         }
     
         /// <remarks/>
         public CodeType AlarmType {
             get {
-                return this.alarmTypeField;
+                return alarmTypeField;
             }
             set {
-                this.alarmTypeField = value;
+                alarmTypeField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("AlarmLimit")]
         public ValueType[] AlarmLimit {
             get {
-                return this.alarmLimitField;
+                return alarmLimitField;
             }
             set {
-                this.alarmLimitField = value;
+                alarmLimitField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Priority")]
         public IdentifierType[] Priority {
             get {
-                return this.priorityField;
+                return priorityField;
             }
             set {
-                this.priorityField = value;
+                priorityField = value;
             }
         }
     }

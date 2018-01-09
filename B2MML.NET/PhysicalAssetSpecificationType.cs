@@ -19,20 +19,20 @@
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
             get {
-                return this.physicalAssetClassIDField;
+                return physicalAssetClassIDField;
             }
             set {
-                this.physicalAssetClassIDField = value;
+                physicalAssetClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return this.quantityField;
+                return quantityField;
             }
             set {
-                this.quantityField = value;
+                quantityField = value;
             }
         }
     
@@ -62,10 +62,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecificationProperty")]
         public PhysicalAssetSpecificationPropertyType[] PhysicalAssetSpecificationProperty {
             get {
-                return this.physicalAssetSpecificationPropertyField;
+                return physicalAssetSpecificationPropertyField;
             }
             set {
-                this.physicalAssetSpecificationPropertyField = value;
+                physicalAssetSpecificationPropertyField = value;
             }
         }
     }

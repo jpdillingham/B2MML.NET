@@ -17,10 +17,10 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Constraint")]
         public ConstraintType[] Constraint {
             get {
-                return this.constraintField;
+                return constraintField;
             }
             set {
-                this.constraintField = value;
+                constraintField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

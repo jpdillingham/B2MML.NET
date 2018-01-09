@@ -33,20 +33,20 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -54,70 +54,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return this.operationsTypeField;
+                return operationsTypeField;
             }
             set {
-                this.operationsTypeField = value;
+                operationsTypeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public BillOfMaterialsIDType BillOfMaterialsID {
             get {
-                return this.billOfMaterialsIDField;
+                return billOfMaterialsIDField;
             }
             set {
-                this.billOfMaterialsIDField = value;
+                billOfMaterialsIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType WorkDefinitionID {
             get {
-                return this.workDefinitionIDField;
+                return workDefinitionIDField;
             }
             set {
-                this.workDefinitionIDField = value;
+                workDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public BillOfResourcesIDType BillOfResourcesID {
             get {
-                return this.billOfResourcesIDField;
+                return billOfResourcesIDField;
             }
             set {
-                this.billOfResourcesIDField = value;
+                billOfResourcesIDField = value;
             }
         }
     
@@ -125,10 +125,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsMaterialBill")]
         public OperationsMaterialBillType[] OperationsMaterialBill {
             get {
-                return this.operationsMaterialBillField;
+                return operationsMaterialBillField;
             }
             set {
-                this.operationsMaterialBillField = value;
+                operationsMaterialBillField = value;
             }
         }
     
@@ -136,10 +136,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
         public OperationsSegmentType[] OperationsSegment {
             get {
-                return this.operationsSegmentField;
+                return operationsSegmentField;
             }
             set {
-                this.operationsSegmentField = value;
+                operationsSegmentField = value;
             }
         }
     }

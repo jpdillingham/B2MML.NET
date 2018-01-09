@@ -19,30 +19,30 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public RecipeElementIDType RecipeElementID {
             get {
-                return this.recipeElementIDField;
+                return recipeElementIDField;
             }
             set {
-                this.recipeElementIDField = value;
+                recipeElementIDField = value;
             }
         }
     
         /// <remarks/>
         public RecipeElementVersionType RecipeElementVersion {
             get {
-                return this.recipeElementVersionField;
+                return recipeElementVersionField;
             }
             set {
-                this.recipeElementVersionField = value;
+                recipeElementVersionField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

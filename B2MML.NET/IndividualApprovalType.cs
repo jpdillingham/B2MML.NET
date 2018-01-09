@@ -17,20 +17,20 @@
         /// <remarks/>
         public ApprovedByType ApprovedBy {
             get {
-                return this.approvedByField;
+                return approvedByField;
             }
             set {
-                this.approvedByField = value;
+                approvedByField = value;
             }
         }
     
         /// <remarks/>
         public ApprovalDateType ApprovalDate {
             get {
-                return this.approvalDateField;
+                return approvalDateField;
             }
             set {
-                this.approvalDateField = value;
+                approvalDateField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     }

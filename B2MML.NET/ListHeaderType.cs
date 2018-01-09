@@ -23,20 +23,20 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -44,30 +44,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public OriginType Origin {
             get {
-                return this.originField;
+                return originField;
             }
             set {
-                this.originField = value;
+                originField = value;
             }
         }
     
         /// <remarks/>
         public CreateDateType CreateDate {
             get {
-                return this.createDateField;
+                return createDateField;
             }
             set {
-                this.createDateField = value;
+                createDateField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
         public ModificationLogType[] ModificationLog {
             get {
-                return this.modificationLogField;
+                return modificationLogField;
             }
             set {
-                this.modificationLogField = value;
+                modificationLogField = value;
             }
         }
     }

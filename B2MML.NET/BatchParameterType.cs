@@ -27,30 +27,30 @@
         /// <remarks/>
         public IDType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ParameterTypeType ParameterType {
             get {
-                return this.parameterTypeField;
+                return parameterTypeField;
             }
             set {
-                this.parameterTypeField = value;
+                parameterTypeField = value;
             }
         }
     
@@ -58,10 +58,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ParameterSubType")]
         public ParameterSubTypeType[] ParameterSubType {
             get {
-                return this.parameterSubTypeField;
+                return parameterSubTypeField;
             }
             set {
-                this.parameterSubTypeField = value;
+                parameterSubTypeField = value;
             }
         }
     
@@ -69,30 +69,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public BatchValueType[] Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     
         /// <remarks/>
         public ScaledType Scaled {
             get {
-                return this.scaledField;
+                return scaledField;
             }
             set {
-                this.scaledField = value;
+                scaledField = value;
             }
         }
     
         /// <remarks/>
         public ScaleReferenceType ScaleReference {
             get {
-                return this.scaleReferenceField;
+                return scaleReferenceField;
             }
             set {
-                this.scaleReferenceField = value;
+                scaleReferenceField = value;
             }
         }
     
@@ -100,10 +100,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     }

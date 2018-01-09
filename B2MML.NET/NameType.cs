@@ -15,10 +15,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
         public string languageID {
             get {
-                return this.languageIDField;
+                return languageIDField;
             }
             set {
-                this.languageIDField = value;
+                languageIDField = value;
             }
         }
     
@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

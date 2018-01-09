@@ -16,10 +16,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -27,10 +27,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
             get {
-                return this.recipeElementField;
+                return recipeElementField;
             }
             set {
-                this.recipeElementField = value;
+                recipeElementField = value;
             }
         }
     }

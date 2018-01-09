@@ -13,20 +13,20 @@
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
             get {
-                return this.personnelClassIDField;
+                return personnelClassIDField;
             }
             set {
-                this.personnelClassIDField = value;
+                personnelClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
             get {
-                return this.propertyIDField;
+                return propertyIDField;
             }
             set {
-                this.propertyIDField = value;
+                propertyIDField = value;
             }
         }
     }

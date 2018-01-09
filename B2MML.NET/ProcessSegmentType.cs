@@ -39,10 +39,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -50,50 +50,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return this.operationsTypeField;
+                return operationsTypeField;
             }
             set {
-                this.operationsTypeField = value;
+                operationsTypeField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return this.locationField;
+                return locationField;
             }
             set {
-                this.locationField = value;
+                locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return this.durationField;
+                return durationField;
             }
             set {
-                this.durationField = value;
+                durationField = value;
             }
         }
     
@@ -112,10 +112,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSegmentSpecification")]
         public PersonnelSegmentSpecificationType[] PersonnelSegmentSpecification {
             get {
-                return this.personnelSegmentSpecificationField;
+                return personnelSegmentSpecificationField;
             }
             set {
-                this.personnelSegmentSpecificationField = value;
+                personnelSegmentSpecificationField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSegmentSpecification")]
         public EquipmentSegmentSpecificationType[] EquipmentSegmentSpecification {
             get {
-                return this.equipmentSegmentSpecificationField;
+                return equipmentSegmentSpecificationField;
             }
             set {
-                this.equipmentSegmentSpecificationField = value;
+                equipmentSegmentSpecificationField = value;
             }
         }
     
@@ -134,10 +134,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSegmentSpecification")]
         public PhysicalAssetSegmentSpecificationType[] PhysicalAssetSegmentSpecification {
             get {
-                return this.physicalAssetSegmentSpecificationField;
+                return physicalAssetSegmentSpecificationField;
             }
             set {
-                this.physicalAssetSegmentSpecificationField = value;
+                physicalAssetSegmentSpecificationField = value;
             }
         }
     
@@ -145,10 +145,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSegmentSpecification")]
         public MaterialSegmentSpecificationType[] MaterialSegmentSpecification {
             get {
-                return this.materialSegmentSpecificationField;
+                return materialSegmentSpecificationField;
             }
             set {
-                this.materialSegmentSpecificationField = value;
+                materialSegmentSpecificationField = value;
             }
         }
     
@@ -156,10 +156,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
             get {
-                return this.parameterField;
+                return parameterField;
             }
             set {
-                this.parameterField = value;
+                parameterField = value;
             }
         }
     
@@ -167,10 +167,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentDependency")]
         public SegmentDependencyType[] SegmentDependency {
             get {
-                return this.segmentDependencyField;
+                return segmentDependencyField;
             }
             set {
-                this.segmentDependencyField = value;
+                segmentDependencyField = value;
             }
         }
     
@@ -178,10 +178,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
         public ProcessSegmentType[] ProcessSegment {
             get {
-                return this.processSegmentField;
+                return processSegmentField;
             }
             set {
-                this.processSegmentField = value;
+                processSegmentField = value;
             }
         }
     }

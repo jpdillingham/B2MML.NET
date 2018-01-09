@@ -45,10 +45,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -56,40 +56,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public TransactionVerbType TransactionVerb {
             get {
-                return this.transactionVerbField;
+                return transactionVerbField;
             }
             set {
-                this.transactionVerbField = value;
+                transactionVerbField = value;
             }
         }
     
         /// <remarks/>
         public TransactionNounType TransactionNoun {
             get {
-                return this.transactionNounField;
+                return transactionNounField;
             }
             set {
-                this.transactionNounField = value;
+                transactionNounField = value;
             }
         }
     
         /// <remarks/>
         public bool InformationUser {
             get {
-                return this.informationUserField;
+                return informationUserField;
             }
             set {
-                this.informationUserField = value;
+                informationUserField = value;
             }
         }
     
@@ -97,20 +97,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationUserSpecified {
             get {
-                return this.informationUserFieldSpecified;
+                return informationUserFieldSpecified;
             }
             set {
-                this.informationUserFieldSpecified = value;
+                informationUserFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationProvider {
             get {
-                return this.informationProviderField;
+                return informationProviderField;
             }
             set {
-                this.informationProviderField = value;
+                informationProviderField = value;
             }
         }
     
@@ -118,20 +118,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationProviderSpecified {
             get {
-                return this.informationProviderFieldSpecified;
+                return informationProviderFieldSpecified;
             }
             set {
-                this.informationProviderFieldSpecified = value;
+                informationProviderFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationSender {
             get {
-                return this.informationSenderField;
+                return informationSenderField;
             }
             set {
-                this.informationSenderField = value;
+                informationSenderField = value;
             }
         }
     
@@ -139,20 +139,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationSenderSpecified {
             get {
-                return this.informationSenderFieldSpecified;
+                return informationSenderFieldSpecified;
             }
             set {
-                this.informationSenderFieldSpecified = value;
+                informationSenderFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationReceiver {
             get {
-                return this.informationReceiverField;
+                return informationReceiverField;
             }
             set {
-                this.informationReceiverField = value;
+                informationReceiverField = value;
             }
         }
     
@@ -160,20 +160,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationReceiverSpecified {
             get {
-                return this.informationReceiverFieldSpecified;
+                return informationReceiverFieldSpecified;
             }
             set {
-                this.informationReceiverFieldSpecified = value;
+                informationReceiverFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool ObjectWildcardSupported {
             get {
-                return this.objectWildcardSupportedField;
+                return objectWildcardSupportedField;
             }
             set {
-                this.objectWildcardSupportedField = value;
+                objectWildcardSupportedField = value;
             }
         }
     
@@ -181,20 +181,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool ObjectWildcardSupportedSpecified {
             get {
-                return this.objectWildcardSupportedFieldSpecified;
+                return objectWildcardSupportedFieldSpecified;
             }
             set {
-                this.objectWildcardSupportedFieldSpecified = value;
+                objectWildcardSupportedFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool PropertyWildcardSupported {
             get {
-                return this.propertyWildcardSupportedField;
+                return propertyWildcardSupportedField;
             }
             set {
-                this.propertyWildcardSupportedField = value;
+                propertyWildcardSupportedField = value;
             }
         }
     
@@ -202,10 +202,10 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool PropertyWildcardSupportedSpecified {
             get {
-                return this.propertyWildcardSupportedFieldSpecified;
+                return propertyWildcardSupportedFieldSpecified;
             }
             set {
-                this.propertyWildcardSupportedFieldSpecified = value;
+                propertyWildcardSupportedFieldSpecified = value;
             }
         }
     
@@ -213,10 +213,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string releaseID {
             get {
-                return this.releaseIDField;
+                return releaseIDField;
             }
             set {
-                this.releaseIDField = value;
+                releaseIDField = value;
             }
         }
     
@@ -224,10 +224,10 @@
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string versionID {
             get {
-                return this.versionIDField;
+                return versionIDField;
             }
             set {
-                this.versionIDField = value;
+                versionIDField = value;
             }
         }
     }

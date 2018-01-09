@@ -45,10 +45,10 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
@@ -56,110 +56,110 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return this.hierarchyScopeField;
+                return hierarchyScopeField;
             }
             set {
-                this.hierarchyScopeField = value;
+                hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
             get {
-                return this.workTypeField;
+                return workTypeField;
             }
             set {
-                this.workTypeField = value;
+                workTypeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType WorkMasterID {
             get {
-                return this.workMasterIDField;
+                return workMasterIDField;
             }
             set {
-                this.workMasterIDField = value;
+                workMasterIDField = value;
             }
         }
     
         /// <remarks/>
         public VersionType WorkMasterVersion {
             get {
-                return this.workMasterVersionField;
+                return workMasterVersionField;
             }
             set {
-                this.workMasterVersionField = value;
+                workMasterVersionField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return this.startTimeField;
+                return startTimeField;
             }
             set {
-                this.startTimeField = value;
+                startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return this.endTimeField;
+                return endTimeField;
             }
             set {
-                this.endTimeField = value;
+                endTimeField = value;
             }
         }
     
         /// <remarks/>
         public PriorityType Priority {
             get {
-                return this.priorityField;
+                return priorityField;
             }
             set {
-                this.priorityField = value;
+                priorityField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderCommandType Command {
             get {
-                return this.commandField;
+                return commandField;
             }
             set {
-                this.commandField = value;
+                commandField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderCommandRuleType CommandRule {
             get {
-                return this.commandRuleField;
+                return commandRuleField;
             }
             set {
-                this.commandRuleField = value;
+                commandRuleField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderDispatchStatusType DispatchStatus {
             get {
-                return this.dispatchStatusField;
+                return dispatchStatusField;
             }
             set {
-                this.dispatchStatusField = value;
+                dispatchStatusField = value;
             }
         }
     
@@ -167,10 +167,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobOrderParameter")]
         public ParameterType[] JobOrderParameter {
             get {
-                return this.jobOrderParameterField;
+                return jobOrderParameterField;
             }
             set {
-                this.jobOrderParameterField = value;
+                jobOrderParameterField = value;
             }
         }
     
@@ -178,10 +178,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
         public OpPersonnelRequirementType[] PersonnelRequirement {
             get {
-                return this.personnelRequirementField;
+                return personnelRequirementField;
             }
             set {
-                this.personnelRequirementField = value;
+                personnelRequirementField = value;
             }
         }
     
@@ -189,10 +189,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public OpEquipmentRequirementType[] EquipmentRequirement {
             get {
-                return this.equipmentRequirementField;
+                return equipmentRequirementField;
             }
             set {
-                this.equipmentRequirementField = value;
+                equipmentRequirementField = value;
             }
         }
     
@@ -200,10 +200,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
         public OpPhysicalAssetRequirementType[] PhysicalAssetRequirement {
             get {
-                return this.physicalAssetRequirementField;
+                return physicalAssetRequirementField;
             }
             set {
-                this.physicalAssetRequirementField = value;
+                physicalAssetRequirementField = value;
             }
         }
     
@@ -211,10 +211,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
         public OpMaterialRequirementType[] MaterialRequirement {
             get {
-                return this.materialRequirementField;
+                return materialRequirementField;
             }
             set {
-                this.materialRequirementField = value;
+                materialRequirementField = value;
             }
         }
     }

@@ -17,30 +17,30 @@
         /// <remarks/>
         public string ToIDValue {
             get {
-                return this.toIDValueField;
+                return toIDValueField;
             }
             set {
-                this.toIDValueField = value;
+                toIDValueField = value;
             }
         }
     
         /// <remarks/>
         public ToTypeType ToType {
             get {
-                return this.toTypeField;
+                return toTypeField;
             }
             set {
-                this.toTypeField = value;
+                toTypeField = value;
             }
         }
     
         /// <remarks/>
         public IDScopeType IDScope {
             get {
-                return this.iDScopeField;
+                return iDScopeField;
             }
             set {
-                this.iDScopeField = value;
+                iDScopeField = value;
             }
         }
     }

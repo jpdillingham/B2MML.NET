@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchProductionRecord")]
         public BatchProductionRecordType[] BatchProductionRecord {
             get {
-                return this.batchProductionRecordField;
+                return batchProductionRecordField;
             }
             set {
-                this.batchProductionRecordField = value;
+                batchProductionRecordField = value;
             }
         }
     }

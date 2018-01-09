@@ -23,40 +23,40 @@
         /// <remarks/>
         public CodeType Code {
             get {
-                return this.codeField;
+                return codeField;
             }
             set {
-                this.codeField = value;
+                codeField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EffectiveDateTime {
             get {
-                return this.effectiveDateTimeField;
+                return effectiveDateTimeField;
             }
             set {
-                this.effectiveDateTimeField = value;
+                effectiveDateTimeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType ReasonCode {
             get {
-                return this.reasonCodeField;
+                return reasonCodeField;
             }
             set {
-                this.reasonCodeField = value;
+                reasonCodeField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public CodeType[] Reason {
             get {
-                return this.reasonField;
+                return reasonField;
             }
             set {
-                this.reasonField = value;
+                reasonField = value;
             }
         }
     
@@ -75,20 +75,20 @@
         [System.Xml.Serialization.XmlElementAttribute("StateChange")]
         public TransStateChangeType[] StateChange {
             get {
-                return this.stateChangeField;
+                return stateChangeField;
             }
             set {
-                this.stateChangeField = value;
+                stateChangeField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return this.userAreaField;
+                return userAreaField;
             }
             set {
-                this.userAreaField = value;
+                userAreaField = value;
             }
         }
     }

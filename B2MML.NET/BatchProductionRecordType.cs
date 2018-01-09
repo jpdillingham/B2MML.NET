@@ -99,50 +99,50 @@
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return this.idField;
+                return idField;
             }
             set {
-                this.idField = value;
+                idField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return this.entryIDField;
+                return entryIDField;
             }
             set {
-                this.entryIDField = value;
+                entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return this.objectTypeField;
+                return objectTypeField;
             }
             set {
-                this.objectTypeField = value;
+                objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return this.timeStampField;
+                return timeStampField;
             }
             set {
-                this.timeStampField = value;
+                timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return this.externalReferenceField;
+                return externalReferenceField;
             }
             set {
-                this.externalReferenceField = value;
+                externalReferenceField = value;
             }
         }
     
@@ -150,180 +150,180 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType EquipmentScope {
             get {
-                return this.equipmentScopeField;
+                return equipmentScopeField;
             }
             set {
-                this.equipmentScopeField = value;
+                equipmentScopeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType PublishedDate {
             get {
-                return this.publishedDateField;
+                return publishedDateField;
             }
             set {
-                this.publishedDateField = value;
+                publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType CreationDate {
             get {
-                return this.creationDateField;
+                return creationDateField;
             }
             set {
-                this.creationDateField = value;
+                creationDateField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType BatchID {
             get {
-                return this.batchIDField;
+                return batchIDField;
             }
             set {
-                this.batchIDField = value;
+                batchIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType BatchProductionRecordSpec {
             get {
-                return this.batchProductionRecordSpecField;
+                return batchProductionRecordSpecField;
             }
             set {
-                this.batchProductionRecordSpecField = value;
+                batchProductionRecordSpecField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType CampaignID {
             get {
-                return this.campaignIDField;
+                return campaignIDField;
             }
             set {
-                this.campaignIDField = value;
+                campaignIDField = value;
             }
         }
     
         /// <remarks/>
         public string ChangeIndication {
             get {
-                return this.changeIndicationField;
+                return changeIndicationField;
             }
             set {
-                this.changeIndicationField = value;
+                changeIndicationField = value;
             }
         }
     
         /// <remarks/>
         public TextType Delimiter {
             get {
-                return this.delimiterField;
+                return delimiterField;
             }
             set {
-                this.delimiterField = value;
+                delimiterField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType EquipmentID {
             get {
-                return this.equipmentIDField;
+                return equipmentIDField;
             }
             set {
-                this.equipmentIDField = value;
+                equipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType ExpirationDate {
             get {
-                return this.expirationDateField;
+                return expirationDateField;
             }
             set {
-                this.expirationDateField = value;
+                expirationDateField = value;
             }
         }
     
         /// <remarks/>
         public CodeType Language {
             get {
-                return this.languageField;
+                return languageField;
             }
             set {
-                this.languageField = value;
+                languageField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType LastChangedDate {
             get {
-                return this.lastChangedDateField;
+                return lastChangedDateField;
             }
             set {
-                this.lastChangedDateField = value;
+                lastChangedDateField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType LotID {
             get {
-                return this.lotIDField;
+                return lotIDField;
             }
             set {
-                this.lotIDField = value;
+                lotIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType MaterialDefinitionID {
             get {
-                return this.materialDefinitionIDField;
+                return materialDefinitionIDField;
             }
             set {
-                this.materialDefinitionIDField = value;
+                materialDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType PhysicalAssetID {
             get {
-                return this.physicalAssetIDField;
+                return physicalAssetIDField;
             }
             set {
-                this.physicalAssetIDField = value;
+                physicalAssetIDField = value;
             }
         }
     
         /// <remarks/>
         public CodeType RecordStatus {
             get {
-                return this.recordStatusField;
+                return recordStatusField;
             }
             set {
-                this.recordStatusField = value;
+                recordStatusField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Version {
             get {
-                return this.versionField;
+                return versionField;
             }
             set {
-                this.versionField = value;
+                versionField = value;
             }
         }
     
@@ -331,10 +331,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Change", IsNullable=false)]
         public ChangeType[] ChangeHistory {
             get {
-                return this.changeHistoryField;
+                return changeHistoryField;
             }
             set {
-                this.changeHistoryField = value;
+                changeHistoryField = value;
             }
         }
     
@@ -342,10 +342,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Comment", IsNullable=false)]
         public CommentType[] Comments {
             get {
-                return this.commentsField;
+                return commentsField;
             }
             set {
-                this.commentsField = value;
+                commentsField = value;
             }
         }
     
@@ -353,10 +353,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ControlRecipeRecord", IsNullable=false)]
         public ControlRecipeRecordType[] ControlRecipes {
             get {
-                return this.controlRecipesField;
+                return controlRecipesField;
             }
             set {
-                this.controlRecipesField = value;
+                controlRecipesField = value;
             }
         }
     
@@ -364,10 +364,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("DataSet", IsNullable=false)]
         public DataSetType[] DataSets {
             get {
-                return this.dataSetsField;
+                return dataSetsField;
             }
             set {
-                this.dataSetsField = value;
+                dataSetsField = value;
             }
         }
     
@@ -375,10 +375,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Event", IsNullable=false)]
         public SingleEventType[] Events {
             get {
-                return this.eventsField;
+                return eventsField;
             }
             set {
-                this.eventsField = value;
+                eventsField = value;
             }
         }
     
@@ -386,10 +386,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("MasterRecipeRecord", IsNullable=false)]
         public MasterRecipeRecordType[] MasterRecipes {
             get {
-                return this.masterRecipesField;
+                return masterRecipesField;
             }
             set {
-                this.masterRecipesField = value;
+                masterRecipesField = value;
             }
         }
     
@@ -397,10 +397,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("PersonnelIdentificationManifest", IsNullable=false)]
         public PersonnelIdentificationManifestType[] PersonnelIdentification {
             get {
-                return this.personnelIdentificationField;
+                return personnelIdentificationField;
             }
             set {
-                this.personnelIdentificationField = value;
+                personnelIdentificationField = value;
             }
         }
     
@@ -408,10 +408,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsDefinitionRecord", IsNullable=false)]
         public OperationsDefinitionRecordType[] OperationsDefinitions {
             get {
-                return this.operationsDefinitionsField;
+                return operationsDefinitionsField;
             }
             set {
-                this.operationsDefinitionsField = value;
+                operationsDefinitionsField = value;
             }
         }
     
@@ -419,10 +419,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsPerformanceRecord", IsNullable=false)]
         public OperationsPerformanceRecordType[] OperationsPerformances {
             get {
-                return this.operationsPerformancesField;
+                return operationsPerformancesField;
             }
             set {
-                this.operationsPerformancesField = value;
+                operationsPerformancesField = value;
             }
         }
     
@@ -430,10 +430,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsScheduleRecord", IsNullable=false)]
         public OperationsScheduleRecordType[] OperationsSchedules {
             get {
-                return this.operationsSchedulesField;
+                return operationsSchedulesField;
             }
             set {
-                this.operationsSchedulesField = value;
+                operationsSchedulesField = value;
             }
         }
     
@@ -441,10 +441,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductDefinitionRecord", IsNullable=false)]
         public ProductDefinitionRecordType[] ProductDefinitions {
             get {
-                return this.productDefinitionsField;
+                return productDefinitionsField;
             }
             set {
-                this.productDefinitionsField = value;
+                productDefinitionsField = value;
             }
         }
     
@@ -452,10 +452,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionPerformanceRecord", IsNullable=false)]
         public ProductionPerformanceRecordType[] ProductionPerformances {
             get {
-                return this.productionPerformancesField;
+                return productionPerformancesField;
             }
             set {
-                this.productionPerformancesField = value;
+                productionPerformancesField = value;
             }
         }
     
@@ -463,10 +463,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionScheduleRecord", IsNullable=false)]
         public ProductionScheduleRecordType[] ProductionSchedules {
             get {
-                return this.productionSchedulesField;
+                return productionSchedulesField;
             }
             set {
-                this.productionSchedulesField = value;
+                productionSchedulesField = value;
             }
         }
     
@@ -474,10 +474,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("RecipeElementRecord", IsNullable=false)]
         public RecipeElementRecordType[] RecipeElements {
             get {
-                return this.recipeElementsField;
+                return recipeElementsField;
             }
             set {
-                this.recipeElementsField = value;
+                recipeElementsField = value;
             }
         }
     
@@ -485,10 +485,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ResourceQualificationsManifest", IsNullable=false)]
         public ResourceQualificationsManifestType[] ResourceQualifications {
             get {
-                return this.resourceQualificationsField;
+                return resourceQualificationsField;
             }
             set {
-                this.resourceQualificationsField = value;
+                resourceQualificationsField = value;
             }
         }
     
@@ -496,10 +496,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("Sample", IsNullable=false)]
         public SampleType[] Samples {
             get {
-                return this.samplesField;
+                return samplesField;
             }
             set {
-                this.samplesField = value;
+                samplesField = value;
             }
         }
     
@@ -507,10 +507,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkDirectiverRecord", IsNullable=false)]
         public WorkDirectiveRecordType[] WorkDirectives {
             get {
-                return this.workDirectivesField;
+                return workDirectivesField;
             }
             set {
-                this.workDirectivesField = value;
+                workDirectivesField = value;
             }
         }
     
@@ -518,10 +518,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkMasterRecord", IsNullable=false)]
         public WorkMasterRecordType[] WorkMasters {
             get {
-                return this.workMastersField;
+                return workMastersField;
             }
             set {
-                this.workMastersField = value;
+                workMastersField = value;
             }
         }
     
@@ -529,10 +529,10 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkPerformanceRecord", IsNullable=false)]
         public WorkPerformanceRecordType[] WorkPerformances {
             get {
-                return this.workPerformancesField;
+                return workPerformancesField;
             }
             set {
-                this.workPerformancesField = value;
+                workPerformancesField = value;
             }
         }
     
@@ -540,20 +540,20 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkScheduleRecord", IsNullable=false)]
         public WorkScheduleRecordType[] WorkSchedules {
             get {
-                return this.workSchedulesField;
+                return workSchedulesField;
             }
             set {
-                this.workSchedulesField = value;
+                workSchedulesField = value;
             }
         }
     
         /// <remarks/>
         public BatchProductionRecordType BatchProductionRecord {
             get {
-                return this.batchProductionRecordField;
+                return batchProductionRecordField;
             }
             set {
-                this.batchProductionRecordField = value;
+                batchProductionRecordField = value;
             }
         }
     }

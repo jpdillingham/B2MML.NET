@@ -15,30 +15,30 @@
         /// <remarks/>
         public string TagDelimiter {
             get {
-                return this.tagDelimiterField;
+                return tagDelimiterField;
             }
             set {
-                this.tagDelimiterField = value;
+                tagDelimiterField = value;
             }
         }
     
         /// <remarks/>
         public string OrderDelimiter {
             get {
-                return this.orderDelimiterField;
+                return orderDelimiterField;
             }
             set {
-                this.orderDelimiterField = value;
+                orderDelimiterField = value;
             }
         }
     
         /// <remarks/>
         public string DelimitedData {
             get {
-                return this.delimitedDataField;
+                return delimitedDataField;
             }
             set {
-                this.delimitedDataField = value;
+                delimitedDataField = value;
             }
         }
     }

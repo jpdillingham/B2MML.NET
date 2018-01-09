@@ -17,10 +17,10 @@
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
             get {
-                return this.originalApplicationAreaField;
+                return originalApplicationAreaField;
             }
             set {
-                this.originalApplicationAreaField = value;
+                originalApplicationAreaField = value;
             }
         }
     
@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public TextType[] Description {
             get {
-                return this.descriptionField;
+                return descriptionField;
             }
             set {
-                this.descriptionField = value;
+                descriptionField = value;
             }
         }
     
@@ -39,20 +39,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
             get {
-                return this.noteField;
+                return noteField;
             }
             set {
-                this.noteField = value;
+                noteField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return this.userAreaField;
+                return userAreaField;
             }
             set {
-                this.userAreaField = value;
+                userAreaField = value;
             }
         }
     }

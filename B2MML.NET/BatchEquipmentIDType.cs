@@ -17,30 +17,30 @@
         /// <remarks/>
         public EquipmentElementPropertyType Property {
             get {
-                return this.propertyField;
+                return propertyField;
             }
             set {
-                this.propertyField = value;
+                propertyField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return this.conditionField;
+                return conditionField;
             }
             set {
-                this.conditionField = value;
+                conditionField = value;
             }
         }
     
         /// <remarks/>
         public BatchValueType Value {
             get {
-                return this.valueField;
+                return valueField;
             }
             set {
-                this.valueField = value;
+                valueField = value;
             }
         }
     }

@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition")]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
             get {
-                return this.workAlertDefinitionField;
+                return workAlertDefinitionField;
             }
             set {
-                this.workAlertDefinitionField = value;
+                workAlertDefinitionField = value;
             }
         }
     }

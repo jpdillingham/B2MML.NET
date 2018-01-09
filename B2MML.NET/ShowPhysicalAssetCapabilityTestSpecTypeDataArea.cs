@@ -13,10 +13,10 @@
         /// <remarks/>
         public TransShowType Show {
             get {
-                return this.showField;
+                return showField;
             }
             set {
-                this.showField = value;
+                showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
             get {
-                return this.physicalAssetCapabilityTestSpecField;
+                return physicalAssetCapabilityTestSpecField;
             }
             set {
-                this.physicalAssetCapabilityTestSpecField = value;
+                physicalAssetCapabilityTestSpecField = value;
             }
         }
     }
