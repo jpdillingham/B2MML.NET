@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("AcknowledgeMaterialLot",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class AcknowledgeMaterialLotType {
+    public class AcknowledgeMaterialLotType {
     
         private TransApplicationAreaType _applicationAreaField;
     

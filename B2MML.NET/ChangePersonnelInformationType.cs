@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ChangePersonnelInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ChangePersonnelInformationType {
+    public class ChangePersonnelInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

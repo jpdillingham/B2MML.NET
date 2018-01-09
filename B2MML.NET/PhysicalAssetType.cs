@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("PhysicalAsset", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class PhysicalAssetType {
+    public class PhysicalAssetType {
     
         private IdentifierType _idField;
     

@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ChangeJobResponse", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ChangeJobResponseType {
+    public class ChangeJobResponseType {
     
         private TransApplicationAreaType _applicationAreaField;
     

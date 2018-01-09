@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("GetProductionCapability",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class GetProductionCapabilityType {
+    public class GetProductionCapabilityType {
     
         private TransApplicationAreaType _applicationAreaField;
     

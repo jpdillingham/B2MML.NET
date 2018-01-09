@@ -6,6 +6,6 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RecipeElementVersion",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class RecipeElementVersionType : IdentifierType {
+    public class RecipeElementVersionType : IdentifierType {
     }
 }

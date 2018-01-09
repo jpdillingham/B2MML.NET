@@ -8,7 +8,7 @@ namespace B2MML.NET
      XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      XmlRootAttribute("ConfirmBOD", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ConfirmBODType
+    public class ConfirmBODType
     {
 
         private TransApplicationAreaType _applicationAreaField;

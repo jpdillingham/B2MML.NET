@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RecipeElementType", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class RecipeElementTypeType : RecipeElementType1Type {
+    public class RecipeElementTypeType : RecipeElementType1Type {
     
         private string _otherValueField;
     

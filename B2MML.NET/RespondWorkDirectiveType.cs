@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RespondWorkDirective",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class RespondWorkDirectiveType {
+    public class RespondWorkDirectiveType {
     
         private TransApplicationAreaType _applicationAreaField;
     

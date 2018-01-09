@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("SyncPerson", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class SyncPersonType {
+    public class SyncPersonType {
     
         private TransApplicationAreaType _applicationAreaField;
     

@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RespondProcessElementLibrary",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class RespondProcessElementLibraryType {
+    public class RespondProcessElementLibraryType {
     
         private TransApplicationAreaType _applicationAreaField;
     

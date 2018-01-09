@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ChangeWorkSchedule", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ChangeWorkScheduleType {
+    public class ChangeWorkScheduleType {
     
         private TransApplicationAreaType _applicationAreaField;
     

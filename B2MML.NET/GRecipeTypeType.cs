@@ -4,7 +4,7 @@
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0"), System.SerializableAttribute,
      System.Diagnostics.DebuggerStepThroughAttribute, System.ComponentModel.DesignerCategoryAttribute("code"),
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
-    public partial class GRecipeTypeType : GRecipeType1Type {
+    public class GRecipeTypeType : GRecipeType1Type {
     
         private string _otherValueField;
     

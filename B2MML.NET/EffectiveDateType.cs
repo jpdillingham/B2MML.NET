@@ -6,6 +6,6 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("EffectiveDate", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class EffectiveDateType : DateTimeType {
+    public class EffectiveDateType : DateTimeType {
     }
 }

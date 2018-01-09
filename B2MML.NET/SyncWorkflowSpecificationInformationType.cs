@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("SyncWorkflowSpecificationInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class SyncWorkflowSpecificationInformationType {
+    public class SyncWorkflowSpecificationInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

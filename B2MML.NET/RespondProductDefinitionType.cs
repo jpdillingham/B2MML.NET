@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RespondProductDefinition",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class RespondProductDefinitionType {
+    public class RespondProductDefinitionType {
     
         private TransApplicationAreaType _applicationAreaField;
     

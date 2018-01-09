@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ShowMaterialTestSpec",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ShowMaterialTestSpecType {
+    public class ShowMaterialTestSpecType {
     
         private TransApplicationAreaType _applicationAreaField;
     

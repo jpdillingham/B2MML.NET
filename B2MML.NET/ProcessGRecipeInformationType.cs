@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ProcessGRecipeInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ProcessGRecipeInformationType {
+    public class ProcessGRecipeInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ProcessPhysicalAssetInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ProcessPhysicalAssetInformationType {
+    public class ProcessPhysicalAssetInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("CancelOperationsPerformance",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class CancelOperationsPerformanceType {
+    public class CancelOperationsPerformanceType {
     
         private TransApplicationAreaType _applicationAreaField;
     

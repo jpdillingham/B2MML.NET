@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("CancelEquipmentCapabilityTestSpec",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class CancelEquipmentCapabilityTestSpecType {
+    public class CancelEquipmentCapabilityTestSpecType {
     
         private TransApplicationAreaType _applicationAreaField;
     

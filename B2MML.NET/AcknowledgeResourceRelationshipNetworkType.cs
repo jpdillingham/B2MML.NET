@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("AcknowledgeResourceRelationshipNetwork",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class AcknowledgeResourceRelationshipNetworkType {
+    public class AcknowledgeResourceRelationshipNetworkType {
     
         private TransApplicationAreaType _applicationAreaField;
     

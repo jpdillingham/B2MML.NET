@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("RespondOperationsDefinitionInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class RespondOperationsDefinitionInformationType {
+    public class RespondOperationsDefinitionInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

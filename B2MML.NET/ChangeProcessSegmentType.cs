@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ChangeProcessSegment",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ChangeProcessSegmentType {
+    public class ChangeProcessSegmentType {
     
         private TransApplicationAreaType _applicationAreaField;
     

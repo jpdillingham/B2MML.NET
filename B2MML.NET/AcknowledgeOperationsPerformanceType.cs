@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("AcknowledgeOperationsPerformance",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class AcknowledgeOperationsPerformanceType {
+    public class AcknowledgeOperationsPerformanceType {
     
         private TransApplicationAreaType _applicationAreaField;
     

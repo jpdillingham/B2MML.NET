@@ -6,6 +6,6 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ScaledSize", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ScaledSizeType : MeasureType {
+    public class ScaledSizeType : MeasureType {
     }
 }

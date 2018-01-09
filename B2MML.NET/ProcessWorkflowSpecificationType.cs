@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ProcessWorkflowSpecification",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class ProcessWorkflowSpecificationType {
+    public class ProcessWorkflowSpecificationType {
     
         private TransApplicationAreaType _applicationAreaField;
     

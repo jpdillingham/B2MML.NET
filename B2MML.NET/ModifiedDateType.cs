@@ -6,6 +6,6 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ModifiedDate", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ModifiedDateType : DateTimeType {
+    public class ModifiedDateType : DateTimeType {
     }
 }

@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("ShowWorkPerformance", Namespace = "http://www.mesa.org/xml/B2MML-V0600",
          IsNullable = false)]
-    public partial class ShowWorkPerformanceType {
+    public class ShowWorkPerformanceType {
     
         private TransApplicationAreaType _applicationAreaField;
     

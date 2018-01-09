@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("CancelWorkAlertDefinition",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class CancelWorkAlertDefinitionType {
+    public class CancelWorkAlertDefinitionType {
     
         private TransApplicationAreaType _applicationAreaField;
     

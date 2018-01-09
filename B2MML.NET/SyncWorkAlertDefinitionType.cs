@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("SyncWorkAlertDefinition",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class SyncWorkAlertDefinitionType {
+    public class SyncWorkAlertDefinitionType {
     
         private TransApplicationAreaType _applicationAreaField;
     

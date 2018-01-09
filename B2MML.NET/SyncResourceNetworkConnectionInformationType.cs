@@ -6,7 +6,7 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600"),
      System.Xml.Serialization.XmlRootAttribute("SyncResourceNetworkConnectionInformation",
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
-    public partial class SyncResourceNetworkConnectionInformationType {
+    public class SyncResourceNetworkConnectionInformationType {
     
         private TransApplicationAreaType _applicationAreaField;
     
