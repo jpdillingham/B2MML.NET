@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SyncWorkflowSpecificationInformationTypeDataArea {
     
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
     
-        private WorkflowSpecificationInformationType[] workflowSpecificationInformationField;
+        private WorkflowSpecificationInformationType[] _workflowSpecificationInformationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return syncField;
+                return _syncField;
             }
             set {
-                syncField = value;
+                _syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationInformation")]
         public WorkflowSpecificationInformationType[] WorkflowSpecificationInformation {
             get {
-                return workflowSpecificationInformationField;
+                return _workflowSpecificationInformationField;
             }
             set {
-                workflowSpecificationInformationField = value;
+                _workflowSpecificationInformationField = value;
             }
         }
     }

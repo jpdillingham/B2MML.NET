@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowProductionScheduleTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private ProductionScheduleType[] productionScheduleField;
+        private ProductionScheduleType[] _productionScheduleField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
         public ProductionScheduleType[] ProductionSchedule {
             get {
-                return productionScheduleField;
+                return _productionScheduleField;
             }
             set {
-                productionScheduleField = value;
+                _productionScheduleField = value;
             }
         }
     }

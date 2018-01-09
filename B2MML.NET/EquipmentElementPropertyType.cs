@@ -8,21 +8,21 @@
          IsNullable = false)]
     public partial class EquipmentElementPropertyType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private BatchValueType valueField;
+        private BatchValueType _valueField;
     
-        private EquipmentElementPropertyType[] propertyField;
+        private EquipmentElementPropertyType[] _propertyField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public BatchValueType Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public EquipmentElementPropertyType[] Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     }

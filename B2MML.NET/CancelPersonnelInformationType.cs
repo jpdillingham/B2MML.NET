@@ -8,27 +8,27 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class CancelPersonnelInformationType {
     
-        private TransApplicationAreaType applicationAreaField;
+        private TransApplicationAreaType _applicationAreaField;
     
-        private CancelPersonnelInformationTypeDataArea dataAreaField;
+        private CancelPersonnelInformationTypeDataArea _dataAreaField;
     
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
             get {
-                return applicationAreaField;
+                return _applicationAreaField;
             }
             set {
-                applicationAreaField = value;
+                _applicationAreaField = value;
             }
         }
     
         /// <remarks/>
         public CancelPersonnelInformationTypeDataArea DataArea {
             get {
-                return dataAreaField;
+                return _dataAreaField;
             }
             set {
-                dataAreaField = value;
+                _dataAreaField = value;
             }
         }
     }

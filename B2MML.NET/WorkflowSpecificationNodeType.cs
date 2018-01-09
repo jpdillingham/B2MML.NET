@@ -6,23 +6,23 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class WorkflowSpecificationNodeType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType nodeTypeField;
+        private IdentifierType _nodeTypeField;
     
-        private WorkflowSpecificationType workflowSpecificationField;
+        private WorkflowSpecificationType _workflowSpecificationField;
     
-        private WorkflowSpecificationPropertyType[] propertyField;
+        private WorkflowSpecificationPropertyType[] _propertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,30 +30,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType NodeType {
             get {
-                return nodeTypeField;
+                return _nodeTypeField;
             }
             set {
-                nodeTypeField = value;
+                _nodeTypeField = value;
             }
         }
     
         /// <remarks/>
         public WorkflowSpecificationType WorkflowSpecification {
             get {
-                return workflowSpecificationField;
+                return _workflowSpecificationField;
             }
             set {
-                workflowSpecificationField = value;
+                _workflowSpecificationField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkflowSpecificationPropertyType[] Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     }

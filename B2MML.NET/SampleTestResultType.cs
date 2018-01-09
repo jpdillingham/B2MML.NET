@@ -6,67 +6,67 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SampleTestResultType {
     
-        private IdentifierType entryIDField;
+        private IdentifierType _entryIDField;
     
-        private RecordObjectTypeType objectTypeField;
+        private RecordObjectTypeType _objectTypeField;
     
-        private DateTimeType timeStampField;
+        private DateTimeType _timeStampField;
     
-        private IdentifierType externalReferenceField;
+        private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType testDispositionField;
+        private IdentifierType _testDispositionField;
     
-        private IdentifierType[] equipmentIDField;
+        private IdentifierType[] _equipmentIDField;
     
-        private IdentifierType[] physicalAssetIDField;
+        private IdentifierType[] _physicalAssetIDField;
     
-        private CodeType[] analysisUsedField;
+        private CodeType[] _analysisUsedField;
     
-        private DateTimeType expirationField;
+        private DateTimeType _expirationField;
     
-        private ValueType[] resultsField;
+        private ValueType[] _resultsField;
     
-        private ValueType[] expectedResultsField;
+        private ValueType[] _expectedResultsField;
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return entryIDField;
+                return _entryIDField;
             }
             set {
-                entryIDField = value;
+                _entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return objectTypeField;
+                return _objectTypeField;
             }
             set {
-                objectTypeField = value;
+                _objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return externalReferenceField;
+                return _externalReferenceField;
             }
             set {
-                externalReferenceField = value;
+                _externalReferenceField = value;
             }
         }
     
@@ -74,20 +74,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TestDisposition {
             get {
-                return testDispositionField;
+                return _testDispositionField;
             }
             set {
-                testDispositionField = value;
+                _testDispositionField = value;
             }
         }
     
@@ -95,10 +95,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
@@ -106,10 +106,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -117,20 +117,20 @@
         [System.Xml.Serialization.XmlElementAttribute("AnalysisUsed")]
         public CodeType[] AnalysisUsed {
             get {
-                return analysisUsedField;
+                return _analysisUsedField;
             }
             set {
-                analysisUsedField = value;
+                _analysisUsedField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType Expiration {
             get {
-                return expirationField;
+                return _expirationField;
             }
             set {
-                expirationField = value;
+                _expirationField = value;
             }
         }
     
@@ -138,10 +138,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Results")]
         public ValueType[] Results {
             get {
-                return resultsField;
+                return _resultsField;
             }
             set {
-                resultsField = value;
+                _resultsField = value;
             }
         }
     
@@ -149,10 +149,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ExpectedResults")]
         public ValueType[] ExpectedResults {
             get {
-                return expectedResultsField;
+                return _expectedResultsField;
             }
             set {
-                expectedResultsField = value;
+                _expectedResultsField = value;
             }
         }
     }

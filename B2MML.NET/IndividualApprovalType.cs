@@ -8,29 +8,29 @@
          IsNullable = false)]
     public partial class IndividualApprovalType {
     
-        private ApprovedByType approvedByField;
+        private ApprovedByType _approvedByField;
     
-        private ApprovalDateType approvalDateField;
+        private ApprovalDateType _approvalDateField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
         /// <remarks/>
         public ApprovedByType ApprovedBy {
             get {
-                return approvedByField;
+                return _approvedByField;
             }
             set {
-                approvedByField = value;
+                _approvedByField = value;
             }
         }
     
         /// <remarks/>
         public ApprovalDateType ApprovalDate {
             get {
-                return approvalDateField;
+                return _approvalDateField;
             }
             set {
-                approvalDateField = value;
+                _approvalDateField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

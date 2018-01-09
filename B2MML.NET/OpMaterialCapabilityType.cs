@@ -6,48 +6,48 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class OpMaterialCapabilityType {
     
-        private MaterialClassIDType[] materialClassIDField;
+        private MaterialClassIDType[] _materialClassIDField;
     
-        private MaterialDefinitionIDType[] materialDefinitionIDField;
+        private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
-        private MaterialLotIDType[] materialLotIDField;
+        private MaterialLotIDType[] _materialLotIDField;
     
-        private MaterialSubLotIDType[] materialSubLotIDField;
+        private MaterialSubLotIDType[] _materialSubLotIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private CapabilityTypeType capabilityTypeField;
+        private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType reasonField;
+        private ReasonType _reasonField;
     
-        private ConfidenceFactorType confidenceFactorField;
+        private ConfidenceFactorType _confidenceFactorField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private MaterialUseType materialUseField;
+        private MaterialUseType _materialUseField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private OpMaterialCapabilityType[] assemblyCapabilityField;
+        private OpMaterialCapabilityType[] _assemblyCapabilityField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private OpMaterialCapabilityPropertyType[] materialCapabilityPropertyField;
+        private OpMaterialCapabilityPropertyType[] _materialCapabilityPropertyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
             get {
-                return materialClassIDField;
+                return _materialClassIDField;
             }
             set {
-                materialClassIDField = value;
+                _materialClassIDField = value;
             }
         }
     
@@ -55,10 +55,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
@@ -66,10 +66,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
             get {
-                return materialLotIDField;
+                return _materialLotIDField;
             }
             set {
-                materialLotIDField = value;
+                _materialLotIDField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLotID")]
         public MaterialSubLotIDType[] MaterialSubLotID {
             get {
-                return materialSubLotIDField;
+                return _materialSubLotIDField;
             }
             set {
-                materialSubLotIDField = value;
+                _materialSubLotIDField = value;
             }
         }
     
@@ -88,80 +88,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return capabilityTypeField;
+                return _capabilityTypeField;
             }
             set {
-                capabilityTypeField = value;
+                _capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
             get {
-                return confidenceFactorField;
+                return _confidenceFactorField;
             }
             set {
-                confidenceFactorField = value;
+                _confidenceFactorField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public MaterialUseType MaterialUse {
             get {
-                return materialUseField;
+                return _materialUseField;
             }
             set {
-                materialUseField = value;
+                _materialUseField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
@@ -169,30 +169,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyCapability")]
         public OpMaterialCapabilityType[] AssemblyCapability {
             get {
-                return assemblyCapabilityField;
+                return _assemblyCapabilityField;
             }
             set {
-                assemblyCapabilityField = value;
+                _assemblyCapabilityField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     
@@ -200,10 +200,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -211,10 +211,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapabilityProperty")]
         public OpMaterialCapabilityPropertyType[] MaterialCapabilityProperty {
             get {
-                return materialCapabilityPropertyField;
+                return _materialCapabilityPropertyField;
             }
             set {
-                materialCapabilityPropertyField = value;
+                _materialCapabilityPropertyField = value;
             }
         }
     }

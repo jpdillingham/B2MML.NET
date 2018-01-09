@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelOperationsPerformanceTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private OperationsPerformanceType[] operationsPerformanceField;
+        private OperationsPerformanceType[] _operationsPerformanceField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsPerformance")]
         public OperationsPerformanceType[] OperationsPerformance {
             get {
-                return operationsPerformanceField;
+                return _operationsPerformanceField;
             }
             set {
-                operationsPerformanceField = value;
+                _operationsPerformanceField = value;
             }
         }
     }

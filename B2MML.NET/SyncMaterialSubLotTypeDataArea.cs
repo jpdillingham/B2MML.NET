@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SyncMaterialSubLotTypeDataArea {
     
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
     
-        private MaterialSubLotType[] materialSubLotField;
+        private MaterialSubLotType[] _materialSubLotField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return syncField;
+                return _syncField;
             }
             set {
-                syncField = value;
+                _syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return materialSubLotField;
+                return _materialSubLotField;
             }
             set {
-                materialSubLotField = value;
+                _materialSubLotField = value;
             }
         }
     }

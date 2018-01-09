@@ -8,29 +8,29 @@
          IsNullable = false)]
     public partial class EnumerationType {
     
-        private EnumerationNumberType enumerationNumberField;
+        private EnumerationNumberType _enumerationNumberField;
     
-        private EnumerationStringType enumerationStringField;
+        private EnumerationStringType _enumerationStringField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
         /// <remarks/>
         public EnumerationNumberType EnumerationNumber {
             get {
-                return enumerationNumberField;
+                return _enumerationNumberField;
             }
             set {
-                enumerationNumberField = value;
+                _enumerationNumberField = value;
             }
         }
     
         /// <remarks/>
         public EnumerationStringType EnumerationString {
             get {
-                return enumerationStringField;
+                return _enumerationStringField;
             }
             set {
-                enumerationStringField = value;
+                _enumerationStringField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

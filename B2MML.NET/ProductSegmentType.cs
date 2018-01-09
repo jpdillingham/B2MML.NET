@@ -6,45 +6,45 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProductSegmentType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType descriptionField;
+        private DescriptionType _descriptionField;
     
-        private string durationField;
+        private string _durationField;
     
-        private ProcessSegmentIDType[] processSegmentIDField;
+        private ProcessSegmentIDType[] _processSegmentIDField;
     
-        private ParameterType[] parameterField;
+        private ParameterType[] _parameterField;
     
-        private PersonnelSpecificationType[] personnelSpecificationField;
+        private PersonnelSpecificationType[] _personnelSpecificationField;
     
-        private EquipmentSpecificationType[] equipmentSpecificationField;
+        private EquipmentSpecificationType[] _equipmentSpecificationField;
     
-        private PhysicalAssetSpecificationType[] physicalAssetSpecificationField;
+        private PhysicalAssetSpecificationType[] _physicalAssetSpecificationField;
     
-        private MaterialSpecificationType[] materialSpecificationField;
+        private MaterialSpecificationType[] _materialSpecificationField;
     
-        private SegmentDependencyType[] segmentDependencyField;
+        private SegmentDependencyType[] _segmentDependencyField;
     
-        private ProductSegmentType[] productSegmentField;
+        private ProductSegmentType[] _productSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return durationField;
+                return _durationField;
             }
             set {
-                durationField = value;
+                _durationField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID")]
         public ProcessSegmentIDType[] ProcessSegmentID {
             get {
-                return processSegmentIDField;
+                return _processSegmentIDField;
             }
             set {
-                processSegmentIDField = value;
+                _processSegmentIDField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     
@@ -85,10 +85,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
         public PersonnelSpecificationType[] PersonnelSpecification {
             get {
-                return personnelSpecificationField;
+                return _personnelSpecificationField;
             }
             set {
-                personnelSpecificationField = value;
+                _personnelSpecificationField = value;
             }
         }
     
@@ -96,10 +96,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
         public EquipmentSpecificationType[] EquipmentSpecification {
             get {
-                return equipmentSpecificationField;
+                return _equipmentSpecificationField;
             }
             set {
-                equipmentSpecificationField = value;
+                _equipmentSpecificationField = value;
             }
         }
     
@@ -107,10 +107,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
         public PhysicalAssetSpecificationType[] PhysicalAssetSpecification {
             get {
-                return physicalAssetSpecificationField;
+                return _physicalAssetSpecificationField;
             }
             set {
-                physicalAssetSpecificationField = value;
+                _physicalAssetSpecificationField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
         public MaterialSpecificationType[] MaterialSpecification {
             get {
-                return materialSpecificationField;
+                return _materialSpecificationField;
             }
             set {
-                materialSpecificationField = value;
+                _materialSpecificationField = value;
             }
         }
     
@@ -129,10 +129,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentDependency")]
         public SegmentDependencyType[] SegmentDependency {
             get {
-                return segmentDependencyField;
+                return _segmentDependencyField;
             }
             set {
-                segmentDependencyField = value;
+                _segmentDependencyField = value;
             }
         }
     
@@ -140,10 +140,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductSegment")]
         public ProductSegmentType[] ProductSegment {
             get {
-                return productSegmentField;
+                return _productSegmentField;
             }
             set {
-                productSegmentField = value;
+                _productSegmentField = value;
             }
         }
     }

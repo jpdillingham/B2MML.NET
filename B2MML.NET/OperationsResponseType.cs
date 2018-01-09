@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class OperationsResponseType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType operationsTypeField;
+        private OperationsTypeType _operationsTypeField;
     
-        private OperationsRequestIDType[] operationsRequestIDField;
+        private OperationsRequestIDType[] _operationsRequestIDField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private OperationsDefinitionIDType[] operationsDefinitionIDField;
+        private OperationsDefinitionIDType[] _operationsDefinitionIDField;
     
-        private ResponseStateType responseStateField;
+        private ResponseStateType _responseStateField;
     
-        private OpSegmentResponseType[] segmentResponseField;
+        private OpSegmentResponseType[] _segmentResponseField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,30 +42,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return operationsTypeField;
+                return _operationsTypeField;
             }
             set {
-                operationsTypeField = value;
+                _operationsTypeField = value;
             }
         }
     
@@ -73,30 +73,30 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsRequestID")]
         public OperationsRequestIDType[] OperationsRequestID {
             get {
-                return operationsRequestIDField;
+                return _operationsRequestIDField;
             }
             set {
-                operationsRequestIDField = value;
+                _operationsRequestIDField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
@@ -104,20 +104,20 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionID")]
         public OperationsDefinitionIDType[] OperationsDefinitionID {
             get {
-                return operationsDefinitionIDField;
+                return _operationsDefinitionIDField;
             }
             set {
-                operationsDefinitionIDField = value;
+                _operationsDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
             get {
-                return responseStateField;
+                return _responseStateField;
             }
             set {
-                responseStateField = value;
+                _responseStateField = value;
             }
         }
     
@@ -125,10 +125,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public OpSegmentResponseType[] SegmentResponse {
             get {
-                return segmentResponseField;
+                return _segmentResponseField;
             }
             set {
-                segmentResponseField = value;
+                _segmentResponseField = value;
             }
         }
     }

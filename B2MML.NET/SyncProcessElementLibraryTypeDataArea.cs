@@ -7,9 +7,9 @@
     public partial class SyncProcessElementLibraryTypeDataArea
     {
 
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
 
-        private ProcessElementLibraryType[] processElementLibraryField;
+        private ProcessElementLibraryType[] _processElementLibraryField;
 
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable = false)]
@@ -17,11 +17,11 @@
         {
             get
             {
-                return syncField;
+                return _syncField;
             }
             set
             {
-                syncField = value;
+                _syncField = value;
             }
         }
 
@@ -31,11 +31,11 @@
         {
             get
             {
-                return processElementLibraryField;
+                return _processElementLibraryField;
             }
             set
             {
-                processElementLibraryField = value;
+                _processElementLibraryField = value;
             }
         }
     }

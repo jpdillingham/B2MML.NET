@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeEquipmentTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private EquipmentType[] equipmentField;
+        private EquipmentType[] _equipmentField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
         public EquipmentType[] Equipment {
             get {
-                return equipmentField;
+                return _equipmentField;
             }
             set {
-                equipmentField = value;
+                _equipmentField = value;
             }
         }
     }

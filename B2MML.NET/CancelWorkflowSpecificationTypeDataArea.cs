@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelWorkflowSpecificationTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private WorkflowSpecificationType[] workflowSpecificationField;
+        private WorkflowSpecificationType[] _workflowSpecificationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
             get {
-                return workflowSpecificationField;
+                return _workflowSpecificationField;
             }
             set {
-                workflowSpecificationField = value;
+                _workflowSpecificationField = value;
             }
         }
     }

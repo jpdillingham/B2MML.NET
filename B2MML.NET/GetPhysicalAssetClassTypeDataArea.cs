@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GetPhysicalAssetClassTypeDataArea {
     
-        private string[] getField;
+        private string[] _getField;
     
-        private PhysicalAssetClassType[] physicalAssetClassField;
+        private PhysicalAssetClassType[] _physicalAssetClassField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return getField;
+                return _getField;
             }
             set {
-                getField = value;
+                _getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
             get {
-                return physicalAssetClassField;
+                return _physicalAssetClassField;
             }
             set {
-                physicalAssetClassField = value;
+                _physicalAssetClassField = value;
             }
         }
     }

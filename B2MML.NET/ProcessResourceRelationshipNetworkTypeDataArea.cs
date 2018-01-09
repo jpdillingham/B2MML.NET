@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessResourceRelationshipNetworkTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private ResourceRelationshipNetworkType[] resourceRelationshipNetworkField;
+        private ResourceRelationshipNetworkType[] _resourceRelationshipNetworkField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceRelationshipNetwork")]
         public ResourceRelationshipNetworkType[] ResourceRelationshipNetwork {
             get {
-                return resourceRelationshipNetworkField;
+                return _resourceRelationshipNetworkField;
             }
             set {
-                resourceRelationshipNetworkField = value;
+                _resourceRelationshipNetworkField = value;
             }
         }
     }

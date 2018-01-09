@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelWorkDirectiveTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private WorkDirectiveType[] workDirectiveField;
+        private WorkDirectiveType[] _workDirectiveField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
             get {
-                return workDirectiveField;
+                return _workDirectiveField;
             }
             set {
-                workDirectiveField = value;
+                _workDirectiveField = value;
             }
         }
     }

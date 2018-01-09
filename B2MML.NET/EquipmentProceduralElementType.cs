@@ -8,21 +8,21 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class EquipmentProceduralElementType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private EquipmentProceduralElementTypeType equipmentProceduralElementType1Field;
+        private EquipmentProceduralElementTypeType _equipmentProceduralElementType1Field;
     
-        private object[] itemsField;
+        private object[] _itemsField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,10 +30,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -41,10 +41,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementType")]
         public EquipmentProceduralElementTypeType EquipmentProceduralElementType1 {
             get {
-                return equipmentProceduralElementType1Field;
+                return _equipmentProceduralElementType1Field;
             }
             set {
-                equipmentProceduralElementType1Field = value;
+                _equipmentProceduralElementType1Field = value;
             }
         }
     
@@ -54,10 +54,10 @@
          System.Xml.Serialization.XmlElementAttribute("Parameter", typeof(BatchParameterType))]
         public object[] Items {
             get {
-                return itemsField;
+                return _itemsField;
             }
             set {
-                itemsField = value;
+                _itemsField = value;
             }
         }
     }

@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelResourceConstraintLibraryTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private ResourceConstraintLibraryType[] resourceConstraintLibraryField;
+        private ResourceConstraintLibraryType[] _resourceConstraintLibraryField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return resourceConstraintLibraryField;
+                return _resourceConstraintLibraryField;
             }
             set {
-                resourceConstraintLibraryField = value;
+                _resourceConstraintLibraryField = value;
             }
         }
     }

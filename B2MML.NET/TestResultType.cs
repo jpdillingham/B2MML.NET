@@ -6,23 +6,23 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TestResultType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private TestDateTimeType testDateTimeField;
+        private TestDateTimeType _testDateTimeField;
     
-        private ResultType[] resultField;
+        private ResultType[] _resultField;
     
-        private ExpirationTimeType expirationTimeField;
+        private ExpirationTimeType _expirationTimeField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public TestDateTimeType TestDateTime {
             get {
-                return testDateTimeField;
+                return _testDateTimeField;
             }
             set {
-                testDateTimeField = value;
+                _testDateTimeField = value;
             }
         }
     
@@ -51,20 +51,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Result")]
         public ResultType[] Result {
             get {
-                return resultField;
+                return _resultField;
             }
             set {
-                resultField = value;
+                _resultField = value;
             }
         }
     
         /// <remarks/>
         public ExpirationTimeType ExpirationTime {
             get {
-                return expirationTimeField;
+                return _expirationTimeField;
             }
             set {
-                expirationTimeField = value;
+                _expirationTimeField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ConfirmBODTypeDataArea {
     
-        private TransConfirmType confirmField;
+        private TransConfirmType _confirmField;
     
-        private BODType[] bODField;
+        private BODType[] _bOdField;
     
         /// <remarks/>
         public TransConfirmType Confirm {
             get {
-                return confirmField;
+                return _confirmField;
             }
             set {
-                confirmField = value;
+                _confirmField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BOD")]
         public BODType[] BOD {
             get {
-                return bODField;
+                return _bOdField;
             }
             set {
-                bODField = value;
+                _bOdField = value;
             }
         }
     }

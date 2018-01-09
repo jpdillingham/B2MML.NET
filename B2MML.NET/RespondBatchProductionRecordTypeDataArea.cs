@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class RespondBatchProductionRecordTypeDataArea {
     
-        private TransRespondType respondField;
+        private TransRespondType _respondField;
     
-        private BatchProductionRecordType[] batchProductionRecordField;
+        private BatchProductionRecordType[] _batchProductionRecordField;
     
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return respondField;
+                return _respondField;
             }
             set {
-                respondField = value;
+                _respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchProductionRecord")]
         public BatchProductionRecordType[] BatchProductionRecord {
             get {
-                return batchProductionRecordField;
+                return _batchProductionRecordField;
             }
             set {
-                batchProductionRecordField = value;
+                _batchProductionRecordField = value;
             }
         }
     }

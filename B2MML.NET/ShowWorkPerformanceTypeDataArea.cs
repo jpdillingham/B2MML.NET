@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowWorkPerformanceTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private WorkPerformanceType[] workPerformanceField;
+        private WorkPerformanceType[] _workPerformanceField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkPerformance")]
         public WorkPerformanceType[] WorkPerformance {
             get {
-                return workPerformanceField;
+                return _workPerformanceField;
             }
             set {
-                workPerformanceField = value;
+                _workPerformanceField = value;
             }
         }
     }

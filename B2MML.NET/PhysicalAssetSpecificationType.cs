@@ -6,33 +6,33 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class PhysicalAssetSpecificationType {
     
-        private PhysicalAssetClassIDType physicalAssetClassIDField;
+        private PhysicalAssetClassIDType _physicalAssetClassIDField;
     
-        private PhysicalAssetIDType physicalAssetIDField;
+        private PhysicalAssetIDType _physicalAssetIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private PhysicalAssetSpecificationPropertyType[] physicalAssetSpecificationPropertyField;
+        private PhysicalAssetSpecificationPropertyType[] _physicalAssetSpecificationPropertyField;
     
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
             get {
-                return physicalAssetClassIDField;
+                return _physicalAssetClassIDField;
             }
             set {
-                physicalAssetClassIDField = value;
+                _physicalAssetClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -62,10 +62,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecificationProperty")]
         public PhysicalAssetSpecificationPropertyType[] PhysicalAssetSpecificationProperty {
             get {
-                return physicalAssetSpecificationPropertyField;
+                return _physicalAssetSpecificationPropertyField;
             }
             set {
-                physicalAssetSpecificationPropertyField = value;
+                _physicalAssetSpecificationPropertyField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeWorkMasterTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private WorkMasterType[] workMasterField;
+        private WorkMasterType[] _workMasterField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMaster")]
         public WorkMasterType[] WorkMaster {
             get {
-                return workMasterField;
+                return _workMasterField;
             }
             set {
-                workMasterField = value;
+                _workMasterField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessResourceConstraintLibraryTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private ResourceConstraintLibraryType[] resourceConstraintLibraryField;
+        private ResourceConstraintLibraryType[] _resourceConstraintLibraryField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return resourceConstraintLibraryField;
+                return _resourceConstraintLibraryField;
             }
             set {
-                resourceConstraintLibraryField = value;
+                _resourceConstraintLibraryField = value;
             }
         }
     }

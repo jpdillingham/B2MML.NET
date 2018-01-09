@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessWorkAlertDefinitionTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private WorkAlertDefinitionType[] workAlertDefinitionField;
+        private WorkAlertDefinitionType[] _workAlertDefinitionField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition")]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
             get {
-                return workAlertDefinitionField;
+                return _workAlertDefinitionField;
             }
             set {
-                workAlertDefinitionField = value;
+                _workAlertDefinitionField = value;
             }
         }
     }

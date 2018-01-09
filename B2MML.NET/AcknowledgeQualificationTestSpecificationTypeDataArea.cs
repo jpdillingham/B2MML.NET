@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeQualificationTestSpecificationTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private QualificationTestSpecificationType[] qualificationTestSpecificationField;
+        private QualificationTestSpecificationType[] _qualificationTestSpecificationField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
             get {
-                return qualificationTestSpecificationField;
+                return _qualificationTestSpecificationField;
             }
             set {
-                qualificationTestSpecificationField = value;
+                _qualificationTestSpecificationField = value;
             }
         }
     }

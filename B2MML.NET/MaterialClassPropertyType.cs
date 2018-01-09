@@ -6,23 +6,23 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class MaterialClassPropertyType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ValueType[] valueField;
+        private ValueType[] _valueField;
     
-        private MaterialClassPropertyType[] materialClassPropertyField;
+        private MaterialClassPropertyType[] _materialClassPropertyField;
     
-        private MaterialTestSpecificationIDType[] materialTestSpecificationIDField;
+        private MaterialTestSpecificationIDType[] _materialTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,10 +30,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -41,10 +41,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassProperty")]
         public MaterialClassPropertyType[] MaterialClassProperty {
             get {
-                return materialClassPropertyField;
+                return _materialClassPropertyField;
             }
             set {
-                materialClassPropertyField = value;
+                _materialClassPropertyField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
             get {
-                return materialTestSpecificationIDField;
+                return _materialTestSpecificationIDField;
             }
             set {
-                materialTestSpecificationIDField = value;
+                _materialTestSpecificationIDField = value;
             }
         }
     }

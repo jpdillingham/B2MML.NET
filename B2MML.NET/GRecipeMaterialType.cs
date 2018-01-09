@@ -6,23 +6,23 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GRecipeMaterialType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType materialIDField;
+        private IdentifierType _materialIDField;
     
-        private NumericType orderField;
+        private NumericType _orderField;
     
-        private QuantityValueType amountField;
+        private QuantityValueType _amountField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,40 +30,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType MaterialID {
             get {
-                return materialIDField;
+                return _materialIDField;
             }
             set {
-                materialIDField = value;
+                _materialIDField = value;
             }
         }
     
         /// <remarks/>
         public NumericType Order {
             get {
-                return orderField;
+                return _orderField;
             }
             set {
-                orderField = value;
+                _orderField = value;
             }
         }
     
         /// <remarks/>
         public QuantityValueType Amount {
             get {
-                return amountField;
+                return _amountField;
             }
             set {
-                amountField = value;
+                _amountField = value;
             }
         }
     }

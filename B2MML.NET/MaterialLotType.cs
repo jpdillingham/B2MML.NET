@@ -8,43 +8,43 @@
          IsNullable = false)]
     public partial class MaterialLotType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private MaterialDefinitionIDType materialDefinitionIDField;
+        private MaterialDefinitionIDType _materialDefinitionIDField;
     
-        private StatusType statusField;
+        private StatusType _statusField;
     
-        private MaterialLotPropertyType[] materialLotPropertyField;
+        private MaterialLotPropertyType[] _materialLotPropertyField;
     
-        private MaterialSubLotType[] materialSubLotField;
+        private MaterialSubLotType[] _materialSubLotField;
     
-        private StorageHierarchyScopeType storageLocationField;
+        private StorageHierarchyScopeType _storageLocationField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private MaterialTestSpecificationIDType[] materialTestSpecificationIDField;
+        private MaterialTestSpecificationIDType[] _materialTestSpecificationIDField;
     
-        private MaterialLotType[] assemblyLotIDField;
+        private MaterialLotType[] _assemblyLotIDField;
     
-        private MaterialSubLotType[] assemblySubLotIDField;
+        private MaterialSubLotType[] _assemblySubLotIDField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -52,50 +52,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public StatusType Status {
             get {
-                return statusField;
+                return _statusField;
             }
             set {
-                statusField = value;
+                _statusField = value;
             }
         }
     
@@ -103,10 +103,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotProperty")]
         public MaterialLotPropertyType[] MaterialLotProperty {
             get {
-                return materialLotPropertyField;
+                return _materialLotPropertyField;
             }
             set {
-                materialLotPropertyField = value;
+                _materialLotPropertyField = value;
             }
         }
     
@@ -114,20 +114,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return materialSubLotField;
+                return _materialSubLotField;
             }
             set {
-                materialSubLotField = value;
+                _materialSubLotField = value;
             }
         }
     
         /// <remarks/>
         public StorageHierarchyScopeType StorageLocation {
             get {
-                return storageLocationField;
+                return _storageLocationField;
             }
             set {
-                storageLocationField = value;
+                _storageLocationField = value;
             }
         }
     
@@ -135,10 +135,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -146,10 +146,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
             get {
-                return materialTestSpecificationIDField;
+                return _materialTestSpecificationIDField;
             }
             set {
-                materialTestSpecificationIDField = value;
+                _materialTestSpecificationIDField = value;
             }
         }
     
@@ -157,10 +157,10 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyLotID")]
         public MaterialLotType[] AssemblyLotID {
             get {
-                return assemblyLotIDField;
+                return _assemblyLotIDField;
             }
             set {
-                assemblyLotIDField = value;
+                _assemblyLotIDField = value;
             }
         }
     
@@ -168,30 +168,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblySubLotID")]
         public MaterialSubLotType[] AssemblySubLotID {
             get {
-                return assemblySubLotIDField;
+                return _assemblySubLotIDField;
             }
             set {
-                assemblySubLotIDField = value;
+                _assemblySubLotIDField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     }

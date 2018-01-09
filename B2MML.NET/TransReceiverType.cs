@@ -6,29 +6,29 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransReceiverType {
     
-        private IdentifierType logicalIDField;
+        private IdentifierType _logicalIDField;
     
-        private IdentifierType componentIDField;
+        private IdentifierType _componentIDField;
     
-        private IdentifierType[] idField;
+        private IdentifierType[] _idField;
     
         /// <remarks/>
         public IdentifierType LogicalID {
             get {
-                return logicalIDField;
+                return _logicalIDField;
             }
             set {
-                logicalIDField = value;
+                _logicalIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
             get {
-                return componentIDField;
+                return _componentIDField;
             }
             set {
-                componentIDField = value;
+                _componentIDField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ID")]
         public IdentifierType[] ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     }

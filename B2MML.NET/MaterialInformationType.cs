@@ -8,34 +8,34 @@
          IsNullable = false)]
     public partial class MaterialInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private MaterialClassType[] materialClassField;
+        private MaterialClassType[] _materialClassField;
     
-        private MaterialDefinitionType[] materialDefinitionField;
+        private MaterialDefinitionType[] _materialDefinitionField;
     
-        private MaterialLotType[] materialLotField;
+        private MaterialLotType[] _materialLotField;
     
-        private MaterialSubLotType[] materialSubLotField;
+        private MaterialSubLotType[] _materialSubLotField;
     
-        private MaterialTestSpecificationType[] materialTestSpecificationField;
+        private MaterialTestSpecificationType[] _materialTestSpecificationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -43,20 +43,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", IsNullable=true)]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -86,10 +86,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass", IsNullable=true)]
         public MaterialClassType[] MaterialClass {
             get {
-                return materialClassField;
+                return _materialClassField;
             }
             set {
-                materialClassField = value;
+                _materialClassField = value;
             }
         }
     
@@ -97,10 +97,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition", IsNullable=true)]
         public MaterialDefinitionType[] MaterialDefinition {
             get {
-                return materialDefinitionField;
+                return _materialDefinitionField;
             }
             set {
-                materialDefinitionField = value;
+                _materialDefinitionField = value;
             }
         }
     
@@ -108,10 +108,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLot", IsNullable=true)]
         public MaterialLotType[] MaterialLot {
             get {
-                return materialLotField;
+                return _materialLotField;
             }
             set {
-                materialLotField = value;
+                _materialLotField = value;
             }
         }
     
@@ -119,10 +119,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot", IsNullable=true)]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return materialSubLotField;
+                return _materialSubLotField;
             }
             set {
-                materialSubLotField = value;
+                _materialSubLotField = value;
             }
         }
     
@@ -130,10 +130,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecification", IsNullable=true)]
         public MaterialTestSpecificationType[] MaterialTestSpecification {
             get {
-                return materialTestSpecificationField;
+                return _materialTestSpecificationField;
             }
             set {
-                materialTestSpecificationField = value;
+                _materialTestSpecificationField = value;
             }
         }
     }

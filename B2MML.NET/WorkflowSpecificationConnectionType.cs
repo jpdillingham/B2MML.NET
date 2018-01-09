@@ -6,25 +6,25 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class WorkflowSpecificationConnectionType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType connectionTypeField;
+        private IdentifierType _connectionTypeField;
     
-        private DescriptionType[] fromNodeIDField;
+        private DescriptionType[] _fromNodeIDField;
     
-        private DescriptionType[] toNodeIDField;
+        private DescriptionType[] _toNodeIDField;
     
-        private WorkflowSpecificationPropertyType[] propertyField;
+        private WorkflowSpecificationPropertyType[] _propertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,20 +32,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ConnectionType {
             get {
-                return connectionTypeField;
+                return _connectionTypeField;
             }
             set {
-                connectionTypeField = value;
+                _connectionTypeField = value;
             }
         }
     
@@ -53,10 +53,10 @@
         [System.Xml.Serialization.XmlElementAttribute("FromNodeID")]
         public DescriptionType[] FromNodeID {
             get {
-                return fromNodeIDField;
+                return _fromNodeIDField;
             }
             set {
-                fromNodeIDField = value;
+                _fromNodeIDField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ToNodeID")]
         public DescriptionType[] ToNodeID {
             get {
-                return toNodeIDField;
+                return _toNodeIDField;
             }
             set {
-                toNodeIDField = value;
+                _toNodeIDField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkflowSpecificationPropertyType[] Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     }

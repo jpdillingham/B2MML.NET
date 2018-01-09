@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class WorkScheduleType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType workTypeField;
+        private OperationsTypeType _workTypeField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private RequestStateType scheduleStateField;
+        private RequestStateType _scheduleStateField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private WorkScheduleType[] workScheduleField;
+        private WorkScheduleType[] _workScheduleField;
     
-        private WorkRequestType[] workRequestField;
+        private WorkRequestType[] _workRequestField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,70 +42,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
             get {
-                return workTypeField;
+                return _workTypeField;
             }
             set {
-                workTypeField = value;
+                _workTypeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType ScheduleState {
             get {
-                return scheduleStateField;
+                return _scheduleStateField;
             }
             set {
-                scheduleStateField = value;
+                _scheduleStateField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -113,10 +113,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkSchedule")]
         public WorkScheduleType[] WorkSchedule {
             get {
-                return workScheduleField;
+                return _workScheduleField;
             }
             set {
-                workScheduleField = value;
+                _workScheduleField = value;
             }
         }
     
@@ -124,10 +124,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkRequest")]
         public WorkRequestType[] WorkRequest {
             get {
-                return workRequestField;
+                return _workRequestField;
             }
             set {
-                workRequestField = value;
+                _workRequestField = value;
             }
         }
     }

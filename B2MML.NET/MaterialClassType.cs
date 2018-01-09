@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class MaterialClassType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private MaterialClassPropertyType[] materialClassPropertyField;
+        private MaterialClassPropertyType[] _materialClassPropertyField;
     
-        private MaterialDefinitionIDType[] materialDefinitionIDField;
+        private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
-        private MaterialTestSpecificationIDType[] materialTestSpecificationIDField;
+        private MaterialTestSpecificationIDType[] _materialTestSpecificationIDField;
     
-        private MaterialClassIDType[] assemblyClassIDField;
+        private MaterialClassIDType[] _assemblyClassIDField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,30 +42,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -73,10 +73,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassProperty")]
         public MaterialClassPropertyType[] MaterialClassProperty {
             get {
-                return materialClassPropertyField;
+                return _materialClassPropertyField;
             }
             set {
-                materialClassPropertyField = value;
+                _materialClassPropertyField = value;
             }
         }
     
@@ -84,10 +84,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
@@ -95,10 +95,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
             get {
-                return materialTestSpecificationIDField;
+                return _materialTestSpecificationIDField;
             }
             set {
-                materialTestSpecificationIDField = value;
+                _materialTestSpecificationIDField = value;
             }
         }
     
@@ -106,30 +106,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyClassID")]
         public MaterialClassIDType[] AssemblyClassID {
             get {
-                return assemblyClassIDField;
+                return _assemblyClassIDField;
             }
             set {
-                assemblyClassIDField = value;
+                _assemblyClassIDField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     }

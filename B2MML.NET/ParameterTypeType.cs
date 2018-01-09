@@ -8,16 +8,16 @@
          IsNullable = false)]
     public partial class ParameterTypeType : ParameterType1Type {
     
-        private string otherValueField;
+        private string _otherValueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string OtherValue {
             get {
-                return otherValueField;
+                return _otherValueField;
             }
             set {
-                otherValueField = value;
+                _otherValueField = value;
             }
         }
     }

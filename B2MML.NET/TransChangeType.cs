@@ -6,42 +6,42 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransChangeType {
     
-        private TransActionCriteriaType[] actionCriteriaField;
+        private TransActionCriteriaType[] _actionCriteriaField;
     
-        private TransResponseCodeType responseCodeField;
+        private TransResponseCodeType _responseCodeField;
     
-        private bool responseCodeFieldSpecified;
+        private bool _responseCodeFieldSpecified;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActionCriteria")]
         public TransActionCriteriaType[] ActionCriteria {
             get {
-                return actionCriteriaField;
+                return _actionCriteriaField;
             }
             set {
-                actionCriteriaField = value;
+                _actionCriteriaField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public TransResponseCodeType responseCode {
+        public TransResponseCodeType ResponseCode {
             get {
-                return responseCodeField;
+                return _responseCodeField;
             }
             set {
-                responseCodeField = value;
+                _responseCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
-        public bool responseCodeSpecified {
+        public bool ResponseCodeSpecified {
             get {
-                return responseCodeFieldSpecified;
+                return _responseCodeFieldSpecified;
             }
             set {
-                responseCodeFieldSpecified = value;
+                _responseCodeFieldSpecified = value;
             }
         }
     }

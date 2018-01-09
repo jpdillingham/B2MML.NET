@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangePersonnelClassTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private PersonnelClassType[] personnelClassField;
+        private PersonnelClassType[] _personnelClassField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClass")]
         public PersonnelClassType[] PersonnelClass {
             get {
-                return personnelClassField;
+                return _personnelClassField;
             }
             set {
-                personnelClassField = value;
+                _personnelClassField = value;
             }
         }
     }

@@ -8,23 +8,23 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class OperationsDefinitionInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private OperationsDefinitionType[] operationsDefinitionField;
+        private OperationsDefinitionType[] _operationsDefinitionField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,30 +32,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinition")]
         public OperationsDefinitionType[] OperationsDefinition {
             get {
-                return operationsDefinitionField;
+                return _operationsDefinitionField;
             }
             set {
-                operationsDefinitionField = value;
+                _operationsDefinitionField = value;
             }
         }
     }

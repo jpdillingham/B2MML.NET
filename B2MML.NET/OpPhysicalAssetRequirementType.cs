@@ -6,32 +6,32 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class OpPhysicalAssetRequirementType {
     
-        private PhysicalAssetClassIDType[] physicalAssetClassIDField;
+        private PhysicalAssetClassIDType[] _physicalAssetClassIDField;
     
-        private PhysicalAssetIDType[] physicalAssetIDField;
+        private PhysicalAssetIDType[] _physicalAssetIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private PhysicalAssetUseType physicalAssetUseField;
+        private PhysicalAssetUseType _physicalAssetUseField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private HierarchyScopeType equipmentLevelField;
+        private HierarchyScopeType _equipmentLevelField;
     
-        private OpPhysicalAssetRequirementPropertyType[] physicalAssetRequirementPropertyField;
+        private OpPhysicalAssetRequirementPropertyType[] _physicalAssetRequirementPropertyField;
     
-        private RequiredByRequestedSegmentResponseType requiredByRequestedSegmentResponseField;
+        private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
             get {
-                return physicalAssetClassIDField;
+                return _physicalAssetClassIDField;
             }
             set {
-                physicalAssetClassIDField = value;
+                _physicalAssetClassIDField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -50,20 +50,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetUseType PhysicalAssetUse {
             get {
-                return physicalAssetUseField;
+                return _physicalAssetUseField;
             }
             set {
-                physicalAssetUseField = value;
+                _physicalAssetUseField = value;
             }
         }
     
@@ -71,30 +71,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
             get {
-                return equipmentLevelField;
+                return _equipmentLevelField;
             }
             set {
-                equipmentLevelField = value;
+                _equipmentLevelField = value;
             }
         }
     
@@ -102,20 +102,20 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirementProperty")]
         public OpPhysicalAssetRequirementPropertyType[] PhysicalAssetRequirementProperty {
             get {
-                return physicalAssetRequirementPropertyField;
+                return _physicalAssetRequirementPropertyField;
             }
             set {
-                physicalAssetRequirementPropertyField = value;
+                _physicalAssetRequirementPropertyField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return requiredByRequestedSegmentResponseField;
+                return _requiredByRequestedSegmentResponseField;
             }
             set {
-                requiredByRequestedSegmentResponseField = value;
+                _requiredByRequestedSegmentResponseField = value;
             }
         }
     }

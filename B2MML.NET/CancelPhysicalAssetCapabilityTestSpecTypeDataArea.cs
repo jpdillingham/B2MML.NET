@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelPhysicalAssetCapabilityTestSpecTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private PhysicalAssetCapabilityTestSpecificationType[] physicalAssetCapabilityTestSpecField;
+        private PhysicalAssetCapabilityTestSpecificationType[] _physicalAssetCapabilityTestSpecField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
             get {
-                return physicalAssetCapabilityTestSpecField;
+                return _physicalAssetCapabilityTestSpecField;
             }
             set {
-                physicalAssetCapabilityTestSpecField = value;
+                _physicalAssetCapabilityTestSpecField = value;
             }
         }
     }

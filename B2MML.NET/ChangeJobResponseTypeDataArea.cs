@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeJobResponseTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private JobResponseType[] jobResponseField;
+        private JobResponseType[] _jobResponseField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
             get {
-                return jobResponseField;
+                return _jobResponseField;
             }
             set {
-                jobResponseField = value;
+                _jobResponseField = value;
             }
         }
     }

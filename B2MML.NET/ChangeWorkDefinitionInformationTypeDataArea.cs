@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeWorkDefinitionInformationTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private WorkDefinitionInformationType[] workDefinitionInformationField;
+        private WorkDefinitionInformationType[] _workDefinitionInformationField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkDefinitionInformation")]
         public WorkDefinitionInformationType[] WorkDefinitionInformation {
             get {
-                return workDefinitionInformationField;
+                return _workDefinitionInformationField;
             }
             set {
-                workDefinitionInformationField = value;
+                _workDefinitionInformationField = value;
             }
         }
     }

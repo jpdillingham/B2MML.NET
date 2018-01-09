@@ -8,41 +8,41 @@
          IsNullable = false)]
     public partial class WorkCapabilityType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private CapabilityTypeType capabilityTypeField;
+        private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType reasonField;
+        private ReasonType _reasonField;
     
-        private ConfidenceFactorType confidenceFactorField;
+        private ConfidenceFactorType _confidenceFactorField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private OpPersonnelCapabilityType[] personnelCapabilityField;
+        private OpPersonnelCapabilityType[] _personnelCapabilityField;
     
-        private OpEquipmentCapabilityType[] equipmentCapabilityField;
+        private OpEquipmentCapabilityType[] _equipmentCapabilityField;
     
-        private OpPhysicalAssetCapabilityType[] physicalAssetCapabilityField;
+        private OpPhysicalAssetCapabilityType[] _physicalAssetCapabilityField;
     
-        private OpMaterialCapabilityType[] materialCapabilityField;
+        private OpMaterialCapabilityType[] _materialCapabilityField;
     
-        private WorkMasterCapabilityType[] workMasterCapabilityField;
+        private WorkMasterCapabilityType[] _workMasterCapabilityField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -50,80 +50,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return capabilityTypeField;
+                return _capabilityTypeField;
             }
             set {
-                capabilityTypeField = value;
+                _capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
             get {
-                return confidenceFactorField;
+                return _confidenceFactorField;
             }
             set {
-                confidenceFactorField = value;
+                _confidenceFactorField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -131,10 +131,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
         public OpPersonnelCapabilityType[] PersonnelCapability {
             get {
-                return personnelCapabilityField;
+                return _personnelCapabilityField;
             }
             set {
-                personnelCapabilityField = value;
+                _personnelCapabilityField = value;
             }
         }
     
@@ -142,10 +142,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
         public OpEquipmentCapabilityType[] EquipmentCapability {
             get {
-                return equipmentCapabilityField;
+                return _equipmentCapabilityField;
             }
             set {
-                equipmentCapabilityField = value;
+                _equipmentCapabilityField = value;
             }
         }
     
@@ -153,10 +153,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapability")]
         public OpPhysicalAssetCapabilityType[] PhysicalAssetCapability {
             get {
-                return physicalAssetCapabilityField;
+                return _physicalAssetCapabilityField;
             }
             set {
-                physicalAssetCapabilityField = value;
+                _physicalAssetCapabilityField = value;
             }
         }
     
@@ -164,10 +164,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
         public OpMaterialCapabilityType[] MaterialCapability {
             get {
-                return materialCapabilityField;
+                return _materialCapabilityField;
             }
             set {
-                materialCapabilityField = value;
+                _materialCapabilityField = value;
             }
         }
     
@@ -175,10 +175,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMasterCapability")]
         public WorkMasterCapabilityType[] WorkMasterCapability {
             get {
-                return workMasterCapabilityField;
+                return _workMasterCapabilityField;
             }
             set {
-                workMasterCapabilityField = value;
+                _workMasterCapabilityField = value;
             }
         }
     }

@@ -6,27 +6,27 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TestedPersonnelClassPropertyType {
     
-        private PersonnelClassIDType personnelClassIDField;
+        private PersonnelClassIDType _personnelClassIDField;
     
-        private PropertyIDType propertyIDField;
+        private PropertyIDType _propertyIDField;
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
             get {
-                return personnelClassIDField;
+                return _personnelClassIDField;
             }
             set {
-                personnelClassIDField = value;
+                _personnelClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
             get {
-                return propertyIDField;
+                return _propertyIDField;
             }
             set {
-                propertyIDField = value;
+                _propertyIDField = value;
             }
         }
     }

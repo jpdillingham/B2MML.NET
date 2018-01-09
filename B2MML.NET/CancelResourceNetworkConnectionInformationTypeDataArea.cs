@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelResourceNetworkConnectionInformationTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private ResourceNetworkConnectionInformationType[] resourceNetworkConnectionInformationField;
+        private ResourceNetworkConnectionInformationType[] _resourceNetworkConnectionInformationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
             get {
-                return resourceNetworkConnectionInformationField;
+                return _resourceNetworkConnectionInformationField;
             }
             set {
-                resourceNetworkConnectionInformationField = value;
+                _resourceNetworkConnectionInformationField = value;
             }
         }
     }

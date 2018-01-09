@@ -8,25 +8,25 @@
          IsNullable = false)]
     public partial class ProductInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private ProductDefinitionType[] productDefinitionField;
+        private ProductDefinitionType[] _productDefinitionField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -34,40 +34,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductDefinition")]
         public ProductDefinitionType[] ProductDefinition {
             get {
-                return productDefinitionField;
+                return _productDefinitionField;
             }
             set {
-                productDefinitionField = value;
+                _productDefinitionField = value;
             }
         }
     }

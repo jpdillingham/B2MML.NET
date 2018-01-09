@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessEquipmentCapabilityTestSpecTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private EquipmentCapabilityTestSpecificationType[] equipmentCapabilityTestSpecField;
+        private EquipmentCapabilityTestSpecificationType[] _equipmentCapabilityTestSpecField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpec")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpec {
             get {
-                return equipmentCapabilityTestSpecField;
+                return _equipmentCapabilityTestSpecField;
             }
             set {
-                equipmentCapabilityTestSpecField = value;
+                _equipmentCapabilityTestSpecField = value;
             }
         }
     }

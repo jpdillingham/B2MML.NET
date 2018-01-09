@@ -8,39 +8,39 @@
          IsNullable = false)]
     public partial class ToIDType {
     
-        private string toIDValueField;
+        private string _toIDValueField;
     
-        private ToTypeType toTypeField;
+        private ToTypeType _toTypeField;
     
-        private IDScopeType iDScopeField;
+        private IDScopeType _iDScopeField;
     
         /// <remarks/>
         public string ToIDValue {
             get {
-                return toIDValueField;
+                return _toIDValueField;
             }
             set {
-                toIDValueField = value;
+                _toIDValueField = value;
             }
         }
     
         /// <remarks/>
         public ToTypeType ToType {
             get {
-                return toTypeField;
+                return _toTypeField;
             }
             set {
-                toTypeField = value;
+                _toTypeField = value;
             }
         }
     
         /// <remarks/>
         public IDScopeType IDScope {
             get {
-                return iDScopeField;
+                return _iDScopeField;
             }
             set {
-                iDScopeField = value;
+                _iDScopeField = value;
             }
         }
     }

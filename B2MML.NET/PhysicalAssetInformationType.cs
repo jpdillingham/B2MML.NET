@@ -8,27 +8,27 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class PhysicalAssetInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private PhysicalAssetType[] physicalAssetField;
+        private PhysicalAssetType[] _physicalAssetField;
     
-        private PhysicalAssetClassType[] physicalAssetClassField;
+        private PhysicalAssetClassType[] _physicalAssetClassField;
     
-        private PhysicalAssetCapabilityTestSpecificationType[] physicalAssetCapabilityTestSpecificationField;
+        private PhysicalAssetCapabilityTestSpecificationType[] _physicalAssetCapabilityTestSpecificationField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,30 +36,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -67,10 +67,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
             get {
-                return physicalAssetField;
+                return _physicalAssetField;
             }
             set {
-                physicalAssetField = value;
+                _physicalAssetField = value;
             }
         }
     
@@ -78,10 +78,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
             get {
-                return physicalAssetClassField;
+                return _physicalAssetClassField;
             }
             set {
-                physicalAssetClassField = value;
+                _physicalAssetClassField = value;
             }
         }
     
@@ -89,10 +89,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecification")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpecification {
             get {
-                return physicalAssetCapabilityTestSpecificationField;
+                return _physicalAssetCapabilityTestSpecificationField;
             }
             set {
-                physicalAssetCapabilityTestSpecificationField = value;
+                _physicalAssetCapabilityTestSpecificationField = value;
             }
         }
     }

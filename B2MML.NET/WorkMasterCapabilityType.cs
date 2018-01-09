@@ -6,37 +6,37 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class WorkMasterCapabilityType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType[] workMasterIDField;
+        private IdentifierType[] _workMasterIDField;
     
-        private CapabilityTypeType capabilityTypeField;
+        private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType[] reasonField;
+        private ReasonType[] _reasonField;
     
-        private HierarchyScopeType[] hierarchyScopeField;
+        private HierarchyScopeType[] _hierarchyScopeField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private OpPersonnelCapabilityType[] personnelCapabilityField;
+        private OpPersonnelCapabilityType[] _personnelCapabilityField;
     
-        private OpEquipmentCapabilityType[] equipmentCapabilityField;
+        private OpEquipmentCapabilityType[] _equipmentCapabilityField;
     
-        private OpPhysicalAssetCapabilityType[] physicalAssetCapabilityField;
+        private OpPhysicalAssetCapabilityType[] _physicalAssetCapabilityField;
     
-        private OpMaterialCapabilityType[] materialCapabilityField;
+        private OpMaterialCapabilityType[] _materialCapabilityField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -44,10 +44,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -55,20 +55,20 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMasterID")]
         public IdentifierType[] WorkMasterID {
             get {
-                return workMasterIDField;
+                return _workMasterIDField;
             }
             set {
-                workMasterIDField = value;
+                _workMasterIDField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return capabilityTypeField;
+                return _capabilityTypeField;
             }
             set {
-                capabilityTypeField = value;
+                _capabilityTypeField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public ReasonType[] Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
@@ -87,30 +87,30 @@
         [System.Xml.Serialization.XmlElementAttribute("HierarchyScope")]
         public HierarchyScopeType[] HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
         public OpPersonnelCapabilityType[] PersonnelCapability {
             get {
-                return personnelCapabilityField;
+                return _personnelCapabilityField;
             }
             set {
-                personnelCapabilityField = value;
+                _personnelCapabilityField = value;
             }
         }
     
@@ -129,10 +129,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
         public OpEquipmentCapabilityType[] EquipmentCapability {
             get {
-                return equipmentCapabilityField;
+                return _equipmentCapabilityField;
             }
             set {
-                equipmentCapabilityField = value;
+                _equipmentCapabilityField = value;
             }
         }
     
@@ -140,10 +140,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapability")]
         public OpPhysicalAssetCapabilityType[] PhysicalAssetCapability {
             get {
-                return physicalAssetCapabilityField;
+                return _physicalAssetCapabilityField;
             }
             set {
-                physicalAssetCapabilityField = value;
+                _physicalAssetCapabilityField = value;
             }
         }
     
@@ -151,10 +151,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
         public OpMaterialCapabilityType[] MaterialCapability {
             get {
-                return materialCapabilityField;
+                return _materialCapabilityField;
             }
             set {
-                materialCapabilityField = value;
+                _materialCapabilityField = value;
             }
         }
     }

@@ -8,27 +8,27 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class QualificationTestSpecificationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private TestedPersonPropertyType[] testedPersonPropertyField;
+        private TestedPersonPropertyType[] _testedPersonPropertyField;
     
-        private TestedPersonnelClassPropertyType[] testedPersonnelClassPropertyField;
+        private TestedPersonnelClassPropertyType[] _testedPersonnelClassPropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,40 +36,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonProperty")]
         public TestedPersonPropertyType[] TestedPersonProperty {
             get {
-                return testedPersonPropertyField;
+                return _testedPersonPropertyField;
             }
             set {
-                testedPersonPropertyField = value;
+                _testedPersonPropertyField = value;
             }
         }
     
@@ -88,10 +88,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonnelClassProperty")]
         public TestedPersonnelClassPropertyType[] TestedPersonnelClassProperty {
             get {
-                return testedPersonnelClassPropertyField;
+                return _testedPersonnelClassPropertyField;
             }
             set {
-                testedPersonnelClassPropertyField = value;
+                _testedPersonnelClassPropertyField = value;
             }
         }
     }

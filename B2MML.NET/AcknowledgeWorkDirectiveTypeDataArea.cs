@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeWorkDirectiveTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private WorkDirectiveType[] workDirectiveField;
+        private WorkDirectiveType[] _workDirectiveField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
             get {
-                return workDirectiveField;
+                return _workDirectiveField;
             }
             set {
-                workDirectiveField = value;
+                _workDirectiveField = value;
             }
         }
     }

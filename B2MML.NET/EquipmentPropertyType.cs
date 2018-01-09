@@ -6,25 +6,25 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class EquipmentPropertyType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ValueType[] valueField;
+        private ValueType[] _valueField;
     
-        private EquipmentPropertyType[] equipmentPropertyField;
+        private EquipmentPropertyType[] _equipmentPropertyField;
     
-        private EquipmentCapabilityTestSpecificationIDType[] equipmentCapabilityTestSpecificationIDField;
+        private EquipmentCapabilityTestSpecificationIDType[] _equipmentCapabilityTestSpecificationIDField;
     
-        private TestResultType[] testResultField;
+        private TestResultType[] _testResultField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,10 +32,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -43,10 +43,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     
@@ -54,10 +54,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProperty")]
         public EquipmentPropertyType[] EquipmentProperty {
             get {
-                return equipmentPropertyField;
+                return _equipmentPropertyField;
             }
             set {
-                equipmentPropertyField = value;
+                _equipmentPropertyField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecificationID")]
         public EquipmentCapabilityTestSpecificationIDType[] EquipmentCapabilityTestSpecificationID {
             get {
-                return equipmentCapabilityTestSpecificationIDField;
+                return _equipmentCapabilityTestSpecificationIDField;
             }
             set {
-                equipmentCapabilityTestSpecificationIDField = value;
+                _equipmentCapabilityTestSpecificationIDField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestResult")]
         public TestResultType[] TestResult {
             get {
-                return testResultField;
+                return _testResultField;
             }
             set {
-                testResultField = value;
+                _testResultField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessWorkPerformanceTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private WorkPerformanceType[] workPerformanceField;
+        private WorkPerformanceType[] _workPerformanceField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkPerformance")]
         public WorkPerformanceType[] WorkPerformance {
             get {
-                return workPerformanceField;
+                return _workPerformanceField;
             }
             set {
-                workPerformanceField = value;
+                _workPerformanceField = value;
             }
         }
     }

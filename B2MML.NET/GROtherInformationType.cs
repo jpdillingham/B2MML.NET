@@ -6,19 +6,19 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GROtherInformationType {
     
-        private IdentifierType otherInfoIDField;
+        private IdentifierType _otherInfoIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ValueType[] otherValueField;
+        private ValueType[] _otherValueField;
     
         /// <remarks/>
         public IdentifierType OtherInfoID {
             get {
-                return otherInfoIDField;
+                return _otherInfoIDField;
             }
             set {
-                otherInfoIDField = value;
+                _otherInfoIDField = value;
             }
         }
     
@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherValue")]
         public ValueType[] OtherValue {
             get {
-                return otherValueField;
+                return _otherValueField;
             }
             set {
-                otherValueField = value;
+                _otherValueField = value;
             }
         }
     }

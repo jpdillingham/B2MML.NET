@@ -106,122 +106,122 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CodeType {
     
-        private string listIDField;
+        private string _listIDField;
     
-        private string listAgencyIDField;
+        private string _listAgencyIDField;
     
-        private string listAgencyNameField;
+        private string _listAgencyNameField;
     
-        private string listNameField;
+        private string _listNameField;
     
-        private string listVersionIDField;
+        private string _listVersionIDField;
     
-        private string nameField;
+        private string _nameField;
     
-        private string languageIDField;
+        private string _languageIDField;
     
-        private string listURIField;
+        private string _listUriField;
     
-        private string listSchemeURIField;
+        private string _listSchemeUriField;
     
-        private string valueField;
-    
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listID {
-            get {
-                return listIDField;
-            }
-            set {
-                listIDField = value;
-            }
-        }
+        private string _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listAgencyID {
+        public string ListID {
             get {
-                return listAgencyIDField;
+                return _listIDField;
             }
             set {
-                listAgencyIDField = value;
-            }
-        }
-    
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string listAgencyName {
-            get {
-                return listAgencyNameField;
-            }
-            set {
-                listAgencyNameField = value;
-            }
-        }
-    
-        /// <remarks/>
-        [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string listName {
-            get {
-                return listNameField;
-            }
-            set {
-                listNameField = value;
+                _listIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listVersionID {
+        public string ListAgencyID {
             get {
-                return listVersionIDField;
+                return _listAgencyIDField;
             }
             set {
-                listVersionIDField = value;
+                _listAgencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string name {
+        public string ListAgencyName {
             get {
-                return nameField;
+                return _listAgencyNameField;
             }
             set {
-                nameField = value;
+                _listAgencyNameField = value;
+            }
+        }
+    
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string ListName {
+            get {
+                return _listNameField;
+            }
+            set {
+                _listNameField = value;
+            }
+        }
+    
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
+        public string ListVersionID {
+            get {
+                return _listVersionIDField;
+            }
+            set {
+                _listVersionIDField = value;
+            }
+        }
+    
+        /// <remarks/>
+        [System.Xml.Serialization.XmlAttributeAttribute()]
+        public string Name {
+            get {
+                return _nameField;
+            }
+            set {
+                _nameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
-        public string languageID {
+        public string LanguageID {
             get {
-                return languageIDField;
+                return _languageIDField;
             }
             set {
-                languageIDField = value;
+                _languageIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string listURI {
+        public string ListUri {
             get {
-                return listURIField;
+                return _listUriField;
             }
             set {
-                listURIField = value;
+                _listUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string listSchemeURI {
+        public string ListSchemeUri {
             get {
-                return listSchemeURIField;
+                return _listSchemeUriField;
             }
             set {
-                listSchemeURIField = value;
+                _listSchemeUriField = value;
             }
         }
     
@@ -229,10 +229,10 @@
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

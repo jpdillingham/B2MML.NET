@@ -6,19 +6,19 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class DataValueType {
     
-        private NumericType tagIndexField;
+        private NumericType _tagIndexField;
     
-        private string[] valueField;
+        private string[] _valueField;
     
-        private IdentifierType qualityField;
+        private IdentifierType _qualityField;
     
         /// <remarks/>
         public NumericType TagIndex {
             get {
-                return tagIndexField;
+                return _tagIndexField;
             }
             set {
-                tagIndexField = value;
+                _tagIndexField = value;
             }
         }
     
@@ -26,20 +26,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public string[] Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Quality {
             get {
-                return qualityField;
+                return _qualityField;
             }
             set {
-                qualityField = value;
+                _qualityField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowEquipmentCapabilityTestSpecTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private EquipmentCapabilityTestSpecificationType[] equipmentCapabilityTestSpecField;
+        private EquipmentCapabilityTestSpecificationType[] _equipmentCapabilityTestSpecField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpec")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpec {
             get {
-                return equipmentCapabilityTestSpecField;
+                return _equipmentCapabilityTestSpecField;
             }
             set {
-                equipmentCapabilityTestSpecField = value;
+                _equipmentCapabilityTestSpecField = value;
             }
         }
     }

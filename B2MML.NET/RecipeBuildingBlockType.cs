@@ -8,18 +8,18 @@
          IsNullable = false)]
     public partial class RecipeBuildingBlockType {
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private RecipeElementType[] recipeElementField;
+        private RecipeElementType[] _recipeElementField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -27,10 +27,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
             get {
-                return recipeElementField;
+                return _recipeElementField;
             }
             set {
-                recipeElementField = value;
+                _recipeElementField = value;
             }
         }
     }

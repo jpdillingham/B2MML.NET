@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessMaterialClassTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private MaterialClassType[] materialClassField;
+        private MaterialClassType[] _materialClassField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass")]
         public MaterialClassType[] MaterialClass {
             get {
-                return materialClassField;
+                return _materialClassField;
             }
             set {
-                materialClassField = value;
+                _materialClassField = value;
             }
         }
     }

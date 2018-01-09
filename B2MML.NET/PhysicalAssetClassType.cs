@@ -8,27 +8,27 @@
          IsNullable = false)]
     public partial class PhysicalAssetClassType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private NameType[] manufacturerField;
+        private NameType[] _manufacturerField;
     
-        private PhysicalAssetClassPropertyType[] physicalAssetClassPropertyField;
+        private PhysicalAssetClassPropertyType[] _physicalAssetClassPropertyField;
     
-        private PhysicalAssetIDType[] physicalAssetIDField;
+        private PhysicalAssetIDType[] _physicalAssetIDField;
     
-        private PhysicalAssetCapabilityTestSpecificationIDType[] physicalAssetCapabilityTestSpecificationIDField;
+        private PhysicalAssetCapabilityTestSpecificationIDType[] _physicalAssetCapabilityTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,20 +36,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -57,10 +57,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Manufacturer")]
         public NameType[] Manufacturer {
             get {
-                return manufacturerField;
+                return _manufacturerField;
             }
             set {
-                manufacturerField = value;
+                _manufacturerField = value;
             }
         }
     
@@ -68,10 +68,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassProperty")]
         public PhysicalAssetClassPropertyType[] PhysicalAssetClassProperty {
             get {
-                return physicalAssetClassPropertyField;
+                return _physicalAssetClassPropertyField;
             }
             set {
-                physicalAssetClassPropertyField = value;
+                _physicalAssetClassPropertyField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecificationID")]
         public PhysicalAssetCapabilityTestSpecificationIDType[] PhysicalAssetCapabilityTestSpecificationID {
             get {
-                return physicalAssetCapabilityTestSpecificationIDField;
+                return _physicalAssetCapabilityTestSpecificationIDField;
             }
             set {
-                physicalAssetCapabilityTestSpecificationIDField = value;
+                _physicalAssetCapabilityTestSpecificationIDField = value;
             }
         }
     }

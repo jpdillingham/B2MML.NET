@@ -6,28 +6,28 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransActionCriteriaType {
     
-        private TransExpressionType[] actionExpressionField;
+        private TransExpressionType[] _actionExpressionField;
     
-        private TransChangeStatusType changeStatusField;
+        private TransChangeStatusType _changeStatusField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActionExpression")]
         public TransExpressionType[] ActionExpression {
             get {
-                return actionExpressionField;
+                return _actionExpressionField;
             }
             set {
-                actionExpressionField = value;
+                _actionExpressionField = value;
             }
         }
     
         /// <remarks/>
         public TransChangeStatusType ChangeStatus {
             get {
-                return changeStatusField;
+                return _changeStatusField;
             }
             set {
-                changeStatusField = value;
+                _changeStatusField = value;
             }
         }
     }

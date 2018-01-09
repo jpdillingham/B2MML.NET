@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class RespondProcessSegmentInformationTypeDataArea {
     
-        private TransRespondType respondField;
+        private TransRespondType _respondField;
     
-        private ProcessSegmentInformationType[] processSegmentInformationField;
+        private ProcessSegmentInformationType[] _processSegmentInformationField;
     
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return respondField;
+                return _respondField;
             }
             set {
-                respondField = value;
+                _respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentInformation")]
         public ProcessSegmentInformationType[] ProcessSegmentInformation {
             get {
-                return processSegmentInformationField;
+                return _processSegmentInformationField;
             }
             set {
-                processSegmentInformationField = value;
+                _processSegmentInformationField = value;
             }
         }
     }

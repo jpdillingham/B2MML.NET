@@ -6,67 +6,67 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ResourceQualificationsManifestType {
     
-        private IdentifierType entryIDField;
+        private IdentifierType _entryIDField;
     
-        private RecordObjectTypeType objectTypeField;
+        private RecordObjectTypeType _objectTypeField;
     
-        private DateTimeType timeStampField;
+        private DateTimeType _timeStampField;
     
-        private IdentifierType externalReferenceField;
+        private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType recordReferenceField;
+        private IdentifierType _recordReferenceField;
     
-        private IdentifierType resourceIDField;
+        private IdentifierType _resourceIDField;
     
-        private IdentifierType resourceUseField;
+        private IdentifierType _resourceUseField;
     
-        private IdentifierType resourceTypeField;
+        private IdentifierType _resourceTypeField;
     
-        private CodeType qualificationStatusField;
+        private CodeType _qualificationStatusField;
     
-        private DateTimeType effectiveTimeStampField;
+        private DateTimeType _effectiveTimeStampField;
     
-        private DateTimeType expirationTimeStampField;
+        private DateTimeType _expirationTimeStampField;
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return entryIDField;
+                return _entryIDField;
             }
             set {
-                entryIDField = value;
+                _entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return objectTypeField;
+                return _objectTypeField;
             }
             set {
-                objectTypeField = value;
+                _objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return externalReferenceField;
+                return _externalReferenceField;
             }
             set {
-                externalReferenceField = value;
+                _externalReferenceField = value;
             }
         }
     
@@ -74,80 +74,80 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType RecordReference {
             get {
-                return recordReferenceField;
+                return _recordReferenceField;
             }
             set {
-                recordReferenceField = value;
+                _recordReferenceField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceID {
             get {
-                return resourceIDField;
+                return _resourceIDField;
             }
             set {
-                resourceIDField = value;
+                _resourceIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceUse {
             get {
-                return resourceUseField;
+                return _resourceUseField;
             }
             set {
-                resourceUseField = value;
+                _resourceUseField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ResourceType {
             get {
-                return resourceTypeField;
+                return _resourceTypeField;
             }
             set {
-                resourceTypeField = value;
+                _resourceTypeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType QualificationStatus {
             get {
-                return qualificationStatusField;
+                return _qualificationStatusField;
             }
             set {
-                qualificationStatusField = value;
+                _qualificationStatusField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EffectiveTimeStamp {
             get {
-                return effectiveTimeStampField;
+                return _effectiveTimeStampField;
             }
             set {
-                effectiveTimeStampField = value;
+                _effectiveTimeStampField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType ExpirationTimeStamp {
             get {
-                return expirationTimeStampField;
+                return _expirationTimeStampField;
             }
             set {
-                expirationTimeStampField = value;
+                _expirationTimeStampField = value;
             }
         }
     }

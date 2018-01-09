@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowPersonTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private PersonType[] personField;
+        private PersonType[] _personField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Person")]
         public PersonType[] Person {
             get {
-                return personField;
+                return _personField;
             }
             set {
-                personField = value;
+                _personField = value;
             }
         }
     }

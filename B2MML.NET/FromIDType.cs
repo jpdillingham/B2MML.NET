@@ -8,39 +8,39 @@
          IsNullable = false)]
     public partial class FromIDType {
     
-        private string fromIDValueField;
+        private string _fromIDValueField;
     
-        private FromTypeType fromTypeField;
+        private FromTypeType _fromTypeField;
     
-        private IDScopeType iDScopeField;
+        private IDScopeType _iDScopeField;
     
         /// <remarks/>
         public string FromIDValue {
             get {
-                return fromIDValueField;
+                return _fromIDValueField;
             }
             set {
-                fromIDValueField = value;
+                _fromIDValueField = value;
             }
         }
     
         /// <remarks/>
         public FromTypeType FromType {
             get {
-                return fromTypeField;
+                return _fromTypeField;
             }
             set {
-                fromTypeField = value;
+                _fromTypeField = value;
             }
         }
     
         /// <remarks/>
         public IDScopeType IDScope {
             get {
-                return iDScopeField;
+                return _iDScopeField;
             }
             set {
-                iDScopeField = value;
+                _iDScopeField = value;
             }
         }
     }

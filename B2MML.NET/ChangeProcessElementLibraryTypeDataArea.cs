@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeProcessElementLibraryTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private ProcessElementLibraryType[] processElementLibraryField;
+        private ProcessElementLibraryType[] _processElementLibraryField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
             get {
-                return processElementLibraryField;
+                return _processElementLibraryField;
             }
             set {
-                processElementLibraryField = value;
+                _processElementLibraryField = value;
             }
         }
     }

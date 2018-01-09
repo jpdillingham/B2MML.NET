@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgePhysicalAssetInformationTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private PhysicalAssetInformationType[] physicalAssetInformationField;
+        private PhysicalAssetInformationType[] _physicalAssetInformationField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetInformation")]
         public PhysicalAssetInformationType[] PhysicalAssetInformation {
             get {
-                return physicalAssetInformationField;
+                return _physicalAssetInformationField;
             }
             set {
-                physicalAssetInformationField = value;
+                _physicalAssetInformationField = value;
             }
         }
     }

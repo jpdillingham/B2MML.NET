@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SyncEquipmentInformationTypeDataArea {
     
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
     
-        private EquipmentInformationType[] equipmentInformationField;
+        private EquipmentInformationType[] _equipmentInformationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return syncField;
+                return _syncField;
             }
             set {
-                syncField = value;
+                _syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentInformation")]
         public EquipmentInformationType[] EquipmentInformation {
             get {
-                return equipmentInformationField;
+                return _equipmentInformationField;
             }
             set {
-                equipmentInformationField = value;
+                _equipmentInformationField = value;
             }
         }
     }

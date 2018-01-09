@@ -8,30 +8,30 @@
          IsNullable = false)]
     public partial class BatchInformationType {
     
-        private ListHeaderType[] listHeaderField;
+        private ListHeaderType[] _listHeaderField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private MasterRecipeType[] masterRecipeField;
+        private MasterRecipeType[] _masterRecipeField;
     
-        private ControlRecipeType[] controlRecipeField;
+        private ControlRecipeType[] _controlRecipeField;
     
-        private RecipeBuildingBlockType[] recipeBuildingBlockField;
+        private RecipeBuildingBlockType[] _recipeBuildingBlockField;
     
-        private EquipmentElementType[] equipmentElementField;
+        private EquipmentElementType[] _equipmentElementField;
     
-        private BatchListType[] batchListField;
+        private BatchListType[] _batchListField;
     
-        private EnumerationSetType[] enumerationSetField;
+        private EnumerationSetType[] _enumerationSetField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ListHeader")]
         public ListHeaderType[] ListHeader {
             get {
-                return listHeaderField;
+                return _listHeaderField;
             }
             set {
-                listHeaderField = value;
+                _listHeaderField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MasterRecipe")]
         public MasterRecipeType[] MasterRecipe {
             get {
-                return masterRecipeField;
+                return _masterRecipeField;
             }
             set {
-                masterRecipeField = value;
+                _masterRecipeField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ControlRecipe")]
         public ControlRecipeType[] ControlRecipe {
             get {
-                return controlRecipeField;
+                return _controlRecipeField;
             }
             set {
-                controlRecipeField = value;
+                _controlRecipeField = value;
             }
         }
     
@@ -72,10 +72,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeBuildingBlock")]
         public RecipeBuildingBlockType[] RecipeBuildingBlock {
             get {
-                return recipeBuildingBlockField;
+                return _recipeBuildingBlockField;
             }
             set {
-                recipeBuildingBlockField = value;
+                _recipeBuildingBlockField = value;
             }
         }
     
@@ -83,10 +83,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElement")]
         public EquipmentElementType[] EquipmentElement {
             get {
-                return equipmentElementField;
+                return _equipmentElementField;
             }
             set {
-                equipmentElementField = value;
+                _equipmentElementField = value;
             }
         }
     
@@ -94,10 +94,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchList")]
         public BatchListType[] BatchList {
             get {
-                return batchListField;
+                return _batchListField;
             }
             set {
-                batchListField = value;
+                _batchListField = value;
             }
         }
     
@@ -105,10 +105,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSet")]
         public EnumerationSetType[] EnumerationSet {
             get {
-                return enumerationSetField;
+                return _enumerationSetField;
             }
             set {
-                enumerationSetField = value;
+                _enumerationSetField = value;
             }
         }
     }

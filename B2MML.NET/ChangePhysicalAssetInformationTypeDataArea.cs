@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangePhysicalAssetInformationTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private PhysicalAssetInformationType[] physicalAssetInformationField;
+        private PhysicalAssetInformationType[] _physicalAssetInformationField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetInformation")]
         public PhysicalAssetInformationType[] PhysicalAssetInformation {
             get {
-                return physicalAssetInformationField;
+                return _physicalAssetInformationField;
             }
             set {
-                physicalAssetInformationField = value;
+                _physicalAssetInformationField = value;
             }
         }
     }

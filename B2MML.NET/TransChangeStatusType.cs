@@ -6,57 +6,57 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransChangeStatusType {
     
-        private CodeType codeField;
+        private CodeType _codeField;
     
-        private DescriptionType descriptionField;
+        private DescriptionType _descriptionField;
     
-        private DateTimeType effectiveDateTimeField;
+        private DateTimeType _effectiveDateTimeField;
     
-        private CodeType reasonCodeField;
+        private CodeType _reasonCodeField;
     
-        private CodeType[] reasonField;
+        private CodeType[] _reasonField;
     
-        private TransStateChangeType[] stateChangeField;
+        private TransStateChangeType[] _stateChangeField;
     
-        private TransUserAreaType userAreaField;
+        private TransUserAreaType _userAreaField;
     
         /// <remarks/>
         public CodeType Code {
             get {
-                return codeField;
+                return _codeField;
             }
             set {
-                codeField = value;
+                _codeField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EffectiveDateTime {
             get {
-                return effectiveDateTimeField;
+                return _effectiveDateTimeField;
             }
             set {
-                effectiveDateTimeField = value;
+                _effectiveDateTimeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType ReasonCode {
             get {
-                return reasonCodeField;
+                return _reasonCodeField;
             }
             set {
-                reasonCodeField = value;
+                _reasonCodeField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public CodeType[] Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
@@ -75,20 +75,20 @@
         [System.Xml.Serialization.XmlElementAttribute("StateChange")]
         public TransStateChangeType[] StateChange {
             get {
-                return stateChangeField;
+                return _stateChangeField;
             }
             set {
-                stateChangeField = value;
+                _stateChangeField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return userAreaField;
+                return _userAreaField;
             }
             set {
-                userAreaField = value;
+                _userAreaField = value;
             }
         }
     }

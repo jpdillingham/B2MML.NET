@@ -8,29 +8,29 @@
          IsNullable = false)]
     public partial class EquipmentClassType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private HierarchyScopeType equipmentLevelField;
+        private HierarchyScopeType _equipmentLevelField;
     
-        private EquipmentClassPropertyType[] equipmentClassPropertyField;
+        private EquipmentClassPropertyType[] _equipmentClassPropertyField;
     
-        private EquipmentIDType[] equipmentIDField;
+        private EquipmentIDType[] _equipmentIDField;
     
-        private EquipmentCapabilityTestSpecificationIDType[] equipmentCapabilityTestSpecificationIDField;
+        private EquipmentCapabilityTestSpecificationIDType[] _equipmentCapabilityTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -38,40 +38,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
             get {
-                return equipmentLevelField;
+                return _equipmentLevelField;
             }
             set {
-                equipmentLevelField = value;
+                _equipmentLevelField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassProperty")]
         public EquipmentClassPropertyType[] EquipmentClassProperty {
             get {
-                return equipmentClassPropertyField;
+                return _equipmentClassPropertyField;
             }
             set {
-                equipmentClassPropertyField = value;
+                _equipmentClassPropertyField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecificationID")]
         public EquipmentCapabilityTestSpecificationIDType[] EquipmentCapabilityTestSpecificationID {
             get {
-                return equipmentCapabilityTestSpecificationIDField;
+                return _equipmentCapabilityTestSpecificationIDField;
             }
             set {
-                equipmentCapabilityTestSpecificationIDField = value;
+                _equipmentCapabilityTestSpecificationIDField = value;
             }
         }
     }

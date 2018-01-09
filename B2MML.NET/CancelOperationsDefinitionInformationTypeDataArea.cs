@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelOperationsDefinitionInformationTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private OperationsDefinitionInformationType[] operationsDefinitionInformationField;
+        private OperationsDefinitionInformationType[] _operationsDefinitionInformationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
             get {
-                return operationsDefinitionInformationField;
+                return _operationsDefinitionInformationField;
             }
             set {
-                operationsDefinitionInformationField = value;
+                _operationsDefinitionInformationField = value;
             }
         }
     }

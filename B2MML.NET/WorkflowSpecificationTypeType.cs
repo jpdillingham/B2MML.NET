@@ -8,33 +8,33 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class WorkflowSpecificationTypeType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private WorkflowSpecificationNodeTypeType[] nodeTypeField;
+        private WorkflowSpecificationNodeTypeType[] _nodeTypeField;
     
-        private WorkflowSpecificationConnectionTypeType[] connectionTypeField;
+        private WorkflowSpecificationConnectionTypeType[] _connectionTypeField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
@@ -42,10 +42,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -53,10 +53,10 @@
         [System.Xml.Serialization.XmlElementAttribute("NodeType")]
         public WorkflowSpecificationNodeTypeType[] NodeType {
             get {
-                return nodeTypeField;
+                return _nodeTypeField;
             }
             set {
-                nodeTypeField = value;
+                _nodeTypeField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ConnectionType")]
         public WorkflowSpecificationConnectionTypeType[] ConnectionType {
             get {
-                return connectionTypeField;
+                return _connectionTypeField;
             }
             set {
-                connectionTypeField = value;
+                _connectionTypeField = value;
             }
         }
     }

@@ -8,19 +8,19 @@
          IsNullable = false)]
     public partial class ModificationLogType {
     
-        private ModifiedDateType modifiedDateField;
+        private ModifiedDateType _modifiedDateField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private AuthorType authorField;
+        private AuthorType _authorField;
     
         /// <remarks/>
         public ModifiedDateType ModifiedDate {
             get {
-                return modifiedDateField;
+                return _modifiedDateField;
             }
             set {
-                modifiedDateField = value;
+                _modifiedDateField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public AuthorType Author {
             get {
-                return authorField;
+                return _authorField;
             }
             set {
-                authorField = value;
+                _authorField = value;
             }
         }
     }

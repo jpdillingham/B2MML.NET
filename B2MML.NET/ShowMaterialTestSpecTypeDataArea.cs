@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowMaterialTestSpecTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private MaterialTestSpecificationType[] materialTestSpecField;
+        private MaterialTestSpecificationType[] _materialTestSpecField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpec")]
         public MaterialTestSpecificationType[] MaterialTestSpec {
             get {
-                return materialTestSpecField;
+                return _materialTestSpecField;
             }
             set {
-                materialTestSpecField = value;
+                _materialTestSpecField = value;
             }
         }
     }

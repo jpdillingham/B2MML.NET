@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessProductInformationTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private ProductInformationType[] productInformationField;
+        private ProductInformationType[] _productInformationField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductInformation")]
         public ProductInformationType[] ProductInformation {
             get {
-                return productInformationField;
+                return _productInformationField;
             }
             set {
-                productInformationField = value;
+                _productInformationField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeWorkflowSpecificationTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private WorkflowSpecificationType[] workflowSpecificationField;
+        private WorkflowSpecificationType[] _workflowSpecificationField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
             get {
-                return workflowSpecificationField;
+                return _workflowSpecificationField;
             }
             set {
-                workflowSpecificationField = value;
+                _workflowSpecificationField = value;
             }
         }
     }

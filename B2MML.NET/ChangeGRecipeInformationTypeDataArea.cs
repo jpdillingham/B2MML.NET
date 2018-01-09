@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeGRecipeInformationTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private GRecipeInformationType[] gRecipeInformationField;
+        private GRecipeInformationType[] _gRecipeInformationField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
             get {
-                return gRecipeInformationField;
+                return _gRecipeInformationField;
             }
             set {
-                gRecipeInformationField = value;
+                _gRecipeInformationField = value;
             }
         }
     }

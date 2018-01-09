@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessMaterialSubLotTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private MaterialSubLotType[] materialSubLotField;
+        private MaterialSubLotType[] _materialSubLotField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
             get {
-                return materialSubLotField;
+                return _materialSubLotField;
             }
             set {
-                materialSubLotField = value;
+                _materialSubLotField = value;
             }
         }
     }

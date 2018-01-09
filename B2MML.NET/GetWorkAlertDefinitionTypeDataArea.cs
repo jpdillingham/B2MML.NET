@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GetWorkAlertDefinitionTypeDataArea {
     
-        private string[] getField;
+        private string[] _getField;
     
-        private WorkAlertDefinitionType[] workAlertDefinitionField;
+        private WorkAlertDefinitionType[] _workAlertDefinitionField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return getField;
+                return _getField;
             }
             set {
-                getField = value;
+                _getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition")]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
             get {
-                return workAlertDefinitionField;
+                return _workAlertDefinitionField;
             }
             set {
-                workAlertDefinitionField = value;
+                _workAlertDefinitionField = value;
             }
         }
     }

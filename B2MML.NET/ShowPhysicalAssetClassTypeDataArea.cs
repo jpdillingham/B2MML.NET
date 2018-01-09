@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowPhysicalAssetClassTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private PhysicalAssetClassType[] physicalAssetClassField;
+        private PhysicalAssetClassType[] _physicalAssetClassField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
             get {
-                return physicalAssetClassField;
+                return _physicalAssetClassField;
             }
             set {
-                physicalAssetClassField = value;
+                _physicalAssetClassField = value;
             }
         }
     }

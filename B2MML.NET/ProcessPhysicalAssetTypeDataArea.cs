@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessPhysicalAssetTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private PhysicalAssetType[] physicalAssetField;
+        private PhysicalAssetType[] _physicalAssetField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
             get {
-                return physicalAssetField;
+                return _physicalAssetField;
             }
             set {
-                physicalAssetField = value;
+                _physicalAssetField = value;
             }
         }
     }

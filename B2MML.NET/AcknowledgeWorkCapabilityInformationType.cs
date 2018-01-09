@@ -8,53 +8,53 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class AcknowledgeWorkCapabilityInformationType {
     
-        private TransApplicationAreaType applicationAreaField;
+        private TransApplicationAreaType _applicationAreaField;
     
-        private AcknowledgeWorkCapabilityInformationTypeDataArea dataAreaField;
+        private AcknowledgeWorkCapabilityInformationTypeDataArea _dataAreaField;
     
-        private string releaseIDField;
+        private string _releaseIDField;
     
-        private string versionIDField;
+        private string _versionIDField;
     
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
             get {
-                return applicationAreaField;
+                return _applicationAreaField;
             }
             set {
-                applicationAreaField = value;
+                _applicationAreaField = value;
             }
         }
     
         /// <remarks/>
         public AcknowledgeWorkCapabilityInformationTypeDataArea DataArea {
             get {
-                return dataAreaField;
+                return _dataAreaField;
             }
             set {
-                dataAreaField = value;
+                _dataAreaField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string releaseID {
+        public string ReleaseID {
             get {
-                return releaseIDField;
+                return _releaseIDField;
             }
             set {
-                releaseIDField = value;
+                _releaseIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string versionID {
+        public string VersionID {
             get {
-                return versionIDField;
+                return _versionIDField;
             }
             set {
-                versionIDField = value;
+                _versionIDField = value;
             }
         }
     }

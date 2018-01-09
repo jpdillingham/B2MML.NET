@@ -12,18 +12,18 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class NumericType {
     
-        private string formatField;
+        private string _formatField;
     
-        private decimal valueField;
+        private decimal _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string format {
+        public string Format {
             get {
-                return formatField;
+                return _formatField;
             }
             set {
-                formatField = value;
+                _formatField = value;
             }
         }
     
@@ -31,10 +31,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public decimal Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

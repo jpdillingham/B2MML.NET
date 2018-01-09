@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeProductionPerformanceTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private ProductionPerformanceType[] productionPerformanceField;
+        private ProductionPerformanceType[] _productionPerformanceField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionPerformance")]
         public ProductionPerformanceType[] ProductionPerformance {
             get {
-                return productionPerformanceField;
+                return _productionPerformanceField;
             }
             set {
-                productionPerformanceField = value;
+                _productionPerformanceField = value;
             }
         }
     }

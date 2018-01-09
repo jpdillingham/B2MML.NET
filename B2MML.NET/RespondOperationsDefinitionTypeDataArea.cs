@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class RespondOperationsDefinitionTypeDataArea {
     
-        private TransRespondType respondField;
+        private TransRespondType _respondField;
     
-        private OperationsDefinitionType[] operationsDefinitionField;
+        private OperationsDefinitionType[] _operationsDefinitionField;
     
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return respondField;
+                return _respondField;
             }
             set {
-                respondField = value;
+                _respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinition")]
         public OperationsDefinitionType[] OperationsDefinition {
             get {
-                return operationsDefinitionField;
+                return _operationsDefinitionField;
             }
             set {
-                operationsDefinitionField = value;
+                _operationsDefinitionField = value;
             }
         }
     }

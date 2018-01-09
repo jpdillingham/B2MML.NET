@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GetJobResponseTypeDataArea {
     
-        private string[] getField;
+        private string[] _getField;
     
-        private JobResponseType[] jobResponseField;
+        private JobResponseType[] _jobResponseField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return getField;
+                return _getField;
             }
             set {
-                getField = value;
+                _getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
             get {
-                return jobResponseField;
+                return _jobResponseField;
             }
             set {
-                jobResponseField = value;
+                _jobResponseField = value;
             }
         }
     }

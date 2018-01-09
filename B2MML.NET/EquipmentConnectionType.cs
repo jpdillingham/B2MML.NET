@@ -8,23 +8,23 @@
          IsNullable = false)]
     public partial class EquipmentConnectionType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ConnectionTypeType connectionTypeField;
+        private ConnectionTypeType _connectionTypeField;
     
-        private FromEquipmentIDType[] fromEquipmentIDField;
+        private FromEquipmentIDType[] _fromEquipmentIDField;
     
-        private ToEquipmentIDType[] toEquipmentIDField;
+        private ToEquipmentIDType[] _toEquipmentIDField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,20 +32,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ConnectionTypeType ConnectionType {
             get {
-                return connectionTypeField;
+                return _connectionTypeField;
             }
             set {
-                connectionTypeField = value;
+                _connectionTypeField = value;
             }
         }
     
@@ -53,10 +53,10 @@
         [System.Xml.Serialization.XmlElementAttribute("FromEquipmentID")]
         public FromEquipmentIDType[] FromEquipmentID {
             get {
-                return fromEquipmentIDField;
+                return _fromEquipmentIDField;
             }
             set {
-                fromEquipmentIDField = value;
+                _fromEquipmentIDField = value;
             }
         }
     
@@ -64,10 +64,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ToEquipmentID")]
         public ToEquipmentIDType[] ToEquipmentID {
             get {
-                return toEquipmentIDField;
+                return _toEquipmentIDField;
             }
             set {
-                toEquipmentIDField = value;
+                _toEquipmentIDField = value;
             }
         }
     }

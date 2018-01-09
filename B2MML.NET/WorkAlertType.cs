@@ -8,27 +8,27 @@
          IsNullable = false)]
     public partial class WorkAlertType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] messageTextField;
+        private DescriptionType[] _messageTextField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private StartTimeType timeStampField;
+        private StartTimeType _timeStampField;
     
-        private PriorityType priorityField;
+        private PriorityType _priorityField;
     
-        private IdentifierType categoryField;
+        private IdentifierType _categoryField;
     
-        private WorkAlertPropertyType[] propertyField;
+        private WorkAlertPropertyType[] _propertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,50 +36,50 @@
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
         public DescriptionType[] MessageText {
             get {
-                return messageTextField;
+                return _messageTextField;
             }
             set {
-                messageTextField = value;
+                _messageTextField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public PriorityType Priority {
             get {
-                return priorityField;
+                return _priorityField;
             }
             set {
-                priorityField = value;
+                _priorityField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Category {
             get {
-                return categoryField;
+                return _categoryField;
             }
             set {
-                categoryField = value;
+                _categoryField = value;
             }
         }
     
@@ -87,10 +87,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkAlertPropertyType[] Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     }

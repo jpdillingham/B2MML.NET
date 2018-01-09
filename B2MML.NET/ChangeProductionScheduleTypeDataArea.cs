@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeProductionScheduleTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private ProductionScheduleType[] productionScheduleField;
+        private ProductionScheduleType[] _productionScheduleField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
         public ProductionScheduleType[] ProductionSchedule {
             get {
-                return productionScheduleField;
+                return _productionScheduleField;
             }
             set {
-                productionScheduleField = value;
+                _productionScheduleField = value;
             }
         }
     }

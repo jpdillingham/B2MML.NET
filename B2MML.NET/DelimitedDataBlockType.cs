@@ -6,39 +6,39 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class DelimitedDataBlockType {
     
-        private string tagDelimiterField;
+        private string _tagDelimiterField;
     
-        private string orderDelimiterField;
+        private string _orderDelimiterField;
     
-        private string delimitedDataField;
+        private string _delimitedDataField;
     
         /// <remarks/>
         public string TagDelimiter {
             get {
-                return tagDelimiterField;
+                return _tagDelimiterField;
             }
             set {
-                tagDelimiterField = value;
+                _tagDelimiterField = value;
             }
         }
     
         /// <remarks/>
         public string OrderDelimiter {
             get {
-                return orderDelimiterField;
+                return _orderDelimiterField;
             }
             set {
-                orderDelimiterField = value;
+                _orderDelimiterField = value;
             }
         }
     
         /// <remarks/>
         public string DelimitedData {
             get {
-                return delimitedDataField;
+                return _delimitedDataField;
             }
             set {
-                delimitedDataField = value;
+                _delimitedDataField = value;
             }
         }
     }

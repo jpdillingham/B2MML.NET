@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessWorkflowSpecificationTypeTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private WorkflowSpecificationTypeType[] workflowSpecificationTypeField;
+        private WorkflowSpecificationTypeType[] _workflowSpecificationTypeField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
         public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
             get {
-                return workflowSpecificationTypeField;
+                return _workflowSpecificationTypeField;
             }
             set {
-                workflowSpecificationTypeField = value;
+                _workflowSpecificationTypeField = value;
             }
         }
     }

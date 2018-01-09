@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeMaterialDefinitionTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private MaterialDefinitionType[] materialDefinitionField;
+        private MaterialDefinitionType[] _materialDefinitionField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
         public MaterialDefinitionType[] MaterialDefinition {
             get {
-                return materialDefinitionField;
+                return _materialDefinitionField;
             }
             set {
-                materialDefinitionField = value;
+                _materialDefinitionField = value;
             }
         }
     }

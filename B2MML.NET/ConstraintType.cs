@@ -8,27 +8,27 @@
          IsNullable = false)]
     public partial class ConstraintType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private ConditionType conditionField;
+        private ConditionType _conditionField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return conditionField;
+                return _conditionField;
             }
             set {
-                conditionField = value;
+                _conditionField = value;
             }
         }
     }

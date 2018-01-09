@@ -6,30 +6,30 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class EquipmentActualType {
     
-        private EquipmentClassIDType[] equipmentClassIDField;
+        private EquipmentClassIDType[] _equipmentClassIDField;
     
-        private EquipmentIDType[] equipmentIDField;
+        private EquipmentIDType[] _equipmentIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private EquipmentActualPropertyType[] equipmentActualPropertyField;
+        private EquipmentActualPropertyType[] _equipmentActualPropertyField;
     
-        private RequiredByRequestedSegmentResponseType requiredByRequestedSegmentResponseField;
+        private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
         public EquipmentClassIDType[] EquipmentClassID {
             get {
-                return equipmentClassIDField;
+                return _equipmentClassIDField;
             }
             set {
-                equipmentClassIDField = value;
+                _equipmentClassIDField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
@@ -48,30 +48,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -90,20 +90,20 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActualProperty")]
         public EquipmentActualPropertyType[] EquipmentActualProperty {
             get {
-                return equipmentActualPropertyField;
+                return _equipmentActualPropertyField;
             }
             set {
-                equipmentActualPropertyField = value;
+                _equipmentActualPropertyField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return requiredByRequestedSegmentResponseField;
+                return _requiredByRequestedSegmentResponseField;
             }
             set {
-                requiredByRequestedSegmentResponseField = value;
+                _requiredByRequestedSegmentResponseField = value;
             }
         }
     }

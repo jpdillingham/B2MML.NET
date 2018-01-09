@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessEquipmentTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private EquipmentType[] equipmentField;
+        private EquipmentType[] _equipmentField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
         public EquipmentType[] Equipment {
             get {
-                return equipmentField;
+                return _equipmentField;
             }
             set {
-                equipmentField = value;
+                _equipmentField = value;
             }
         }
     }

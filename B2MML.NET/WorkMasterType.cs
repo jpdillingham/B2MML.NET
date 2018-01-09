@@ -8,53 +8,53 @@
          IsNullable = false)]
     public partial class WorkMasterType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private WorkTypeType workTypeField;
+        private WorkTypeType _workTypeField;
     
-        private string durationField;
+        private string _durationField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private OperationsDefinitionIDType operationsDefinitionIDField;
+        private OperationsDefinitionIDType _operationsDefinitionIDField;
     
-        private ParameterType[] parameterField;
+        private ParameterType[] _parameterField;
     
-        private OpPersonnelSpecificationType[] personnelSpecificationField;
+        private OpPersonnelSpecificationType[] _personnelSpecificationField;
     
-        private OpEquipmentSpecificationType[] equipmentSpecificationField;
+        private OpEquipmentSpecificationType[] _equipmentSpecificationField;
     
-        private OpPhysicalAssetSpecificationType[] physicalAssetSpecificationField;
+        private OpPhysicalAssetSpecificationType[] _physicalAssetSpecificationField;
     
-        private OpMaterialSpecificationType[] materialSpecificationField;
+        private OpMaterialSpecificationType[] _materialSpecificationField;
     
-        private WorkflowSpecificationType[] workflowSpecificationField;
+        private WorkflowSpecificationType[] _workflowSpecificationField;
     
-        private WorkMasterType[] workMasterField;
+        private WorkMasterType[] _workMasterField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
@@ -62,30 +62,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public WorkTypeType WorkType {
             get {
-                return workTypeField;
+                return _workTypeField;
             }
             set {
-                workTypeField = value;
+                _workTypeField = value;
             }
         }
     
@@ -93,30 +93,30 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return durationField;
+                return _durationField;
             }
             set {
-                durationField = value;
+                _durationField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public OperationsDefinitionIDType OperationsDefinitionID {
             get {
-                return operationsDefinitionIDField;
+                return _operationsDefinitionIDField;
             }
             set {
-                operationsDefinitionIDField = value;
+                _operationsDefinitionIDField = value;
             }
         }
     
@@ -124,10 +124,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     
@@ -135,10 +135,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecification")]
         public OpPersonnelSpecificationType[] PersonnelSpecification {
             get {
-                return personnelSpecificationField;
+                return _personnelSpecificationField;
             }
             set {
-                personnelSpecificationField = value;
+                _personnelSpecificationField = value;
             }
         }
     
@@ -146,10 +146,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecification")]
         public OpEquipmentSpecificationType[] EquipmentSpecification {
             get {
-                return equipmentSpecificationField;
+                return _equipmentSpecificationField;
             }
             set {
-                equipmentSpecificationField = value;
+                _equipmentSpecificationField = value;
             }
         }
     
@@ -157,10 +157,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecification")]
         public OpPhysicalAssetSpecificationType[] PhysicalAssetSpecification {
             get {
-                return physicalAssetSpecificationField;
+                return _physicalAssetSpecificationField;
             }
             set {
-                physicalAssetSpecificationField = value;
+                _physicalAssetSpecificationField = value;
             }
         }
     
@@ -168,10 +168,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecification")]
         public OpMaterialSpecificationType[] MaterialSpecification {
             get {
-                return materialSpecificationField;
+                return _materialSpecificationField;
             }
             set {
-                materialSpecificationField = value;
+                _materialSpecificationField = value;
             }
         }
     
@@ -179,10 +179,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
             get {
-                return workflowSpecificationField;
+                return _workflowSpecificationField;
             }
             set {
-                workflowSpecificationField = value;
+                _workflowSpecificationField = value;
             }
         }
     
@@ -190,10 +190,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkMaster")]
         public WorkMasterType[] WorkMaster {
             get {
-                return workMasterField;
+                return _workMasterField;
             }
             set {
-                workMasterField = value;
+                _workMasterField = value;
             }
         }
     }

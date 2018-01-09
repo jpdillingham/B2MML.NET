@@ -8,67 +8,67 @@
          IsNullable = false)]
     public partial class BatchListEntryType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private BatchListEntryTypeType batchListEntryType1Field;
+        private BatchListEntryTypeType _batchListEntryType1Field;
     
-        private BatchStatusType statusField;
+        private BatchStatusType _statusField;
     
-        private ModeType modeField;
+        private ModeType _modeField;
     
-        private ExternalIDType externalIDField;
+        private ExternalIDType _externalIDField;
     
-        private RecipeIDType recipeIDField;
+        private RecipeIDType _recipeIDField;
     
-        private RecipeVersionType recipeVersionField;
+        private RecipeVersionType _recipeVersionField;
     
-        private BatchIDType batchIDField;
+        private BatchIDType _batchIDField;
     
-        private LotIDType lotIDField;
+        private LotIDType _lotIDField;
     
-        private CampaignIDType campaignIDField;
+        private CampaignIDType _campaignIDField;
     
-        private ProductIDType productIDField;
+        private ProductIDType _productIDField;
     
-        private OrderIDType orderIDField;
+        private OrderIDType _orderIDField;
     
-        private StartConditionType startConditionField;
+        private StartConditionType _startConditionField;
     
-        private RequestedStartTimeType requestedStartTimeField;
+        private RequestedStartTimeType _requestedStartTimeField;
     
-        private ActualStartTimeType actualStartTimeField;
+        private ActualStartTimeType _actualStartTimeField;
     
-        private RequestedEndTimeType requestedEndTimeField;
+        private RequestedEndTimeType _requestedEndTimeField;
     
-        private ActualEndTimeType actualEndTimeField;
+        private ActualEndTimeType _actualEndTimeField;
     
-        private BatchPriorityType batchPriorityField;
+        private BatchPriorityType _batchPriorityField;
     
-        private RequestedBatchSizeType requestedBatchSizeField;
+        private RequestedBatchSizeType _requestedBatchSizeField;
     
-        private ActualBatchSizeType actualBatchSizeField;
+        private ActualBatchSizeType _actualBatchSizeField;
     
-        private UnitOfMeasureType unitOfMeasureField;
+        private UnitOfMeasureType _unitOfMeasureField;
     
-        private NoteType[] noteField;
+        private NoteType[] _noteField;
     
-        private BatchParameterType[] parameterField;
+        private BatchParameterType[] _parameterField;
     
-        private object[] itemsField;
+        private object[] _itemsField;
     
-        private ActualEquipmentIDType[] actualEquipmentIDField;
+        private ActualEquipmentIDType[] _actualEquipmentIDField;
     
-        private BatchListEntryType[] batchListEntryField;
+        private BatchListEntryType[] _batchListEntryField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -87,200 +87,200 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntryType")]
         public BatchListEntryTypeType BatchListEntryType1 {
             get {
-                return batchListEntryType1Field;
+                return _batchListEntryType1Field;
             }
             set {
-                batchListEntryType1Field = value;
+                _batchListEntryType1Field = value;
             }
         }
     
         /// <remarks/>
         public BatchStatusType Status {
             get {
-                return statusField;
+                return _statusField;
             }
             set {
-                statusField = value;
+                _statusField = value;
             }
         }
     
         /// <remarks/>
         public ModeType Mode {
             get {
-                return modeField;
+                return _modeField;
             }
             set {
-                modeField = value;
+                _modeField = value;
             }
         }
     
         /// <remarks/>
         public ExternalIDType ExternalID {
             get {
-                return externalIDField;
+                return _externalIDField;
             }
             set {
-                externalIDField = value;
+                _externalIDField = value;
             }
         }
     
         /// <remarks/>
         public RecipeIDType RecipeID {
             get {
-                return recipeIDField;
+                return _recipeIDField;
             }
             set {
-                recipeIDField = value;
+                _recipeIDField = value;
             }
         }
     
         /// <remarks/>
         public RecipeVersionType RecipeVersion {
             get {
-                return recipeVersionField;
+                return _recipeVersionField;
             }
             set {
-                recipeVersionField = value;
+                _recipeVersionField = value;
             }
         }
     
         /// <remarks/>
         public BatchIDType BatchID {
             get {
-                return batchIDField;
+                return _batchIDField;
             }
             set {
-                batchIDField = value;
+                _batchIDField = value;
             }
         }
     
         /// <remarks/>
         public LotIDType LotID {
             get {
-                return lotIDField;
+                return _lotIDField;
             }
             set {
-                lotIDField = value;
+                _lotIDField = value;
             }
         }
     
         /// <remarks/>
         public CampaignIDType CampaignID {
             get {
-                return campaignIDField;
+                return _campaignIDField;
             }
             set {
-                campaignIDField = value;
+                _campaignIDField = value;
             }
         }
     
         /// <remarks/>
         public ProductIDType ProductID {
             get {
-                return productIDField;
+                return _productIDField;
             }
             set {
-                productIDField = value;
+                _productIDField = value;
             }
         }
     
         /// <remarks/>
         public OrderIDType OrderID {
             get {
-                return orderIDField;
+                return _orderIDField;
             }
             set {
-                orderIDField = value;
+                _orderIDField = value;
             }
         }
     
         /// <remarks/>
         public StartConditionType StartCondition {
             get {
-                return startConditionField;
+                return _startConditionField;
             }
             set {
-                startConditionField = value;
+                _startConditionField = value;
             }
         }
     
         /// <remarks/>
         public RequestedStartTimeType RequestedStartTime {
             get {
-                return requestedStartTimeField;
+                return _requestedStartTimeField;
             }
             set {
-                requestedStartTimeField = value;
+                _requestedStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualStartTimeType ActualStartTime {
             get {
-                return actualStartTimeField;
+                return _actualStartTimeField;
             }
             set {
-                actualStartTimeField = value;
+                _actualStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public RequestedEndTimeType RequestedEndTime {
             get {
-                return requestedEndTimeField;
+                return _requestedEndTimeField;
             }
             set {
-                requestedEndTimeField = value;
+                _requestedEndTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualEndTimeType ActualEndTime {
             get {
-                return actualEndTimeField;
+                return _actualEndTimeField;
             }
             set {
-                actualEndTimeField = value;
+                _actualEndTimeField = value;
             }
         }
     
         /// <remarks/>
         public BatchPriorityType BatchPriority {
             get {
-                return batchPriorityField;
+                return _batchPriorityField;
             }
             set {
-                batchPriorityField = value;
+                _batchPriorityField = value;
             }
         }
     
         /// <remarks/>
         public RequestedBatchSizeType RequestedBatchSize {
             get {
-                return requestedBatchSizeField;
+                return _requestedBatchSizeField;
             }
             set {
-                requestedBatchSizeField = value;
+                _requestedBatchSizeField = value;
             }
         }
     
         /// <remarks/>
         public ActualBatchSizeType ActualBatchSize {
             get {
-                return actualBatchSizeField;
+                return _actualBatchSizeField;
             }
             set {
-                actualBatchSizeField = value;
+                _actualBatchSizeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return unitOfMeasureField;
+                return _unitOfMeasureField;
             }
             set {
-                unitOfMeasureField = value;
+                _unitOfMeasureField = value;
             }
         }
     
@@ -288,10 +288,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public NoteType[] Note {
             get {
-                return noteField;
+                return _noteField;
             }
             set {
-                noteField = value;
+                _noteField = value;
             }
         }
     
@@ -299,10 +299,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     
@@ -311,10 +311,10 @@
          System.Xml.Serialization.XmlElementAttribute("EquipmentID", typeof(BatchEquipmentIDType))]
         public object[] Items {
             get {
-                return itemsField;
+                return _itemsField;
             }
             set {
-                itemsField = value;
+                _itemsField = value;
             }
         }
     
@@ -322,10 +322,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ActualEquipmentID")]
         public ActualEquipmentIDType[] ActualEquipmentID {
             get {
-                return actualEquipmentIDField;
+                return _actualEquipmentIDField;
             }
             set {
-                actualEquipmentIDField = value;
+                _actualEquipmentIDField = value;
             }
         }
     
@@ -333,10 +333,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
         public BatchListEntryType[] BatchListEntry {
             get {
-                return batchListEntryField;
+                return _batchListEntryField;
             }
             set {
-                batchListEntryField = value;
+                _batchListEntryField = value;
             }
         }
     }

@@ -8,29 +8,29 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class ClassInstanceAssociationType {
     
-        private ClassEquipmentIDType classEquipmentIDField;
+        private ClassEquipmentIDType _classEquipmentIDField;
     
-        private MemberEquipmentIDType memberEquipmentIDField;
+        private MemberEquipmentIDType _memberEquipmentIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
         /// <remarks/>
         public ClassEquipmentIDType ClassEquipmentID {
             get {
-                return classEquipmentIDField;
+                return _classEquipmentIDField;
             }
             set {
-                classEquipmentIDField = value;
+                _classEquipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public MemberEquipmentIDType MemberEquipmentID {
             get {
-                return memberEquipmentIDField;
+                return _memberEquipmentIDField;
             }
             set {
-                memberEquipmentIDField = value;
+                _memberEquipmentIDField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

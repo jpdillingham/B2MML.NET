@@ -6,41 +6,41 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ResourceReferenceType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private ResourceIDType resourceIDField;
+        private ResourceIDType _resourceIDField;
     
-        private ResourceReferenceTypeType resourceTypeField;
+        private ResourceReferenceTypeType _resourceTypeField;
     
-        private ResourcePropertyType[] resourcePropertyField;
+        private ResourcePropertyType[] _resourcePropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public ResourceIDType ResourceID {
             get {
-                return resourceIDField;
+                return _resourceIDField;
             }
             set {
-                resourceIDField = value;
+                _resourceIDField = value;
             }
         }
     
         /// <remarks/>
         public ResourceReferenceTypeType ResourceType {
             get {
-                return resourceTypeField;
+                return _resourceTypeField;
             }
             set {
-                resourceTypeField = value;
+                _resourceTypeField = value;
             }
         }
     
@@ -48,10 +48,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceProperty")]
         public ResourcePropertyType[] ResourceProperty {
             get {
-                return resourcePropertyField;
+                return _resourcePropertyField;
             }
             set {
-                resourcePropertyField = value;
+                _resourcePropertyField = value;
             }
         }
     }

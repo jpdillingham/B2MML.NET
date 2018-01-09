@@ -8,32 +8,32 @@
          IsNullable = false)]
     public partial class HeaderType {
     
-        private ModificationLogType[] modificationLogField;
+        private ModificationLogType[] _modificationLogField;
     
-        private ApprovalHistoryType[] approvalHistoryField;
+        private ApprovalHistoryType[] _approvalHistoryField;
     
-        private EffectiveDateType effectiveDateField;
+        private EffectiveDateType _effectiveDateField;
     
-        private ExpirationDateType expirationDateField;
+        private ExpirationDateType _expirationDateField;
     
-        private ProductIDType productIDField;
+        private ProductIDType _productIDField;
     
-        private ProductNameType productNameField;
+        private ProductNameType _productNameField;
     
-        private BatchSizeType batchSizeField;
+        private BatchSizeType _batchSizeField;
     
-        private ActualProductProducedType[] actualProductProducedField;
+        private ActualProductProducedType[] _actualProductProducedField;
     
-        private BatchStatusType statusField;
+        private BatchStatusType _statusField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
         public ModificationLogType[] ModificationLog {
             get {
-                return modificationLogField;
+                return _modificationLogField;
             }
             set {
-                modificationLogField = value;
+                _modificationLogField = value;
             }
         }
     
@@ -41,60 +41,60 @@
         [System.Xml.Serialization.XmlElementAttribute("ApprovalHistory")]
         public ApprovalHistoryType[] ApprovalHistory {
             get {
-                return approvalHistoryField;
+                return _approvalHistoryField;
             }
             set {
-                approvalHistoryField = value;
+                _approvalHistoryField = value;
             }
         }
     
         /// <remarks/>
         public EffectiveDateType EffectiveDate {
             get {
-                return effectiveDateField;
+                return _effectiveDateField;
             }
             set {
-                effectiveDateField = value;
+                _effectiveDateField = value;
             }
         }
     
         /// <remarks/>
         public ExpirationDateType ExpirationDate {
             get {
-                return expirationDateField;
+                return _expirationDateField;
             }
             set {
-                expirationDateField = value;
+                _expirationDateField = value;
             }
         }
     
         /// <remarks/>
         public ProductIDType ProductID {
             get {
-                return productIDField;
+                return _productIDField;
             }
             set {
-                productIDField = value;
+                _productIDField = value;
             }
         }
     
         /// <remarks/>
         public ProductNameType ProductName {
             get {
-                return productNameField;
+                return _productNameField;
             }
             set {
-                productNameField = value;
+                _productNameField = value;
             }
         }
     
         /// <remarks/>
         public BatchSizeType BatchSize {
             get {
-                return batchSizeField;
+                return _batchSizeField;
             }
             set {
-                batchSizeField = value;
+                _batchSizeField = value;
             }
         }
     
@@ -102,20 +102,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ActualProductProduced")]
         public ActualProductProducedType[] ActualProductProduced {
             get {
-                return actualProductProducedField;
+                return _actualProductProducedField;
             }
             set {
-                actualProductProducedField = value;
+                _actualProductProducedField = value;
             }
         }
     
         /// <remarks/>
         public BatchStatusType Status {
             get {
-                return statusField;
+                return _statusField;
             }
             set {
-                statusField = value;
+                _statusField = value;
             }
         }
     }

@@ -6,29 +6,29 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class OrderedDataType {
     
-        private NumericType orderIndexField;
+        private NumericType _orderIndexField;
     
-        private DateTimeType timeValueField;
+        private DateTimeType _timeValueField;
     
-        private DataValueType[] dataValueField;
+        private DataValueType[] _dataValueField;
     
         /// <remarks/>
         public NumericType OrderIndex {
             get {
-                return orderIndexField;
+                return _orderIndexField;
             }
             set {
-                orderIndexField = value;
+                _orderIndexField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeValue {
             get {
-                return timeValueField;
+                return _timeValueField;
             }
             set {
-                timeValueField = value;
+                _timeValueField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DataValue")]
         public DataValueType[] DataValue {
             get {
-                return dataValueField;
+                return _dataValueField;
             }
             set {
-                dataValueField = value;
+                _dataValueField = value;
             }
         }
     }

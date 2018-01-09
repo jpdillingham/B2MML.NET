@@ -6,39 +6,39 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProductionParameterType {
     
-        private ProductSegmentIDType productSegmentIDField;
+        private ProductSegmentIDType _productSegmentIDField;
     
-        private ProcessSegmentIDType processSegmentIDField;
+        private ProcessSegmentIDType _processSegmentIDField;
     
-        private ParameterType parameterField;
+        private ParameterType _parameterField;
     
         /// <remarks/>
         public ProductSegmentIDType ProductSegmentID {
             get {
-                return productSegmentIDField;
+                return _productSegmentIDField;
             }
             set {
-                productSegmentIDField = value;
+                _productSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ProcessSegmentIDType ProcessSegmentID {
             get {
-                return processSegmentIDField;
+                return _processSegmentIDField;
             }
             set {
-                processSegmentIDField = value;
+                _processSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ParameterType Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     }

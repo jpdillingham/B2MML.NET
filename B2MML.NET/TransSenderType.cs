@@ -6,75 +6,75 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransSenderType {
     
-        private IdentifierType logicalIDField;
+        private IdentifierType _logicalIDField;
     
-        private IdentifierType componentIDField;
+        private IdentifierType _componentIDField;
     
-        private IdentifierType taskIDField;
+        private IdentifierType _taskIDField;
     
-        private IdentifierType referenceIDField;
+        private IdentifierType _referenceIDField;
     
-        private TransConfirmationCodeType confirmationCodeField;
+        private TransConfirmationCodeType _confirmationCodeField;
     
-        private IdentifierType authorizationIDField;
+        private IdentifierType _authorizationIDField;
     
         /// <remarks/>
         public IdentifierType LogicalID {
             get {
-                return logicalIDField;
+                return _logicalIDField;
             }
             set {
-                logicalIDField = value;
+                _logicalIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
             get {
-                return componentIDField;
+                return _componentIDField;
             }
             set {
-                componentIDField = value;
+                _componentIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TaskID {
             get {
-                return taskIDField;
+                return _taskIDField;
             }
             set {
-                taskIDField = value;
+                _taskIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ReferenceID {
             get {
-                return referenceIDField;
+                return _referenceIDField;
             }
             set {
-                referenceIDField = value;
+                _referenceIDField = value;
             }
         }
     
         /// <remarks/>
         public TransConfirmationCodeType ConfirmationCode {
             get {
-                return confirmationCodeField;
+                return _confirmationCodeField;
             }
             set {
-                confirmationCodeField = value;
+                _confirmationCodeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType AuthorizationID {
             get {
-                return authorizationIDField;
+                return _authorizationIDField;
             }
             set {
-                authorizationIDField = value;
+                _authorizationIDField = value;
             }
         }
     }

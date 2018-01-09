@@ -6,25 +6,25 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ResourceNetworkConnectionType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ResourceNetworkConnectionIDType resourceNetworkConnectionIDField;
+        private ResourceNetworkConnectionIDType _resourceNetworkConnectionIDField;
     
-        private ResourceReferenceType fromResourceReferenceField;
+        private ResourceReferenceType _fromResourceReferenceField;
     
-        private ResourceReferenceType toResourceReferenceField;
+        private ResourceReferenceType _toResourceReferenceField;
     
-        private ResourcePropertyType[] connectionPropertyField;
+        private ResourcePropertyType[] _connectionPropertyField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,40 +32,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public ResourceNetworkConnectionIDType ResourceNetworkConnectionID {
             get {
-                return resourceNetworkConnectionIDField;
+                return _resourceNetworkConnectionIDField;
             }
             set {
-                resourceNetworkConnectionIDField = value;
+                _resourceNetworkConnectionIDField = value;
             }
         }
     
         /// <remarks/>
         public ResourceReferenceType FromResourceReference {
             get {
-                return fromResourceReferenceField;
+                return _fromResourceReferenceField;
             }
             set {
-                fromResourceReferenceField = value;
+                _fromResourceReferenceField = value;
             }
         }
     
         /// <remarks/>
         public ResourceReferenceType ToResourceReference {
             get {
-                return toResourceReferenceField;
+                return _toResourceReferenceField;
             }
             set {
-                toResourceReferenceField = value;
+                _toResourceReferenceField = value;
             }
         }
     
@@ -73,10 +73,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ConnectionProperty")]
         public ResourcePropertyType[] ConnectionProperty {
             get {
-                return connectionPropertyField;
+                return _connectionPropertyField;
             }
             set {
-                connectionPropertyField = value;
+                _connectionPropertyField = value;
             }
         }
     }

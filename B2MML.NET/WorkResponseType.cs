@@ -8,31 +8,31 @@
          IsNullable = false)]
     public partial class WorkResponseType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType workTypeField;
+        private OperationsTypeType _workTypeField;
     
-        private WorkRequestIDType workRequestIDField;
+        private WorkRequestIDType _workRequestIDField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private ResponseStateType responseStateField;
+        private ResponseStateType _responseStateField;
     
-        private JobResponseType[] jobResponseField;
+        private JobResponseType[] _jobResponseField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -40,70 +40,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
             get {
-                return workTypeField;
+                return _workTypeField;
             }
             set {
-                workTypeField = value;
+                _workTypeField = value;
             }
         }
     
         /// <remarks/>
         public WorkRequestIDType WorkRequestID {
             get {
-                return workRequestIDField;
+                return _workRequestIDField;
             }
             set {
-                workRequestIDField = value;
+                _workRequestIDField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
             get {
-                return responseStateField;
+                return _responseStateField;
             }
             set {
-                responseStateField = value;
+                _responseStateField = value;
             }
         }
     
@@ -111,10 +111,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
             get {
-                return jobResponseField;
+                return _jobResponseField;
             }
             set {
-                jobResponseField = value;
+                _jobResponseField = value;
             }
         }
     }

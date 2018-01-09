@@ -8,47 +8,47 @@
          IsNullable = false)]
     public partial class JobOrderType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType workTypeField;
+        private OperationsTypeType _workTypeField;
     
-        private IdentifierType workMasterIDField;
+        private IdentifierType _workMasterIDField;
     
-        private VersionType workMasterVersionField;
+        private VersionType _workMasterVersionField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private PriorityType priorityField;
+        private PriorityType _priorityField;
     
-        private JobOrderCommandType commandField;
+        private JobOrderCommandType _commandField;
     
-        private JobOrderCommandRuleType commandRuleField;
+        private JobOrderCommandRuleType _commandRuleField;
     
-        private JobOrderDispatchStatusType dispatchStatusField;
+        private JobOrderDispatchStatusType _dispatchStatusField;
     
-        private ParameterType[] jobOrderParameterField;
+        private ParameterType[] _jobOrderParameterField;
     
-        private OpPersonnelRequirementType[] personnelRequirementField;
+        private OpPersonnelRequirementType[] _personnelRequirementField;
     
-        private OpEquipmentRequirementType[] equipmentRequirementField;
+        private OpEquipmentRequirementType[] _equipmentRequirementField;
     
-        private OpPhysicalAssetRequirementType[] physicalAssetRequirementField;
+        private OpPhysicalAssetRequirementType[] _physicalAssetRequirementField;
     
-        private OpMaterialRequirementType[] materialRequirementField;
+        private OpMaterialRequirementType[] _materialRequirementField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -56,110 +56,110 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
             get {
-                return workTypeField;
+                return _workTypeField;
             }
             set {
-                workTypeField = value;
+                _workTypeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType WorkMasterID {
             get {
-                return workMasterIDField;
+                return _workMasterIDField;
             }
             set {
-                workMasterIDField = value;
+                _workMasterIDField = value;
             }
         }
     
         /// <remarks/>
         public VersionType WorkMasterVersion {
             get {
-                return workMasterVersionField;
+                return _workMasterVersionField;
             }
             set {
-                workMasterVersionField = value;
+                _workMasterVersionField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public PriorityType Priority {
             get {
-                return priorityField;
+                return _priorityField;
             }
             set {
-                priorityField = value;
+                _priorityField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderCommandType Command {
             get {
-                return commandField;
+                return _commandField;
             }
             set {
-                commandField = value;
+                _commandField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderCommandRuleType CommandRule {
             get {
-                return commandRuleField;
+                return _commandRuleField;
             }
             set {
-                commandRuleField = value;
+                _commandRuleField = value;
             }
         }
     
         /// <remarks/>
         public JobOrderDispatchStatusType DispatchStatus {
             get {
-                return dispatchStatusField;
+                return _dispatchStatusField;
             }
             set {
-                dispatchStatusField = value;
+                _dispatchStatusField = value;
             }
         }
     
@@ -167,10 +167,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobOrderParameter")]
         public ParameterType[] JobOrderParameter {
             get {
-                return jobOrderParameterField;
+                return _jobOrderParameterField;
             }
             set {
-                jobOrderParameterField = value;
+                _jobOrderParameterField = value;
             }
         }
     
@@ -178,10 +178,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
         public OpPersonnelRequirementType[] PersonnelRequirement {
             get {
-                return personnelRequirementField;
+                return _personnelRequirementField;
             }
             set {
-                personnelRequirementField = value;
+                _personnelRequirementField = value;
             }
         }
     
@@ -189,10 +189,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public OpEquipmentRequirementType[] EquipmentRequirement {
             get {
-                return equipmentRequirementField;
+                return _equipmentRequirementField;
             }
             set {
-                equipmentRequirementField = value;
+                _equipmentRequirementField = value;
             }
         }
     
@@ -200,10 +200,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
         public OpPhysicalAssetRequirementType[] PhysicalAssetRequirement {
             get {
-                return physicalAssetRequirementField;
+                return _physicalAssetRequirementField;
             }
             set {
-                physicalAssetRequirementField = value;
+                _physicalAssetRequirementField = value;
             }
         }
     
@@ -211,10 +211,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
         public OpMaterialRequirementType[] MaterialRequirement {
             get {
-                return materialRequirementField;
+                return _materialRequirementField;
             }
             set {
-                materialRequirementField = value;
+                _materialRequirementField = value;
             }
         }
     }

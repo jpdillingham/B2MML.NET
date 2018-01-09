@@ -6,27 +6,27 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TestedMaterialDefinitionPropertyType {
     
-        private MaterialDefinitionIDType materialDefinitionIDField;
+        private MaterialDefinitionIDType _materialDefinitionIDField;
     
-        private PropertyIDType propertyIDField;
+        private PropertyIDType _propertyIDField;
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
             get {
-                return propertyIDField;
+                return _propertyIDField;
             }
             set {
-                propertyIDField = value;
+                _propertyIDField = value;
             }
         }
     }

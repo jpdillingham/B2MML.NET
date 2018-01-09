@@ -8,21 +8,21 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class EquipmentProceduralElementClassType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private EquipmentProceduralElementTypeType equipmentProceduralElementTypeField;
+        private EquipmentProceduralElementTypeType _equipmentProceduralElementTypeField;
     
-        private BatchParameterType[] parameterField;
+        private BatchParameterType[] _parameterField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentProceduralElementTypeType EquipmentProceduralElementType {
             get {
-                return equipmentProceduralElementTypeField;
+                return _equipmentProceduralElementTypeField;
             }
             set {
-                equipmentProceduralElementTypeField = value;
+                _equipmentProceduralElementTypeField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     }

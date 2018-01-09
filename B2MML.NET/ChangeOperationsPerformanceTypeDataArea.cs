@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeOperationsPerformanceTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private OperationsPerformanceType[] operationsPerformanceField;
+        private OperationsPerformanceType[] _operationsPerformanceField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsPerformance")]
         public OperationsPerformanceType[] OperationsPerformance {
             get {
-                return operationsPerformanceField;
+                return _operationsPerformanceField;
             }
             set {
-                operationsPerformanceField = value;
+                _operationsPerformanceField = value;
             }
         }
     }

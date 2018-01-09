@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SyncProductionScheduleTypeDataArea {
     
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
     
-        private ProductionScheduleType[] productionScheduleField;
+        private ProductionScheduleType[] _productionScheduleField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return syncField;
+                return _syncField;
             }
             set {
-                syncField = value;
+                _syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
         public ProductionScheduleType[] ProductionSchedule {
             get {
-                return productionScheduleField;
+                return _productionScheduleField;
             }
             set {
-                productionScheduleField = value;
+                _productionScheduleField = value;
             }
         }
     }

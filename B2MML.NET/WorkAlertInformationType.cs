@@ -8,26 +8,26 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class WorkAlertInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private WorkAlertDefinitionType[] workAlertDefinitionField;
+        private WorkAlertDefinitionType[] _workAlertDefinitionField;
     
-        private WorkAlertType[] workAlertField;
+        private WorkAlertType[] _workAlertField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -35,10 +35,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", IsNullable=true)]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -46,10 +46,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -57,10 +57,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -68,10 +68,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition", IsNullable=true)]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
             get {
-                return workAlertDefinitionField;
+                return _workAlertDefinitionField;
             }
             set {
-                workAlertDefinitionField = value;
+                _workAlertDefinitionField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlert", IsNullable=true)]
         public WorkAlertType[] WorkAlert {
             get {
-                return workAlertField;
+                return _workAlertField;
             }
             set {
-                workAlertField = value;
+                _workAlertField = value;
             }
         }
     }

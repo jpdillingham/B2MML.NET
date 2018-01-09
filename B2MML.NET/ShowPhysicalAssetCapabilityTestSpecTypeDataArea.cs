@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowPhysicalAssetCapabilityTestSpecTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private PhysicalAssetCapabilityTestSpecificationType[] physicalAssetCapabilityTestSpecField;
+        private PhysicalAssetCapabilityTestSpecificationType[] _physicalAssetCapabilityTestSpecField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
             get {
-                return physicalAssetCapabilityTestSpecField;
+                return _physicalAssetCapabilityTestSpecField;
             }
             set {
-                physicalAssetCapabilityTestSpecField = value;
+                _physicalAssetCapabilityTestSpecField = value;
             }
         }
     }

@@ -6,61 +6,61 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ManufacturingBillType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType descriptionField;
+        private DescriptionType _descriptionField;
     
-        private MaterialClassIDType materialClassIDField;
+        private MaterialClassIDType _materialClassIDField;
     
-        private MaterialDefinitionIDType materialDefinitionIDField;
+        private MaterialDefinitionIDType _materialDefinitionIDField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private ManufacturingBillType[] assemblyManufacturingBillField;
+        private ManufacturingBillType[] _assemblyManufacturingBillField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private BillOfMaterialIDType billOfMaterialIDField;
+        private BillOfMaterialIDType _billOfMaterialIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public MaterialClassIDType MaterialClassID {
             get {
-                return materialClassIDField;
+                return _materialClassIDField;
             }
             set {
-                materialClassIDField = value;
+                _materialClassIDField = value;
             }
         }
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
@@ -68,10 +68,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -79,40 +79,40 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyManufacturingBill")]
         public ManufacturingBillType[] AssemblyManufacturingBill {
             get {
-                return assemblyManufacturingBillField;
+                return _assemblyManufacturingBillField;
             }
             set {
-                assemblyManufacturingBillField = value;
+                _assemblyManufacturingBillField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     
         /// <remarks/>
         public BillOfMaterialIDType BillOfMaterialID {
             get {
-                return billOfMaterialIDField;
+                return _billOfMaterialIDField;
             }
             set {
-                billOfMaterialIDField = value;
+                _billOfMaterialIDField = value;
             }
         }
     }

@@ -6,23 +6,23 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SegmentDependencyType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private DependencyType dependencyField;
+        private DependencyType _dependencyField;
     
-        private ValueType[] timingFactorField;
+        private ValueType[] _timingFactorField;
     
-        private IdentifierType[] itemsField;
+        private IdentifierType[] _itemsField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public DependencyType Dependency {
             get {
-                return dependencyField;
+                return _dependencyField;
             }
             set {
-                dependencyField = value;
+                _dependencyField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TimingFactor")]
         public ValueType[] TimingFactor {
             get {
-                return timingFactorField;
+                return _timingFactorField;
             }
             set {
-                timingFactorField = value;
+                _timingFactorField = value;
             }
         }
     
@@ -64,10 +64,10 @@
          System.Xml.Serialization.XmlElementAttribute("SegmentID", typeof(IdentifierType))]
         public IdentifierType[] Items {
             get {
-                return itemsField;
+                return _itemsField;
             }
             set {
-                itemsField = value;
+                _itemsField = value;
             }
         }
     }

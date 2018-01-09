@@ -6,22 +6,22 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ValueType {
     
-        private ValueStringType valueStringField;
+        private ValueStringType _valueStringField;
     
-        private DataTypeType dataTypeField;
+        private DataTypeType _dataTypeField;
     
-        private UnitOfMeasureType unitOfMeasureField;
+        private UnitOfMeasureType _unitOfMeasureField;
     
-        private IdentifierType keyField;
+        private IdentifierType _keyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public ValueStringType ValueString {
             get {
-                return valueStringField;
+                return _valueStringField;
             }
             set {
-                valueStringField = value;
+                _valueStringField = value;
             }
         }
     
@@ -29,10 +29,10 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public DataTypeType DataType {
             get {
-                return dataTypeField;
+                return _dataTypeField;
             }
             set {
-                dataTypeField = value;
+                _dataTypeField = value;
             }
         }
     
@@ -40,20 +40,20 @@
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return unitOfMeasureField;
+                return _unitOfMeasureField;
             }
             set {
-                unitOfMeasureField = value;
+                _unitOfMeasureField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType Key {
             get {
-                return keyField;
+                return _keyField;
             }
             set {
-                keyField = value;
+                _keyField = value;
             }
         }
     }

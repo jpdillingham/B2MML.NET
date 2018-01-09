@@ -6,32 +6,32 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GRecipeHeaderType {
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType derivedFromIDField;
+        private IdentifierType _derivedFromIDField;
     
-        private IdentifierType[] productIDField;
+        private IdentifierType[] _productIDField;
     
-        private DescriptionType[] description1Field;
+        private DescriptionType[] _description1Field;
     
-        private NameType[] productNameField;
+        private NameType[] _productNameField;
     
-        private ValueType[] batchSizeField;
+        private ValueType[] _batchSizeField;
     
-        private DateTimeType effectiveDateField;
+        private DateTimeType _effectiveDateField;
     
-        private DateTimeType expirationDateField;
+        private DateTimeType _expirationDateField;
     
-        private HeaderPropertyType headerPropertyField;
+        private HeaderPropertyType _headerPropertyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=0)]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
         public IdentifierType DerivedFromID {
             get {
-                return derivedFromIDField;
+                return _derivedFromIDField;
             }
             set {
-                derivedFromIDField = value;
+                _derivedFromIDField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductID", Order=2)]
         public IdentifierType[] ProductID {
             get {
-                return productIDField;
+                return _productIDField;
             }
             set {
-                productIDField = value;
+                _productIDField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=3)]
         public DescriptionType[] Description1 {
             get {
-                return description1Field;
+                return _description1Field;
             }
             set {
-                description1Field = value;
+                _description1Field = value;
             }
         }
     
@@ -72,10 +72,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductName", Order=4)]
         public NameType[] ProductName {
             get {
-                return productNameField;
+                return _productNameField;
             }
             set {
-                productNameField = value;
+                _productNameField = value;
             }
         }
     
@@ -83,10 +83,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchSize", Order=5)]
         public ValueType[] BatchSize {
             get {
-                return batchSizeField;
+                return _batchSizeField;
             }
             set {
-                batchSizeField = value;
+                _batchSizeField = value;
             }
         }
     
@@ -94,10 +94,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public DateTimeType EffectiveDate {
             get {
-                return effectiveDateField;
+                return _effectiveDateField;
             }
             set {
-                effectiveDateField = value;
+                _effectiveDateField = value;
             }
         }
     
@@ -105,10 +105,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public DateTimeType ExpirationDate {
             get {
-                return expirationDateField;
+                return _expirationDateField;
             }
             set {
-                expirationDateField = value;
+                _expirationDateField = value;
             }
         }
     
@@ -116,10 +116,10 @@
         [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public HeaderPropertyType HeaderProperty {
             get {
-                return headerPropertyField;
+                return _headerPropertyField;
             }
             set {
-                headerPropertyField = value;
+                _headerPropertyField = value;
             }
         }
     }

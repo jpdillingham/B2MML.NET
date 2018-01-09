@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowProductDefinitionTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private ProductDefinitionType[] productDefinitionField;
+        private ProductDefinitionType[] _productDefinitionField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductDefinition")]
         public ProductDefinitionType[] ProductDefinition {
             get {
-                return productDefinitionField;
+                return _productDefinitionField;
             }
             set {
-                productDefinitionField = value;
+                _productDefinitionField = value;
             }
         }
     }

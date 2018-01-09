@@ -6,39 +6,39 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class HierarchyScopeType {
     
-        private EquipmentIDType equipmentIDField;
+        private EquipmentIDType _equipmentIDField;
     
-        private EquipmentElementLevelType equipmentElementLevelField;
+        private EquipmentElementLevelType _equipmentElementLevelField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     }

@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelEquipmentCapabilityTestSpecTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private EquipmentCapabilityTestSpecificationType[] equipmentCapabilityTestSpecField;
+        private EquipmentCapabilityTestSpecificationType[] _equipmentCapabilityTestSpecField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpec")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpec {
             get {
-                return equipmentCapabilityTestSpecField;
+                return _equipmentCapabilityTestSpecField;
             }
             set {
-                equipmentCapabilityTestSpecField = value;
+                _equipmentCapabilityTestSpecField = value;
             }
         }
     }

@@ -8,16 +8,16 @@
          IsNullable = false)]
     public partial class FormulaType {
     
-        private BatchParameterType[] parameterField;
+        private BatchParameterType[] _parameterField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     }

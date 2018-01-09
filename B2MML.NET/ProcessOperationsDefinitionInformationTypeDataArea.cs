@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessOperationsDefinitionInformationTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private OperationsDefinitionInformationType[] operationsDefinitionInformationField;
+        private OperationsDefinitionInformationType[] _operationsDefinitionInformationField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
             get {
-                return operationsDefinitionInformationField;
+                return _operationsDefinitionInformationField;
             }
             set {
-                operationsDefinitionInformationField = value;
+                _operationsDefinitionInformationField = value;
             }
         }
     }

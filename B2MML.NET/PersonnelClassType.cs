@@ -8,27 +8,27 @@
          IsNullable = false)]
     public partial class PersonnelClassType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PersonnelClassPropertyType[] personnelClassPropertyField;
+        private PersonnelClassPropertyType[] _personnelClassPropertyField;
     
-        private PersonIDType[] personIDField;
+        private PersonIDType[] _personIDField;
     
-        private QualificationTestSpecificationIDType[] qualificationTestSpecificationIDField;
+        private QualificationTestSpecificationIDType[] _qualificationTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,30 +36,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -67,10 +67,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassProperty")]
         public PersonnelClassPropertyType[] PersonnelClassProperty {
             get {
-                return personnelClassPropertyField;
+                return _personnelClassPropertyField;
             }
             set {
-                personnelClassPropertyField = value;
+                _personnelClassPropertyField = value;
             }
         }
     
@@ -78,10 +78,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
             get {
-                return personIDField;
+                return _personIDField;
             }
             set {
-                personIDField = value;
+                _personIDField = value;
             }
         }
     
@@ -89,10 +89,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecificationID")]
         public QualificationTestSpecificationIDType[] QualificationTestSpecificationID {
             get {
-                return qualificationTestSpecificationIDField;
+                return _qualificationTestSpecificationIDField;
             }
             set {
-                qualificationTestSpecificationIDField = value;
+                _qualificationTestSpecificationIDField = value;
             }
         }
     }

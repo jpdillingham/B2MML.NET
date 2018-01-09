@@ -8,75 +8,75 @@
          IsNullable = false)]
     public partial class BatchSizeType {
     
-        private NominalType nominalField;
+        private NominalType _nominalField;
     
-        private MinType minField;
+        private MinType _minField;
     
-        private MaxType maxField;
+        private MaxType _maxField;
     
-        private ScaleReferenceType scaleReferenceField;
+        private ScaleReferenceType _scaleReferenceField;
     
-        private ScaledSizeType scaledSizeField;
+        private ScaledSizeType _scaledSizeField;
     
-        private UnitOfMeasureType unitOfMeasureField;
+        private UnitOfMeasureType _unitOfMeasureField;
     
         /// <remarks/>
         public NominalType Nominal {
             get {
-                return nominalField;
+                return _nominalField;
             }
             set {
-                nominalField = value;
+                _nominalField = value;
             }
         }
     
         /// <remarks/>
         public MinType Min {
             get {
-                return minField;
+                return _minField;
             }
             set {
-                minField = value;
+                _minField = value;
             }
         }
     
         /// <remarks/>
         public MaxType Max {
             get {
-                return maxField;
+                return _maxField;
             }
             set {
-                maxField = value;
+                _maxField = value;
             }
         }
     
         /// <remarks/>
         public ScaleReferenceType ScaleReference {
             get {
-                return scaleReferenceField;
+                return _scaleReferenceField;
             }
             set {
-                scaleReferenceField = value;
+                _scaleReferenceField = value;
             }
         }
     
         /// <remarks/>
         public ScaledSizeType ScaledSize {
             get {
-                return scaledSizeField;
+                return _scaledSizeField;
             }
             set {
-                scaledSizeField = value;
+                _scaledSizeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return unitOfMeasureField;
+                return _unitOfMeasureField;
             }
             set {
-                unitOfMeasureField = value;
+                _unitOfMeasureField = value;
             }
         }
     }

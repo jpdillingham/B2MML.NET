@@ -8,29 +8,29 @@
          IsNullable = false)]
     public partial class PersonType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PersonNameType personNameField;
+        private PersonNameType _personNameField;
     
-        private PersonPropertyType[] personPropertyField;
+        private PersonPropertyType[] _personPropertyField;
     
-        private PersonnelClassIDType[] personnelClassIDField;
+        private PersonnelClassIDType[] _personnelClassIDField;
     
-        private QualificationTestSpecificationIDType[] qualificationTestSpecificationIDField;
+        private QualificationTestSpecificationIDType[] _qualificationTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -38,40 +38,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PersonNameType PersonName {
             get {
-                return personNameField;
+                return _personNameField;
             }
             set {
-                personNameField = value;
+                _personNameField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonProperty")]
         public PersonPropertyType[] PersonProperty {
             get {
-                return personPropertyField;
+                return _personPropertyField;
             }
             set {
-                personPropertyField = value;
+                _personPropertyField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassID")]
         public PersonnelClassIDType[] PersonnelClassID {
             get {
-                return personnelClassIDField;
+                return _personnelClassIDField;
             }
             set {
-                personnelClassIDField = value;
+                _personnelClassIDField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecificationID")]
         public QualificationTestSpecificationIDType[] QualificationTestSpecificationID {
             get {
-                return qualificationTestSpecificationIDField;
+                return _qualificationTestSpecificationIDField;
             }
             set {
-                qualificationTestSpecificationIDField = value;
+                _qualificationTestSpecificationIDField = value;
             }
         }
     }

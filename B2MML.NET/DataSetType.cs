@@ -6,65 +6,65 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class DataSetType {
     
-        private IdentifierType entryIDField;
+        private IdentifierType _entryIDField;
     
-        private RecordObjectTypeType objectTypeField;
+        private RecordObjectTypeType _objectTypeField;
     
-        private DateTimeType timeStampField;
+        private DateTimeType _timeStampField;
     
-        private IdentifierType externalReferenceField;
+        private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType trendSystemReferenceField;
+        private IdentifierType _trendSystemReferenceField;
     
-        private DateTimeType startTimeField;
+        private DateTimeType _startTimeField;
     
-        private DateTimeType endTimeField;
+        private DateTimeType _endTimeField;
     
-        private TimeSpecificationType timeSpecificationField;
+        private TimeSpecificationType _timeSpecificationField;
     
-        private TagSpecificationType[] tagSpecificationField;
+        private TagSpecificationType[] _tagSpecificationField;
     
-        private object[] itemsField;
+        private object[] _itemsField;
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return entryIDField;
+                return _entryIDField;
             }
             set {
-                entryIDField = value;
+                _entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return objectTypeField;
+                return _objectTypeField;
             }
             set {
-                objectTypeField = value;
+                _objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return externalReferenceField;
+                return _externalReferenceField;
             }
             set {
-                externalReferenceField = value;
+                _externalReferenceField = value;
             }
         }
     
@@ -72,50 +72,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TrendSystemReference {
             get {
-                return trendSystemReferenceField;
+                return _trendSystemReferenceField;
             }
             set {
-                trendSystemReferenceField = value;
+                _trendSystemReferenceField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public TimeSpecificationType TimeSpecification {
             get {
-                return timeSpecificationField;
+                return _timeSpecificationField;
             }
             set {
-                timeSpecificationField = value;
+                _timeSpecificationField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TagSpecification")]
         public TagSpecificationType[] TagSpecification {
             get {
-                return tagSpecificationField;
+                return _tagSpecificationField;
             }
             set {
-                tagSpecificationField = value;
+                _tagSpecificationField = value;
             }
         }
     
@@ -135,10 +135,10 @@
          System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
         public object[] Items {
             get {
-                return itemsField;
+                return _itemsField;
             }
             set {
-                itemsField = value;
+                _itemsField = value;
             }
         }
     }

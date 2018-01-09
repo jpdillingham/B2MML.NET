@@ -12,18 +12,18 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TextType {
     
-        private string languageIDField;
+        private string _languageIDField;
     
-        private string valueField;
+        private string _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
-        public string languageID {
+        public string LanguageID {
             get {
-                return languageIDField;
+                return _languageIDField;
             }
             set {
-                languageIDField = value;
+                _languageIDField = value;
             }
         }
     
@@ -31,10 +31,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

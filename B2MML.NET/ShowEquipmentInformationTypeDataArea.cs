@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowEquipmentInformationTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private EquipmentInformationType[] equipmentInformationField;
+        private EquipmentInformationType[] _equipmentInformationField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentInformation")]
         public EquipmentInformationType[] EquipmentInformation {
             get {
-                return equipmentInformationField;
+                return _equipmentInformationField;
             }
             set {
-                equipmentInformationField = value;
+                _equipmentInformationField = value;
             }
         }
     }

@@ -12,31 +12,31 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class MeasureType {
     
-        private string unitCodeField;
+        private string _unitCodeField;
     
-        private string unitCodeListVersionIDField;
+        private string _unitCodeListVersionIDField;
     
-        private decimal valueField;
+        private decimal _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCode {
+        public string UnitCode {
             get {
-                return unitCodeField;
+                return _unitCodeField;
             }
             set {
-                unitCodeField = value;
+                _unitCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCodeListVersionID {
+        public string UnitCodeListVersionID {
             get {
-                return unitCodeListVersionIDField;
+                return _unitCodeListVersionIDField;
             }
             set {
-                unitCodeListVersionIDField = value;
+                _unitCodeListVersionIDField = value;
             }
         }
     
@@ -44,10 +44,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public decimal Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

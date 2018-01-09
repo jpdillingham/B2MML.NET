@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeQualificationTestSpecificationTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private QualificationTestSpecificationType[] qualificationTestSpecificationField;
+        private QualificationTestSpecificationType[] _qualificationTestSpecificationField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
             get {
-                return qualificationTestSpecificationField;
+                return _qualificationTestSpecificationField;
             }
             set {
-                qualificationTestSpecificationField = value;
+                _qualificationTestSpecificationField = value;
             }
         }
     }

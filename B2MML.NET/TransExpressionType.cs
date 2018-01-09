@@ -6,29 +6,29 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransExpressionType : TransExpression1Type {
     
-        private string actionCodeField;
+        private string _actionCodeField;
     
-        private string expressionLanguageField;
+        private string _expressionLanguageField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string actionCode {
+        public string ActionCode {
             get {
-                return actionCodeField;
+                return _actionCodeField;
             }
             set {
-                actionCodeField = value;
+                _actionCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="token")]
-        public string expressionLanguage {
+        public string ExpressionLanguage {
             get {
-                return expressionLanguageField;
+                return _expressionLanguageField;
             }
             set {
-                expressionLanguageField = value;
+                _expressionLanguageField = value;
             }
         }
     }

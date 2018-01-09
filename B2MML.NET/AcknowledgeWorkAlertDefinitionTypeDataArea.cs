@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeWorkAlertDefinitionTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private WorkAlertDefinitionType[] workAlertDefinitionField;
+        private WorkAlertDefinitionType[] _workAlertDefinitionField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition")]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
             get {
-                return workAlertDefinitionField;
+                return _workAlertDefinitionField;
             }
             set {
-                workAlertDefinitionField = value;
+                _workAlertDefinitionField = value;
             }
         }
     }

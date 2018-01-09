@@ -8,19 +8,19 @@
          IsNullable = false)]
     public partial class BatchListType {
     
-        private ListHeaderType listHeaderField;
+        private ListHeaderType _listHeaderField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private BatchListEntryType[] batchListEntryField;
+        private BatchListEntryType[] _batchListEntryField;
     
         /// <remarks/>
         public ListHeaderType ListHeader {
             get {
-                return listHeaderField;
+                return _listHeaderField;
             }
             set {
-                listHeaderField = value;
+                _listHeaderField = value;
             }
         }
     
@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -39,10 +39,10 @@
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
         public BatchListEntryType[] BatchListEntry {
             get {
-                return batchListEntryField;
+                return _batchListEntryField;
             }
             set {
-                batchListEntryField = value;
+                _batchListEntryField = value;
             }
         }
     }

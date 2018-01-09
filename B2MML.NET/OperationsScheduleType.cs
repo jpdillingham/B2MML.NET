@@ -8,31 +8,31 @@
          IsNullable = false)]
     public partial class OperationsScheduleType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType operationsTypeField;
+        private OperationsTypeType _operationsTypeField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private RequestStateType scheduleStateField;
+        private RequestStateType _scheduleStateField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private OperationsRequestType[] operationsRequestField;
+        private OperationsRequestType[] _operationsRequestField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -40,70 +40,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return operationsTypeField;
+                return _operationsTypeField;
             }
             set {
-                operationsTypeField = value;
+                _operationsTypeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType ScheduleState {
             get {
-                return scheduleStateField;
+                return _scheduleStateField;
             }
             set {
-                scheduleStateField = value;
+                _scheduleStateField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
@@ -111,10 +111,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsRequest")]
         public OperationsRequestType[] OperationsRequest {
             get {
-                return operationsRequestField;
+                return _operationsRequestField;
             }
             set {
-                operationsRequestField = value;
+                _operationsRequestField = value;
             }
         }
     }

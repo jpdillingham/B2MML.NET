@@ -6,39 +6,39 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class LocationType {
     
-        private EquipmentIDType equipmentIDField;
+        private EquipmentIDType _equipmentIDField;
     
-        private EquipmentElementLevelType equipmentElementLevelField;
+        private EquipmentElementLevelType _equipmentElementLevelField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     }

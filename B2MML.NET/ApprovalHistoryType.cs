@@ -8,31 +8,31 @@
          IsNullable = false)]
     public partial class ApprovalHistoryType {
     
-        private FinalApprovalDateType finalApprovalDateField;
+        private FinalApprovalDateType _finalApprovalDateField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IndividualApprovalType[] individualApprovalField;
+        private IndividualApprovalType[] _individualApprovalField;
     
         /// <remarks/>
         public FinalApprovalDateType FinalApprovalDate {
             get {
-                return finalApprovalDateField;
+                return _finalApprovalDateField;
             }
             set {
-                finalApprovalDateField = value;
+                _finalApprovalDateField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("IndividualApproval")]
         public IndividualApprovalType[] IndividualApproval {
             get {
-                return individualApprovalField;
+                return _individualApprovalField;
             }
             set {
-                individualApprovalField = value;
+                _individualApprovalField = value;
             }
         }
     }

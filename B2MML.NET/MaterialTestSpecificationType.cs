@@ -8,29 +8,29 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class MaterialTestSpecificationType {
     
-        private NameType nameField;
+        private NameType _nameField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private TestedMaterialClassPropertyType[] testedMaterialClassPropertyField;
+        private TestedMaterialClassPropertyType[] _testedMaterialClassPropertyField;
     
-        private TestedMaterialDefinitionPropertyType[] testedMaterialDefinitionPropertyField;
+        private TestedMaterialDefinitionPropertyType[] _testedMaterialDefinitionPropertyField;
     
-        private TestedMaterialLotPropertyType[] testedMaterialLotPropertyField;
+        private TestedMaterialLotPropertyType[] _testedMaterialLotPropertyField;
     
         /// <remarks/>
         public NameType Name {
             get {
-                return nameField;
+                return _nameField;
             }
             set {
-                nameField = value;
+                _nameField = value;
             }
         }
     
@@ -38,40 +38,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -79,10 +79,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialClassProperty")]
         public TestedMaterialClassPropertyType[] TestedMaterialClassProperty {
             get {
-                return testedMaterialClassPropertyField;
+                return _testedMaterialClassPropertyField;
             }
             set {
-                testedMaterialClassPropertyField = value;
+                _testedMaterialClassPropertyField = value;
             }
         }
     
@@ -90,10 +90,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialDefinitionProperty")]
         public TestedMaterialDefinitionPropertyType[] TestedMaterialDefinitionProperty {
             get {
-                return testedMaterialDefinitionPropertyField;
+                return _testedMaterialDefinitionPropertyField;
             }
             set {
-                testedMaterialDefinitionPropertyField = value;
+                _testedMaterialDefinitionPropertyField = value;
             }
         }
     
@@ -101,10 +101,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialLotProperty")]
         public TestedMaterialLotPropertyType[] TestedMaterialLotProperty {
             get {
-                return testedMaterialLotPropertyField;
+                return _testedMaterialLotPropertyField;
             }
             set {
-                testedMaterialLotPropertyField = value;
+                _testedMaterialLotPropertyField = value;
             }
         }
     }

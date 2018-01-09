@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class ProductionScheduleType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private EquipmentElementLevelType equipmentElementLevelField;
+        private EquipmentElementLevelType _equipmentElementLevelField;
     
-        private ProductionRequestType[] productionRequestField;
+        private ProductionRequestType[] _productionRequestField;
     
-        private RequestStateType scheduleStateField;
+        private RequestStateType _scheduleStateField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,70 +42,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
@@ -113,20 +113,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionRequest")]
         public ProductionRequestType[] ProductionRequest {
             get {
-                return productionRequestField;
+                return _productionRequestField;
             }
             set {
-                productionRequestField = value;
+                _productionRequestField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType ScheduleState {
             get {
-                return scheduleStateField;
+                return _scheduleStateField;
             }
             set {
-                scheduleStateField = value;
+                _scheduleStateField = value;
             }
         }
     }

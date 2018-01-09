@@ -8,39 +8,39 @@
          IsNullable = false)]
     public partial class ProcessElementType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ProcessElementTypeType processElementType1Field;
+        private ProcessElementTypeType _processElementType1Field;
     
-        private LifeCycleStateType lifeCycleStateField;
+        private LifeCycleStateType _lifeCycleStateField;
     
-        private SequenceOrderType sequenceOrderField;
+        private SequenceOrderType _sequenceOrderField;
     
-        private NumericType sequencePathField;
+        private NumericType _sequencePathField;
     
-        private GRecipeMaterialsType[] materialsField;
+        private GRecipeMaterialsType[] _materialsField;
     
-        private DirectedLinkType[] directedLinkField;
+        private DirectedLinkType[] _directedLinkField;
     
-        private ProcedureChartElementType[] procedureChartElementField;
+        private ProcedureChartElementType[] _procedureChartElementField;
     
-        private ProcessElementType[] processElementField;
+        private ProcessElementType[] _processElementField;
     
-        private ProcessElementParameterType[] processElementParameterField;
+        private ProcessElementParameterType[] _processElementParameterField;
     
-        private ResourceConstraintType[] resourceConstraintField;
+        private ResourceConstraintType[] _resourceConstraintField;
     
-        private GROtherInformationType[] otherInformationField;
+        private GROtherInformationType[] _otherInformationField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -48,10 +48,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -59,40 +59,40 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementType")]
         public ProcessElementTypeType ProcessElementType1 {
             get {
-                return processElementType1Field;
+                return _processElementType1Field;
             }
             set {
-                processElementType1Field = value;
+                _processElementType1Field = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return lifeCycleStateField;
+                return _lifeCycleStateField;
             }
             set {
-                lifeCycleStateField = value;
+                _lifeCycleStateField = value;
             }
         }
     
         /// <remarks/>
         public SequenceOrderType SequenceOrder {
             get {
-                return sequenceOrderField;
+                return _sequenceOrderField;
             }
             set {
-                sequenceOrderField = value;
+                _sequenceOrderField = value;
             }
         }
     
         /// <remarks/>
         public NumericType SequencePath {
             get {
-                return sequencePathField;
+                return _sequencePathField;
             }
             set {
-                sequencePathField = value;
+                _sequencePathField = value;
             }
         }
     
@@ -100,10 +100,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Materials")]
         public GRecipeMaterialsType[] Materials {
             get {
-                return materialsField;
+                return _materialsField;
             }
             set {
-                materialsField = value;
+                _materialsField = value;
             }
         }
     
@@ -111,10 +111,10 @@
         [System.Xml.Serialization.XmlElementAttribute("DirectedLink")]
         public DirectedLinkType[] DirectedLink {
             get {
-                return directedLinkField;
+                return _directedLinkField;
             }
             set {
-                directedLinkField = value;
+                _directedLinkField = value;
             }
         }
     
@@ -122,10 +122,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcedureChartElement")]
         public ProcedureChartElementType[] ProcedureChartElement {
             get {
-                return procedureChartElementField;
+                return _procedureChartElementField;
             }
             set {
-                procedureChartElementField = value;
+                _procedureChartElementField = value;
             }
         }
     
@@ -133,10 +133,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElement")]
         public ProcessElementType[] ProcessElement {
             get {
-                return processElementField;
+                return _processElementField;
             }
             set {
-                processElementField = value;
+                _processElementField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementParameter")]
         public ProcessElementParameterType[] ProcessElementParameter {
             get {
-                return processElementParameterField;
+                return _processElementParameterField;
             }
             set {
-                processElementParameterField = value;
+                _processElementParameterField = value;
             }
         }
     
@@ -155,10 +155,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
         public ResourceConstraintType[] ResourceConstraint {
             get {
-                return resourceConstraintField;
+                return _resourceConstraintField;
             }
             set {
-                resourceConstraintField = value;
+                _resourceConstraintField = value;
             }
         }
     
@@ -166,10 +166,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public GROtherInformationType[] OtherInformation {
             get {
-                return otherInformationField;
+                return _otherInformationField;
             }
             set {
-                otherInformationField = value;
+                _otherInformationField = value;
             }
         }
     }

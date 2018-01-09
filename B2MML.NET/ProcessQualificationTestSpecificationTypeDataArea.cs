@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessQualificationTestSpecificationTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private QualificationTestSpecificationType[] qualificationTestSpecificationField;
+        private QualificationTestSpecificationType[] _qualificationTestSpecificationField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
             get {
-                return qualificationTestSpecificationField;
+                return _qualificationTestSpecificationField;
             }
             set {
-                qualificationTestSpecificationField = value;
+                _qualificationTestSpecificationField = value;
             }
         }
     }

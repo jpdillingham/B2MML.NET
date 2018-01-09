@@ -80,96 +80,96 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class IdentifierType {
     
-        private string schemeIDField;
+        private string _schemeIDField;
     
-        private string schemeNameField;
+        private string _schemeNameField;
     
-        private string schemeAgencyIDField;
+        private string _schemeAgencyIDField;
     
-        private string schemeAgencyNameField;
+        private string _schemeAgencyNameField;
     
-        private string schemeVersionIDField;
+        private string _schemeVersionIDField;
     
-        private string schemeDataURIField;
+        private string _schemeDataUriField;
     
-        private string schemeURIField;
+        private string _schemeUriField;
     
-        private string valueField;
+        private string _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemeID {
+        public string SchemeID {
             get {
-                return schemeIDField;
+                return _schemeIDField;
             }
             set {
-                schemeIDField = value;
+                _schemeIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string schemeName {
+        public string SchemeName {
             get {
-                return schemeNameField;
+                return _schemeNameField;
             }
             set {
-                schemeNameField = value;
+                _schemeNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemeAgencyID {
+        public string SchemeAgencyID {
             get {
-                return schemeAgencyIDField;
+                return _schemeAgencyIDField;
             }
             set {
-                schemeAgencyIDField = value;
+                _schemeAgencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string schemeAgencyName {
+        public string SchemeAgencyName {
             get {
-                return schemeAgencyNameField;
+                return _schemeAgencyNameField;
             }
             set {
-                schemeAgencyNameField = value;
+                _schemeAgencyNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemeVersionID {
+        public string SchemeVersionID {
             get {
-                return schemeVersionIDField;
+                return _schemeVersionIDField;
             }
             set {
-                schemeVersionIDField = value;
+                _schemeVersionIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string schemeDataURI {
+        public string SchemeDataUri {
             get {
-                return schemeDataURIField;
+                return _schemeDataUriField;
             }
             set {
-                schemeDataURIField = value;
+                _schemeDataUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string schemeURI {
+        public string SchemeUri {
             get {
-                return schemeURIField;
+                return _schemeUriField;
             }
             set {
-                schemeURIField = value;
+                _schemeUriField = value;
             }
         }
     
@@ -177,10 +177,10 @@
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

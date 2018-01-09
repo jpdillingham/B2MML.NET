@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class RespondProductionPerformanceTypeDataArea {
     
-        private TransRespondType respondField;
+        private TransRespondType _respondField;
     
-        private ProductionPerformanceType[] productionPerformanceField;
+        private ProductionPerformanceType[] _productionPerformanceField;
     
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return respondField;
+                return _respondField;
             }
             set {
-                respondField = value;
+                _respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionPerformance")]
         public ProductionPerformanceType[] ProductionPerformance {
             get {
-                return productionPerformanceField;
+                return _productionPerformanceField;
             }
             set {
-                productionPerformanceField = value;
+                _productionPerformanceField = value;
             }
         }
     }

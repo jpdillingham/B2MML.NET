@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class RespondOperationsCapabilityInformationTypeDataArea {
     
-        private TransRespondType respondField;
+        private TransRespondType _respondField;
     
-        private OperationsCapabilityInformationType[] operationsCapabilityInformationField;
+        private OperationsCapabilityInformationType[] _operationsCapabilityInformationField;
     
         /// <remarks/>
         public TransRespondType Respond {
             get {
-                return respondField;
+                return _respondField;
             }
             set {
-                respondField = value;
+                _respondField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsCapabilityInformation")]
         public OperationsCapabilityInformationType[] OperationsCapabilityInformation {
             get {
-                return operationsCapabilityInformationField;
+                return _operationsCapabilityInformationField;
             }
             set {
-                operationsCapabilityInformationField = value;
+                _operationsCapabilityInformationField = value;
             }
         }
     }

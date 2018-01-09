@@ -8,27 +8,27 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class EquipmentCapabilityTestSpecificationType {
     
-        private NameType nameField;
+        private NameType _nameField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private TestedEquipmentPropertyType[] testedEquipmentPropertyField;
+        private TestedEquipmentPropertyType[] _testedEquipmentPropertyField;
     
-        private TestedEquipmentClassPropertyType[] testedEquipmentClassPropertyField;
+        private TestedEquipmentClassPropertyType[] _testedEquipmentClassPropertyField;
     
         /// <remarks/>
         public NameType Name {
             get {
-                return nameField;
+                return _nameField;
             }
             set {
-                nameField = value;
+                _nameField = value;
             }
         }
     
@@ -36,40 +36,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentProperty")]
         public TestedEquipmentPropertyType[] TestedEquipmentProperty {
             get {
-                return testedEquipmentPropertyField;
+                return _testedEquipmentPropertyField;
             }
             set {
-                testedEquipmentPropertyField = value;
+                _testedEquipmentPropertyField = value;
             }
         }
     
@@ -88,10 +88,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentClassProperty")]
         public TestedEquipmentClassPropertyType[] TestedEquipmentClassProperty {
             get {
-                return testedEquipmentClassPropertyField;
+                return _testedEquipmentClassPropertyField;
             }
             set {
-                testedEquipmentClassPropertyField = value;
+                _testedEquipmentClassPropertyField = value;
             }
         }
     }

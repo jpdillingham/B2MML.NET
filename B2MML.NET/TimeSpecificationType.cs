@@ -6,19 +6,19 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TimeSpecificationType {
     
-        private bool relativeField;
+        private bool _relativeField;
     
-        private bool relativeFieldSpecified;
+        private bool _relativeFieldSpecified;
     
-        private DateTimeType offsetTimeField;
+        private DateTimeType _offsetTimeField;
     
         /// <remarks/>
         public bool Relative {
             get {
-                return relativeField;
+                return _relativeField;
             }
             set {
-                relativeField = value;
+                _relativeField = value;
             }
         }
     
@@ -26,20 +26,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool RelativeSpecified {
             get {
-                return relativeFieldSpecified;
+                return _relativeFieldSpecified;
             }
             set {
-                relativeFieldSpecified = value;
+                _relativeFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType OffsetTime {
             get {
-                return offsetTimeField;
+                return _offsetTimeField;
             }
             set {
-                offsetTimeField = value;
+                _offsetTimeField = value;
             }
         }
     }

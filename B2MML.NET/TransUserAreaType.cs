@@ -6,16 +6,16 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransUserAreaType {
     
-        private System.Xml.XmlElement[] anyField;
+        private System.Xml.XmlElement[] _anyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
             get {
-                return anyField;
+                return _anyField;
             }
             set {
-                anyField = value;
+                _anyField = value;
             }
         }
     }

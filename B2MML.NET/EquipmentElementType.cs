@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class EquipmentElementType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private EquipmentElementTypeType equipmentElementType1Field;
+        private EquipmentElementTypeType _equipmentElementType1Field;
     
-        private EquipmentElementLevelType equipmentElementLevelField;
+        private EquipmentElementLevelType _equipmentElementLevelField;
     
-        private ClassInstanceAssociationType[] classInstanceAssociationField;
+        private ClassInstanceAssociationType[] _classInstanceAssociationField;
     
-        private EquipmentElementPropertyType[] propertyField;
+        private EquipmentElementPropertyType[] _propertyField;
     
-        private EquipmentProceduralElementClassType[] equipmentProceduralElementClassField;
+        private EquipmentProceduralElementClassType[] _equipmentProceduralElementClassField;
     
-        private EquipmentProceduralElementType[] equipmentProceduralElementField;
+        private EquipmentProceduralElementType[] _equipmentProceduralElementField;
     
-        private EquipmentConnectionType[] equipmentConnectionField;
+        private EquipmentConnectionType[] _equipmentConnectionField;
     
-        private object[] itemsField;
+        private object[] _itemsField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,10 +42,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -53,20 +53,20 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementType")]
         public EquipmentElementTypeType EquipmentElementType1 {
             get {
-                return equipmentElementType1Field;
+                return _equipmentElementType1Field;
             }
             set {
-                equipmentElementType1Field = value;
+                _equipmentElementType1Field = value;
             }
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ClassInstanceAssociation")]
         public ClassInstanceAssociationType[] ClassInstanceAssociation {
             get {
-                return classInstanceAssociationField;
+                return _classInstanceAssociationField;
             }
             set {
-                classInstanceAssociationField = value;
+                _classInstanceAssociationField = value;
             }
         }
     
@@ -85,10 +85,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public EquipmentElementPropertyType[] Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     
@@ -96,10 +96,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementClass")]
         public EquipmentProceduralElementClassType[] EquipmentProceduralElementClass {
             get {
-                return equipmentProceduralElementClassField;
+                return _equipmentProceduralElementClassField;
             }
             set {
-                equipmentProceduralElementClassField = value;
+                _equipmentProceduralElementClassField = value;
             }
         }
     
@@ -107,10 +107,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElement")]
         public EquipmentProceduralElementType[] EquipmentProceduralElement {
             get {
-                return equipmentProceduralElementField;
+                return _equipmentProceduralElementField;
             }
             set {
-                equipmentProceduralElementField = value;
+                _equipmentProceduralElementField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentConnection")]
         public EquipmentConnectionType[] EquipmentConnection {
             get {
-                return equipmentConnectionField;
+                return _equipmentConnectionField;
             }
             set {
-                equipmentConnectionField = value;
+                _equipmentConnectionField = value;
             }
         }
     
@@ -130,10 +130,10 @@
          System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
         public object[] Items {
             get {
-                return itemsField;
+                return _itemsField;
             }
             set {
-                itemsField = value;
+                _itemsField = value;
             }
         }
     }

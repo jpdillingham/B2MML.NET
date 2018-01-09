@@ -8,20 +8,20 @@
          IsNullable = false)]
     public partial class ProcedureLogicType {
     
-        private LinkType[] linkField;
+        private LinkType[] _linkField;
     
-        private StepType[] stepField;
+        private StepType[] _stepField;
     
-        private TransitionType[] transitionField;
+        private TransitionType[] _transitionField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Link")]
         public LinkType[] Link {
             get {
-                return linkField;
+                return _linkField;
             }
             set {
-                linkField = value;
+                _linkField = value;
             }
         }
     
@@ -29,10 +29,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Step")]
         public StepType[] Step {
             get {
-                return stepField;
+                return _stepField;
             }
             set {
-                stepField = value;
+                _stepField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Transition")]
         public TransitionType[] Transition {
             get {
-                return transitionField;
+                return _transitionField;
             }
             set {
-                transitionField = value;
+                _transitionField = value;
             }
         }
     }

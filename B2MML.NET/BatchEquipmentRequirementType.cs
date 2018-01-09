@@ -8,19 +8,19 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class BatchEquipmentRequirementType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private ConstraintType[] constraintField;
+        private ConstraintType[] _constraintField;
     
-        private DescriptionType descriptionField;
+        private DescriptionType _descriptionField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Constraint")]
         public ConstraintType[] Constraint {
             get {
-                return constraintField;
+                return _constraintField;
             }
             set {
-                constraintField = value;
+                _constraintField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

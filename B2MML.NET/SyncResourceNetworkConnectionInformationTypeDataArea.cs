@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SyncResourceNetworkConnectionInformationTypeDataArea {
     
-        private TransActionCriteriaType[] syncField;
+        private TransActionCriteriaType[] _syncField;
     
-        private ResourceNetworkConnectionInformationType[] resourceNetworkConnectionInformationField;
+        private ResourceNetworkConnectionInformationType[] _resourceNetworkConnectionInformationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
             get {
-                return syncField;
+                return _syncField;
             }
             set {
-                syncField = value;
+                _syncField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
             get {
-                return resourceNetworkConnectionInformationField;
+                return _resourceNetworkConnectionInformationField;
             }
             set {
-                resourceNetworkConnectionInformationField = value;
+                _resourceNetworkConnectionInformationField = value;
             }
         }
     }

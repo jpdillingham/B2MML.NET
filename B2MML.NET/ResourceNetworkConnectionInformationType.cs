@@ -8,21 +8,21 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class ResourceNetworkConnectionInformationType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private ResourceNetworkConnectionTypeType[] resourceNetworkConnectionTypeField;
+        private ResourceNetworkConnectionTypeType[] _resourceNetworkConnectionTypeField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -30,20 +30,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionType")]
         public ResourceNetworkConnectionTypeType[] ResourceNetworkConnectionType {
             get {
-                return resourceNetworkConnectionTypeField;
+                return _resourceNetworkConnectionTypeField;
             }
             set {
-                resourceNetworkConnectionTypeField = value;
+                _resourceNetworkConnectionTypeField = value;
             }
         }
     }

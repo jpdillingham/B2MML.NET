@@ -6,19 +6,19 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class UserAttributeType {
     
-        private CodeType attributeIDField;
+        private CodeType _attributeIDField;
     
-        private TextType[] descriptionField;
+        private TextType[] _descriptionField;
     
-        private ValueType[] valueField;
+        private ValueType[] _valueField;
     
         /// <remarks/>
         public CodeType AttributeID {
             get {
-                return attributeIDField;
+                return _attributeIDField;
             }
             set {
-                attributeIDField = value;
+                _attributeIDField = value;
             }
         }
     
@@ -26,10 +26,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public TextType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -37,10 +37,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

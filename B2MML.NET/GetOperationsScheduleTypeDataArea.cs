@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GetOperationsScheduleTypeDataArea {
     
-        private string[] getField;
+        private string[] _getField;
     
-        private OperationsScheduleType[] operationsScheduleField;
+        private OperationsScheduleType[] _operationsScheduleField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return getField;
+                return _getField;
             }
             set {
-                getField = value;
+                _getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsSchedule")]
         public OperationsScheduleType[] OperationsSchedule {
             get {
-                return operationsScheduleField;
+                return _operationsScheduleField;
             }
             set {
-                operationsScheduleField = value;
+                _operationsScheduleField = value;
             }
         }
     }

@@ -8,55 +8,55 @@
          IsNullable = false)]
     public partial class ControlRecipeType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private VersionDateType versionDateField;
+        private VersionDateType _versionDateField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private BatchIDType batchIDField;
+        private BatchIDType _batchIDField;
     
-        private HeaderType headerField;
+        private HeaderType _headerField;
     
-        private BatchEquipmentRequirementType[] equipmentRequirementField;
+        private BatchEquipmentRequirementType[] _equipmentRequirementField;
     
-        private FormulaType formulaField;
+        private FormulaType _formulaField;
     
-        private ProcedureLogicType procedureLogicField;
+        private ProcedureLogicType _procedureLogicField;
     
-        private RecipeElementType[] recipeElementField;
+        private RecipeElementType[] _recipeElementField;
     
-        private OtherInformationType[] otherInformationField;
+        private OtherInformationType[] _otherInformationField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public VersionDateType VersionDate {
             get {
-                return versionDateField;
+                return _versionDateField;
             }
             set {
-                versionDateField = value;
+                _versionDateField = value;
             }
         }
     
@@ -64,30 +64,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public BatchIDType BatchID {
             get {
-                return batchIDField;
+                return _batchIDField;
             }
             set {
-                batchIDField = value;
+                _batchIDField = value;
             }
         }
     
         /// <remarks/>
         public HeaderType Header {
             get {
-                return headerField;
+                return _headerField;
             }
             set {
-                headerField = value;
+                _headerField = value;
             }
         }
     
@@ -95,30 +95,30 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public BatchEquipmentRequirementType[] EquipmentRequirement {
             get {
-                return equipmentRequirementField;
+                return _equipmentRequirementField;
             }
             set {
-                equipmentRequirementField = value;
+                _equipmentRequirementField = value;
             }
         }
     
         /// <remarks/>
         public FormulaType Formula {
             get {
-                return formulaField;
+                return _formulaField;
             }
             set {
-                formulaField = value;
+                _formulaField = value;
             }
         }
     
         /// <remarks/>
         public ProcedureLogicType ProcedureLogic {
             get {
-                return procedureLogicField;
+                return _procedureLogicField;
             }
             set {
-                procedureLogicField = value;
+                _procedureLogicField = value;
             }
         }
     
@@ -126,10 +126,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
             get {
-                return recipeElementField;
+                return _recipeElementField;
             }
             set {
-                recipeElementField = value;
+                _recipeElementField = value;
             }
         }
     
@@ -137,10 +137,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public OtherInformationType[] OtherInformation {
             get {
-                return otherInformationField;
+                return _otherInformationField;
             }
             set {
-                otherInformationField = value;
+                _otherInformationField = value;
             }
         }
     }

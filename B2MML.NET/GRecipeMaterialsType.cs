@@ -6,21 +6,21 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GRecipeMaterialsType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private MaterialsTypeType materialsTypeField;
+        private MaterialsTypeType _materialsTypeField;
     
-        private GRecipeMaterialType[] materialField;
+        private GRecipeMaterialType[] _materialField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -28,20 +28,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public MaterialsTypeType MaterialsType {
             get {
-                return materialsTypeField;
+                return _materialsTypeField;
             }
             set {
-                materialsTypeField = value;
+                _materialsTypeField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Material")]
         public GRecipeMaterialType[] Material {
             get {
-                return materialField;
+                return _materialField;
             }
             set {
-                materialField = value;
+                _materialField = value;
             }
         }
     }

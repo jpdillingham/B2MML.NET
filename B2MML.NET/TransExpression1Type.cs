@@ -7,16 +7,16 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransExpression1Type {
     
-        private string valueField;
+        private string _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute(DataType="token")]
         public string Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

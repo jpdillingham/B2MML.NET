@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowJobResponseTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private JobResponseType[] jobResponseField;
+        private JobResponseType[] _jobResponseField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
             get {
-                return jobResponseField;
+                return _jobResponseField;
             }
             set {
-                jobResponseField = value;
+                _jobResponseField = value;
             }
         }
     }

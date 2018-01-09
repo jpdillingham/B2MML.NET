@@ -6,73 +6,73 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SegmentRequirementType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private ProductSegmentIDType productSegmentIDField;
+        private ProductSegmentIDType _productSegmentIDField;
     
-        private ProcessSegmentIDType processSegmentIDField;
+        private ProcessSegmentIDType _processSegmentIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private EarliestStartTimeType earliestStartTimeField;
+        private EarliestStartTimeType _earliestStartTimeField;
     
-        private LatestEndTimeType latestEndTimeField;
+        private LatestEndTimeType _latestEndTimeField;
     
-        private string durationField;
+        private string _durationField;
     
-        private ProductionParameterType[] productionParameterField;
+        private ProductionParameterType[] _productionParameterField;
     
-        private PersonnelRequirementType[] personnelRequirementField;
+        private PersonnelRequirementType[] _personnelRequirementField;
     
-        private EquipmentRequirementType[] equipmentRequirementField;
+        private EquipmentRequirementType[] _equipmentRequirementField;
     
-        private PhysicalAssetRequirementType[] physicalAssetRequirementField;
+        private PhysicalAssetRequirementType[] _physicalAssetRequirementField;
     
-        private MaterialRequirementType[] materialRequirementField;
+        private MaterialRequirementType[] _materialRequirementField;
     
-        private MaterialProducedRequirementType[] materialProducedRequirementField;
+        private MaterialProducedRequirementType[] _materialProducedRequirementField;
     
-        private MaterialConsumedRequirementType[] materialConsumedRequirementField;
+        private MaterialConsumedRequirementType[] _materialConsumedRequirementField;
     
-        private ConsumableExpectedRequirementType[] consumableExpectedRequirementField;
+        private ConsumableExpectedRequirementType[] _consumableExpectedRequirementField;
     
-        private SegmentRequirementType[] segmentRequirementField;
+        private SegmentRequirementType[] _segmentRequirementField;
     
-        private RequiredByRequestedSegmentResponseType requiredByRequestedSegmentResponseField;
+        private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
-        private RequestStateType segmentStateField;
+        private RequestStateType _segmentStateField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public ProductSegmentIDType ProductSegmentID {
             get {
-                return productSegmentIDField;
+                return _productSegmentIDField;
             }
             set {
-                productSegmentIDField = value;
+                _productSegmentIDField = value;
             }
         }
     
         /// <remarks/>
         public ProcessSegmentIDType ProcessSegmentID {
             get {
-                return processSegmentIDField;
+                return _processSegmentIDField;
             }
             set {
-                processSegmentIDField = value;
+                _processSegmentIDField = value;
             }
         }
     
@@ -80,50 +80,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public EarliestStartTimeType EarliestStartTime {
             get {
-                return earliestStartTimeField;
+                return _earliestStartTimeField;
             }
             set {
-                earliestStartTimeField = value;
+                _earliestStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public LatestEndTimeType LatestEndTime {
             get {
-                return latestEndTimeField;
+                return _latestEndTimeField;
             }
             set {
-                latestEndTimeField = value;
+                _latestEndTimeField = value;
             }
         }
     
@@ -131,10 +131,10 @@
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
             get {
-                return durationField;
+                return _durationField;
             }
             set {
-                durationField = value;
+                _durationField = value;
             }
         }
     
@@ -142,10 +142,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionParameter")]
         public ProductionParameterType[] ProductionParameter {
             get {
-                return productionParameterField;
+                return _productionParameterField;
             }
             set {
-                productionParameterField = value;
+                _productionParameterField = value;
             }
         }
     
@@ -153,10 +153,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
         public PersonnelRequirementType[] PersonnelRequirement {
             get {
-                return personnelRequirementField;
+                return _personnelRequirementField;
             }
             set {
-                personnelRequirementField = value;
+                _personnelRequirementField = value;
             }
         }
     
@@ -164,10 +164,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public EquipmentRequirementType[] EquipmentRequirement {
             get {
-                return equipmentRequirementField;
+                return _equipmentRequirementField;
             }
             set {
-                equipmentRequirementField = value;
+                _equipmentRequirementField = value;
             }
         }
     
@@ -175,10 +175,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
         public PhysicalAssetRequirementType[] PhysicalAssetRequirement {
             get {
-                return physicalAssetRequirementField;
+                return _physicalAssetRequirementField;
             }
             set {
-                physicalAssetRequirementField = value;
+                _physicalAssetRequirementField = value;
             }
         }
     
@@ -186,10 +186,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
         public MaterialRequirementType[] MaterialRequirement {
             get {
-                return materialRequirementField;
+                return _materialRequirementField;
             }
             set {
-                materialRequirementField = value;
+                _materialRequirementField = value;
             }
         }
     
@@ -197,10 +197,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialProducedRequirement")]
         public MaterialProducedRequirementType[] MaterialProducedRequirement {
             get {
-                return materialProducedRequirementField;
+                return _materialProducedRequirementField;
             }
             set {
-                materialProducedRequirementField = value;
+                _materialProducedRequirementField = value;
             }
         }
     
@@ -208,10 +208,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialConsumedRequirement")]
         public MaterialConsumedRequirementType[] MaterialConsumedRequirement {
             get {
-                return materialConsumedRequirementField;
+                return _materialConsumedRequirementField;
             }
             set {
-                materialConsumedRequirementField = value;
+                _materialConsumedRequirementField = value;
             }
         }
     
@@ -219,10 +219,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ConsumableExpectedRequirement")]
         public ConsumableExpectedRequirementType[] ConsumableExpectedRequirement {
             get {
-                return consumableExpectedRequirementField;
+                return _consumableExpectedRequirementField;
             }
             set {
-                consumableExpectedRequirementField = value;
+                _consumableExpectedRequirementField = value;
             }
         }
     
@@ -230,30 +230,30 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
         public SegmentRequirementType[] SegmentRequirement {
             get {
-                return segmentRequirementField;
+                return _segmentRequirementField;
             }
             set {
-                segmentRequirementField = value;
+                _segmentRequirementField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return requiredByRequestedSegmentResponseField;
+                return _requiredByRequestedSegmentResponseField;
             }
             set {
-                requiredByRequestedSegmentResponseField = value;
+                _requiredByRequestedSegmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType SegmentState {
             get {
-                return segmentStateField;
+                return _segmentStateField;
             }
             set {
-                segmentStateField = value;
+                _segmentStateField = value;
             }
         }
     }

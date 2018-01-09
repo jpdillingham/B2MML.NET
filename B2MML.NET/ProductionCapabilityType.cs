@@ -8,43 +8,43 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class ProductionCapabilityType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private CapabilityTypeType capabilityTypeField;
+        private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType reasonField;
+        private ReasonType _reasonField;
     
-        private EquipmentElementLevelType[] equipmentElementLevelField;
+        private EquipmentElementLevelType[] _equipmentElementLevelField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private PersonnelCapabilityType[] personnelCapabilityField;
+        private PersonnelCapabilityType[] _personnelCapabilityField;
     
-        private EquipmentCapabilityType[] equipmentCapabilityField;
+        private EquipmentCapabilityType[] _equipmentCapabilityField;
     
-        private PhysicalAssetCapabilityType[] physicalAssetCapabilityField;
+        private PhysicalAssetCapabilityType[] _physicalAssetCapabilityField;
     
-        private MaterialCapabilityType[] materialCapabilityField;
+        private MaterialCapabilityType[] _materialCapabilityField;
     
-        private ProcessSegmentCapabilityType[] processSegmentCapabilityField;
+        private ProcessSegmentCapabilityType[] _processSegmentCapabilityField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -52,60 +52,60 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return capabilityTypeField;
+                return _capabilityTypeField;
             }
             set {
-                capabilityTypeField = value;
+                _capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
@@ -113,30 +113,30 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
         public EquipmentElementLevelType[] EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
@@ -144,10 +144,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
         public PersonnelCapabilityType[] PersonnelCapability {
             get {
-                return personnelCapabilityField;
+                return _personnelCapabilityField;
             }
             set {
-                personnelCapabilityField = value;
+                _personnelCapabilityField = value;
             }
         }
     
@@ -155,10 +155,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
         public EquipmentCapabilityType[] EquipmentCapability {
             get {
-                return equipmentCapabilityField;
+                return _equipmentCapabilityField;
             }
             set {
-                equipmentCapabilityField = value;
+                _equipmentCapabilityField = value;
             }
         }
     
@@ -166,10 +166,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapability")]
         public PhysicalAssetCapabilityType[] PhysicalAssetCapability {
             get {
-                return physicalAssetCapabilityField;
+                return _physicalAssetCapabilityField;
             }
             set {
-                physicalAssetCapabilityField = value;
+                _physicalAssetCapabilityField = value;
             }
         }
     
@@ -177,10 +177,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
         public MaterialCapabilityType[] MaterialCapability {
             get {
-                return materialCapabilityField;
+                return _materialCapabilityField;
             }
             set {
-                materialCapabilityField = value;
+                _materialCapabilityField = value;
             }
         }
     
@@ -188,10 +188,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentCapability")]
         public ProcessSegmentCapabilityType[] ProcessSegmentCapability {
             get {
-                return processSegmentCapabilityField;
+                return _processSegmentCapabilityField;
             }
             set {
-                processSegmentCapabilityField = value;
+                _processSegmentCapabilityField = value;
             }
         }
     }

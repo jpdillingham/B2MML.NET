@@ -6,31 +6,31 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcedureChartElementType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private TextType labelField;
+        private TextType _labelField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ProcedureChartElementTypeType procedureChartElementType1Field;
+        private ProcedureChartElementTypeType _procedureChartElementType1Field;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public TextType Label {
             get {
-                return labelField;
+                return _labelField;
             }
             set {
-                labelField = value;
+                _labelField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcedureChartElementType")]
         public ProcedureChartElementTypeType ProcedureChartElementType1 {
             get {
-                return procedureChartElementType1Field;
+                return _procedureChartElementType1Field;
             }
             set {
-                procedureChartElementType1Field = value;
+                _procedureChartElementType1Field = value;
             }
         }
     }

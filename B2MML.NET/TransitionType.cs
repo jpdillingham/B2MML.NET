@@ -8,41 +8,41 @@
          IsNullable = false)]
     public partial class TransitionType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private ConditionType conditionField;
+        private ConditionType _conditionField;
     
-        private ConditionAnnotationType conditionAnnotationField;
+        private ConditionAnnotationType _conditionAnnotationField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return conditionField;
+                return _conditionField;
             }
             set {
-                conditionField = value;
+                _conditionField = value;
             }
         }
     
         /// <remarks/>
         public ConditionAnnotationType ConditionAnnotation {
             get {
-                return conditionAnnotationField;
+                return _conditionAnnotationField;
             }
             set {
-                conditionAnnotationField = value;
+                _conditionAnnotationField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

@@ -6,25 +6,25 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransApplicationAreaType {
     
-        private TransSenderType senderField;
+        private TransSenderType _senderField;
     
-        private TransReceiverType[] receiverField;
+        private TransReceiverType[] _receiverField;
     
-        private DateTimeType creationDateTimeField;
+        private DateTimeType _creationDateTimeField;
     
-        private TransSignatureType signatureField;
+        private TransSignatureType _signatureField;
     
-        private IdentifierType bODIDField;
+        private IdentifierType _bOdidField;
     
-        private TransUserAreaType userAreaField;
+        private TransUserAreaType _userAreaField;
     
         /// <remarks/>
         public TransSenderType Sender {
             get {
-                return senderField;
+                return _senderField;
             }
             set {
-                senderField = value;
+                _senderField = value;
             }
         }
     
@@ -32,50 +32,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Receiver")]
         public TransReceiverType[] Receiver {
             get {
-                return receiverField;
+                return _receiverField;
             }
             set {
-                receiverField = value;
+                _receiverField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType CreationDateTime {
             get {
-                return creationDateTimeField;
+                return _creationDateTimeField;
             }
             set {
-                creationDateTimeField = value;
+                _creationDateTimeField = value;
             }
         }
     
         /// <remarks/>
         public TransSignatureType Signature {
             get {
-                return signatureField;
+                return _signatureField;
             }
             set {
-                signatureField = value;
+                _signatureField = value;
             }
         }
     
         /// <remarks/>
-        public IdentifierType BODID {
+        public IdentifierType Bodid {
             get {
-                return bODIDField;
+                return _bOdidField;
             }
             set {
-                bODIDField = value;
+                _bOdidField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return userAreaField;
+                return _userAreaField;
             }
             set {
-                userAreaField = value;
+                _userAreaField = value;
             }
         }
     }

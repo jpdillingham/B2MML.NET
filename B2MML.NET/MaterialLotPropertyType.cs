@@ -6,25 +6,25 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class MaterialLotPropertyType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ValueType[] valueField;
+        private ValueType[] _valueField;
     
-        private MaterialLotPropertyType[] materialLotPropertyField;
+        private MaterialLotPropertyType[] _materialLotPropertyField;
     
-        private MaterialTestSpecificationIDType[] materialTestSpecificationIDField;
+        private MaterialTestSpecificationIDType[] _materialTestSpecificationIDField;
     
-        private TestResultType[] testResultField;
+        private TestResultType[] _testResultField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -32,10 +32,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -43,10 +43,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     
@@ -54,10 +54,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotProperty")]
         public MaterialLotPropertyType[] MaterialLotProperty {
             get {
-                return materialLotPropertyField;
+                return _materialLotPropertyField;
             }
             set {
-                materialLotPropertyField = value;
+                _materialLotPropertyField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
             get {
-                return materialTestSpecificationIDField;
+                return _materialTestSpecificationIDField;
             }
             set {
-                materialTestSpecificationIDField = value;
+                _materialTestSpecificationIDField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TestResult")]
         public TestResultType[] TestResult {
             get {
-                return testResultField;
+                return _testResultField;
             }
             set {
-                testResultField = value;
+                _testResultField = value;
             }
         }
     }

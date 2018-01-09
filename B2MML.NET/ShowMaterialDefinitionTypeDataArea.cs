@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowMaterialDefinitionTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private MaterialDefinitionType[] materialDefinitionField;
+        private MaterialDefinitionType[] _materialDefinitionField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
         public MaterialDefinitionType[] MaterialDefinition {
             get {
-                return materialDefinitionField;
+                return _materialDefinitionField;
             }
             set {
-                materialDefinitionField = value;
+                _materialDefinitionField = value;
             }
         }
     }

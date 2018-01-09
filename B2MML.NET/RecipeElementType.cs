@@ -8,61 +8,61 @@
          IsNullable = false)]
     public partial class RecipeElementType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private VersionDateType versionDateField;
+        private VersionDateType _versionDateField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private RecipeElementTypeType recipeElementType1Field;
+        private RecipeElementTypeType _recipeElementType1Field;
     
-        private BuildingBlockElementIDType buildingBlockElementIDField;
+        private BuildingBlockElementIDType _buildingBlockElementIDField;
     
-        private BuildingBlockElementVersionType buildingBlockElementVersionField;
+        private BuildingBlockElementVersionType _buildingBlockElementVersionField;
     
-        private ActualEquipmentIDType[] actualEquipmentIDField;
+        private ActualEquipmentIDType[] _actualEquipmentIDField;
     
-        private HeaderType headerField;
+        private HeaderType _headerField;
     
-        private BatchEquipmentRequirementType[] equipmentRequirementField;
+        private BatchEquipmentRequirementType[] _equipmentRequirementField;
     
-        private BatchParameterType[] parameterField;
+        private BatchParameterType[] _parameterField;
     
-        private ProcedureLogicType procedureLogicField;
+        private ProcedureLogicType _procedureLogicField;
     
-        private RecipeElementType[] recipeElementField;
+        private RecipeElementType[] _recipeElementField;
     
-        private OtherInformationType[] otherInformationField;
+        private OtherInformationType[] _otherInformationField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public VersionDateType VersionDate {
             get {
-                return versionDateField;
+                return _versionDateField;
             }
             set {
-                versionDateField = value;
+                _versionDateField = value;
             }
         }
     
@@ -70,10 +70,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -81,30 +81,30 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElementType")]
         public RecipeElementTypeType RecipeElementType1 {
             get {
-                return recipeElementType1Field;
+                return _recipeElementType1Field;
             }
             set {
-                recipeElementType1Field = value;
+                _recipeElementType1Field = value;
             }
         }
     
         /// <remarks/>
         public BuildingBlockElementIDType BuildingBlockElementID {
             get {
-                return buildingBlockElementIDField;
+                return _buildingBlockElementIDField;
             }
             set {
-                buildingBlockElementIDField = value;
+                _buildingBlockElementIDField = value;
             }
         }
     
         /// <remarks/>
         public BuildingBlockElementVersionType BuildingBlockElementVersion {
             get {
-                return buildingBlockElementVersionField;
+                return _buildingBlockElementVersionField;
             }
             set {
-                buildingBlockElementVersionField = value;
+                _buildingBlockElementVersionField = value;
             }
         }
     
@@ -112,20 +112,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ActualEquipmentID")]
         public ActualEquipmentIDType[] ActualEquipmentID {
             get {
-                return actualEquipmentIDField;
+                return _actualEquipmentIDField;
             }
             set {
-                actualEquipmentIDField = value;
+                _actualEquipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public HeaderType Header {
             get {
-                return headerField;
+                return _headerField;
             }
             set {
-                headerField = value;
+                _headerField = value;
             }
         }
     
@@ -133,10 +133,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public BatchEquipmentRequirementType[] EquipmentRequirement {
             get {
-                return equipmentRequirementField;
+                return _equipmentRequirementField;
             }
             set {
-                equipmentRequirementField = value;
+                _equipmentRequirementField = value;
             }
         }
     
@@ -144,20 +144,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
             get {
-                return parameterField;
+                return _parameterField;
             }
             set {
-                parameterField = value;
+                _parameterField = value;
             }
         }
     
         /// <remarks/>
         public ProcedureLogicType ProcedureLogic {
             get {
-                return procedureLogicField;
+                return _procedureLogicField;
             }
             set {
-                procedureLogicField = value;
+                _procedureLogicField = value;
             }
         }
     
@@ -165,10 +165,10 @@
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
             get {
-                return recipeElementField;
+                return _recipeElementField;
             }
             set {
-                recipeElementField = value;
+                _recipeElementField = value;
             }
         }
     
@@ -176,10 +176,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public OtherInformationType[] OtherInformation {
             get {
-                return otherInformationField;
+                return _otherInformationField;
             }
             set {
-                otherInformationField = value;
+                _otherInformationField = value;
             }
         }
     }

@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowOperationsScheduleTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private OperationsScheduleType[] operationsScheduleField;
+        private OperationsScheduleType[] _operationsScheduleField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsSchedule")]
         public OperationsScheduleType[] OperationsSchedule {
             get {
-                return operationsScheduleField;
+                return _operationsScheduleField;
             }
             set {
-                operationsScheduleField = value;
+                _operationsScheduleField = value;
             }
         }
     }

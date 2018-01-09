@@ -8,25 +8,25 @@
          IsNullable = false)]
     public partial class ResourceConstraintType {
     
-        private IdentifierType constraintIDField;
+        private IdentifierType _constraintIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ConstraintTypeType[] constraintTypeField;
+        private ConstraintTypeType[] _constraintTypeField;
     
-        private LifeCycleStateType lifeCycleStateField;
+        private LifeCycleStateType _lifeCycleStateField;
     
-        private ValueType[] rangeField;
+        private ValueType[] _rangeField;
     
-        private ResourceConstraintPropertyType[] resourceConstraintPropertyField;
+        private ResourceConstraintPropertyType[] _resourceConstraintPropertyField;
     
         /// <remarks/>
         public IdentifierType ConstraintID {
             get {
-                return constraintIDField;
+                return _constraintIDField;
             }
             set {
-                constraintIDField = value;
+                _constraintIDField = value;
             }
         }
     
@@ -34,10 +34,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -45,20 +45,20 @@
         [System.Xml.Serialization.XmlElementAttribute("ConstraintType")]
         public ConstraintTypeType[] ConstraintType {
             get {
-                return constraintTypeField;
+                return _constraintTypeField;
             }
             set {
-                constraintTypeField = value;
+                _constraintTypeField = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return lifeCycleStateField;
+                return _lifeCycleStateField;
             }
             set {
-                lifeCycleStateField = value;
+                _lifeCycleStateField = value;
             }
         }
     
@@ -66,10 +66,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Range")]
         public ValueType[] Range {
             get {
-                return rangeField;
+                return _rangeField;
             }
             set {
-                rangeField = value;
+                _rangeField = value;
             }
         }
     
@@ -77,10 +77,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintProperty")]
         public ResourceConstraintPropertyType[] ResourceConstraintProperty {
             get {
-                return resourceConstraintPropertyField;
+                return _resourceConstraintPropertyField;
             }
             set {
-                resourceConstraintPropertyField = value;
+                _resourceConstraintPropertyField = value;
             }
         }
     }

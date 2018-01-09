@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowTransactionProfileTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private TransactionProfileType[] transactionProfileField;
+        private TransactionProfileType[] _transactionProfileField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("TransactionProfile")]
         public TransactionProfileType[] TransactionProfile {
             get {
-                return transactionProfileField;
+                return _transactionProfileField;
             }
             set {
-                transactionProfileField = value;
+                _transactionProfileField = value;
             }
         }
     }

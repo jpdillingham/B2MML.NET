@@ -6,45 +6,45 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransStateChangeType {
     
-        private CodeType fromStateCodeField;
+        private CodeType _fromStateCodeField;
     
-        private CodeType toStateCodeField;
+        private CodeType _toStateCodeField;
     
-        private DateTimeType changeDateTimeField;
+        private DateTimeType _changeDateTimeField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private TextType[] noteField;
+        private TextType[] _noteField;
     
-        private TransUserAreaType userAreaField;
+        private TransUserAreaType _userAreaField;
     
         /// <remarks/>
         public CodeType FromStateCode {
             get {
-                return fromStateCodeField;
+                return _fromStateCodeField;
             }
             set {
-                fromStateCodeField = value;
+                _fromStateCodeField = value;
             }
         }
     
         /// <remarks/>
         public CodeType ToStateCode {
             get {
-                return toStateCodeField;
+                return _toStateCodeField;
             }
             set {
-                toStateCodeField = value;
+                _toStateCodeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType ChangeDateTime {
             get {
-                return changeDateTimeField;
+                return _changeDateTimeField;
             }
             set {
-                changeDateTimeField = value;
+                _changeDateTimeField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -63,20 +63,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
             get {
-                return noteField;
+                return _noteField;
             }
             set {
-                noteField = value;
+                _noteField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return userAreaField;
+                return _userAreaField;
             }
             set {
-                userAreaField = value;
+                _userAreaField = value;
             }
         }
     }

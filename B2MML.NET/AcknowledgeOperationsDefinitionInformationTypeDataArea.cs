@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeOperationsDefinitionInformationTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private OperationsDefinitionInformationType[] operationsDefinitionInformationField;
+        private OperationsDefinitionInformationType[] _operationsDefinitionInformationField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
             get {
-                return operationsDefinitionInformationField;
+                return _operationsDefinitionInformationField;
             }
             set {
-                operationsDefinitionInformationField = value;
+                _operationsDefinitionInformationField = value;
             }
         }
     }

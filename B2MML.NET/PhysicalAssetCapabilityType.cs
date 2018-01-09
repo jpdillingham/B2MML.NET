@@ -6,47 +6,47 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class PhysicalAssetCapabilityType {
     
-        private PhysicalAssetClassIDType physicalAssetClassIDField;
+        private PhysicalAssetClassIDType _physicalAssetClassIDField;
     
-        private PhysicalAssetIDType physicalAssetIDField;
+        private PhysicalAssetIDType _physicalAssetIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private CapabilityTypeType capabilityTypeField;
+        private CapabilityTypeType _capabilityTypeField;
     
-        private ReasonType reasonField;
+        private ReasonType _reasonField;
     
-        private EquipmentElementLevelType[] equipmentElementLevelField;
+        private EquipmentElementLevelType[] _equipmentElementLevelField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private PhysicalAssetCapabilityPropertyType[] physicalAssetCapabilityPropertyField;
+        private PhysicalAssetCapabilityPropertyType[] _physicalAssetCapabilityPropertyField;
     
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
             get {
-                return physicalAssetClassIDField;
+                return _physicalAssetClassIDField;
             }
             set {
-                physicalAssetClassIDField = value;
+                _physicalAssetClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -54,30 +54,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
             get {
-                return capabilityTypeField;
+                return _capabilityTypeField;
             }
             set {
-                capabilityTypeField = value;
+                _capabilityTypeField = value;
             }
         }
     
         /// <remarks/>
         public ReasonType Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     
@@ -85,50 +85,50 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
         public EquipmentElementLevelType[] EquipmentElementLevel {
             get {
-                return equipmentElementLevelField;
+                return _equipmentElementLevelField;
             }
             set {
-                equipmentElementLevelField = value;
+                _equipmentElementLevelField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
@@ -136,10 +136,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -147,10 +147,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityProperty")]
         public PhysicalAssetCapabilityPropertyType[] PhysicalAssetCapabilityProperty {
             get {
-                return physicalAssetCapabilityPropertyField;
+                return _physicalAssetCapabilityPropertyField;
             }
             set {
-                physicalAssetCapabilityPropertyField = value;
+                _physicalAssetCapabilityPropertyField = value;
             }
         }
     }

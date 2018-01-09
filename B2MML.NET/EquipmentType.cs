@@ -8,33 +8,33 @@
          IsNullable = false)]
     public partial class EquipmentType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private HierarchyScopeType equipmentLevelField;
+        private HierarchyScopeType _equipmentLevelField;
     
-        private EquipmentAssetMappingType[] equipmentAssetMappingField;
+        private EquipmentAssetMappingType[] _equipmentAssetMappingField;
     
-        private EquipmentPropertyType[] equipmentPropertyField;
+        private EquipmentPropertyType[] _equipmentPropertyField;
     
-        private EquipmentType[] equipmentField;
+        private EquipmentType[] _equipmentField;
     
-        private EquipmentClassIDType[] equipmentClassIDField;
+        private EquipmentClassIDType[] _equipmentClassIDField;
     
-        private EquipmentCapabilityTestSpecificationIDType[] equipmentCapabilityTestSpecificationIDField;
+        private EquipmentCapabilityTestSpecificationIDType[] _equipmentCapabilityTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -42,40 +42,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
             get {
-                return equipmentLevelField;
+                return _equipmentLevelField;
             }
             set {
-                equipmentLevelField = value;
+                _equipmentLevelField = value;
             }
         }
     
@@ -83,10 +83,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentAssetMapping")]
         public EquipmentAssetMappingType[] EquipmentAssetMapping {
             get {
-                return equipmentAssetMappingField;
+                return _equipmentAssetMappingField;
             }
             set {
-                equipmentAssetMappingField = value;
+                _equipmentAssetMappingField = value;
             }
         }
     
@@ -94,10 +94,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProperty")]
         public EquipmentPropertyType[] EquipmentProperty {
             get {
-                return equipmentPropertyField;
+                return _equipmentPropertyField;
             }
             set {
-                equipmentPropertyField = value;
+                _equipmentPropertyField = value;
             }
         }
     
@@ -105,10 +105,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Equipment")]
         public EquipmentType[] Equipment {
             get {
-                return equipmentField;
+                return _equipmentField;
             }
             set {
-                equipmentField = value;
+                _equipmentField = value;
             }
         }
     
@@ -116,10 +116,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
         public EquipmentClassIDType[] EquipmentClassID {
             get {
-                return equipmentClassIDField;
+                return _equipmentClassIDField;
             }
             set {
-                equipmentClassIDField = value;
+                _equipmentClassIDField = value;
             }
         }
     
@@ -127,10 +127,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecificationID")]
         public EquipmentCapabilityTestSpecificationIDType[] EquipmentCapabilityTestSpecificationID {
             get {
-                return equipmentCapabilityTestSpecificationIDField;
+                return _equipmentCapabilityTestSpecificationIDField;
             }
             set {
-                equipmentCapabilityTestSpecificationIDField = value;
+                _equipmentCapabilityTestSpecificationIDField = value;
             }
         }
     }

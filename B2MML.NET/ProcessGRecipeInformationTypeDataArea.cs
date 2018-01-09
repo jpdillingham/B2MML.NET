@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ProcessGRecipeInformationTypeDataArea {
     
-        private TransProcessType processField;
+        private TransProcessType _processField;
     
-        private GRecipeInformationType[] gRecipeInformationField;
+        private GRecipeInformationType[] _gRecipeInformationField;
     
         /// <remarks/>
         public TransProcessType Process {
             get {
-                return processField;
+                return _processField;
             }
             set {
-                processField = value;
+                _processField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
             get {
-                return gRecipeInformationField;
+                return _gRecipeInformationField;
             }
             set {
-                gRecipeInformationField = value;
+                _gRecipeInformationField = value;
             }
         }
     }

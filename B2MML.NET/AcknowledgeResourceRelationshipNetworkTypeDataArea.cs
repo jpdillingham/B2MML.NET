@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AcknowledgeResourceRelationshipNetworkTypeDataArea {
     
-        private TransAcknowledgeType acknowledgeField;
+        private TransAcknowledgeType _acknowledgeField;
     
-        private ResourceRelationshipNetworkType[] resourceRelationshipNetworkField;
+        private ResourceRelationshipNetworkType[] _resourceRelationshipNetworkField;
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
             get {
-                return acknowledgeField;
+                return _acknowledgeField;
             }
             set {
-                acknowledgeField = value;
+                _acknowledgeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceRelationshipNetwork")]
         public ResourceRelationshipNetworkType[] ResourceRelationshipNetwork {
             get {
-                return resourceRelationshipNetworkField;
+                return _resourceRelationshipNetworkField;
             }
             set {
-                resourceRelationshipNetworkField = value;
+                _resourceRelationshipNetworkField = value;
             }
         }
     }

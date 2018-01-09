@@ -6,21 +6,21 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class DirectedLinkType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType fromIDField;
+        private IdentifierType _fromIDField;
     
-        private IdentifierType toIDField;
+        private IdentifierType _toIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -28,30 +28,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType FromID {
             get {
-                return fromIDField;
+                return _fromIDField;
             }
             set {
-                fromIDField = value;
+                _fromIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ToID {
             get {
-                return toIDField;
+                return _toIDField;
             }
             set {
-                toIDField = value;
+                _toIDField = value;
             }
         }
     }

@@ -6,33 +6,33 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class EquipmentSpecificationType {
     
-        private EquipmentClassIDType equipmentClassIDField;
+        private EquipmentClassIDType _equipmentClassIDField;
     
-        private EquipmentIDType equipmentIDField;
+        private EquipmentIDType _equipmentIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private EquipmentSpecificationPropertyType[] equipmentSpecificationPropertyField;
+        private EquipmentSpecificationPropertyType[] _equipmentSpecificationPropertyField;
     
         /// <remarks/>
         public EquipmentClassIDType EquipmentClassID {
             get {
-                return equipmentClassIDField;
+                return _equipmentClassIDField;
             }
             set {
-                equipmentClassIDField = value;
+                _equipmentClassIDField = value;
             }
         }
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -51,10 +51,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -62,10 +62,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecificationProperty")]
         public EquipmentSpecificationPropertyType[] EquipmentSpecificationProperty {
             get {
-                return equipmentSpecificationPropertyField;
+                return _equipmentSpecificationPropertyField;
             }
             set {
-                equipmentSpecificationPropertyField = value;
+                _equipmentSpecificationPropertyField = value;
             }
         }
     }

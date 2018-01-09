@@ -6,26 +6,26 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class OpPersonnelSpecificationType {
     
-        private PersonnelClassIDType[] personnelClassIDField;
+        private PersonnelClassIDType[] _personnelClassIDField;
     
-        private PersonIDType[] personIDField;
+        private PersonIDType[] _personIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private PersonnelUseType personnelUseField;
+        private PersonnelUseType _personnelUseField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private OpPersonnelSpecificationPropertyType[] personnelSpecificationPropertyField;
+        private OpPersonnelSpecificationPropertyType[] _personnelSpecificationPropertyField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassID")]
         public PersonnelClassIDType[] PersonnelClassID {
             get {
-                return personnelClassIDField;
+                return _personnelClassIDField;
             }
             set {
-                personnelClassIDField = value;
+                _personnelClassIDField = value;
             }
         }
     
@@ -33,10 +33,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
             get {
-                return personIDField;
+                return _personIDField;
             }
             set {
-                personIDField = value;
+                _personIDField = value;
             }
         }
     
@@ -44,20 +44,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public PersonnelUseType PersonnelUse {
             get {
-                return personnelUseField;
+                return _personnelUseField;
             }
             set {
-                personnelUseField = value;
+                _personnelUseField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecificationProperty")]
         public OpPersonnelSpecificationPropertyType[] PersonnelSpecificationProperty {
             get {
-                return personnelSpecificationPropertyField;
+                return _personnelSpecificationPropertyField;
             }
             set {
-                personnelSpecificationPropertyField = value;
+                _personnelSpecificationPropertyField = value;
             }
         }
     }

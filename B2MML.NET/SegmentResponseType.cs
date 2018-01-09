@@ -6,51 +6,51 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SegmentResponseType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private ProcessSegmentIDType[] processSegmentIDField;
+        private ProcessSegmentIDType[] _processSegmentIDField;
     
-        private ProductSegmentIDType[] productSegmentIDField;
+        private ProductSegmentIDType[] _productSegmentIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private ActualStartTimeType actualStartTimeField;
+        private ActualStartTimeType _actualStartTimeField;
     
-        private ActualEndTimeType actualEndTimeField;
+        private ActualEndTimeType _actualEndTimeField;
     
-        private ProductionDataType[] productionDataField;
+        private ProductionDataType[] _productionDataField;
     
-        private PersonnelActualType[] personnelActualField;
+        private PersonnelActualType[] _personnelActualField;
     
-        private EquipmentActualType[] equipmentActualField;
+        private EquipmentActualType[] _equipmentActualField;
     
-        private PhysicalAssetActualType[] physicalAssetActualField;
+        private PhysicalAssetActualType[] _physicalAssetActualField;
     
-        private MaterialActualType[] materialActualField;
+        private MaterialActualType[] _materialActualField;
     
-        private MaterialProducedActualType[] materialProducedActualField;
+        private MaterialProducedActualType[] _materialProducedActualField;
     
-        private MaterialConsumedActualType[] materialConsumedActualField;
+        private MaterialConsumedActualType[] _materialConsumedActualField;
     
-        private ConsumableActualType[] consumableActualField;
+        private ConsumableActualType[] _consumableActualField;
     
-        private SegmentResponseType[] segmentResponseField;
+        private SegmentResponseType[] _segmentResponseField;
     
-        private RequiredByRequestedSegmentResponseType requiredByRequestedSegmentResponseField;
+        private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
-        private ResponseStateType segmentStateField;
+        private ResponseStateType _segmentStateField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -58,10 +58,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentID")]
         public ProcessSegmentIDType[] ProcessSegmentID {
             get {
-                return processSegmentIDField;
+                return _processSegmentIDField;
             }
             set {
-                processSegmentIDField = value;
+                _processSegmentIDField = value;
             }
         }
     
@@ -69,10 +69,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductSegmentID")]
         public ProductSegmentIDType[] ProductSegmentID {
             get {
-                return productSegmentIDField;
+                return _productSegmentIDField;
             }
             set {
-                productSegmentIDField = value;
+                _productSegmentIDField = value;
             }
         }
     
@@ -80,50 +80,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public ActualStartTimeType ActualStartTime {
             get {
-                return actualStartTimeField;
+                return _actualStartTimeField;
             }
             set {
-                actualStartTimeField = value;
+                _actualStartTimeField = value;
             }
         }
     
         /// <remarks/>
         public ActualEndTimeType ActualEndTime {
             get {
-                return actualEndTimeField;
+                return _actualEndTimeField;
             }
             set {
-                actualEndTimeField = value;
+                _actualEndTimeField = value;
             }
         }
     
@@ -131,10 +131,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionData")]
         public ProductionDataType[] ProductionData {
             get {
-                return productionDataField;
+                return _productionDataField;
             }
             set {
-                productionDataField = value;
+                _productionDataField = value;
             }
         }
     
@@ -142,10 +142,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
         public PersonnelActualType[] PersonnelActual {
             get {
-                return personnelActualField;
+                return _personnelActualField;
             }
             set {
-                personnelActualField = value;
+                _personnelActualField = value;
             }
         }
     
@@ -153,10 +153,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
         public EquipmentActualType[] EquipmentActual {
             get {
-                return equipmentActualField;
+                return _equipmentActualField;
             }
             set {
-                equipmentActualField = value;
+                _equipmentActualField = value;
             }
         }
     
@@ -164,10 +164,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
         public PhysicalAssetActualType[] PhysicalAssetActual {
             get {
-                return physicalAssetActualField;
+                return _physicalAssetActualField;
             }
             set {
-                physicalAssetActualField = value;
+                _physicalAssetActualField = value;
             }
         }
     
@@ -175,10 +175,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
         public MaterialActualType[] MaterialActual {
             get {
-                return materialActualField;
+                return _materialActualField;
             }
             set {
-                materialActualField = value;
+                _materialActualField = value;
             }
         }
     
@@ -186,10 +186,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialProducedActual")]
         public MaterialProducedActualType[] MaterialProducedActual {
             get {
-                return materialProducedActualField;
+                return _materialProducedActualField;
             }
             set {
-                materialProducedActualField = value;
+                _materialProducedActualField = value;
             }
         }
     
@@ -197,10 +197,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialConsumedActual")]
         public MaterialConsumedActualType[] MaterialConsumedActual {
             get {
-                return materialConsumedActualField;
+                return _materialConsumedActualField;
             }
             set {
-                materialConsumedActualField = value;
+                _materialConsumedActualField = value;
             }
         }
     
@@ -208,10 +208,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ConsumableActual")]
         public ConsumableActualType[] ConsumableActual {
             get {
-                return consumableActualField;
+                return _consumableActualField;
             }
             set {
-                consumableActualField = value;
+                _consumableActualField = value;
             }
         }
     
@@ -219,30 +219,30 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
             get {
-                return segmentResponseField;
+                return _segmentResponseField;
             }
             set {
-                segmentResponseField = value;
+                _segmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return requiredByRequestedSegmentResponseField;
+                return _requiredByRequestedSegmentResponseField;
             }
             set {
-                requiredByRequestedSegmentResponseField = value;
+                _requiredByRequestedSegmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType SegmentState {
             get {
-                return segmentStateField;
+                return _segmentStateField;
             }
             set {
-                segmentStateField = value;
+                _segmentStateField = value;
             }
         }
     }

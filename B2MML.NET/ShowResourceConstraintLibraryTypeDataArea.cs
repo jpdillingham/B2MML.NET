@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowResourceConstraintLibraryTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private ResourceConstraintLibraryType[] resourceConstraintLibraryField;
+        private ResourceConstraintLibraryType[] _resourceConstraintLibraryField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return resourceConstraintLibraryField;
+                return _resourceConstraintLibraryField;
             }
             set {
-                resourceConstraintLibraryField = value;
+                _resourceConstraintLibraryField = value;
             }
         }
     }

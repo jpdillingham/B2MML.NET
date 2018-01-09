@@ -8,39 +8,39 @@
          IsNullable = false)]
     public partial class BatchEquipmentIDType {
     
-        private EquipmentElementPropertyType propertyField;
+        private EquipmentElementPropertyType _propertyField;
     
-        private ConditionType conditionField;
+        private ConditionType _conditionField;
     
-        private BatchValueType valueField;
+        private BatchValueType _valueField;
     
         /// <remarks/>
         public EquipmentElementPropertyType Property {
             get {
-                return propertyField;
+                return _propertyField;
             }
             set {
-                propertyField = value;
+                _propertyField = value;
             }
         }
     
         /// <remarks/>
         public ConditionType Condition {
             get {
-                return conditionField;
+                return _conditionField;
             }
             set {
-                conditionField = value;
+                _conditionField = value;
             }
         }
     
         /// <remarks/>
         public BatchValueType Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

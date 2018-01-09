@@ -6,54 +6,54 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GRecipeFormulaType {
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private GRecipeMaterialsType processInputsField;
+        private GRecipeMaterialsType _processInputsField;
     
-        private GRecipeMaterialsType processOutputsField;
+        private GRecipeMaterialsType _processOutputsField;
     
-        private GRecipeMaterialsType processIntermediatesField;
+        private GRecipeMaterialsType _processIntermediatesField;
     
-        private ProcessElementParameterType[] processElementParameterField;
+        private ProcessElementParameterType[] _processElementParameterField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessInputs {
             get {
-                return processInputsField;
+                return _processInputsField;
             }
             set {
-                processInputsField = value;
+                _processInputsField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessOutputs {
             get {
-                return processOutputsField;
+                return _processOutputsField;
             }
             set {
-                processOutputsField = value;
+                _processOutputsField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessIntermediates {
             get {
-                return processIntermediatesField;
+                return _processIntermediatesField;
             }
             set {
-                processIntermediatesField = value;
+                _processIntermediatesField = value;
             }
         }
     
@@ -61,10 +61,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementParameter")]
         public ProcessElementParameterType[] ProcessElementParameter {
             get {
-                return processElementParameterField;
+                return _processElementParameterField;
             }
             set {
-                processElementParameterField = value;
+                _processElementParameterField = value;
             }
         }
     }

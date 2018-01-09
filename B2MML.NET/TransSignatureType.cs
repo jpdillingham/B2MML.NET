@@ -6,29 +6,29 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransSignatureType {
     
-        private System.Xml.XmlElement[] anyField;
+        private System.Xml.XmlElement[] _anyField;
     
-        private string qualifyingAgencyIDField;
+        private string _qualifyingAgencyIDField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
             get {
-                return anyField;
+                return _anyField;
             }
             set {
-                anyField = value;
+                _anyField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string qualifyingAgencyID {
+        public string QualifyingAgencyID {
             get {
-                return qualifyingAgencyIDField;
+                return _qualifyingAgencyIDField;
             }
             set {
-                qualifyingAgencyIDField = value;
+                _qualifyingAgencyIDField = value;
             }
         }
     }

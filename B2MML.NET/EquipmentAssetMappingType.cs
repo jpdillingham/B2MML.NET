@@ -6,51 +6,51 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class EquipmentAssetMappingType {
     
-        private EquipmentIDType equipmentIDField;
+        private EquipmentIDType _equipmentIDField;
     
-        private PhysicalAssetIDType physicalAssetIDField;
+        private PhysicalAssetIDType _physicalAssetIDField;
     
-        private DateTimeType startTimeField;
+        private DateTimeType _startTimeField;
     
-        private DateTimeType endTimeField;
+        private DateTimeType _endTimeField;
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
             get {
-                return equipmentIDField;
+                return _equipmentIDField;
             }
             set {
-                equipmentIDField = value;
+                _equipmentIDField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     }

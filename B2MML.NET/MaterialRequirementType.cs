@@ -6,42 +6,42 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class MaterialRequirementType {
     
-        private MaterialClassIDType[] materialClassIDField;
+        private MaterialClassIDType[] _materialClassIDField;
     
-        private MaterialDefinitionIDType[] materialDefinitionIDField;
+        private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
-        private MaterialLotIDType[] materialLotIDField;
+        private MaterialLotIDType[] _materialLotIDField;
     
-        private MaterialSubLotIDType[] materialSubLotIDField;
+        private MaterialSubLotIDType[] _materialSubLotIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private MaterialUseType materialUseField;
+        private MaterialUseType _materialUseField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private MaterialRequirementType[] assemblyRequirementField;
+        private MaterialRequirementType[] _assemblyRequirementField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private MaterialRequirementPropertyType[] materialRequirementPropertyField;
+        private MaterialRequirementPropertyType[] _materialRequirementPropertyField;
     
-        private RequiredByRequestedSegmentResponseType requiredByRequestedSegmentResponseField;
+        private RequiredByRequestedSegmentResponseType _requiredByRequestedSegmentResponseField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
             get {
-                return materialClassIDField;
+                return _materialClassIDField;
             }
             set {
-                materialClassIDField = value;
+                _materialClassIDField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
@@ -60,10 +60,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
             get {
-                return materialLotIDField;
+                return _materialLotIDField;
             }
             set {
-                materialLotIDField = value;
+                _materialLotIDField = value;
             }
         }
     
@@ -71,10 +71,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLotID")]
         public MaterialSubLotIDType[] MaterialSubLotID {
             get {
-                return materialSubLotIDField;
+                return _materialSubLotIDField;
             }
             set {
-                materialSubLotIDField = value;
+                _materialSubLotIDField = value;
             }
         }
     
@@ -82,40 +82,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public MaterialUseType MaterialUse {
             get {
-                return materialUseField;
+                return _materialUseField;
             }
             set {
-                materialUseField = value;
+                _materialUseField = value;
             }
         }
     
@@ -123,10 +123,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -134,30 +134,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyRequirement")]
         public MaterialRequirementType[] AssemblyRequirement {
             get {
-                return assemblyRequirementField;
+                return _assemblyRequirementField;
             }
             set {
-                assemblyRequirementField = value;
+                _assemblyRequirementField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     
@@ -165,20 +165,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirementProperty")]
         public MaterialRequirementPropertyType[] MaterialRequirementProperty {
             get {
-                return materialRequirementPropertyField;
+                return _materialRequirementPropertyField;
             }
             set {
-                materialRequirementPropertyField = value;
+                _materialRequirementPropertyField = value;
             }
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
             get {
-                return requiredByRequestedSegmentResponseField;
+                return _requiredByRequestedSegmentResponseField;
             }
             set {
-                requiredByRequestedSegmentResponseField = value;
+                _requiredByRequestedSegmentResponseField = value;
             }
         }
     }

@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class GetProductionScheduleTypeDataArea {
     
-        private string[] getField;
+        private string[] _getField;
     
-        private ProductionScheduleType[] productionScheduleField;
+        private ProductionScheduleType[] _productionScheduleField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
             get {
-                return getField;
+                return _getField;
             }
             set {
-                getField = value;
+                _getField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
         public ProductionScheduleType[] ProductionSchedule {
             get {
-                return productionScheduleField;
+                return _productionScheduleField;
             }
             set {
-                productionScheduleField = value;
+                _productionScheduleField = value;
             }
         }
     }

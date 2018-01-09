@@ -8,27 +8,27 @@
          IsNullable = false)]
     public partial class LinkType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private FromIDType[] fromIDField;
+        private FromIDType[] _fromIDField;
     
-        private ToIDType[] toIDField;
+        private ToIDType[] _toIDField;
     
-        private LinkTypeType linkType1Field;
+        private LinkTypeType _linkType1Field;
     
-        private DepictionType depictionField;
+        private DepictionType _depictionField;
     
-        private EvaluationOrderType evaluationOrderField;
+        private EvaluationOrderType _evaluationOrderField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -36,10 +36,10 @@
         [System.Xml.Serialization.XmlElementAttribute("FromID")]
         public FromIDType[] FromID {
             get {
-                return fromIDField;
+                return _fromIDField;
             }
             set {
-                fromIDField = value;
+                _fromIDField = value;
             }
         }
     
@@ -47,10 +47,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ToID")]
         public ToIDType[] ToID {
             get {
-                return toIDField;
+                return _toIDField;
             }
             set {
-                toIDField = value;
+                _toIDField = value;
             }
         }
     
@@ -58,30 +58,30 @@
         [System.Xml.Serialization.XmlElementAttribute("LinkType")]
         public LinkTypeType LinkType1 {
             get {
-                return linkType1Field;
+                return _linkType1Field;
             }
             set {
-                linkType1Field = value;
+                _linkType1Field = value;
             }
         }
     
         /// <remarks/>
         public DepictionType Depiction {
             get {
-                return depictionField;
+                return _depictionField;
             }
             set {
-                depictionField = value;
+                _depictionField = value;
             }
         }
     
         /// <remarks/>
         public EvaluationOrderType EvaluationOrder {
             get {
-                return evaluationOrderField;
+                return _evaluationOrderField;
             }
             set {
-                evaluationOrderField = value;
+                _evaluationOrderField = value;
             }
         }
     
@@ -89,10 +89,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     }

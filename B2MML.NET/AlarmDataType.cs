@@ -6,31 +6,31 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AlarmDataType {
     
-        private CodeType alarmEventField;
+        private CodeType _alarmEventField;
     
-        private CodeType alarmTypeField;
+        private CodeType _alarmTypeField;
     
-        private ValueType[] alarmLimitField;
+        private ValueType[] _alarmLimitField;
     
-        private IdentifierType[] priorityField;
+        private IdentifierType[] _priorityField;
     
         /// <remarks/>
         public CodeType AlarmEvent {
             get {
-                return alarmEventField;
+                return _alarmEventField;
             }
             set {
-                alarmEventField = value;
+                _alarmEventField = value;
             }
         }
     
         /// <remarks/>
         public CodeType AlarmType {
             get {
-                return alarmTypeField;
+                return _alarmTypeField;
             }
             set {
-                alarmTypeField = value;
+                _alarmTypeField = value;
             }
         }
     
@@ -38,10 +38,10 @@
         [System.Xml.Serialization.XmlElementAttribute("AlarmLimit")]
         public ValueType[] AlarmLimit {
             get {
-                return alarmLimitField;
+                return _alarmLimitField;
             }
             set {
-                alarmLimitField = value;
+                _alarmLimitField = value;
             }
         }
     
@@ -49,10 +49,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Priority")]
         public IdentifierType[] Priority {
             get {
-                return priorityField;
+                return _priorityField;
             }
             set {
-                priorityField = value;
+                _priorityField = value;
             }
         }
     }

@@ -6,43 +6,43 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class OperationsMaterialBillItemType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType descriptionField;
+        private DescriptionType _descriptionField;
     
-        private MaterialClassIDType[] materialClassIDField;
+        private MaterialClassIDType[] _materialClassIDField;
     
-        private MaterialDefinitionIDType[] materialDefinitionIDField;
+        private MaterialDefinitionIDType[] _materialDefinitionIDField;
     
-        private CodeType useTypeField;
+        private CodeType _useTypeField;
     
-        private OperationsMaterialBillItemType[] assemblyBillOfMaterialItemField;
+        private OperationsMaterialBillItemType[] _assemblyBillOfMaterialItemField;
     
-        private AssemblyTypeType assemblyTypeField;
+        private AssemblyTypeType _assemblyTypeField;
     
-        private AssemblyRelationshipType assemblyRelationshipField;
+        private AssemblyRelationshipType _assemblyRelationshipField;
     
-        private IdentifierType[] materialSpecificationIDField;
+        private IdentifierType[] _materialSpecificationIDField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public DescriptionType Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -50,10 +50,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
             get {
-                return materialClassIDField;
+                return _materialClassIDField;
             }
             set {
-                materialClassIDField = value;
+                _materialClassIDField = value;
             }
         }
     
@@ -61,20 +61,20 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
             get {
-                return materialDefinitionIDField;
+                return _materialDefinitionIDField;
             }
             set {
-                materialDefinitionIDField = value;
+                _materialDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public CodeType UseType {
             get {
-                return useTypeField;
+                return _useTypeField;
             }
             set {
-                useTypeField = value;
+                _useTypeField = value;
             }
         }
     
@@ -82,30 +82,30 @@
         [System.Xml.Serialization.XmlElementAttribute("AssemblyBillOfMaterialItem")]
         public OperationsMaterialBillItemType[] AssemblyBillOfMaterialItem {
             get {
-                return assemblyBillOfMaterialItemField;
+                return _assemblyBillOfMaterialItemField;
             }
             set {
-                assemblyBillOfMaterialItemField = value;
+                _assemblyBillOfMaterialItemField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
             get {
-                return assemblyTypeField;
+                return _assemblyTypeField;
             }
             set {
-                assemblyTypeField = value;
+                _assemblyTypeField = value;
             }
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
             get {
-                return assemblyRelationshipField;
+                return _assemblyRelationshipField;
             }
             set {
-                assemblyRelationshipField = value;
+                _assemblyRelationshipField = value;
             }
         }
     
@@ -113,10 +113,10 @@
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecificationID")]
         public IdentifierType[] MaterialSpecificationID {
             get {
-                return materialSpecificationIDField;
+                return _materialSpecificationIDField;
             }
             set {
-                materialSpecificationIDField = value;
+                _materialSpecificationIDField = value;
             }
         }
     
@@ -124,10 +124,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     }

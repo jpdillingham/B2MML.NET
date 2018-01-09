@@ -6,61 +6,61 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class PersonnelIdentificationManifestType {
     
-        private IdentifierType entryIDField;
+        private IdentifierType _entryIDField;
     
-        private RecordObjectTypeType objectTypeField;
+        private RecordObjectTypeType _objectTypeField;
     
-        private DateTimeType timeStampField;
+        private DateTimeType _timeStampField;
     
-        private IdentifierType externalReferenceField;
+        private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private IdentifierType recordReferenceField;
+        private IdentifierType _recordReferenceField;
     
-        private NameType[] nameField;
+        private NameType[] _nameField;
     
-        private string changeIndicationField;
+        private string _changeIndicationField;
     
-        private TextType reasonField;
+        private TextType _reasonField;
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return entryIDField;
+                return _entryIDField;
             }
             set {
-                entryIDField = value;
+                _entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return objectTypeField;
+                return _objectTypeField;
             }
             set {
-                objectTypeField = value;
+                _objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return externalReferenceField;
+                return _externalReferenceField;
             }
             set {
-                externalReferenceField = value;
+                _externalReferenceField = value;
             }
         }
     
@@ -68,20 +68,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType RecordReference {
             get {
-                return recordReferenceField;
+                return _recordReferenceField;
             }
             set {
-                recordReferenceField = value;
+                _recordReferenceField = value;
             }
         }
     
@@ -89,30 +89,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Name")]
         public NameType[] Name {
             get {
-                return nameField;
+                return _nameField;
             }
             set {
-                nameField = value;
+                _nameField = value;
             }
         }
     
         /// <remarks/>
         public string ChangeIndication {
             get {
-                return changeIndicationField;
+                return _changeIndicationField;
             }
             set {
-                changeIndicationField = value;
+                _changeIndicationField = value;
             }
         }
     
         /// <remarks/>
         public TextType Reason {
             get {
-                return reasonField;
+                return _reasonField;
             }
             set {
-                reasonField = value;
+                _reasonField = value;
             }
         }
     }

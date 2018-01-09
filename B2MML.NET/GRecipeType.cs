@@ -8,31 +8,31 @@
          IsNullable = false)]
     public partial class GRecipeType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private GRecipeTypeType gRecipeType1Field;
+        private GRecipeTypeType _gRecipeType1Field;
     
-        private LifeCycleStateType lifeCycleStateField;
+        private LifeCycleStateType _lifeCycleStateField;
     
-        private GRecipeHeaderType headerField;
+        private GRecipeHeaderType _headerField;
     
-        private GRecipeFormulaType formulaField;
+        private GRecipeFormulaType _formulaField;
     
-        private ProcessElementType processProcedureField;
+        private ProcessElementType _processProcedureField;
     
-        private ResourceConstraintType[] resourceConstraintField;
+        private ResourceConstraintType[] _resourceConstraintField;
     
-        private GROtherInformationType[] otherInformationField;
+        private GROtherInformationType[] _otherInformationField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -40,10 +40,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -51,50 +51,50 @@
         [System.Xml.Serialization.XmlElementAttribute("GRecipeType")]
         public GRecipeTypeType GRecipeType1 {
             get {
-                return gRecipeType1Field;
+                return _gRecipeType1Field;
             }
             set {
-                gRecipeType1Field = value;
+                _gRecipeType1Field = value;
             }
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
             get {
-                return lifeCycleStateField;
+                return _lifeCycleStateField;
             }
             set {
-                lifeCycleStateField = value;
+                _lifeCycleStateField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeHeaderType Header {
             get {
-                return headerField;
+                return _headerField;
             }
             set {
-                headerField = value;
+                _headerField = value;
             }
         }
     
         /// <remarks/>
         public GRecipeFormulaType Formula {
             get {
-                return formulaField;
+                return _formulaField;
             }
             set {
-                formulaField = value;
+                _formulaField = value;
             }
         }
     
         /// <remarks/>
         public ProcessElementType ProcessProcedure {
             get {
-                return processProcedureField;
+                return _processProcedureField;
             }
             set {
-                processProcedureField = value;
+                _processProcedureField = value;
             }
         }
     
@@ -102,10 +102,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
         public ResourceConstraintType[] ResourceConstraint {
             get {
-                return resourceConstraintField;
+                return _resourceConstraintField;
             }
             set {
-                resourceConstraintField = value;
+                _resourceConstraintField = value;
             }
         }
     
@@ -113,10 +113,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public GROtherInformationType[] OtherInformation {
             get {
-                return otherInformationField;
+                return _otherInformationField;
             }
             set {
-                otherInformationField = value;
+                _otherInformationField = value;
             }
         }
     }

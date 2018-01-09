@@ -8,35 +8,35 @@
          IsNullable = false)]
     public partial class ListHeaderType {
     
-        private IDType idField;
+        private IDType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private OriginType originField;
+        private OriginType _originField;
     
-        private CreateDateType createDateField;
+        private CreateDateType _createDateField;
     
-        private ModificationLogType[] modificationLogField;
+        private ModificationLogType[] _modificationLogField;
     
         /// <remarks/>
         public IDType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
@@ -44,30 +44,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public OriginType Origin {
             get {
-                return originField;
+                return _originField;
             }
             set {
-                originField = value;
+                _originField = value;
             }
         }
     
         /// <remarks/>
         public CreateDateType CreateDate {
             get {
-                return createDateField;
+                return _createDateField;
             }
             set {
-                createDateField = value;
+                _createDateField = value;
             }
         }
     
@@ -75,10 +75,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
         public ModificationLogType[] ModificationLog {
             get {
-                return modificationLogField;
+                return _modificationLogField;
             }
             set {
-                modificationLogField = value;
+                _modificationLogField = value;
             }
         }
     }

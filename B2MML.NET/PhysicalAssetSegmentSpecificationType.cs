@@ -6,35 +6,35 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class PhysicalAssetSegmentSpecificationType {
     
-        private PhysicalAssetClassIDType physicalAssetClassIDField;
+        private PhysicalAssetClassIDType _physicalAssetClassIDField;
     
-        private PhysicalAssetIDType physicalAssetIDField;
+        private PhysicalAssetIDType _physicalAssetIDField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private CodeType physicalAssetUseField;
+        private CodeType _physicalAssetUseField;
     
-        private QuantityValueType[] quantityField;
+        private QuantityValueType[] _quantityField;
     
-        private PhysicalAssetSegmentSpecificationPropertyType[] physicalAssetSegmentSpecificationPropertyField;
+        private PhysicalAssetSegmentSpecificationPropertyType[] _physicalAssetSegmentSpecificationPropertyField;
     
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
             get {
-                return physicalAssetClassIDField;
+                return _physicalAssetClassIDField;
             }
             set {
-                physicalAssetClassIDField = value;
+                _physicalAssetClassIDField = value;
             }
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
             get {
-                return physicalAssetIDField;
+                return _physicalAssetIDField;
             }
             set {
-                physicalAssetIDField = value;
+                _physicalAssetIDField = value;
             }
         }
     
@@ -42,20 +42,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CodeType PhysicalAssetUse {
             get {
-                return physicalAssetUseField;
+                return _physicalAssetUseField;
             }
             set {
-                physicalAssetUseField = value;
+                _physicalAssetUseField = value;
             }
         }
     
@@ -63,10 +63,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
             get {
-                return quantityField;
+                return _quantityField;
             }
             set {
-                quantityField = value;
+                _quantityField = value;
             }
         }
     
@@ -74,10 +74,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSegmentSpecificationProperty")]
         public PhysicalAssetSegmentSpecificationPropertyType[] PhysicalAssetSegmentSpecificationProperty {
             get {
-                return physicalAssetSegmentSpecificationPropertyField;
+                return _physicalAssetSegmentSpecificationPropertyField;
             }
             set {
-                physicalAssetSegmentSpecificationPropertyField = value;
+                _physicalAssetSegmentSpecificationPropertyField = value;
             }
         }
     }

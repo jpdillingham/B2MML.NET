@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowWorkCapabilityTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private WorkCapabilityType[] workCapabilityField;
+        private WorkCapabilityType[] _workCapabilityField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("WorkCapability")]
         public WorkCapabilityType[] WorkCapability {
             get {
-                return workCapabilityField;
+                return _workCapabilityField;
             }
             set {
-                workCapabilityField = value;
+                _workCapabilityField = value;
             }
         }
     }

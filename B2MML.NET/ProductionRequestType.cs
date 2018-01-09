@@ -8,37 +8,37 @@
          IsNullable = false)]
     public partial class ProductionRequestType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private ProductProductionRuleIDType[] productProductionRuleIDField;
+        private ProductProductionRuleIDType[] _productProductionRuleIDField;
     
-        private VersionType[] versionField;
+        private VersionType[] _versionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private PriorityType priorityField;
+        private PriorityType _priorityField;
     
-        private SegmentRequirementType[] segmentRequirementField;
+        private SegmentRequirementType[] _segmentRequirementField;
     
-        private SegmentResponseType[] segmentResponseField;
+        private SegmentResponseType[] _segmentResponseField;
     
-        private RequestStateType requestStateField;
+        private RequestStateType _requestStateField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -46,10 +46,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -57,10 +57,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductProductionRuleID")]
         public ProductProductionRuleIDType[] ProductProductionRuleID {
             get {
-                return productProductionRuleIDField;
+                return _productProductionRuleIDField;
             }
             set {
-                productProductionRuleIDField = value;
+                _productProductionRuleIDField = value;
             }
         }
     
@@ -68,60 +68,60 @@
         [System.Xml.Serialization.XmlElementAttribute("Version")]
         public VersionType[] Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
         /// <remarks/>
         public PriorityType Priority {
             get {
-                return priorityField;
+                return _priorityField;
             }
             set {
-                priorityField = value;
+                _priorityField = value;
             }
         }
     
@@ -129,10 +129,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
         public SegmentRequirementType[] SegmentRequirement {
             get {
-                return segmentRequirementField;
+                return _segmentRequirementField;
             }
             set {
-                segmentRequirementField = value;
+                _segmentRequirementField = value;
             }
         }
     
@@ -140,20 +140,20 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
             get {
-                return segmentResponseField;
+                return _segmentResponseField;
             }
             set {
-                segmentResponseField = value;
+                _segmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public RequestStateType RequestState {
             get {
-                return requestStateField;
+                return _requestStateField;
             }
             set {
-                requestStateField = value;
+                _requestStateField = value;
             }
         }
     }

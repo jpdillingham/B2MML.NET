@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class TransShowType {
     
-        private TransApplicationAreaType originalApplicationAreaField;
+        private TransApplicationAreaType _originalApplicationAreaField;
     
-        private TransResponseCriteriaType[] responseCriteriaField;
+        private TransResponseCriteriaType[] _responseCriteriaField;
     
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
             get {
-                return originalApplicationAreaField;
+                return _originalApplicationAreaField;
             }
             set {
-                originalApplicationAreaField = value;
+                _originalApplicationAreaField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResponseCriteria")]
         public TransResponseCriteriaType[] ResponseCriteria {
             get {
-                return responseCriteriaField;
+                return _responseCriteriaField;
             }
             set {
-                responseCriteriaField = value;
+                _responseCriteriaField = value;
             }
         }
     }

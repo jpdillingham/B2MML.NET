@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ChangeResourceConstraintLibraryTypeDataArea {
     
-        private TransChangeType changeField;
+        private TransChangeType _changeField;
     
-        private ResourceConstraintLibraryType[] resourceConstraintLibraryField;
+        private ResourceConstraintLibraryType[] _resourceConstraintLibraryField;
     
         /// <remarks/>
         public TransChangeType Change {
             get {
-                return changeField;
+                return _changeField;
             }
             set {
-                changeField = value;
+                _changeField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
             get {
-                return resourceConstraintLibraryField;
+                return _resourceConstraintLibraryField;
             }
             set {
-                resourceConstraintLibraryField = value;
+                _resourceConstraintLibraryField = value;
             }
         }
     }

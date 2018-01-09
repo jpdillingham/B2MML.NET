@@ -11,22 +11,22 @@ namespace B2MML.NET
     public partial class ConfirmBODType
     {
 
-        private TransApplicationAreaType applicationAreaField;
+        private TransApplicationAreaType _applicationAreaField;
 
-        private ConfirmBODTypeDataArea dataAreaField;
+        private ConfirmBODTypeDataArea _dataAreaField;
 
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea
         {
-            get { return applicationAreaField; }
-            set { applicationAreaField = value; }
+            get { return _applicationAreaField; }
+            set { _applicationAreaField = value; }
         }
 
         /// <remarks/>
         public ConfirmBODTypeDataArea DataArea
         {
-            get { return dataAreaField; }
-            set { dataAreaField = value; }
+            get { return _dataAreaField; }
+            set { _dataAreaField = value; }
         }
     }
 

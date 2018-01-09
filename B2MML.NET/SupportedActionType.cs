@@ -6,49 +6,49 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SupportedActionType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private TransactionVerbType transactionVerbField;
+        private TransactionVerbType _transactionVerbField;
     
-        private TransactionNounType transactionNounField;
+        private TransactionNounType _transactionNounField;
     
-        private bool informationUserField;
+        private bool _informationUserField;
     
-        private bool informationUserFieldSpecified;
+        private bool _informationUserFieldSpecified;
     
-        private bool informationProviderField;
+        private bool _informationProviderField;
     
-        private bool informationProviderFieldSpecified;
+        private bool _informationProviderFieldSpecified;
     
-        private bool informationSenderField;
+        private bool _informationSenderField;
     
-        private bool informationSenderFieldSpecified;
+        private bool _informationSenderFieldSpecified;
     
-        private bool informationReceiverField;
+        private bool _informationReceiverField;
     
-        private bool informationReceiverFieldSpecified;
+        private bool _informationReceiverFieldSpecified;
     
-        private bool objectWildcardSupportedField;
+        private bool _objectWildcardSupportedField;
     
-        private bool objectWildcardSupportedFieldSpecified;
+        private bool _objectWildcardSupportedFieldSpecified;
     
-        private bool propertyWildcardSupportedField;
+        private bool _propertyWildcardSupportedField;
     
-        private bool propertyWildcardSupportedFieldSpecified;
+        private bool _propertyWildcardSupportedFieldSpecified;
     
-        private string releaseIDField;
+        private string _releaseIDField;
     
-        private string versionIDField;
+        private string _versionIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -56,40 +56,40 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public TransactionVerbType TransactionVerb {
             get {
-                return transactionVerbField;
+                return _transactionVerbField;
             }
             set {
-                transactionVerbField = value;
+                _transactionVerbField = value;
             }
         }
     
         /// <remarks/>
         public TransactionNounType TransactionNoun {
             get {
-                return transactionNounField;
+                return _transactionNounField;
             }
             set {
-                transactionNounField = value;
+                _transactionNounField = value;
             }
         }
     
         /// <remarks/>
         public bool InformationUser {
             get {
-                return informationUserField;
+                return _informationUserField;
             }
             set {
-                informationUserField = value;
+                _informationUserField = value;
             }
         }
     
@@ -97,20 +97,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationUserSpecified {
             get {
-                return informationUserFieldSpecified;
+                return _informationUserFieldSpecified;
             }
             set {
-                informationUserFieldSpecified = value;
+                _informationUserFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationProvider {
             get {
-                return informationProviderField;
+                return _informationProviderField;
             }
             set {
-                informationProviderField = value;
+                _informationProviderField = value;
             }
         }
     
@@ -118,20 +118,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationProviderSpecified {
             get {
-                return informationProviderFieldSpecified;
+                return _informationProviderFieldSpecified;
             }
             set {
-                informationProviderFieldSpecified = value;
+                _informationProviderFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationSender {
             get {
-                return informationSenderField;
+                return _informationSenderField;
             }
             set {
-                informationSenderField = value;
+                _informationSenderField = value;
             }
         }
     
@@ -139,20 +139,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationSenderSpecified {
             get {
-                return informationSenderFieldSpecified;
+                return _informationSenderFieldSpecified;
             }
             set {
-                informationSenderFieldSpecified = value;
+                _informationSenderFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool InformationReceiver {
             get {
-                return informationReceiverField;
+                return _informationReceiverField;
             }
             set {
-                informationReceiverField = value;
+                _informationReceiverField = value;
             }
         }
     
@@ -160,20 +160,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool InformationReceiverSpecified {
             get {
-                return informationReceiverFieldSpecified;
+                return _informationReceiverFieldSpecified;
             }
             set {
-                informationReceiverFieldSpecified = value;
+                _informationReceiverFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool ObjectWildcardSupported {
             get {
-                return objectWildcardSupportedField;
+                return _objectWildcardSupportedField;
             }
             set {
-                objectWildcardSupportedField = value;
+                _objectWildcardSupportedField = value;
             }
         }
     
@@ -181,20 +181,20 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool ObjectWildcardSupportedSpecified {
             get {
-                return objectWildcardSupportedFieldSpecified;
+                return _objectWildcardSupportedFieldSpecified;
             }
             set {
-                objectWildcardSupportedFieldSpecified = value;
+                _objectWildcardSupportedFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         public bool PropertyWildcardSupported {
             get {
-                return propertyWildcardSupportedField;
+                return _propertyWildcardSupportedField;
             }
             set {
-                propertyWildcardSupportedField = value;
+                _propertyWildcardSupportedField = value;
             }
         }
     
@@ -202,32 +202,32 @@
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool PropertyWildcardSupportedSpecified {
             get {
-                return propertyWildcardSupportedFieldSpecified;
+                return _propertyWildcardSupportedFieldSpecified;
             }
             set {
-                propertyWildcardSupportedFieldSpecified = value;
+                _propertyWildcardSupportedFieldSpecified = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string releaseID {
+        public string ReleaseID {
             get {
-                return releaseIDField;
+                return _releaseIDField;
             }
             set {
-                releaseIDField = value;
+                _releaseIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string versionID {
+        public string VersionID {
             get {
-                return versionIDField;
+                return _versionIDField;
             }
             set {
-                versionIDField = value;
+                _versionIDField = value;
             }
         }
     }

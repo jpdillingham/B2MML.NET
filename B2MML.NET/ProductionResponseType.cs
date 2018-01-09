@@ -8,43 +8,43 @@
          IsNullable = false)]
     public partial class ProductionResponseType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private ProductionRequestIDType productionRequestIDField;
+        private ProductionRequestIDType _productionRequestIDField;
     
-        private ProductProductionRuleIDType[] productProductionRuleIDField;
+        private ProductProductionRuleIDType[] _productProductionRuleIDField;
     
-        private VersionType[] versionField;
+        private VersionType[] _versionField;
     
-        private LocationType locationField;
+        private LocationType _locationField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private StartTimeType startTimeField;
+        private StartTimeType _startTimeField;
     
-        private EndTimeType endTimeField;
+        private EndTimeType _endTimeField;
     
-        private SegmentResponseType[] segmentResponseField;
+        private SegmentResponseType[] _segmentResponseField;
     
-        private ResponseStateType responseStateField;
+        private ResponseStateType _responseStateField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public ProductionRequestIDType ProductionRequestID {
             get {
-                return productionRequestIDField;
+                return _productionRequestIDField;
             }
             set {
-                productionRequestIDField = value;
+                _productionRequestIDField = value;
             }
         }
     
@@ -52,10 +52,10 @@
         [System.Xml.Serialization.XmlElementAttribute("ProductProductionRuleID")]
         public ProductProductionRuleIDType[] ProductProductionRuleID {
             get {
-                return productProductionRuleIDField;
+                return _productProductionRuleIDField;
             }
             set {
-                productProductionRuleIDField = value;
+                _productProductionRuleIDField = value;
             }
         }
     
@@ -63,50 +63,50 @@
         [System.Xml.Serialization.XmlElementAttribute("Version")]
         public VersionType[] Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
         /// <remarks/>
         public LocationType Location {
             get {
-                return locationField;
+                return _locationField;
             }
             set {
-                locationField = value;
+                _locationField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
             get {
-                return startTimeField;
+                return _startTimeField;
             }
             set {
-                startTimeField = value;
+                _startTimeField = value;
             }
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
             get {
-                return endTimeField;
+                return _endTimeField;
             }
             set {
-                endTimeField = value;
+                _endTimeField = value;
             }
         }
     
@@ -114,20 +114,20 @@
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
             get {
-                return segmentResponseField;
+                return _segmentResponseField;
             }
             set {
-                segmentResponseField = value;
+                _segmentResponseField = value;
             }
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
             get {
-                return responseStateField;
+                return _responseStateField;
             }
             set {
-                responseStateField = value;
+                _responseStateField = value;
             }
         }
     }

@@ -6,21 +6,21 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class BODType {
     
-        private TransApplicationAreaType originalApplicationAreaField;
+        private TransApplicationAreaType _originalApplicationAreaField;
     
-        private TextType[] descriptionField;
+        private TextType[] _descriptionField;
     
-        private TextType[] noteField;
+        private TextType[] _noteField;
     
-        private TransUserAreaType userAreaField;
+        private TransUserAreaType _userAreaField;
     
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
             get {
-                return originalApplicationAreaField;
+                return _originalApplicationAreaField;
             }
             set {
-                originalApplicationAreaField = value;
+                _originalApplicationAreaField = value;
             }
         }
     
@@ -28,10 +28,10 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public TextType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
@@ -39,20 +39,20 @@
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
             get {
-                return noteField;
+                return _noteField;
             }
             set {
-                noteField = value;
+                _noteField = value;
             }
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
             get {
-                return userAreaField;
+                return _userAreaField;
             }
             set {
-                userAreaField = value;
+                _userAreaField = value;
             }
         }
     }

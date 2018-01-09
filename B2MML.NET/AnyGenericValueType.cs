@@ -8,395 +8,395 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class AnyGenericValueType {
     
-        private string currencyIDField;
+        private string _currencyIDField;
     
-        private string currencyCodeListVersionIDField;
+        private string _currencyCodeListVersionIDField;
     
-        private string encodingCodeField;
+        private string _encodingCodeField;
     
-        private string formatField;
+        private string _formatField;
     
-        private string characterSetCodeField;
+        private string _characterSetCodeField;
     
-        private string listIDField;
+        private string _listIDField;
     
-        private string listAgencyIDField;
+        private string _listAgencyIDField;
     
-        private string listAgencyNameField;
+        private string _listAgencyNameField;
     
-        private string listNameField;
+        private string _listNameField;
     
-        private string listVersionIDField;
+        private string _listVersionIDField;
     
-        private string languageIDField;
+        private string _languageIDField;
     
-        private string languageLocaleIDField;
+        private string _languageLocaleIDField;
     
-        private string listURIField;
+        private string _listUriField;
     
-        private string listSchemaURIField;
+        private string _listSchemaUriField;
     
-        private string mimeCodeField;
+        private string _mimeCodeField;
     
-        private string nameField;
+        private string _nameField;
     
-        private string schemaIDField;
+        private string _schemaIDField;
     
-        private string schemaNameField;
+        private string _schemaNameField;
     
-        private string schemaAgencyIDField;
+        private string _schemaAgencyIDField;
     
-        private string schemaAgencyNameField;
+        private string _schemaAgencyNameField;
     
-        private string schemaVersionIDField;
+        private string _schemaVersionIDField;
     
-        private string schemaDataURIField;
+        private string _schemaDataUriField;
     
-        private string schemaURIField;
+        private string _schemaUriField;
     
-        private string unitCodeField;
+        private string _unitCodeField;
     
-        private string unitCodeListIDField;
+        private string _unitCodeListIDField;
     
-        private string unitCodeListAgencyIDField;
+        private string _unitCodeListAgencyIDField;
     
-        private string unitCodeListAgencyNameField;
+        private string _unitCodeListAgencyNameField;
     
-        private string unitCodeListVersionIDField;
+        private string _unitCodeListVersionIDField;
     
-        private string filenameField;
+        private string _filenameField;
     
-        private string uriField;
+        private string _uriField;
     
-        private string valueField;
+        private string _valueField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string currencyID {
+        public string CurrencyID {
             get {
-                return currencyIDField;
+                return _currencyIDField;
             }
             set {
-                currencyIDField = value;
+                _currencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string currencyCodeListVersionID {
+        public string CurrencyCodeListVersionID {
             get {
-                return currencyCodeListVersionIDField;
+                return _currencyCodeListVersionIDField;
             }
             set {
-                currencyCodeListVersionIDField = value;
+                _currencyCodeListVersionIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string encodingCode {
+        public string EncodingCode {
             get {
-                return encodingCodeField;
+                return _encodingCodeField;
             }
             set {
-                encodingCodeField = value;
+                _encodingCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string format {
+        public string Format {
             get {
-                return formatField;
+                return _formatField;
             }
             set {
-                formatField = value;
+                _formatField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string characterSetCode {
+        public string CharacterSetCode {
             get {
-                return characterSetCodeField;
+                return _characterSetCodeField;
             }
             set {
-                characterSetCodeField = value;
+                _characterSetCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listID {
+        public string ListID {
             get {
-                return listIDField;
+                return _listIDField;
             }
             set {
-                listIDField = value;
+                _listIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listAgencyID {
+        public string ListAgencyID {
             get {
-                return listAgencyIDField;
+                return _listAgencyIDField;
             }
             set {
-                listAgencyIDField = value;
+                _listAgencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string listAgencyName {
+        public string ListAgencyName {
             get {
-                return listAgencyNameField;
+                return _listAgencyNameField;
             }
             set {
-                listAgencyNameField = value;
+                _listAgencyNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string listName {
+        public string ListName {
             get {
-                return listNameField;
+                return _listNameField;
             }
             set {
-                listNameField = value;
+                _listNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string listVersionID {
+        public string ListVersionID {
             get {
-                return listVersionIDField;
+                return _listVersionIDField;
             }
             set {
-                listVersionIDField = value;
+                _listVersionIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
-        public string languageID {
+        public string LanguageID {
             get {
-                return languageIDField;
+                return _languageIDField;
             }
             set {
-                languageIDField = value;
+                _languageIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string languageLocaleID {
+        public string LanguageLocaleID {
             get {
-                return languageLocaleIDField;
+                return _languageLocaleIDField;
             }
             set {
-                languageLocaleIDField = value;
+                _languageLocaleIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string listURI {
+        public string ListUri {
             get {
-                return listURIField;
+                return _listUriField;
             }
             set {
-                listURIField = value;
+                _listUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string listSchemaURI {
+        public string ListSchemaUri {
             get {
-                return listSchemaURIField;
+                return _listSchemaUriField;
             }
             set {
-                listSchemaURIField = value;
+                _listSchemaUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string mimeCode {
+        public string MimeCode {
             get {
-                return mimeCodeField;
+                return _mimeCodeField;
             }
             set {
-                mimeCodeField = value;
+                _mimeCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string name {
+        public string Name {
             get {
-                return nameField;
+                return _nameField;
             }
             set {
-                nameField = value;
+                _nameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemaID {
+        public string SchemaID {
             get {
-                return schemaIDField;
+                return _schemaIDField;
             }
             set {
-                schemaIDField = value;
+                _schemaIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string schemaName {
+        public string SchemaName {
             get {
-                return schemaNameField;
+                return _schemaNameField;
             }
             set {
-                schemaNameField = value;
+                _schemaNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemaAgencyID {
+        public string SchemaAgencyID {
             get {
-                return schemaAgencyIDField;
+                return _schemaAgencyIDField;
             }
             set {
-                schemaAgencyIDField = value;
+                _schemaAgencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string schemaAgencyName {
+        public string SchemaAgencyName {
             get {
-                return schemaAgencyNameField;
+                return _schemaAgencyNameField;
             }
             set {
-                schemaAgencyNameField = value;
+                _schemaAgencyNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string schemaVersionID {
+        public string SchemaVersionID {
             get {
-                return schemaVersionIDField;
+                return _schemaVersionIDField;
             }
             set {
-                schemaVersionIDField = value;
+                _schemaVersionIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string schemaDataURI {
+        public string SchemaDataUri {
             get {
-                return schemaDataURIField;
+                return _schemaDataUriField;
             }
             set {
-                schemaDataURIField = value;
+                _schemaDataUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string schemaURI {
+        public string SchemaUri {
             get {
-                return schemaURIField;
+                return _schemaUriField;
             }
             set {
-                schemaURIField = value;
+                _schemaUriField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCode {
+        public string UnitCode {
             get {
-                return unitCodeField;
+                return _unitCodeField;
             }
             set {
-                unitCodeField = value;
+                _unitCodeField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCodeListID {
+        public string UnitCodeListID {
             get {
-                return unitCodeListIDField;
+                return _unitCodeListIDField;
             }
             set {
-                unitCodeListIDField = value;
+                _unitCodeListIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCodeListAgencyID {
+        public string UnitCodeListAgencyID {
             get {
-                return unitCodeListAgencyIDField;
+                return _unitCodeListAgencyIDField;
             }
             set {
-                unitCodeListAgencyIDField = value;
+                _unitCodeListAgencyIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string unitCodeListAgencyName {
+        public string UnitCodeListAgencyName {
             get {
-                return unitCodeListAgencyNameField;
+                return _unitCodeListAgencyNameField;
             }
             set {
-                unitCodeListAgencyNameField = value;
+                _unitCodeListAgencyNameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
-        public string unitCodeListVersionID {
+        public string UnitCodeListVersionID {
             get {
-                return unitCodeListVersionIDField;
+                return _unitCodeListVersionIDField;
             }
             set {
-                unitCodeListVersionIDField = value;
+                _unitCodeListVersionIDField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
-        public string filename {
+        public string Filename {
             get {
-                return filenameField;
+                return _filenameField;
             }
             set {
-                filenameField = value;
+                _filenameField = value;
             }
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
-        public string uri {
+        public string Uri {
             get {
-                return uriField;
+                return _uriField;
             }
             set {
-                uriField = value;
+                _uriField = value;
             }
         }
     
@@ -404,10 +404,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
             get {
-                return valueField;
+                return _valueField;
             }
             set {
-                valueField = value;
+                _valueField = value;
             }
         }
     }

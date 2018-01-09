@@ -8,45 +8,45 @@
          Namespace = "http://www.mesa.org/xml/B2MML-V0600", IsNullable = false)]
     public partial class OperationsDefinitionType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private VersionType versionField;
+        private VersionType _versionField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private OperationsTypeType operationsTypeField;
+        private OperationsTypeType _operationsTypeField;
     
-        private PublishedDateType publishedDateField;
+        private PublishedDateType _publishedDateField;
     
-        private BillOfMaterialsIDType billOfMaterialsIDField;
+        private BillOfMaterialsIDType _billOfMaterialsIDField;
     
-        private IdentifierType workDefinitionIDField;
+        private IdentifierType _workDefinitionIDField;
     
-        private BillOfResourcesIDType billOfResourcesIDField;
+        private BillOfResourcesIDType _billOfResourcesIDField;
     
-        private OperationsMaterialBillType[] operationsMaterialBillField;
+        private OperationsMaterialBillType[] _operationsMaterialBillField;
     
-        private OperationsSegmentType[] operationsSegmentField;
+        private OperationsSegmentType[] _operationsSegmentField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
         /// <remarks/>
         public VersionType Version {
             get {
-                return versionField;
+                return _versionField;
             }
             set {
-                versionField = value;
+                _versionField = value;
             }
         }
     
@@ -54,70 +54,70 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
             get {
-                return operationsTypeField;
+                return _operationsTypeField;
             }
             set {
-                operationsTypeField = value;
+                _operationsTypeField = value;
             }
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
             get {
-                return publishedDateField;
+                return _publishedDateField;
             }
             set {
-                publishedDateField = value;
+                _publishedDateField = value;
             }
         }
     
         /// <remarks/>
         public BillOfMaterialsIDType BillOfMaterialsID {
             get {
-                return billOfMaterialsIDField;
+                return _billOfMaterialsIDField;
             }
             set {
-                billOfMaterialsIDField = value;
+                _billOfMaterialsIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType WorkDefinitionID {
             get {
-                return workDefinitionIDField;
+                return _workDefinitionIDField;
             }
             set {
-                workDefinitionIDField = value;
+                _workDefinitionIDField = value;
             }
         }
     
         /// <remarks/>
         public BillOfResourcesIDType BillOfResourcesID {
             get {
-                return billOfResourcesIDField;
+                return _billOfResourcesIDField;
             }
             set {
-                billOfResourcesIDField = value;
+                _billOfResourcesIDField = value;
             }
         }
     
@@ -125,10 +125,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsMaterialBill")]
         public OperationsMaterialBillType[] OperationsMaterialBill {
             get {
-                return operationsMaterialBillField;
+                return _operationsMaterialBillField;
             }
             set {
-                operationsMaterialBillField = value;
+                _operationsMaterialBillField = value;
             }
         }
     
@@ -136,10 +136,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
         public OperationsSegmentType[] OperationsSegment {
             get {
-                return operationsSegmentField;
+                return _operationsSegmentField;
             }
             set {
-                operationsSegmentField = value;
+                _operationsSegmentField = value;
             }
         }
     }

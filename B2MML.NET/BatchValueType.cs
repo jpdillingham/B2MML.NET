@@ -8,56 +8,56 @@
          IsNullable = false)]
     public partial class BatchValueType {
     
-        private ValueStringType[] valueStringField;
+        private ValueStringType[] _valueStringField;
     
-        private DataInterpretationType dataInterpretationField;
+        private DataInterpretationType _dataInterpretationField;
     
-        private DataTypeType dataTypeField;
+        private DataTypeType _dataTypeField;
     
-        private UnitOfMeasureType unitOfMeasureField;
+        private UnitOfMeasureType _unitOfMeasureField;
     
-        private EnumerationSetIDType[] enumerationSetIDField;
+        private EnumerationSetIDType[] _enumerationSetIDField;
     
-        private string[] textField;
+        private string[] _textField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ValueString")]
         public ValueStringType[] ValueString {
             get {
-                return valueStringField;
+                return _valueStringField;
             }
             set {
-                valueStringField = value;
+                _valueStringField = value;
             }
         }
     
         /// <remarks/>
         public DataInterpretationType DataInterpretation {
             get {
-                return dataInterpretationField;
+                return _dataInterpretationField;
             }
             set {
-                dataInterpretationField = value;
+                _dataInterpretationField = value;
             }
         }
     
         /// <remarks/>
         public DataTypeType DataType {
             get {
-                return dataTypeField;
+                return _dataTypeField;
             }
             set {
-                dataTypeField = value;
+                _dataTypeField = value;
             }
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
             get {
-                return unitOfMeasureField;
+                return _unitOfMeasureField;
             }
             set {
-                unitOfMeasureField = value;
+                _unitOfMeasureField = value;
             }
         }
     
@@ -65,10 +65,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSetID")]
         public EnumerationSetIDType[] EnumerationSetID {
             get {
-                return enumerationSetIDField;
+                return _enumerationSetIDField;
             }
             set {
-                enumerationSetIDField = value;
+                _enumerationSetIDField = value;
             }
         }
     
@@ -76,10 +76,10 @@
         [System.Xml.Serialization.XmlTextAttribute()]
         public string[] Text {
             get {
-                return textField;
+                return _textField;
             }
             set {
-                textField = value;
+                _textField = value;
             }
         }
     }

@@ -8,37 +8,37 @@
          IsNullable = false)]
     public partial class PhysicalAssetType {
     
-        private IdentifierType idField;
+        private IdentifierType _idField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private HierarchyScopeType hierarchyScopeField;
+        private HierarchyScopeType _hierarchyScopeField;
     
-        private IdentifierType physicalLocationField;
+        private IdentifierType _physicalLocationField;
     
-        private IdentifierType fixedAssetIDField;
+        private IdentifierType _fixedAssetIDField;
     
-        private IdentifierType vendorIDField;
+        private IdentifierType _vendorIDField;
     
-        private HierarchyScopeType equipmentLevelField;
+        private HierarchyScopeType _equipmentLevelField;
     
-        private EquipmentAssetMappingType[] equipmentAssetMappingField;
+        private EquipmentAssetMappingType[] _equipmentAssetMappingField;
     
-        private PhysicalAssetPropertyType[] physicalAssetPropertyField;
+        private PhysicalAssetPropertyType[] _physicalAssetPropertyField;
     
-        private PhysicalAssetType[] physicalAssetField;
+        private PhysicalAssetType[] _physicalAssetField;
     
-        private PhysicalAssetClassIDType[] physicalAssetClassIDField;
+        private PhysicalAssetClassIDType[] _physicalAssetClassIDField;
     
-        private PhysicalAssetCapabilityTestSpecificationIDType[] physicalAssetCapabilityTestSpecificationIDField;
+        private PhysicalAssetCapabilityTestSpecificationIDType[] _physicalAssetCapabilityTestSpecificationIDField;
     
         /// <remarks/>
         public IdentifierType ID {
             get {
-                return idField;
+                return _idField;
             }
             set {
-                idField = value;
+                _idField = value;
             }
         }
     
@@ -46,60 +46,60 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
             get {
-                return hierarchyScopeField;
+                return _hierarchyScopeField;
             }
             set {
-                hierarchyScopeField = value;
+                _hierarchyScopeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType PhysicalLocation {
             get {
-                return physicalLocationField;
+                return _physicalLocationField;
             }
             set {
-                physicalLocationField = value;
+                _physicalLocationField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType FixedAssetID {
             get {
-                return fixedAssetIDField;
+                return _fixedAssetIDField;
             }
             set {
-                fixedAssetIDField = value;
+                _fixedAssetIDField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType VendorID {
             get {
-                return vendorIDField;
+                return _vendorIDField;
             }
             set {
-                vendorIDField = value;
+                _vendorIDField = value;
             }
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
             get {
-                return equipmentLevelField;
+                return _equipmentLevelField;
             }
             set {
-                equipmentLevelField = value;
+                _equipmentLevelField = value;
             }
         }
     
@@ -107,10 +107,10 @@
         [System.Xml.Serialization.XmlElementAttribute("EquipmentAssetMapping")]
         public EquipmentAssetMappingType[] EquipmentAssetMapping {
             get {
-                return equipmentAssetMappingField;
+                return _equipmentAssetMappingField;
             }
             set {
-                equipmentAssetMappingField = value;
+                _equipmentAssetMappingField = value;
             }
         }
     
@@ -118,10 +118,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetProperty")]
         public PhysicalAssetPropertyType[] PhysicalAssetProperty {
             get {
-                return physicalAssetPropertyField;
+                return _physicalAssetPropertyField;
             }
             set {
-                physicalAssetPropertyField = value;
+                _physicalAssetPropertyField = value;
             }
         }
     
@@ -129,10 +129,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
             get {
-                return physicalAssetField;
+                return _physicalAssetField;
             }
             set {
-                physicalAssetField = value;
+                _physicalAssetField = value;
             }
         }
     
@@ -140,10 +140,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
             get {
-                return physicalAssetClassIDField;
+                return _physicalAssetClassIDField;
             }
             set {
-                physicalAssetClassIDField = value;
+                _physicalAssetClassIDField = value;
             }
         }
     
@@ -151,10 +151,10 @@
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecificationID")]
         public PhysicalAssetCapabilityTestSpecificationIDType[] PhysicalAssetCapabilityTestSpecificationID {
             get {
-                return physicalAssetCapabilityTestSpecificationIDField;
+                return _physicalAssetCapabilityTestSpecificationIDField;
             }
             set {
-                physicalAssetCapabilityTestSpecificationIDField = value;
+                _physicalAssetCapabilityTestSpecificationIDField = value;
             }
         }
     }

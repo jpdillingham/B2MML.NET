@@ -6,18 +6,18 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class CancelQualificationTestSpecificationTypeDataArea {
     
-        private TransActionCriteriaType[] cancelField;
+        private TransActionCriteriaType[] _cancelField;
     
-        private QualificationTestSpecificationType[] qualificationTestSpecificationField;
+        private QualificationTestSpecificationType[] _qualificationTestSpecificationField;
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
             get {
-                return cancelField;
+                return _cancelField;
             }
             set {
-                cancelField = value;
+                _cancelField = value;
             }
         }
     
@@ -25,10 +25,10 @@
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
             get {
-                return qualificationTestSpecificationField;
+                return _qualificationTestSpecificationField;
             }
             set {
-                qualificationTestSpecificationField = value;
+                _qualificationTestSpecificationField = value;
             }
         }
     }

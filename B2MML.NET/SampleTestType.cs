@@ -6,59 +6,59 @@
      System.Xml.Serialization.XmlTypeAttribute(Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class SampleTestType {
     
-        private IdentifierType entryIDField;
+        private IdentifierType _entryIDField;
     
-        private RecordObjectTypeType objectTypeField;
+        private RecordObjectTypeType _objectTypeField;
     
-        private DateTimeType timeStampField;
+        private DateTimeType _timeStampField;
     
-        private IdentifierType externalReferenceField;
+        private IdentifierType _externalReferenceField;
     
-        private DescriptionType[] descriptionField;
+        private DescriptionType[] _descriptionField;
     
-        private CodeType testCodeField;
+        private CodeType _testCodeField;
     
-        private IdentifierType testNameField;
+        private IdentifierType _testNameField;
     
-        private SampleTestResultType[] sampleTestResultField;
+        private SampleTestResultType[] _sampleTestResultField;
     
         /// <remarks/>
         public IdentifierType EntryID {
             get {
-                return entryIDField;
+                return _entryIDField;
             }
             set {
-                entryIDField = value;
+                _entryIDField = value;
             }
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
             get {
-                return objectTypeField;
+                return _objectTypeField;
             }
             set {
-                objectTypeField = value;
+                _objectTypeField = value;
             }
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
             get {
-                return timeStampField;
+                return _timeStampField;
             }
             set {
-                timeStampField = value;
+                _timeStampField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
             get {
-                return externalReferenceField;
+                return _externalReferenceField;
             }
             set {
-                externalReferenceField = value;
+                _externalReferenceField = value;
             }
         }
     
@@ -66,30 +66,30 @@
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
             get {
-                return descriptionField;
+                return _descriptionField;
             }
             set {
-                descriptionField = value;
+                _descriptionField = value;
             }
         }
     
         /// <remarks/>
         public CodeType TestCode {
             get {
-                return testCodeField;
+                return _testCodeField;
             }
             set {
-                testCodeField = value;
+                _testCodeField = value;
             }
         }
     
         /// <remarks/>
         public IdentifierType TestName {
             get {
-                return testNameField;
+                return _testNameField;
             }
             set {
-                testNameField = value;
+                _testNameField = value;
             }
         }
     
@@ -97,10 +97,10 @@
         [System.Xml.Serialization.XmlElementAttribute("SampleTestResult")]
         public SampleTestResultType[] SampleTestResult {
             get {
-                return sampleTestResultField;
+                return _sampleTestResultField;
             }
             set {
-                sampleTestResultField = value;
+                _sampleTestResultField = value;
             }
         }
     }

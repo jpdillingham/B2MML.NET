@@ -6,17 +6,17 @@
      System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true, Namespace = "http://www.mesa.org/xml/B2MML-V0600")]
     public partial class ShowOperationsDefinitionInformationTypeDataArea {
     
-        private TransShowType showField;
+        private TransShowType _showField;
     
-        private OperationsDefinitionInformationType[] operationsDefinitionInformationField;
+        private OperationsDefinitionInformationType[] _operationsDefinitionInformationField;
     
         /// <remarks/>
         public TransShowType Show {
             get {
-                return showField;
+                return _showField;
             }
             set {
-                showField = value;
+                _showField = value;
             }
         }
     
@@ -24,10 +24,10 @@
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
             get {
-                return operationsDefinitionInformationField;
+                return _operationsDefinitionInformationField;
             }
             set {
-                operationsDefinitionInformationField = value;
+                _operationsDefinitionInformationField = value;
             }
         }
     }
