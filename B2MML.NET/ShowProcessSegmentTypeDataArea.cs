@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
         public ProcessSegmentType[] ProcessSegment {
-            get {
-                return _processSegmentField;
-            }
-            set {
-                _processSegmentField = value;
-            }
+            get => _processSegmentField;
+            set => _processSegmentField = value;
         }
     }
 }

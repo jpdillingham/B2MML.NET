@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
-            get {
-                return _resourceConstraintLibraryField;
-            }
-            set {
-                _resourceConstraintLibraryField = value;
-            }
+            get => _resourceConstraintLibraryField;
+            set => _resourceConstraintLibraryField = value;
         }
     }
 }

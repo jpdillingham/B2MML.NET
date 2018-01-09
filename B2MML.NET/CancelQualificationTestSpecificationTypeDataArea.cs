@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
-            get {
-                return _qualificationTestSpecificationField;
-            }
-            set {
-                _qualificationTestSpecificationField = value;
-            }
+            get => _qualificationTestSpecificationField;
+            set => _qualificationTestSpecificationField = value;
         }
     }
 }

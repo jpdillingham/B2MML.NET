@@ -22,64 +22,40 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public OriginType Origin {
-            get {
-                return _originField;
-            }
-            set {
-                _originField = value;
-            }
+            get => _originField;
+            set => _originField = value;
         }
     
         /// <remarks/>
         public CreateDateType CreateDate {
-            get {
-                return _createDateField;
-            }
-            set {
-                _createDateField = value;
-            }
+            get => _createDateField;
+            set => _createDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ModificationLog")]
         public ModificationLogType[] ModificationLog {
-            get {
-                return _modificationLogField;
-            }
-            set {
-                _modificationLogField = value;
-            }
+            get => _modificationLogField;
+            set => _modificationLogField = value;
         }
     }
 }

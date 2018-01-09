@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
         public MaterialDefinitionType[] MaterialDefinition {
-            get {
-                return _materialDefinitionField;
-            }
-            set {
-                _materialDefinitionField = value;
-            }
+            get => _materialDefinitionField;
+            set => _materialDefinitionField = value;
         }
     }
 }

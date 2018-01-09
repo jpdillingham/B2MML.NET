@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpec")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpec {
-            get {
-                return _physicalAssetCapabilityTestSpecField;
-            }
-            set {
-                _physicalAssetCapabilityTestSpecField = value;
-            }
+            get => _physicalAssetCapabilityTestSpecField;
+            set => _physicalAssetCapabilityTestSpecField = value;
         }
     }
 }

@@ -32,115 +32,71 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
-            get {
-                return _operationsTypeField;
-            }
-            set {
-                _operationsTypeField = value;
-            }
+            get => _operationsTypeField;
+            set => _operationsTypeField = value;
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         public BillOfMaterialsIDType BillOfMaterialsID {
-            get {
-                return _billOfMaterialsIDField;
-            }
-            set {
-                _billOfMaterialsIDField = value;
-            }
+            get => _billOfMaterialsIDField;
+            set => _billOfMaterialsIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType WorkDefinitionID {
-            get {
-                return _workDefinitionIDField;
-            }
-            set {
-                _workDefinitionIDField = value;
-            }
+            get => _workDefinitionIDField;
+            set => _workDefinitionIDField = value;
         }
     
         /// <remarks/>
         public BillOfResourcesIDType BillOfResourcesID {
-            get {
-                return _billOfResourcesIDField;
-            }
-            set {
-                _billOfResourcesIDField = value;
-            }
+            get => _billOfResourcesIDField;
+            set => _billOfResourcesIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsMaterialBill")]
         public OperationsMaterialBillType[] OperationsMaterialBill {
-            get {
-                return _operationsMaterialBillField;
-            }
-            set {
-                _operationsMaterialBillField = value;
-            }
+            get => _operationsMaterialBillField;
+            set => _operationsMaterialBillField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsSegment")]
         public OperationsSegmentType[] OperationsSegment {
-            get {
-                return _operationsSegmentField;
-            }
-            set {
-                _operationsSegmentField = value;
-            }
+            get => _operationsSegmentField;
+            set => _operationsSegmentField = value;
         }
     }
 }

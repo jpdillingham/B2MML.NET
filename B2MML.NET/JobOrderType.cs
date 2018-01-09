@@ -44,178 +44,110 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
-            get {
-                return _workTypeField;
-            }
-            set {
-                _workTypeField = value;
-            }
+            get => _workTypeField;
+            set => _workTypeField = value;
         }
     
         /// <remarks/>
         public IdentifierType WorkMasterID {
-            get {
-                return _workMasterIDField;
-            }
-            set {
-                _workMasterIDField = value;
-            }
+            get => _workMasterIDField;
+            set => _workMasterIDField = value;
         }
     
         /// <remarks/>
         public VersionType WorkMasterVersion {
-            get {
-                return _workMasterVersionField;
-            }
-            set {
-                _workMasterVersionField = value;
-            }
+            get => _workMasterVersionField;
+            set => _workMasterVersionField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public PriorityType Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     
         /// <remarks/>
         public JobOrderCommandType Command {
-            get {
-                return _commandField;
-            }
-            set {
-                _commandField = value;
-            }
+            get => _commandField;
+            set => _commandField = value;
         }
     
         /// <remarks/>
         public JobOrderCommandRuleType CommandRule {
-            get {
-                return _commandRuleField;
-            }
-            set {
-                _commandRuleField = value;
-            }
+            get => _commandRuleField;
+            set => _commandRuleField = value;
         }
     
         /// <remarks/>
         public JobOrderDispatchStatusType DispatchStatus {
-            get {
-                return _dispatchStatusField;
-            }
-            set {
-                _dispatchStatusField = value;
-            }
+            get => _dispatchStatusField;
+            set => _dispatchStatusField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobOrderParameter")]
         public ParameterType[] JobOrderParameter {
-            get {
-                return _jobOrderParameterField;
-            }
-            set {
-                _jobOrderParameterField = value;
-            }
+            get => _jobOrderParameterField;
+            set => _jobOrderParameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
         public OpPersonnelRequirementType[] PersonnelRequirement {
-            get {
-                return _personnelRequirementField;
-            }
-            set {
-                _personnelRequirementField = value;
-            }
+            get => _personnelRequirementField;
+            set => _personnelRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public OpEquipmentRequirementType[] EquipmentRequirement {
-            get {
-                return _equipmentRequirementField;
-            }
-            set {
-                _equipmentRequirementField = value;
-            }
+            get => _equipmentRequirementField;
+            set => _equipmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
         public OpPhysicalAssetRequirementType[] PhysicalAssetRequirement {
-            get {
-                return _physicalAssetRequirementField;
-            }
-            set {
-                _physicalAssetRequirementField = value;
-            }
+            get => _physicalAssetRequirementField;
+            set => _physicalAssetRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
         public OpMaterialRequirementType[] MaterialRequirement {
-            get {
-                return _materialRequirementField;
-            }
-            set {
-                _materialRequirementField = value;
-            }
+            get => _materialRequirementField;
+            set => _materialRequirementField = value;
         }
     }
 }

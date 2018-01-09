@@ -22,66 +22,42 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Priority")]
         public PriorityType[] Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Category")]
         public IdentifierType[] Category {
-            get {
-                return _categoryField;
-            }
-            set {
-                _categoryField = value;
-            }
+            get => _categoryField;
+            set => _categoryField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkAlertPropertyType[] Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     }
 }

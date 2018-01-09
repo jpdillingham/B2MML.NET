@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Person")]
         public PersonType[] Person {
-            get {
-                return _personField;
-            }
-            set {
-                _personField = value;
-            }
+            get => _personField;
+            set => _personField = value;
         }
     }
 }

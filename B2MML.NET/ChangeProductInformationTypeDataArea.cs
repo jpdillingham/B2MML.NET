@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductInformation")]
         public ProductInformationType[] ProductInformation {
-            get {
-                return _productInformationField;
-            }
-            set {
-                _productInformationField = value;
-            }
+            get => _productInformationField;
+            set => _productInformationField = value;
         }
     }
 }

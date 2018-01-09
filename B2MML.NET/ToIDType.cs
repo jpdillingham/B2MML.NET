@@ -16,32 +16,20 @@
     
         /// <remarks/>
         public string ToIDValue {
-            get {
-                return _toIDValueField;
-            }
-            set {
-                _toIDValueField = value;
-            }
+            get => _toIDValueField;
+            set => _toIDValueField = value;
         }
     
         /// <remarks/>
         public ToTypeType ToType {
-            get {
-                return _toTypeField;
-            }
-            set {
-                _toTypeField = value;
-            }
+            get => _toTypeField;
+            set => _toTypeField = value;
         }
     
         /// <remarks/>
         public IDScopeType IDScope {
-            get {
-                return _iDScopeField;
-            }
-            set {
-                _iDScopeField = value;
-            }
+            get => _iDScopeField;
+            set => _iDScopeField = value;
         }
     }
 }

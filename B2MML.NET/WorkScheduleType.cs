@@ -30,105 +30,65 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
-            get {
-                return _workTypeField;
-            }
-            set {
-                _workTypeField = value;
-            }
+            get => _workTypeField;
+            set => _workTypeField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public RequestStateType ScheduleState {
-            get {
-                return _scheduleStateField;
-            }
-            set {
-                _scheduleStateField = value;
-            }
+            get => _scheduleStateField;
+            set => _scheduleStateField = value;
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkSchedule")]
         public WorkScheduleType[] WorkSchedule {
-            get {
-                return _workScheduleField;
-            }
-            set {
-                _workScheduleField = value;
-            }
+            get => _workScheduleField;
+            set => _workScheduleField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkRequest")]
         public WorkRequestType[] WorkRequest {
-            get {
-                return _workRequestField;
-            }
-            set {
-                _workRequestField = value;
-            }
+            get => _workRequestField;
+            set => _workRequestField = value;
         }
     }
 }

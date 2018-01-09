@@ -13,12 +13,8 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string OtherValue {
-            get {
-                return _otherValueField;
-            }
-            set {
-                _otherValueField = value;
-            }
+            get => _otherValueField;
+            set => _otherValueField = value;
         }
     }
 }

@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
-            get {
-                return _resourceNetworkConnectionInformationField;
-            }
-            set {
-                _resourceNetworkConnectionInformationField = value;
-            }
+            get => _resourceNetworkConnectionInformationField;
+            set => _resourceNetworkConnectionInformationField = value;
         }
     }
 }

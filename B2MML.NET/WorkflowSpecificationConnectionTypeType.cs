@@ -14,34 +14,22 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkflowSpecificationPropertyType[] Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     }
 }

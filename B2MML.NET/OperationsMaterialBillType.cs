@@ -14,33 +14,21 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public DescriptionType Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsMaterialBillItem")]
         public OperationsMaterialBillItemType[] OperationsMaterialBillItem {
-            get {
-                return _operationsMaterialBillItemField;
-            }
-            set {
-                _operationsMaterialBillItemField = value;
-            }
+            get => _operationsMaterialBillItemField;
+            set => _operationsMaterialBillItemField = value;
         }
     }
 }

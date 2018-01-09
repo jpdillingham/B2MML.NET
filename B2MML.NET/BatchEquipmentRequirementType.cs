@@ -16,33 +16,21 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Constraint")]
         public ConstraintType[] Constraint {
-            get {
-                return _constraintField;
-            }
-            set {
-                _constraintField = value;
-            }
+            get => _constraintField;
+            set => _constraintField = value;
         }
     
         /// <remarks/>
         public DescriptionType Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

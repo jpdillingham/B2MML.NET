@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsSchedule")]
         public OperationsScheduleType[] OperationsSchedule {
-            get {
-                return _operationsScheduleField;
-            }
-            set {
-                _operationsScheduleField = value;
-            }
+            get => _operationsScheduleField;
+            set => _operationsScheduleField = value;
         }
     }
 }

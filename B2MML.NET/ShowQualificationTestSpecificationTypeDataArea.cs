@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecification")]
         public QualificationTestSpecificationType[] QualificationTestSpecification {
-            get {
-                return _qualificationTestSpecificationField;
-            }
-            set {
-                _qualificationTestSpecificationField = value;
-            }
+            get => _qualificationTestSpecificationField;
+            set => _qualificationTestSpecificationField = value;
         }
     }
 }

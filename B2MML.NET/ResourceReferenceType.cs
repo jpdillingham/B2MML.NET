@@ -16,43 +16,27 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public ResourceIDType ResourceID {
-            get {
-                return _resourceIDField;
-            }
-            set {
-                _resourceIDField = value;
-            }
+            get => _resourceIDField;
+            set => _resourceIDField = value;
         }
     
         /// <remarks/>
         public ResourceReferenceTypeType ResourceType {
-            get {
-                return _resourceTypeField;
-            }
-            set {
-                _resourceTypeField = value;
-            }
+            get => _resourceTypeField;
+            set => _resourceTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceProperty")]
         public ResourcePropertyType[] ResourceProperty {
-            get {
-                return _resourcePropertyField;
-            }
-            set {
-                _resourcePropertyField = value;
-            }
+            get => _resourcePropertyField;
+            set => _resourcePropertyField = value;
         }
     }
 }

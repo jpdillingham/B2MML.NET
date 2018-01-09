@@ -14,22 +14,14 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public ConditionType Condition {
-            get {
-                return _conditionField;
-            }
-            set {
-                _conditionField = value;
-            }
+            get => _conditionField;
+            set => _conditionField = value;
         }
     }
 }

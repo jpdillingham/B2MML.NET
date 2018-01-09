@@ -99,89 +99,57 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string SchemeID {
-            get {
-                return _schemeIDField;
-            }
-            set {
-                _schemeIDField = value;
-            }
+            get => _schemeIDField;
+            set => _schemeIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string SchemeName {
-            get {
-                return _schemeNameField;
-            }
-            set {
-                _schemeNameField = value;
-            }
+            get => _schemeNameField;
+            set => _schemeNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string SchemeAgencyID {
-            get {
-                return _schemeAgencyIDField;
-            }
-            set {
-                _schemeAgencyIDField = value;
-            }
+            get => _schemeAgencyIDField;
+            set => _schemeAgencyIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string SchemeAgencyName {
-            get {
-                return _schemeAgencyNameField;
-            }
-            set {
-                _schemeAgencyNameField = value;
-            }
+            get => _schemeAgencyNameField;
+            set => _schemeAgencyNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string SchemeVersionID {
-            get {
-                return _schemeVersionIDField;
-            }
-            set {
-                _schemeVersionIDField = value;
-            }
+            get => _schemeVersionIDField;
+            set => _schemeVersionIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string SchemeDataUri {
-            get {
-                return _schemeDataUriField;
-            }
-            set {
-                _schemeDataUriField = value;
-            }
+            get => _schemeDataUriField;
+            set => _schemeDataUriField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string SchemeUri {
-            get {
-                return _schemeUriField;
-            }
-            set {
-                _schemeUriField = value;
-            }
+            get => _schemeUriField;
+            set => _schemeUriField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

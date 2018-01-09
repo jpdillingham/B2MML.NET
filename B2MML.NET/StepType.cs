@@ -18,43 +18,27 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public RecipeElementIDType RecipeElementID {
-            get {
-                return _recipeElementIDField;
-            }
-            set {
-                _recipeElementIDField = value;
-            }
+            get => _recipeElementIDField;
+            set => _recipeElementIDField = value;
         }
     
         /// <remarks/>
         public RecipeElementVersionType RecipeElementVersion {
-            get {
-                return _recipeElementVersionField;
-            }
-            set {
-                _recipeElementVersionField = value;
-            }
+            get => _recipeElementVersionField;
+            set => _recipeElementVersionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

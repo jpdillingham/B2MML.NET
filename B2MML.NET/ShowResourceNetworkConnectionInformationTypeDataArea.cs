@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
-            get {
-                return _resourceNetworkConnectionInformationField;
-            }
-            set {
-                _resourceNetworkConnectionInformationField = value;
-            }
+            get => _resourceNetworkConnectionInformationField;
+            set => _resourceNetworkConnectionInformationField = value;
         }
     }
 }

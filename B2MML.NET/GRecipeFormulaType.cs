@@ -19,53 +19,33 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessInputs {
-            get {
-                return _processInputsField;
-            }
-            set {
-                _processInputsField = value;
-            }
+            get => _processInputsField;
+            set => _processInputsField = value;
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessOutputs {
-            get {
-                return _processOutputsField;
-            }
-            set {
-                _processOutputsField = value;
-            }
+            get => _processOutputsField;
+            set => _processOutputsField = value;
         }
     
         /// <remarks/>
         public GRecipeMaterialsType ProcessIntermediates {
-            get {
-                return _processIntermediatesField;
-            }
-            set {
-                _processIntermediatesField = value;
-            }
+            get => _processIntermediatesField;
+            set => _processIntermediatesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementParameter")]
         public ProcessElementParameterType[] ProcessElementParameter {
-            get {
-                return _processElementParameterField;
-            }
-            set {
-                _processElementParameterField = value;
-            }
+            get => _processElementParameterField;
+            set => _processElementParameterField = value;
         }
     }
 }

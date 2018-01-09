@@ -16,44 +16,28 @@
     
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
-            get {
-                return _originalApplicationAreaField;
-            }
-            set {
-                _originalApplicationAreaField = value;
-            }
+            get => _originalApplicationAreaField;
+            set => _originalApplicationAreaField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public TextType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
-            get {
-                return _noteField;
-            }
-            set {
-                _noteField = value;
-            }
+            get => _noteField;
+            set => _noteField = value;
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
-            get {
-                return _userAreaField;
-            }
-            set {
-                _userAreaField = value;
-            }
+            get => _userAreaField;
+            set => _userAreaField = value;
         }
     }
 }

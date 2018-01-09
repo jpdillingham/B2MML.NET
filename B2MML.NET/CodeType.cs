@@ -129,111 +129,71 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string ListID {
-            get {
-                return _listIDField;
-            }
-            set {
-                _listIDField = value;
-            }
+            get => _listIDField;
+            set => _listIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string ListAgencyID {
-            get {
-                return _listAgencyIDField;
-            }
-            set {
-                _listAgencyIDField = value;
-            }
+            get => _listAgencyIDField;
+            set => _listAgencyIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string ListAgencyName {
-            get {
-                return _listAgencyNameField;
-            }
-            set {
-                _listAgencyNameField = value;
-            }
+            get => _listAgencyNameField;
+            set => _listAgencyNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string ListName {
-            get {
-                return _listNameField;
-            }
-            set {
-                _listNameField = value;
-            }
+            get => _listNameField;
+            set => _listNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string ListVersionID {
-            get {
-                return _listVersionIDField;
-            }
-            set {
-                _listVersionIDField = value;
-            }
+            get => _listVersionIDField;
+            set => _listVersionIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string Name {
-            get {
-                return _nameField;
-            }
-            set {
-                _nameField = value;
-            }
+            get => _nameField;
+            set => _nameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
         public string LanguageID {
-            get {
-                return _languageIDField;
-            }
-            set {
-                _languageIDField = value;
-            }
+            get => _languageIDField;
+            set => _languageIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string ListUri {
-            get {
-                return _listUriField;
-            }
-            set {
-                _listUriField = value;
-            }
+            get => _listUriField;
+            set => _listUriField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="anyURI")]
         public string ListSchemeUri {
-            get {
-                return _listSchemeUriField;
-            }
-            set {
-                _listSchemeUriField = value;
-            }
+            get => _listSchemeUriField;
+            set => _listSchemeUriField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute(DataType="normalizedString")]
         public string Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

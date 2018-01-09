@@ -24,85 +24,53 @@
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType RecordReference {
-            get {
-                return _recordReferenceField;
-            }
-            set {
-                _recordReferenceField = value;
-            }
+            get => _recordReferenceField;
+            set => _recordReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PrechangeData", IsNullable=true)]
         public ValueType[] PrechangeData {
-            get {
-                return _prechangeDataField;
-            }
-            set {
-                _prechangeDataField = value;
-            }
+            get => _prechangeDataField;
+            set => _prechangeDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public TextType[] Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     }
 }

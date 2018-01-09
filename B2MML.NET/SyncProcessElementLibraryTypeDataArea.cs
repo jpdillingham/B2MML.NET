@@ -15,28 +15,16 @@
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable = false)]
         public TransActionCriteriaType[] Sync
         {
-            get
-            {
-                return _syncField;
-            }
-            set
-            {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
 
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary
         {
-            get
-            {
-                return _processElementLibraryField;
-            }
-            set
-            {
-                _processElementLibraryField = value;
-            }
+            get => _processElementLibraryField;
+            set => _processElementLibraryField = value;
         }
     }
 }

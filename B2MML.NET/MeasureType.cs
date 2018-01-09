@@ -21,34 +21,22 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string UnitCode {
-            get {
-                return _unitCodeField;
-            }
-            set {
-                _unitCodeField = value;
-            }
+            get => _unitCodeField;
+            set => _unitCodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string UnitCodeListVersionID {
-            get {
-                return _unitCodeListVersionIDField;
-            }
-            set {
-                _unitCodeListVersionIDField = value;
-            }
+            get => _unitCodeListVersionIDField;
+            set => _unitCodeListVersionIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
         public decimal Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

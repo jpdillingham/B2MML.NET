@@ -28,107 +28,67 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public DescriptionType Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
-            get {
-                return _materialClassIDField;
-            }
-            set {
-                _materialClassIDField = value;
-            }
+            get => _materialClassIDField;
+            set => _materialClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
-            get {
-                return _materialDefinitionIDField;
-            }
-            set {
-                _materialDefinitionIDField = value;
-            }
+            get => _materialDefinitionIDField;
+            set => _materialDefinitionIDField = value;
         }
     
         /// <remarks/>
         public CodeType UseType {
-            get {
-                return _useTypeField;
-            }
-            set {
-                _useTypeField = value;
-            }
+            get => _useTypeField;
+            set => _useTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyBillOfMaterialItem")]
         public OperationsMaterialBillItemType[] AssemblyBillOfMaterialItem {
-            get {
-                return _assemblyBillOfMaterialItemField;
-            }
-            set {
-                _assemblyBillOfMaterialItemField = value;
-            }
+            get => _assemblyBillOfMaterialItemField;
+            set => _assemblyBillOfMaterialItemField = value;
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
-            get {
-                return _assemblyTypeField;
-            }
-            set {
-                _assemblyTypeField = value;
-            }
+            get => _assemblyTypeField;
+            set => _assemblyTypeField = value;
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
-            get {
-                return _assemblyRelationshipField;
-            }
-            set {
-                _assemblyRelationshipField = value;
-            }
+            get => _assemblyRelationshipField;
+            set => _assemblyRelationshipField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSpecificationID")]
         public IdentifierType[] MaterialSpecificationID {
-            get {
-                return _materialSpecificationIDField;
-            }
-            set {
-                _materialSpecificationIDField = value;
-            }
+            get => _materialSpecificationIDField;
+            set => _materialSpecificationIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     }
 }

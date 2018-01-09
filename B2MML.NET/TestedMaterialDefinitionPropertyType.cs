@@ -12,22 +12,14 @@
     
         /// <remarks/>
         public MaterialDefinitionIDType MaterialDefinitionID {
-            get {
-                return _materialDefinitionIDField;
-            }
-            set {
-                _materialDefinitionIDField = value;
-            }
+            get => _materialDefinitionIDField;
+            set => _materialDefinitionIDField = value;
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
-            get {
-                return _propertyIDField;
-            }
-            set {
-                _propertyIDField = value;
-            }
+            get => _propertyIDField;
+            set => _propertyIDField = value;
         }
     }
 }

@@ -32,118 +32,74 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionProperty")]
         public MaterialDefinitionPropertyType[] MaterialDefinitionProperty {
-            get {
-                return _materialDefinitionPropertyField;
-            }
-            set {
-                _materialDefinitionPropertyField = value;
-            }
+            get => _materialDefinitionPropertyField;
+            set => _materialDefinitionPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
-            get {
-                return _materialClassIDField;
-            }
-            set {
-                _materialClassIDField = value;
-            }
+            get => _materialClassIDField;
+            set => _materialClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
-            get {
-                return _materialLotIDField;
-            }
-            set {
-                _materialLotIDField = value;
-            }
+            get => _materialLotIDField;
+            set => _materialLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialTestSpecificationID")]
         public MaterialTestSpecificationIDType[] MaterialTestSpecificationID {
-            get {
-                return _materialTestSpecificationIDField;
-            }
-            set {
-                _materialTestSpecificationIDField = value;
-            }
+            get => _materialTestSpecificationIDField;
+            set => _materialTestSpecificationIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblylDefinitionID")]
         public MaterialDefinitionIDType[] AssemblylDefinitionID {
-            get {
-                return _assemblylDefinitionIDField;
-            }
-            set {
-                _assemblylDefinitionIDField = value;
-            }
+            get => _assemblylDefinitionIDField;
+            set => _assemblylDefinitionIDField = value;
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
-            get {
-                return _assemblyTypeField;
-            }
-            set {
-                _assemblyTypeField = value;
-            }
+            get => _assemblyTypeField;
+            set => _assemblyTypeField = value;
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
-            get {
-                return _assemblyRelationshipField;
-            }
-            set {
-                _assemblyRelationshipField = value;
-            }
+            get => _assemblyRelationshipField;
+            set => _assemblyRelationshipField = value;
         }
     }
 }

@@ -16,33 +16,21 @@
     
         /// <remarks/>
         public EnumerationNumberType EnumerationNumber {
-            get {
-                return _enumerationNumberField;
-            }
-            set {
-                _enumerationNumberField = value;
-            }
+            get => _enumerationNumberField;
+            set => _enumerationNumberField = value;
         }
     
         /// <remarks/>
         public EnumerationStringType EnumerationString {
-            get {
-                return _enumerationStringField;
-            }
-            set {
-                _enumerationStringField = value;
-            }
+            get => _enumerationStringField;
+            set => _enumerationStringField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

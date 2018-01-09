@@ -18,56 +18,36 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassProperty")]
         public EquipmentClassPropertyType[] EquipmentClassProperty {
-            get {
-                return _equipmentClassPropertyField;
-            }
-            set {
-                _equipmentClassPropertyField = value;
-            }
+            get => _equipmentClassPropertyField;
+            set => _equipmentClassPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecificationID")]
         public EquipmentCapabilityTestSpecificationIDType[] EquipmentCapabilityTestSpecificationID {
-            get {
-                return _equipmentCapabilityTestSpecificationIDField;
-            }
-            set {
-                _equipmentCapabilityTestSpecificationIDField = value;
-            }
+            get => _equipmentCapabilityTestSpecificationIDField;
+            set => _equipmentCapabilityTestSpecificationIDField = value;
         }
     }
 }

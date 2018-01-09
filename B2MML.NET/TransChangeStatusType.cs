@@ -22,74 +22,46 @@
     
         /// <remarks/>
         public CodeType Code {
-            get {
-                return _codeField;
-            }
-            set {
-                _codeField = value;
-            }
+            get => _codeField;
+            set => _codeField = value;
         }
     
         /// <remarks/>
         public DescriptionType Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public DateTimeType EffectiveDateTime {
-            get {
-                return _effectiveDateTimeField;
-            }
-            set {
-                _effectiveDateTimeField = value;
-            }
+            get => _effectiveDateTimeField;
+            set => _effectiveDateTimeField = value;
         }
     
         /// <remarks/>
         public CodeType ReasonCode {
-            get {
-                return _reasonCodeField;
-            }
-            set {
-                _reasonCodeField = value;
-            }
+            get => _reasonCodeField;
+            set => _reasonCodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public CodeType[] Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("StateChange")]
         public TransStateChangeType[] StateChange {
-            get {
-                return _stateChangeField;
-            }
-            set {
-                _stateChangeField = value;
-            }
+            get => _stateChangeField;
+            set => _stateChangeField = value;
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
-            get {
-                return _userAreaField;
-            }
-            set {
-                _userAreaField = value;
-            }
+            get => _userAreaField;
+            set => _userAreaField = value;
         }
     }
 }

@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetInformation")]
         public PhysicalAssetInformationType[] PhysicalAssetInformation {
-            get {
-                return _physicalAssetInformationField;
-            }
-            set {
-                _physicalAssetInformationField = value;
-            }
+            get => _physicalAssetInformationField;
+            set => _physicalAssetInformationField = value;
         }
     }
 }

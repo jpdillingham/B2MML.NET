@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
-            get {
-                return _operationsDefinitionInformationField;
-            }
-            set {
-                _operationsDefinitionInformationField = value;
-            }
+            get => _operationsDefinitionInformationField;
+            set => _operationsDefinitionInformationField = value;
         }
     }
 }

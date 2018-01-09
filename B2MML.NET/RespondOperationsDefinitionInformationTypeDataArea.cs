@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsDefinitionInformation")]
         public OperationsDefinitionInformationType[] OperationsDefinitionInformation {
-            get {
-                return _operationsDefinitionInformationField;
-            }
-            set {
-                _operationsDefinitionInformationField = value;
-            }
+            get => _operationsDefinitionInformationField;
+            set => _operationsDefinitionInformationField = value;
         }
     }
 }

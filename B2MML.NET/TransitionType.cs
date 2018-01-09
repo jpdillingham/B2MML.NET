@@ -18,43 +18,27 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public ConditionType Condition {
-            get {
-                return _conditionField;
-            }
-            set {
-                _conditionField = value;
-            }
+            get => _conditionField;
+            set => _conditionField = value;
         }
     
         /// <remarks/>
         public ConditionAnnotationType ConditionAnnotation {
-            get {
-                return _conditionAnnotationField;
-            }
-            set {
-                _conditionAnnotationField = value;
-            }
+            get => _conditionAnnotationField;
+            set => _conditionAnnotationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

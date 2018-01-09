@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductDefinition")]
         public ProductDefinitionType[] ProductDefinition {
-            get {
-                return _productDefinitionField;
-            }
-            set {
-                _productDefinitionField = value;
-            }
+            get => _productDefinitionField;
+            set => _productDefinitionField = value;
         }
     }
 }

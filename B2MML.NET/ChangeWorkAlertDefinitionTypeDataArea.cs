@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkAlertDefinition")]
         public WorkAlertDefinitionType[] WorkAlertDefinition {
-            get {
-                return _workAlertDefinitionField;
-            }
-            set {
-                _workAlertDefinitionField = value;
-            }
+            get => _workAlertDefinitionField;
+            set => _workAlertDefinitionField = value;
         }
     }
 }

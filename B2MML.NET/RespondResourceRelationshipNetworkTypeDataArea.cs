@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceRelationshipNetwork")]
         public ResourceRelationshipNetworkType[] ResourceRelationshipNetwork {
-            get {
-                return _resourceRelationshipNetworkField;
-            }
-            set {
-                _resourceRelationshipNetworkField = value;
-            }
+            get => _resourceRelationshipNetworkField;
+            set => _resourceRelationshipNetworkField = value;
         }
     }
 }

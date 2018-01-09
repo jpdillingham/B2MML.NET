@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionPerformance")]
         public ProductionPerformanceType[] ProductionPerformance {
-            get {
-                return _productionPerformanceField;
-            }
-            set {
-                _productionPerformanceField = value;
-            }
+            get => _productionPerformanceField;
+            set => _productionPerformanceField = value;
         }
     }
 }

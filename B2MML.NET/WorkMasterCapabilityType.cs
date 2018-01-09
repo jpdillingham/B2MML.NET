@@ -32,130 +32,82 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkMasterID")]
         public IdentifierType[] WorkMasterID {
-            get {
-                return _workMasterIDField;
-            }
-            set {
-                _workMasterIDField = value;
-            }
+            get => _workMasterIDField;
+            set => _workMasterIDField = value;
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
-            get {
-                return _capabilityTypeField;
-            }
-            set {
-                _capabilityTypeField = value;
-            }
+            get => _capabilityTypeField;
+            set => _capabilityTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Reason")]
         public ReasonType[] Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("HierarchyScope")]
         public HierarchyScopeType[] HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapability")]
         public OpPersonnelCapabilityType[] PersonnelCapability {
-            get {
-                return _personnelCapabilityField;
-            }
-            set {
-                _personnelCapabilityField = value;
-            }
+            get => _personnelCapabilityField;
+            set => _personnelCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapability")]
         public OpEquipmentCapabilityType[] EquipmentCapability {
-            get {
-                return _equipmentCapabilityField;
-            }
-            set {
-                _equipmentCapabilityField = value;
-            }
+            get => _equipmentCapabilityField;
+            set => _equipmentCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapability")]
         public OpPhysicalAssetCapabilityType[] PhysicalAssetCapability {
-            get {
-                return _physicalAssetCapabilityField;
-            }
-            set {
-                _physicalAssetCapabilityField = value;
-            }
+            get => _physicalAssetCapabilityField;
+            set => _physicalAssetCapabilityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialCapability")]
         public OpMaterialCapabilityType[] MaterialCapability {
-            get {
-                return _materialCapabilityField;
-            }
-            set {
-                _materialCapabilityField = value;
-            }
+            get => _materialCapabilityField;
+            set => _materialCapabilityField = value;
         }
     }
 }

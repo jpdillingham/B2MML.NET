@@ -22,62 +22,38 @@
     
         /// <remarks/>
         public NominalType Nominal {
-            get {
-                return _nominalField;
-            }
-            set {
-                _nominalField = value;
-            }
+            get => _nominalField;
+            set => _nominalField = value;
         }
     
         /// <remarks/>
         public MinType Min {
-            get {
-                return _minField;
-            }
-            set {
-                _minField = value;
-            }
+            get => _minField;
+            set => _minField = value;
         }
     
         /// <remarks/>
         public MaxType Max {
-            get {
-                return _maxField;
-            }
-            set {
-                _maxField = value;
-            }
+            get => _maxField;
+            set => _maxField = value;
         }
     
         /// <remarks/>
         public ScaleReferenceType ScaleReference {
-            get {
-                return _scaleReferenceField;
-            }
-            set {
-                _scaleReferenceField = value;
-            }
+            get => _scaleReferenceField;
+            set => _scaleReferenceField = value;
         }
     
         /// <remarks/>
         public ScaledSizeType ScaledSize {
-            get {
-                return _scaledSizeField;
-            }
-            set {
-                _scaledSizeField = value;
-            }
+            get => _scaledSizeField;
+            set => _scaledSizeField = value;
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
-            get {
-                return _unitOfMeasureField;
-            }
-            set {
-                _unitOfMeasureField = value;
-            }
+            get => _unitOfMeasureField;
+            set => _unitOfMeasureField = value;
         }
     }
 }

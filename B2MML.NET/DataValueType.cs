@@ -14,33 +14,21 @@
     
         /// <remarks/>
         public NumericType TagIndex {
-            get {
-                return _tagIndexField;
-            }
-            set {
-                _tagIndexField = value;
-            }
+            get => _tagIndexField;
+            set => _tagIndexField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public string[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         public IdentifierType Quality {
-            get {
-                return _qualityField;
-            }
-            set {
-                _qualityField = value;
-            }
+            get => _qualityField;
+            set => _qualityField = value;
         }
     }
 }

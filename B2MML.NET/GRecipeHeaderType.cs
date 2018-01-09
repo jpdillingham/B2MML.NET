@@ -27,100 +27,64 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=0)]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=1)]
         public IdentifierType DerivedFromID {
-            get {
-                return _derivedFromIDField;
-            }
-            set {
-                _derivedFromIDField = value;
-            }
+            get => _derivedFromIDField;
+            set => _derivedFromIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductID", Order=2)]
         public IdentifierType[] ProductID {
-            get {
-                return _productIDField;
-            }
-            set {
-                _productIDField = value;
-            }
+            get => _productIDField;
+            set => _productIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", Order=3)]
         public DescriptionType[] Description1 {
-            get {
-                return _description1Field;
-            }
-            set {
-                _description1Field = value;
-            }
+            get => _description1Field;
+            set => _description1Field = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductName", Order=4)]
         public NameType[] ProductName {
-            get {
-                return _productNameField;
-            }
-            set {
-                _productNameField = value;
-            }
+            get => _productNameField;
+            set => _productNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchSize", Order=5)]
         public ValueType[] BatchSize {
-            get {
-                return _batchSizeField;
-            }
-            set {
-                _batchSizeField = value;
-            }
+            get => _batchSizeField;
+            set => _batchSizeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=6)]
         public DateTimeType EffectiveDate {
-            get {
-                return _effectiveDateField;
-            }
-            set {
-                _effectiveDateField = value;
-            }
+            get => _effectiveDateField;
+            set => _effectiveDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=7)]
         public DateTimeType ExpirationDate {
-            get {
-                return _expirationDateField;
-            }
-            set {
-                _expirationDateField = value;
-            }
+            get => _expirationDateField;
+            set => _expirationDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(Order=8)]
         public HeaderPropertyType HeaderProperty {
-            get {
-                return _headerPropertyField;
-            }
-            set {
-                _headerPropertyField = value;
-            }
+            get => _headerPropertyField;
+            set => _headerPropertyField = value;
         }
     }
 }

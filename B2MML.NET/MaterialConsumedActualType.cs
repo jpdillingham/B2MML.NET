@@ -29,108 +29,68 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
-            get {
-                return _materialClassIDField;
-            }
-            set {
-                _materialClassIDField = value;
-            }
+            get => _materialClassIDField;
+            set => _materialClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
-            get {
-                return _materialDefinitionIDField;
-            }
-            set {
-                _materialDefinitionIDField = value;
-            }
+            get => _materialDefinitionIDField;
+            set => _materialDefinitionIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
-            get {
-                return _materialLotIDField;
-            }
-            set {
-                _materialLotIDField = value;
-            }
+            get => _materialLotIDField;
+            set => _materialLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLotID")]
         public MaterialSubLotIDType[] MaterialSubLotID {
-            get {
-                return _materialSubLotIDField;
-            }
-            set {
-                _materialSubLotIDField = value;
-            }
+            get => _materialSubLotIDField;
+            set => _materialSubLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialConsumedActualProperty")]
         public MaterialConsumedActualPropertyType[] MaterialConsumedActualProperty {
-            get {
-                return _materialConsumedActualPropertyField;
-            }
-            set {
-                _materialConsumedActualPropertyField = value;
-            }
+            get => _materialConsumedActualPropertyField;
+            set => _materialConsumedActualPropertyField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

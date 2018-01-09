@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentInformation")]
         public ProcessSegmentInformationType[] ProcessSegmentInformation {
-            get {
-                return _processSegmentInformationField;
-            }
-            set {
-                _processSegmentInformationField = value;
-            }
+            get => _processSegmentInformationField;
+            set => _processSegmentInformationField = value;
         }
     }
 }

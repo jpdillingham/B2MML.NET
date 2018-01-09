@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionSchedule")]
         public ProductionScheduleType[] ProductionSchedule {
-            get {
-                return _productionScheduleField;
-            }
-            set {
-                _productionScheduleField = value;
-            }
+            get => _productionScheduleField;
+            set => _productionScheduleField = value;
         }
     }
 }

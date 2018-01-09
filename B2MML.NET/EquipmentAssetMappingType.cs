@@ -16,42 +16,26 @@
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         public PhysicalAssetIDType PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         public DateTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public DateTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     }
 }

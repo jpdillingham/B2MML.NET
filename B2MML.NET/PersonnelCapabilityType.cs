@@ -32,126 +32,78 @@
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
-            get {
-                return _personnelClassIDField;
-            }
-            set {
-                _personnelClassIDField = value;
-            }
+            get => _personnelClassIDField;
+            set => _personnelClassIDField = value;
         }
     
         /// <remarks/>
         public PersonIDType PersonID {
-            get {
-                return _personIDField;
-            }
-            set {
-                _personIDField = value;
-            }
+            get => _personIDField;
+            set => _personIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
-            get {
-                return _capabilityTypeField;
-            }
-            set {
-                _capabilityTypeField = value;
-            }
+            get => _capabilityTypeField;
+            set => _capabilityTypeField = value;
         }
     
         /// <remarks/>
         public ReasonType Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementLevel")]
         public EquipmentElementLevelType[] EquipmentElementLevel {
-            get {
-                return _equipmentElementLevelField;
-            }
-            set {
-                _equipmentElementLevelField = value;
-            }
+            get => _equipmentElementLevelField;
+            set => _equipmentElementLevelField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelCapabilityProperty")]
         public PersonnelCapabilityPropertyType[] PersonnelCapabilityProperty {
-            get {
-                return _personnelCapabilityPropertyField;
-            }
-            set {
-                _personnelCapabilityPropertyField = value;
-            }
+            get => _personnelCapabilityPropertyField;
+            set => _personnelCapabilityPropertyField = value;
         }
     }
 }

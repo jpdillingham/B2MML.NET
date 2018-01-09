@@ -21,56 +21,36 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description", IsNullable=true)]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkCapability", IsNullable=true)]
         public WorkCapabilityType[] WorkCapability {
-            get {
-                return _workCapabilityField;
-            }
-            set {
-                _workCapabilityField = value;
-            }
+            get => _workCapabilityField;
+            set => _workCapabilityField = value;
         }
     }
 }

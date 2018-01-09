@@ -14,32 +14,20 @@
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
-            get {
-                return _equipmentElementLevelField;
-            }
-            set {
-                _equipmentElementLevelField = value;
-            }
+            get => _equipmentElementLevelField;
+            set => _equipmentElementLevelField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     }
 }

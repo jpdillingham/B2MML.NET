@@ -38,161 +38,101 @@
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType SampleSourceID {
-            get {
-                return _sampleSourceIDField;
-            }
-            set {
-                _sampleSourceIDField = value;
-            }
+            get => _sampleSourceIDField;
+            set => _sampleSourceIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleSize")]
         public QuantityValueType[] SampleSize {
-            get {
-                return _sampleSizeField;
-            }
-            set {
-                _sampleSizeField = value;
-            }
+            get => _sampleSizeField;
+            set => _sampleSizeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleType")]
         public CodeType[] SampleType1 {
-            get {
-                return _sampleType1Field;
-            }
-            set {
-                _sampleType1Field = value;
-            }
+            get => _sampleType1Field;
+            set => _sampleType1Field = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SamplePullReason")]
         public TextType[] SamplePullReason {
-            get {
-                return _samplePullReasonField;
-            }
-            set {
-                _samplePullReasonField = value;
-            }
+            get => _samplePullReasonField;
+            set => _samplePullReasonField = value;
         }
     
         /// <remarks/>
         public DateTimeType SampleExpiration {
-            get {
-                return _sampleExpirationField;
-            }
-            set {
-                _sampleExpirationField = value;
-            }
+            get => _sampleExpirationField;
+            set => _sampleExpirationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProceduralElementReference")]
         public IdentifierType[] ProceduralElementReference {
-            get {
-                return _proceduralElementReferenceField;
-            }
-            set {
-                _proceduralElementReferenceField = value;
-            }
+            get => _proceduralElementReferenceField;
+            set => _proceduralElementReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SOPReference")]
         public IdentifierType[] SopReference {
-            get {
-                return _sOpReferenceField;
-            }
-            set {
-                _sOpReferenceField = value;
-            }
+            get => _sOpReferenceField;
+            set => _sOpReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleTest")]
         public SampleTestType[] SampleTest {
-            get {
-                return _sampleTestField;
-            }
-            set {
-                _sampleTestField = value;
-            }
+            get => _sampleTestField;
+            set => _sampleTestField = value;
         }
     }
 }

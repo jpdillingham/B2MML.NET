@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductDefinition")]
         public ProductDefinitionType[] ProductDefinition {
-            get {
-                return _productDefinitionField;
-            }
-            set {
-                _productDefinitionField = value;
-            }
+            get => _productDefinitionField;
+            set => _productDefinitionField = value;
         }
     }
 }

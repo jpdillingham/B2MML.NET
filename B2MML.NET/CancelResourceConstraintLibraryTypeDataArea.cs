@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
-            get {
-                return _resourceConstraintLibraryField;
-            }
-            set {
-                _resourceConstraintLibraryField = value;
-            }
+            get => _resourceConstraintLibraryField;
+            set => _resourceConstraintLibraryField = value;
         }
     }
 }

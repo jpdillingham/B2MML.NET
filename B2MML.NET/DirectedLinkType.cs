@@ -16,43 +16,27 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType FromID {
-            get {
-                return _fromIDField;
-            }
-            set {
-                _fromIDField = value;
-            }
+            get => _fromIDField;
+            set => _fromIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType ToID {
-            get {
-                return _toIDField;
-            }
-            set {
-                _toIDField = value;
-            }
+            get => _toIDField;
+            set => _toIDField = value;
         }
     }
 }

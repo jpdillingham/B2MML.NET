@@ -16,44 +16,28 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public MaterialsTypeType MaterialsType {
-            get {
-                return _materialsTypeField;
-            }
-            set {
-                _materialsTypeField = value;
-            }
+            get => _materialsTypeField;
+            set => _materialsTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Material")]
         public GRecipeMaterialType[] Material {
-            get {
-                return _materialField;
-            }
-            set {
-                _materialField = value;
-            }
+            get => _materialField;
+            set => _materialField = value;
         }
     }
 }

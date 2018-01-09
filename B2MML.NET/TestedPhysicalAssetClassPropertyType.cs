@@ -12,22 +12,14 @@
     
         /// <remarks/>
         public PhysicalAssetClassIDType PhysicalAssetClassID {
-            get {
-                return _physicalAssetClassIDField;
-            }
-            set {
-                _physicalAssetClassIDField = value;
-            }
+            get => _physicalAssetClassIDField;
+            set => _physicalAssetClassIDField = value;
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
-            get {
-                return _propertyIDField;
-            }
-            set {
-                _propertyIDField = value;
-            }
+            get => _propertyIDField;
+            set => _propertyIDField = value;
         }
     }
 }

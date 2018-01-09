@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
-            get {
-                return _materialSubLotField;
-            }
-            set {
-                _materialSubLotField = value;
-            }
+            get => _materialSubLotField;
+            set => _materialSubLotField = value;
         }
     }
 }

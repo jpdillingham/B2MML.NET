@@ -27,89 +27,57 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ListHeader")]
         public ListHeaderType[] ListHeader {
-            get {
-                return _listHeaderField;
-            }
-            set {
-                _listHeaderField = value;
-            }
+            get => _listHeaderField;
+            set => _listHeaderField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MasterRecipe")]
         public MasterRecipeType[] MasterRecipe {
-            get {
-                return _masterRecipeField;
-            }
-            set {
-                _masterRecipeField = value;
-            }
+            get => _masterRecipeField;
+            set => _masterRecipeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ControlRecipe")]
         public ControlRecipeType[] ControlRecipe {
-            get {
-                return _controlRecipeField;
-            }
-            set {
-                _controlRecipeField = value;
-            }
+            get => _controlRecipeField;
+            set => _controlRecipeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeBuildingBlock")]
         public RecipeBuildingBlockType[] RecipeBuildingBlock {
-            get {
-                return _recipeBuildingBlockField;
-            }
-            set {
-                _recipeBuildingBlockField = value;
-            }
+            get => _recipeBuildingBlockField;
+            set => _recipeBuildingBlockField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElement")]
         public EquipmentElementType[] EquipmentElement {
-            get {
-                return _equipmentElementField;
-            }
-            set {
-                _equipmentElementField = value;
-            }
+            get => _equipmentElementField;
+            set => _equipmentElementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchList")]
         public BatchListType[] BatchList {
-            get {
-                return _batchListField;
-            }
-            set {
-                _batchListField = value;
-            }
+            get => _batchListField;
+            set => _batchListField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSet")]
         public EnumerationSetType[] EnumerationSet {
-            get {
-                return _enumerationSetField;
-            }
-            set {
-                _enumerationSetField = value;
-            }
+            get => _enumerationSetField;
+            set => _enumerationSetField = value;
         }
     }
 }

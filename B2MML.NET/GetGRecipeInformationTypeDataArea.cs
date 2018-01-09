@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
-            get {
-                return _getField;
-            }
-            set {
-                _getField = value;
-            }
+            get => _getField;
+            set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
-            get {
-                return _gRecipeInformationField;
-            }
-            set {
-                _gRecipeInformationField = value;
-            }
+            get => _gRecipeInformationField;
+            set => _gRecipeInformationField = value;
         }
     }
 }

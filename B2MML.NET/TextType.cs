@@ -19,23 +19,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="language")]
         public string LanguageID {
-            get {
-                return _languageIDField;
-            }
-            set {
-                _languageIDField = value;
-            }
+            get => _languageIDField;
+            set => _languageIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
         public string Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

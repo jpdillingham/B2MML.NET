@@ -20,67 +20,43 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonProperty")]
         public PersonPropertyType[] PersonProperty {
-            get {
-                return _personPropertyField;
-            }
-            set {
-                _personPropertyField = value;
-            }
+            get => _personPropertyField;
+            set => _personPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("QualificationTestSpecificationID")]
         public QualificationTestSpecificationIDType[] QualificationTestSpecificationID {
-            get {
-                return _qualificationTestSpecificationIDField;
-            }
-            set {
-                _qualificationTestSpecificationIDField = value;
-            }
+            get => _qualificationTestSpecificationIDField;
+            set => _qualificationTestSpecificationIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestResult")]
         public TestResultType[] TestResult {
-            get {
-                return _testResultField;
-            }
-            set {
-                _testResultField = value;
-            }
+            get => _testResultField;
+            set => _testResultField = value;
         }
     }
 }

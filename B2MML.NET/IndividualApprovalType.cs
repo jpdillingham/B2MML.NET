@@ -16,33 +16,21 @@
     
         /// <remarks/>
         public ApprovedByType ApprovedBy {
-            get {
-                return _approvedByField;
-            }
-            set {
-                _approvedByField = value;
-            }
+            get => _approvedByField;
+            set => _approvedByField = value;
         }
     
         /// <remarks/>
         public ApprovalDateType ApprovalDate {
-            get {
-                return _approvalDateField;
-            }
-            set {
-                _approvalDateField = value;
-            }
+            get => _approvalDateField;
+            set => _approvalDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

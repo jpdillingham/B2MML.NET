@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
-            get {
-                return _resourceConstraintLibraryField;
-            }
-            set {
-                _resourceConstraintLibraryField = value;
-            }
+            get => _resourceConstraintLibraryField;
+            set => _resourceConstraintLibraryField = value;
         }
     }
 }

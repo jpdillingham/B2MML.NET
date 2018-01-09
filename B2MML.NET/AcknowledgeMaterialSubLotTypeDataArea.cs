@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
-            get {
-                return _materialSubLotField;
-            }
-            set {
-                _materialSubLotField = value;
-            }
+            get => _materialSubLotField;
+            set => _materialSubLotField = value;
         }
     }
 }

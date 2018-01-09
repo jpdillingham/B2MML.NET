@@ -15,23 +15,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
-            get {
-                return _recipeElementField;
-            }
-            set {
-                _recipeElementField = value;
-            }
+            get => _recipeElementField;
+            set => _recipeElementField = value;
         }
     }
 }

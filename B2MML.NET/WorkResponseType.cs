@@ -28,94 +28,58 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
-            get {
-                return _workTypeField;
-            }
-            set {
-                _workTypeField = value;
-            }
+            get => _workTypeField;
+            set => _workTypeField = value;
         }
     
         /// <remarks/>
         public WorkRequestIDType WorkRequestID {
-            get {
-                return _workRequestIDField;
-            }
-            set {
-                _workRequestIDField = value;
-            }
+            get => _workRequestIDField;
+            set => _workRequestIDField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
-            get {
-                return _responseStateField;
-            }
-            set {
-                _responseStateField = value;
-            }
+            get => _responseStateField;
+            set => _responseStateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
-            get {
-                return _jobResponseField;
-            }
-            set {
-                _jobResponseField = value;
-            }
+            get => _jobResponseField;
+            set => _jobResponseField = value;
         }
     }
 }

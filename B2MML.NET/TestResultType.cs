@@ -18,54 +18,34 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public TestDateTimeType TestDateTime {
-            get {
-                return _testDateTimeField;
-            }
-            set {
-                _testDateTimeField = value;
-            }
+            get => _testDateTimeField;
+            set => _testDateTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Result")]
         public ResultType[] Result {
-            get {
-                return _resultField;
-            }
-            set {
-                _resultField = value;
-            }
+            get => _resultField;
+            set => _resultField = value;
         }
     
         /// <remarks/>
         public ExpirationTimeType ExpirationTime {
-            get {
-                return _expirationTimeField;
-            }
-            set {
-                _expirationTimeField = value;
-            }
+            get => _expirationTimeField;
+            set => _expirationTimeField = value;
         }
     }
 }

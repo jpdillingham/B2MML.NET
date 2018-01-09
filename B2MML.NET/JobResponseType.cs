@@ -42,169 +42,105 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType WorkType {
-            get {
-                return _workTypeField;
-            }
-            set {
-                _workTypeField = value;
-            }
+            get => _workTypeField;
+            set => _workTypeField = value;
         }
     
         /// <remarks/>
         public IdentifierType JobOrderID {
-            get {
-                return _jobOrderIDField;
-            }
-            set {
-                _jobOrderIDField = value;
-            }
+            get => _jobOrderIDField;
+            set => _jobOrderIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType WorkDirectiveID {
-            get {
-                return _workDirectiveIDField;
-            }
-            set {
-                _workDirectiveIDField = value;
-            }
+            get => _workDirectiveIDField;
+            set => _workDirectiveIDField = value;
         }
     
         /// <remarks/>
         public VersionType WorkDirectiveVersion {
-            get {
-                return _workDirectiveVersionField;
-            }
-            set {
-                _workDirectiveVersionField = value;
-            }
+            get => _workDirectiveVersionField;
+            set => _workDirectiveVersionField = value;
         }
     
         /// <remarks/>
         public ActualStartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public ActualEndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public ResponseStateType JobState {
-            get {
-                return _jobStateField;
-            }
-            set {
-                _jobStateField = value;
-            }
+            get => _jobStateField;
+            set => _jobStateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobResponsetData")]
         public OpSegmentDataType[] JobResponsetData {
-            get {
-                return _jobResponsetDataField;
-            }
-            set {
-                _jobResponsetDataField = value;
-            }
+            get => _jobResponsetDataField;
+            set => _jobResponsetDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelActual")]
         public OpPersonnelActualType[] PersonnelActual {
-            get {
-                return _personnelActualField;
-            }
-            set {
-                _personnelActualField = value;
-            }
+            get => _personnelActualField;
+            set => _personnelActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActual")]
         public OpEquipmentActualType[] EquipmentActual {
-            get {
-                return _equipmentActualField;
-            }
-            set {
-                _equipmentActualField = value;
-            }
+            get => _equipmentActualField;
+            set => _equipmentActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActual")]
         public OpPhysicalAssetActualType[] PhysicalAssetActual {
-            get {
-                return _physicalAssetActualField;
-            }
-            set {
-                _physicalAssetActualField = value;
-            }
+            get => _physicalAssetActualField;
+            set => _physicalAssetActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActual")]
         public OpMaterialActualType[] MaterialActual {
-            get {
-                return _materialActualField;
-            }
-            set {
-                _materialActualField = value;
-            }
+            get => _materialActualField;
+            set => _materialActualField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobResponse")]
         public JobResponseType[] JobResponse {
-            get {
-                return _jobResponseField;
-            }
-            set {
-                _jobResponseField = value;
-            }
+            get => _jobResponseField;
+            set => _jobResponseField = value;
         }
     }
 }

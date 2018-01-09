@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
-            get {
-                return _getField;
-            }
-            set {
-                _getField = value;
-            }
+            get => _getField;
+            set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
-            get {
-                return _physicalAssetField;
-            }
-            set {
-                _physicalAssetField = value;
-            }
+            get => _physicalAssetField;
+            set => _physicalAssetField = value;
         }
     }
 }

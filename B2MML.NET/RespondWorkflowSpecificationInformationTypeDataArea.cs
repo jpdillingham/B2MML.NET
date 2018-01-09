@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationInformation")]
         public WorkflowSpecificationInformationType[] WorkflowSpecificationInformation {
-            get {
-                return _workflowSpecificationInformationField;
-            }
-            set {
-                _workflowSpecificationInformationField = value;
-            }
+            get => _workflowSpecificationInformationField;
+            set => _workflowSpecificationInformationField = value;
         }
     }
 }

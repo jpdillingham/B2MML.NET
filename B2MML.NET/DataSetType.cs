@@ -30,116 +30,72 @@
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType TrendSystemReference {
-            get {
-                return _trendSystemReferenceField;
-            }
-            set {
-                _trendSystemReferenceField = value;
-            }
+            get => _trendSystemReferenceField;
+            set => _trendSystemReferenceField = value;
         }
     
         /// <remarks/>
         public DateTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public DateTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public TimeSpecificationType TimeSpecification {
-            get {
-                return _timeSpecificationField;
-            }
-            set {
-                _timeSpecificationField = value;
-            }
+            get => _timeSpecificationField;
+            set => _timeSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TagSpecification")]
         public TagSpecificationType[] TagSpecification {
-            get {
-                return _tagSpecificationField;
-            }
-            set {
-                _tagSpecificationField = value;
-            }
+            get => _tagSpecificationField;
+            set => _tagSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("DelimitedDataBlock", typeof(DelimitedDataBlockType)),
          System.Xml.Serialization.XmlElementAttribute("OrderedData", typeof(OrderedDataType))]
         public object[] Items {
-            get {
-                return _itemsField;
-            }
-            set {
-                _itemsField = value;
-            }
+            get => _itemsField;
+            set => _itemsField = value;
         }
     }
 }

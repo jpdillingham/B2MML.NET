@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
-            get {
-                return _resourceConstraintLibraryField;
-            }
-            set {
-                _resourceConstraintLibraryField = value;
-            }
+            get => _resourceConstraintLibraryField;
+            set => _resourceConstraintLibraryField = value;
         }
     }
 }

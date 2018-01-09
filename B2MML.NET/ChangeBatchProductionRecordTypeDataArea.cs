@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchProductionRecord")]
         public BatchProductionRecordType[] BatchProductionRecord {
-            get {
-                return _batchProductionRecordField;
-            }
-            set {
-                _batchProductionRecordField = value;
-            }
+            get => _batchProductionRecordField;
+            set => _batchProductionRecordField = value;
         }
     }
 }

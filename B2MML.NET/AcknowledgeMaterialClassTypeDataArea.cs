@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClass")]
         public MaterialClassType[] MaterialClass {
-            get {
-                return _materialClassField;
-            }
-            set {
-                _materialClassField = value;
-            }
+            get => _materialClassField;
+            set => _materialClassField = value;
         }
     }
 }

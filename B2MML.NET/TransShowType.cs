@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransApplicationAreaType OriginalApplicationArea {
-            get {
-                return _originalApplicationAreaField;
-            }
-            set {
-                _originalApplicationAreaField = value;
-            }
+            get => _originalApplicationAreaField;
+            set => _originalApplicationAreaField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResponseCriteria")]
         public TransResponseCriteriaType[] ResponseCriteria {
-            get {
-                return _responseCriteriaField;
-            }
-            set {
-                _responseCriteriaField = value;
-            }
+            get => _responseCriteriaField;
+            set => _responseCriteriaField = value;
         }
     }
 }

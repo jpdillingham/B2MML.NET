@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
-            get {
-                return _getField;
-            }
-            set {
-                _getField = value;
-            }
+            get => _getField;
+            set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceRelationshipNetwork")]
         public ResourceRelationshipNetworkType[] ResourceRelationshipNetwork {
-            get {
-                return _resourceRelationshipNetworkField;
-            }
-            set {
-                _resourceRelationshipNetworkField = value;
-            }
+            get => _resourceRelationshipNetworkField;
+            set => _resourceRelationshipNetworkField = value;
         }
     }
 }

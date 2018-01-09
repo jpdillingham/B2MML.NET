@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
         public ProcessSegmentType[] ProcessSegment {
-            get {
-                return _processSegmentField;
-            }
-            set {
-                _processSegmentField = value;
-            }
+            get => _processSegmentField;
+            set => _processSegmentField = value;
         }
     }
 }

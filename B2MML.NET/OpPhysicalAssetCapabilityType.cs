@@ -33,126 +33,78 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
-            get {
-                return _physicalAssetClassIDField;
-            }
-            set {
-                _physicalAssetClassIDField = value;
-            }
+            get => _physicalAssetClassIDField;
+            set => _physicalAssetClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
-            get {
-                return _capabilityTypeField;
-            }
-            set {
-                _capabilityTypeField = value;
-            }
+            get => _capabilityTypeField;
+            set => _capabilityTypeField = value;
         }
     
         /// <remarks/>
         public ReasonType Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
-            get {
-                return _confidenceFactorField;
-            }
-            set {
-                _confidenceFactorField = value;
-            }
+            get => _confidenceFactorField;
+            set => _confidenceFactorField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public PhysicalAssetUseType PhysicalAssetUse {
-            get {
-                return _physicalAssetUseField;
-            }
-            set {
-                _physicalAssetUseField = value;
-            }
+            get => _physicalAssetUseField;
+            set => _physicalAssetUseField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityProperty")]
         public OpPhysicalAssetCapabilityPropertyType[] PhysicalAssetCapabilityProperty {
-            get {
-                return _physicalAssetCapabilityPropertyField;
-            }
-            set {
-                _physicalAssetCapabilityPropertyField = value;
-            }
+            get => _physicalAssetCapabilityPropertyField;
+            set => _physicalAssetCapabilityPropertyField = value;
         }
     }
 }

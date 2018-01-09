@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintLibrary")]
         public ResourceConstraintLibraryType[] ResourceConstraintLibrary {
-            get {
-                return _resourceConstraintLibraryField;
-            }
-            set {
-                _resourceConstraintLibraryField = value;
-            }
+            get => _resourceConstraintLibraryField;
+            set => _resourceConstraintLibraryField = value;
         }
     }
 }

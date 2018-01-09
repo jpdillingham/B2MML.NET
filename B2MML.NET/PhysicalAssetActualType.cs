@@ -25,86 +25,54 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
-            get {
-                return _physicalAssetClassIDField;
-            }
-            set {
-                _physicalAssetClassIDField = value;
-            }
+            get => _physicalAssetClassIDField;
+            set => _physicalAssetClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetActualProperty")]
         public PhysicalAssetActualPropertyType[] PhysicalAssetActualProperty {
-            get {
-                return _physicalAssetActualPropertyField;
-            }
-            set {
-                _physicalAssetActualPropertyField = value;
-            }
+            get => _physicalAssetActualPropertyField;
+            set => _physicalAssetActualPropertyField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

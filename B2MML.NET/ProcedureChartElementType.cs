@@ -16,44 +16,28 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public TextType Label {
-            get {
-                return _labelField;
-            }
-            set {
-                _labelField = value;
-            }
+            get => _labelField;
+            set => _labelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcedureChartElementType")]
         public ProcedureChartElementTypeType ProcedureChartElementType1 {
-            get {
-                return _procedureChartElementType1Field;
-            }
-            set {
-                _procedureChartElementType1Field = value;
-            }
+            get => _procedureChartElementType1Field;
+            set => _procedureChartElementType1Field = value;
         }
     }
 }

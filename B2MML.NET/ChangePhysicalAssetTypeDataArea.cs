@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
-            get {
-                return _physicalAssetField;
-            }
-            set {
-                _physicalAssetField = value;
-            }
+            get => _physicalAssetField;
+            set => _physicalAssetField = value;
         }
     }
 }

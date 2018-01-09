@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkCapabilityInformation")]
         public WorkCapabilityInformationType[] WorkCapabilityInformation {
-            get {
-                return _workCapabilityInformationField;
-            }
-            set {
-                _workCapabilityInformationField = value;
-            }
+            get => _workCapabilityInformationField;
+            set => _workCapabilityInformationField = value;
         }
     }
 }

@@ -20,55 +20,35 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Node")]
         public WorkflowSpecificationNodeType[] Node {
-            get {
-                return _nodeField;
-            }
-            set {
-                _nodeField = value;
-            }
+            get => _nodeField;
+            set => _nodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Connection")]
         public WorkflowSpecificationConnectionType[] Connection {
-            get {
-                return _connectionField;
-            }
-            set {
-                _connectionField = value;
-            }
+            get => _connectionField;
+            set => _connectionField = value;
         }
     }
 }

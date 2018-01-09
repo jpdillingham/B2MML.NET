@@ -18,34 +18,22 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementType")]
         public EquipmentProceduralElementTypeType EquipmentProceduralElementType1 {
-            get {
-                return _equipmentProceduralElementType1Field;
-            }
-            set {
-                _equipmentProceduralElementType1Field = value;
-            }
+            get => _equipmentProceduralElementType1Field;
+            set => _equipmentProceduralElementType1Field = value;
         }
     
         /// <remarks/>
@@ -53,12 +41,8 @@
              typeof(EquipmentProceduralElementClassIDType)),
          System.Xml.Serialization.XmlElementAttribute("Parameter", typeof(BatchParameterType))]
         public object[] Items {
-            get {
-                return _itemsField;
-            }
-            set {
-                _itemsField = value;
-            }
+            get => _itemsField;
+            set => _itemsField = value;
         }
     }
 }

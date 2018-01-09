@@ -13,12 +13,8 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     }
 }

@@ -39,23 +39,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string Format {
-            get {
-                return _formatField;
-            }
-            set {
-                _formatField = value;
-            }
+            get => _formatField;
+            set => _formatField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
         public System.DateTime Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

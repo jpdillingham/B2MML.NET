@@ -18,44 +18,28 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionType")]
         public ResourceNetworkConnectionTypeType[] ResourceNetworkConnectionType {
-            get {
-                return _resourceNetworkConnectionTypeField;
-            }
-            set {
-                _resourceNetworkConnectionTypeField = value;
-            }
+            get => _resourceNetworkConnectionTypeField;
+            set => _resourceNetworkConnectionTypeField = value;
         }
     }
 }

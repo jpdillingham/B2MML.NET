@@ -20,62 +20,38 @@
     
         /// <remarks/>
         public IdentifierType LogicalID {
-            get {
-                return _logicalIDField;
-            }
-            set {
-                _logicalIDField = value;
-            }
+            get => _logicalIDField;
+            set => _logicalIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
-            get {
-                return _componentIDField;
-            }
-            set {
-                _componentIDField = value;
-            }
+            get => _componentIDField;
+            set => _componentIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType TaskID {
-            get {
-                return _taskIDField;
-            }
-            set {
-                _taskIDField = value;
-            }
+            get => _taskIDField;
+            set => _taskIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType ReferenceID {
-            get {
-                return _referenceIDField;
-            }
-            set {
-                _referenceIDField = value;
-            }
+            get => _referenceIDField;
+            set => _referenceIDField = value;
         }
     
         /// <remarks/>
         public TransConfirmationCodeType ConfirmationCode {
-            get {
-                return _confirmationCodeField;
-            }
-            set {
-                _confirmationCodeField = value;
-            }
+            get => _confirmationCodeField;
+            set => _confirmationCodeField = value;
         }
     
         /// <remarks/>
         public IdentifierType AuthorizationID {
-            get {
-                return _authorizationIDField;
-            }
-            set {
-                _authorizationIDField = value;
-            }
+            get => _authorizationIDField;
+            set => _authorizationIDField = value;
         }
     }
 }

@@ -14,33 +14,21 @@
     
         /// <remarks/>
         public bool Relative {
-            get {
-                return _relativeField;
-            }
-            set {
-                _relativeField = value;
-            }
+            get => _relativeField;
+            set => _relativeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool RelativeSpecified {
-            get {
-                return _relativeFieldSpecified;
-            }
-            set {
-                _relativeFieldSpecified = value;
-            }
+            get => _relativeFieldSpecified;
+            set => _relativeFieldSpecified = value;
         }
     
         /// <remarks/>
         public DateTimeType OffsetTime {
-            get {
-                return _offsetTimeField;
-            }
-            set {
-                _offsetTimeField = value;
-            }
+            get => _offsetTimeField;
+            set => _offsetTimeField = value;
         }
     }
 }

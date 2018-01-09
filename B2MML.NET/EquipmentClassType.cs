@@ -26,86 +26,54 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType EquipmentLevel {
-            get {
-                return _equipmentLevelField;
-            }
-            set {
-                _equipmentLevelField = value;
-            }
+            get => _equipmentLevelField;
+            set => _equipmentLevelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassProperty")]
         public EquipmentClassPropertyType[] EquipmentClassProperty {
-            get {
-                return _equipmentClassPropertyField;
-            }
-            set {
-                _equipmentClassPropertyField = value;
-            }
+            get => _equipmentClassPropertyField;
+            set => _equipmentClassPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpecificationID")]
         public EquipmentCapabilityTestSpecificationIDType[] EquipmentCapabilityTestSpecificationID {
-            get {
-                return _equipmentCapabilityTestSpecificationIDField;
-            }
-            set {
-                _equipmentCapabilityTestSpecificationIDField = value;
-            }
+            get => _equipmentCapabilityTestSpecificationIDField;
+            set => _equipmentCapabilityTestSpecificationIDField = value;
         }
     }
 }

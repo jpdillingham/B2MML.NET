@@ -32,115 +32,71 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
-            get {
-                return _operationsTypeField;
-            }
-            set {
-                _operationsTypeField = value;
-            }
+            get => _operationsTypeField;
+            set => _operationsTypeField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public PriorityType Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     
         /// <remarks/>
         public OperationsDefinitionIDType OperationsDefinitionID {
-            get {
-                return _operationsDefinitionIDField;
-            }
-            set {
-                _operationsDefinitionIDField = value;
-            }
+            get => _operationsDefinitionIDField;
+            set => _operationsDefinitionIDField = value;
         }
     
         /// <remarks/>
         public RequestStateType RequestState {
-            get {
-                return _requestStateField;
-            }
-            set {
-                _requestStateField = value;
-            }
+            get => _requestStateField;
+            set => _requestStateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
         public OpSegmentRequirementType[] SegmentRequirement {
-            get {
-                return _segmentRequirementField;
-            }
-            set {
-                _segmentRequirementField = value;
-            }
+            get => _segmentRequirementField;
+            set => _segmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public OpSegmentResponseType[] SegmentResponse {
-            get {
-                return _segmentResponseField;
-            }
-            set {
-                _segmentResponseField = value;
-            }
+            get => _segmentResponseField;
+            set => _segmentResponseField = value;
         }
     }
 }

@@ -24,74 +24,46 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
         public DescriptionType[] MessageText {
-            get {
-                return _messageTextField;
-            }
-            set {
-                _messageTextField = value;
-            }
+            get => _messageTextField;
+            set => _messageTextField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public StartTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public PriorityType Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     
         /// <remarks/>
         public IdentifierType Category {
-            get {
-                return _categoryField;
-            }
-            set {
-                _categoryField = value;
-            }
+            get => _categoryField;
+            set => _categoryField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkAlertPropertyType[] Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     }
 }

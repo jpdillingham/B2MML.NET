@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkAlert")]
         public WorkAlertType[] WorkAlert {
-            get {
-                return _workAlertField;
-            }
-            set {
-                _workAlertField = value;
-            }
+            get => _workAlertField;
+            set => _workAlertField = value;
         }
     }
 }

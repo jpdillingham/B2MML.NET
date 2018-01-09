@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceRelationshipNetwork")]
         public ResourceRelationshipNetworkType[] ResourceRelationshipNetwork {
-            get {
-                return _resourceRelationshipNetworkField;
-            }
-            set {
-                _resourceRelationshipNetworkField = value;
-            }
+            get => _resourceRelationshipNetworkField;
+            set => _resourceRelationshipNetworkField = value;
         }
     }
 }

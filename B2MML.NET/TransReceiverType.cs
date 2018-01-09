@@ -14,33 +14,21 @@
     
         /// <remarks/>
         public IdentifierType LogicalID {
-            get {
-                return _logicalIDField;
-            }
-            set {
-                _logicalIDField = value;
-            }
+            get => _logicalIDField;
+            set => _logicalIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType ComponentID {
-            get {
-                return _componentIDField;
-            }
-            set {
-                _componentIDField = value;
-            }
+            get => _componentIDField;
+            set => _componentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ID")]
         public IdentifierType[] ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     }
 }

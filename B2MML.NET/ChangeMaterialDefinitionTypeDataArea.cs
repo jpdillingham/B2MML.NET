@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
         public MaterialDefinitionType[] MaterialDefinition {
-            get {
-                return _materialDefinitionField;
-            }
-            set {
-                _materialDefinitionField = value;
-            }
+            get => _materialDefinitionField;
+            set => _materialDefinitionField = value;
         }
     }
 }

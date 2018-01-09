@@ -14,32 +14,20 @@
     
         /// <remarks/>
         public string TagDelimiter {
-            get {
-                return _tagDelimiterField;
-            }
-            set {
-                _tagDelimiterField = value;
-            }
+            get => _tagDelimiterField;
+            set => _tagDelimiterField = value;
         }
     
         /// <remarks/>
         public string OrderDelimiter {
-            get {
-                return _orderDelimiterField;
-            }
-            set {
-                _orderDelimiterField = value;
-            }
+            get => _orderDelimiterField;
+            set => _orderDelimiterField = value;
         }
     
         /// <remarks/>
         public string DelimitedData {
-            get {
-                return _delimitedDataField;
-            }
-            set {
-                _delimitedDataField = value;
-            }
+            get => _delimitedDataField;
+            set => _delimitedDataField = value;
         }
     }
 }

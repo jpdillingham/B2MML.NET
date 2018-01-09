@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
-            get {
-                return _processElementLibraryField;
-            }
-            set {
-                _processElementLibraryField = value;
-            }
+            get => _processElementLibraryField;
+            set => _processElementLibraryField = value;
         }
     }
 }

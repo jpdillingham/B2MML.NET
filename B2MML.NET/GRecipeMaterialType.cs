@@ -18,53 +18,33 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType MaterialID {
-            get {
-                return _materialIDField;
-            }
-            set {
-                _materialIDField = value;
-            }
+            get => _materialIDField;
+            set => _materialIDField = value;
         }
     
         /// <remarks/>
         public NumericType Order {
-            get {
-                return _orderField;
-            }
-            set {
-                _orderField = value;
-            }
+            get => _orderField;
+            set => _orderField = value;
         }
     
         /// <remarks/>
         public QuantityValueType Amount {
-            get {
-                return _amountField;
-            }
-            set {
-                _amountField = value;
-            }
+            get => _amountField;
+            set => _amountField = value;
         }
     }
 }

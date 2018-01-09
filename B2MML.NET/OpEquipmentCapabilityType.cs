@@ -33,126 +33,78 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
         public EquipmentClassIDType[] EquipmentClassID {
-            get {
-                return _equipmentClassIDField;
-            }
-            set {
-                _equipmentClassIDField = value;
-            }
+            get => _equipmentClassIDField;
+            set => _equipmentClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public CapabilityTypeType CapabilityType {
-            get {
-                return _capabilityTypeField;
-            }
-            set {
-                _capabilityTypeField = value;
-            }
+            get => _capabilityTypeField;
+            set => _capabilityTypeField = value;
         }
     
         /// <remarks/>
         public ReasonType Reason {
-            get {
-                return _reasonField;
-            }
-            set {
-                _reasonField = value;
-            }
+            get => _reasonField;
+            set => _reasonField = value;
         }
     
         /// <remarks/>
         public ConfidenceFactorType ConfidenceFactor {
-            get {
-                return _confidenceFactorField;
-            }
-            set {
-                _confidenceFactorField = value;
-            }
+            get => _confidenceFactorField;
+            set => _confidenceFactorField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public EquipmentUseType EquipmentUse {
-            get {
-                return _equipmentUseField;
-            }
-            set {
-                _equipmentUseField = value;
-            }
+            get => _equipmentUseField;
+            set => _equipmentUseField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityProperty")]
         public OpEquipmentCapabilityPropertyType[] EquipmentCapabilityProperty {
-            get {
-                return _equipmentCapabilityPropertyField;
-            }
-            set {
-                _equipmentCapabilityPropertyField = value;
-            }
+            get => _equipmentCapabilityPropertyField;
+            set => _equipmentCapabilityPropertyField = value;
         }
     }
 }

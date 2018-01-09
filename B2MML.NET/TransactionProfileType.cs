@@ -26,86 +26,54 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SupportedAction")]
         public SupportedActionType[] SupportedAction {
-            get {
-                return _supportedActionField;
-            }
-            set {
-                _supportedActionField = value;
-            }
+            get => _supportedActionField;
+            set => _supportedActionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string ReleaseID {
-            get {
-                return _releaseIDField;
-            }
-            set {
-                _releaseIDField = value;
-            }
+            get => _releaseIDField;
+            set => _releaseIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string VersionID {
-            get {
-                return _versionIDField;
-            }
-            set {
-                _versionIDField = value;
-            }
+            get => _versionIDField;
+            set => _versionIDField = value;
         }
     }
 }

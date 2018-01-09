@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductInformation")]
         public ProductInformationType[] ProductInformation {
-            get {
-                return _productInformationField;
-            }
-            set {
-                _productInformationField = value;
-            }
+            get => _productInformationField;
+            set => _productInformationField = value;
         }
     }
 }

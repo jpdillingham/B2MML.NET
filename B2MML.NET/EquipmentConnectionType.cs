@@ -20,55 +20,35 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public ConnectionTypeType ConnectionType {
-            get {
-                return _connectionTypeField;
-            }
-            set {
-                _connectionTypeField = value;
-            }
+            get => _connectionTypeField;
+            set => _connectionTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("FromEquipmentID")]
         public FromEquipmentIDType[] FromEquipmentID {
-            get {
-                return _fromEquipmentIDField;
-            }
-            set {
-                _fromEquipmentIDField = value;
-            }
+            get => _fromEquipmentIDField;
+            set => _fromEquipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ToEquipmentID")]
         public ToEquipmentIDType[] ToEquipmentID {
-            get {
-                return _toEquipmentIDField;
-            }
-            set {
-                _toEquipmentIDField = value;
-            }
+            get => _toEquipmentIDField;
+            set => _toEquipmentIDField = value;
         }
     }
 }

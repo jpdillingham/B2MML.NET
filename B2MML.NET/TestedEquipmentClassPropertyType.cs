@@ -12,22 +12,14 @@
     
         /// <remarks/>
         public EquipmentClassIDType EquipmentClassID {
-            get {
-                return _equipmentClassIDField;
-            }
-            set {
-                _equipmentClassIDField = value;
-            }
+            get => _equipmentClassIDField;
+            set => _equipmentClassIDField = value;
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
-            get {
-                return _propertyIDField;
-            }
-            set {
-                _propertyIDField = value;
-            }
+            get => _propertyIDField;
+            set => _propertyIDField = value;
         }
     }
 }

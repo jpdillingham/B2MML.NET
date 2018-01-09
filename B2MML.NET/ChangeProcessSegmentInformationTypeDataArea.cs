@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegmentInformation")]
         public ProcessSegmentInformationType[] ProcessSegmentInformation {
-            get {
-                return _processSegmentInformationField;
-            }
-            set {
-                _processSegmentInformationField = value;
-            }
+            get => _processSegmentInformationField;
+            set => _processSegmentInformationField = value;
         }
     }
 }

@@ -18,56 +18,36 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassProperty")]
         public PhysicalAssetClassPropertyType[] PhysicalAssetClassProperty {
-            get {
-                return _physicalAssetClassPropertyField;
-            }
-            set {
-                _physicalAssetClassPropertyField = value;
-            }
+            get => _physicalAssetClassPropertyField;
+            set => _physicalAssetClassPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecificationID")]
         public PhysicalAssetCapabilityTestSpecificationIDType[] PhysicalAssetCapabilityTestSpecificationID {
-            get {
-                return _physicalAssetCapabilityTestSpecificationIDField;
-            }
-            set {
-                _physicalAssetCapabilityTestSpecificationIDField = value;
-            }
+            get => _physicalAssetCapabilityTestSpecificationIDField;
+            set => _physicalAssetCapabilityTestSpecificationIDField = value;
         }
     }
 }

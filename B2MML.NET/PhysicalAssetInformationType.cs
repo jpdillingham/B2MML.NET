@@ -24,76 +24,48 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
-            get {
-                return _physicalAssetField;
-            }
-            set {
-                _physicalAssetField = value;
-            }
+            get => _physicalAssetField;
+            set => _physicalAssetField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
-            get {
-                return _physicalAssetClassField;
-            }
-            set {
-                _physicalAssetClassField = value;
-            }
+            get => _physicalAssetClassField;
+            set => _physicalAssetClassField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetCapabilityTestSpecification")]
         public PhysicalAssetCapabilityTestSpecificationType[] PhysicalAssetCapabilityTestSpecification {
-            get {
-                return _physicalAssetCapabilityTestSpecificationField;
-            }
-            set {
-                _physicalAssetCapabilityTestSpecificationField = value;
-            }
+            get => _physicalAssetCapabilityTestSpecificationField;
+            set => _physicalAssetCapabilityTestSpecificationField = value;
         }
     }
 }

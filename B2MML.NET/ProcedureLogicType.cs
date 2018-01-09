@@ -17,34 +17,22 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Link")]
         public LinkType[] Link {
-            get {
-                return _linkField;
-            }
-            set {
-                _linkField = value;
-            }
+            get => _linkField;
+            set => _linkField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Step")]
         public StepType[] Step {
-            get {
-                return _stepField;
-            }
-            set {
-                _stepField = value;
-            }
+            get => _stepField;
+            set => _stepField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Transition")]
         public TransitionType[] Transition {
-            get {
-                return _transitionField;
-            }
-            set {
-                _transitionField = value;
-            }
+            get => _transitionField;
+            set => _transitionField = value;
         }
     }
 }

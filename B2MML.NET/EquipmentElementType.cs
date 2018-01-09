@@ -30,111 +30,71 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElementType")]
         public EquipmentElementTypeType EquipmentElementType1 {
-            get {
-                return _equipmentElementType1Field;
-            }
-            set {
-                _equipmentElementType1Field = value;
-            }
+            get => _equipmentElementType1Field;
+            set => _equipmentElementType1Field = value;
         }
     
         /// <remarks/>
         public EquipmentElementLevelType EquipmentElementLevel {
-            get {
-                return _equipmentElementLevelField;
-            }
-            set {
-                _equipmentElementLevelField = value;
-            }
+            get => _equipmentElementLevelField;
+            set => _equipmentElementLevelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ClassInstanceAssociation")]
         public ClassInstanceAssociationType[] ClassInstanceAssociation {
-            get {
-                return _classInstanceAssociationField;
-            }
-            set {
-                _classInstanceAssociationField = value;
-            }
+            get => _classInstanceAssociationField;
+            set => _classInstanceAssociationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public EquipmentElementPropertyType[] Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElementClass")]
         public EquipmentProceduralElementClassType[] EquipmentProceduralElementClass {
-            get {
-                return _equipmentProceduralElementClassField;
-            }
-            set {
-                _equipmentProceduralElementClassField = value;
-            }
+            get => _equipmentProceduralElementClassField;
+            set => _equipmentProceduralElementClassField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentProceduralElement")]
         public EquipmentProceduralElementType[] EquipmentProceduralElement {
-            get {
-                return _equipmentProceduralElementField;
-            }
-            set {
-                _equipmentProceduralElementField = value;
-            }
+            get => _equipmentProceduralElementField;
+            set => _equipmentProceduralElementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentConnection")]
         public EquipmentConnectionType[] EquipmentConnection {
-            get {
-                return _equipmentConnectionField;
-            }
-            set {
-                _equipmentConnectionField = value;
-            }
+            get => _equipmentConnectionField;
+            set => _equipmentConnectionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentElement", typeof(EquipmentElementType)),
          System.Xml.Serialization.XmlElementAttribute("EquipmentElementID", typeof(EquipmentElementIDType))]
         public object[] Items {
-            get {
-                return _itemsField;
-            }
-            set {
-                _itemsField = value;
-            }
+            get => _itemsField;
+            set => _itemsField = value;
         }
     }
 }

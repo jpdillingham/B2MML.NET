@@ -22,66 +22,42 @@
     
         /// <remarks/>
         public IdentifierType ConstraintID {
-            get {
-                return _constraintIDField;
-            }
-            set {
-                _constraintIDField = value;
-            }
+            get => _constraintIDField;
+            set => _constraintIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ConstraintType")]
         public ConstraintTypeType[] ConstraintType {
-            get {
-                return _constraintTypeField;
-            }
-            set {
-                _constraintTypeField = value;
-            }
+            get => _constraintTypeField;
+            set => _constraintTypeField = value;
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
-            get {
-                return _lifeCycleStateField;
-            }
-            set {
-                _lifeCycleStateField = value;
-            }
+            get => _lifeCycleStateField;
+            set => _lifeCycleStateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Range")]
         public ValueType[] Range {
-            get {
-                return _rangeField;
-            }
-            set {
-                _rangeField = value;
-            }
+            get => _rangeField;
+            set => _rangeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraintProperty")]
         public ResourceConstraintPropertyType[] ResourceConstraintProperty {
-            get {
-                return _resourceConstraintPropertyField;
-            }
-            set {
-                _resourceConstraintPropertyField = value;
-            }
+            get => _resourceConstraintPropertyField;
+            set => _resourceConstraintPropertyField = value;
         }
     }
 }

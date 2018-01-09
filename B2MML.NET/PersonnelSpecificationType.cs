@@ -18,55 +18,35 @@
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
-            get {
-                return _personnelClassIDField;
-            }
-            set {
-                _personnelClassIDField = value;
-            }
+            get => _personnelClassIDField;
+            set => _personnelClassIDField = value;
         }
     
         /// <remarks/>
         public PersonIDType PersonID {
-            get {
-                return _personIDField;
-            }
-            set {
-                _personIDField = value;
-            }
+            get => _personIDField;
+            set => _personIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSpecificationProperty")]
         public PersonnelSpecificationPropertyType[] PersonnelSpecificationProperty {
-            get {
-                return _personnelSpecificationPropertyField;
-            }
-            set {
-                _personnelSpecificationPropertyField = value;
-            }
+            get => _personnelSpecificationPropertyField;
+            set => _personnelSpecificationPropertyField = value;
         }
     }
 }

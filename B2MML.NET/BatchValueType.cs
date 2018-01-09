@@ -23,64 +23,40 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ValueString")]
         public ValueStringType[] ValueString {
-            get {
-                return _valueStringField;
-            }
-            set {
-                _valueStringField = value;
-            }
+            get => _valueStringField;
+            set => _valueStringField = value;
         }
     
         /// <remarks/>
         public DataInterpretationType DataInterpretation {
-            get {
-                return _dataInterpretationField;
-            }
-            set {
-                _dataInterpretationField = value;
-            }
+            get => _dataInterpretationField;
+            set => _dataInterpretationField = value;
         }
     
         /// <remarks/>
         public DataTypeType DataType {
-            get {
-                return _dataTypeField;
-            }
-            set {
-                _dataTypeField = value;
-            }
+            get => _dataTypeField;
+            set => _dataTypeField = value;
         }
     
         /// <remarks/>
         public UnitOfMeasureType UnitOfMeasure {
-            get {
-                return _unitOfMeasureField;
-            }
-            set {
-                _unitOfMeasureField = value;
-            }
+            get => _unitOfMeasureField;
+            set => _unitOfMeasureField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EnumerationSetID")]
         public EnumerationSetIDType[] EnumerationSetID {
-            get {
-                return _enumerationSetIDField;
-            }
-            set {
-                _enumerationSetIDField = value;
-            }
+            get => _enumerationSetIDField;
+            set => _enumerationSetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute()]
         public string[] Text {
-            get {
-                return _textField;
-            }
-            set {
-                _textField = value;
-            }
+            get => _textField;
+            set => _textField = value;
         }
     }
 }

@@ -98,463 +98,287 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType EquipmentScope {
-            get {
-                return _equipmentScopeField;
-            }
-            set {
-                _equipmentScopeField = value;
-            }
+            get => _equipmentScopeField;
+            set => _equipmentScopeField = value;
         }
     
         /// <remarks/>
         public DateTimeType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         public DateTimeType CreationDate {
-            get {
-                return _creationDateField;
-            }
-            set {
-                _creationDateField = value;
-            }
+            get => _creationDateField;
+            set => _creationDateField = value;
         }
     
         /// <remarks/>
         public IdentifierType BatchID {
-            get {
-                return _batchIDField;
-            }
-            set {
-                _batchIDField = value;
-            }
+            get => _batchIDField;
+            set => _batchIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType BatchProductionRecordSpec {
-            get {
-                return _batchProductionRecordSpecField;
-            }
-            set {
-                _batchProductionRecordSpecField = value;
-            }
+            get => _batchProductionRecordSpecField;
+            set => _batchProductionRecordSpecField = value;
         }
     
         /// <remarks/>
         public IdentifierType CampaignID {
-            get {
-                return _campaignIDField;
-            }
-            set {
-                _campaignIDField = value;
-            }
+            get => _campaignIDField;
+            set => _campaignIDField = value;
         }
     
         /// <remarks/>
         public string ChangeIndication {
-            get {
-                return _changeIndicationField;
-            }
-            set {
-                _changeIndicationField = value;
-            }
+            get => _changeIndicationField;
+            set => _changeIndicationField = value;
         }
     
         /// <remarks/>
         public TextType Delimiter {
-            get {
-                return _delimiterField;
-            }
-            set {
-                _delimiterField = value;
-            }
+            get => _delimiterField;
+            set => _delimiterField = value;
         }
     
         /// <remarks/>
         public IdentifierType EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         public DateTimeType ExpirationDate {
-            get {
-                return _expirationDateField;
-            }
-            set {
-                _expirationDateField = value;
-            }
+            get => _expirationDateField;
+            set => _expirationDateField = value;
         }
     
         /// <remarks/>
         public CodeType Language {
-            get {
-                return _languageField;
-            }
-            set {
-                _languageField = value;
-            }
+            get => _languageField;
+            set => _languageField = value;
         }
     
         /// <remarks/>
         public DateTimeType LastChangedDate {
-            get {
-                return _lastChangedDateField;
-            }
-            set {
-                _lastChangedDateField = value;
-            }
+            get => _lastChangedDateField;
+            set => _lastChangedDateField = value;
         }
     
         /// <remarks/>
         public IdentifierType LotID {
-            get {
-                return _lotIDField;
-            }
-            set {
-                _lotIDField = value;
-            }
+            get => _lotIDField;
+            set => _lotIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType MaterialDefinitionID {
-            get {
-                return _materialDefinitionIDField;
-            }
-            set {
-                _materialDefinitionIDField = value;
-            }
+            get => _materialDefinitionIDField;
+            set => _materialDefinitionIDField = value;
         }
     
         /// <remarks/>
         public IdentifierType PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         public CodeType RecordStatus {
-            get {
-                return _recordStatusField;
-            }
-            set {
-                _recordStatusField = value;
-            }
+            get => _recordStatusField;
+            set => _recordStatusField = value;
         }
     
         /// <remarks/>
         public IdentifierType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Change", IsNullable=false)]
         public ChangeType[] ChangeHistory {
-            get {
-                return _changeHistoryField;
-            }
-            set {
-                _changeHistoryField = value;
-            }
+            get => _changeHistoryField;
+            set => _changeHistoryField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Comment", IsNullable=false)]
         public CommentType[] Comments {
-            get {
-                return _commentsField;
-            }
-            set {
-                _commentsField = value;
-            }
+            get => _commentsField;
+            set => _commentsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ControlRecipeRecord", IsNullable=false)]
         public ControlRecipeRecordType[] ControlRecipes {
-            get {
-                return _controlRecipesField;
-            }
-            set {
-                _controlRecipesField = value;
-            }
+            get => _controlRecipesField;
+            set => _controlRecipesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("DataSet", IsNullable=false)]
         public DataSetType[] DataSets {
-            get {
-                return _dataSetsField;
-            }
-            set {
-                _dataSetsField = value;
-            }
+            get => _dataSetsField;
+            set => _dataSetsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Event", IsNullable=false)]
         public SingleEventType[] Events {
-            get {
-                return _eventsField;
-            }
-            set {
-                _eventsField = value;
-            }
+            get => _eventsField;
+            set => _eventsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("MasterRecipeRecord", IsNullable=false)]
         public MasterRecipeRecordType[] MasterRecipes {
-            get {
-                return _masterRecipesField;
-            }
-            set {
-                _masterRecipesField = value;
-            }
+            get => _masterRecipesField;
+            set => _masterRecipesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("PersonnelIdentificationManifest", IsNullable=false)]
         public PersonnelIdentificationManifestType[] PersonnelIdentification {
-            get {
-                return _personnelIdentificationField;
-            }
-            set {
-                _personnelIdentificationField = value;
-            }
+            get => _personnelIdentificationField;
+            set => _personnelIdentificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsDefinitionRecord", IsNullable=false)]
         public OperationsDefinitionRecordType[] OperationsDefinitions {
-            get {
-                return _operationsDefinitionsField;
-            }
-            set {
-                _operationsDefinitionsField = value;
-            }
+            get => _operationsDefinitionsField;
+            set => _operationsDefinitionsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsPerformanceRecord", IsNullable=false)]
         public OperationsPerformanceRecordType[] OperationsPerformances {
-            get {
-                return _operationsPerformancesField;
-            }
-            set {
-                _operationsPerformancesField = value;
-            }
+            get => _operationsPerformancesField;
+            set => _operationsPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("OperationsScheduleRecord", IsNullable=false)]
         public OperationsScheduleRecordType[] OperationsSchedules {
-            get {
-                return _operationsSchedulesField;
-            }
-            set {
-                _operationsSchedulesField = value;
-            }
+            get => _operationsSchedulesField;
+            set => _operationsSchedulesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductDefinitionRecord", IsNullable=false)]
         public ProductDefinitionRecordType[] ProductDefinitions {
-            get {
-                return _productDefinitionsField;
-            }
-            set {
-                _productDefinitionsField = value;
-            }
+            get => _productDefinitionsField;
+            set => _productDefinitionsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionPerformanceRecord", IsNullable=false)]
         public ProductionPerformanceRecordType[] ProductionPerformances {
-            get {
-                return _productionPerformancesField;
-            }
-            set {
-                _productionPerformancesField = value;
-            }
+            get => _productionPerformancesField;
+            set => _productionPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ProductionScheduleRecord", IsNullable=false)]
         public ProductionScheduleRecordType[] ProductionSchedules {
-            get {
-                return _productionSchedulesField;
-            }
-            set {
-                _productionSchedulesField = value;
-            }
+            get => _productionSchedulesField;
+            set => _productionSchedulesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("RecipeElementRecord", IsNullable=false)]
         public RecipeElementRecordType[] RecipeElements {
-            get {
-                return _recipeElementsField;
-            }
-            set {
-                _recipeElementsField = value;
-            }
+            get => _recipeElementsField;
+            set => _recipeElementsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ResourceQualificationsManifest", IsNullable=false)]
         public ResourceQualificationsManifestType[] ResourceQualifications {
-            get {
-                return _resourceQualificationsField;
-            }
-            set {
-                _resourceQualificationsField = value;
-            }
+            get => _resourceQualificationsField;
+            set => _resourceQualificationsField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Sample", IsNullable=false)]
         public SampleType[] Samples {
-            get {
-                return _samplesField;
-            }
-            set {
-                _samplesField = value;
-            }
+            get => _samplesField;
+            set => _samplesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkDirectiverRecord", IsNullable=false)]
         public WorkDirectiveRecordType[] WorkDirectives {
-            get {
-                return _workDirectivesField;
-            }
-            set {
-                _workDirectivesField = value;
-            }
+            get => _workDirectivesField;
+            set => _workDirectivesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkMasterRecord", IsNullable=false)]
         public WorkMasterRecordType[] WorkMasters {
-            get {
-                return _workMastersField;
-            }
-            set {
-                _workMastersField = value;
-            }
+            get => _workMastersField;
+            set => _workMastersField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkPerformanceRecord", IsNullable=false)]
         public WorkPerformanceRecordType[] WorkPerformances {
-            get {
-                return _workPerformancesField;
-            }
-            set {
-                _workPerformancesField = value;
-            }
+            get => _workPerformancesField;
+            set => _workPerformancesField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("WorkScheduleRecord", IsNullable=false)]
         public WorkScheduleRecordType[] WorkSchedules {
-            get {
-                return _workSchedulesField;
-            }
-            set {
-                _workSchedulesField = value;
-            }
+            get => _workSchedulesField;
+            set => _workSchedulesField = value;
         }
     
         /// <remarks/>
         public BatchProductionRecordType BatchProductionRecord {
-            get {
-                return _batchProductionRecordField;
-            }
-            set {
-                _batchProductionRecordField = value;
-            }
+            get => _batchProductionRecordField;
+            set => _batchProductionRecordField = value;
         }
     }
 }

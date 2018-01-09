@@ -46,206 +46,130 @@
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public EventTypeType EventType {
-            get {
-                return _eventTypeField;
-            }
-            set {
-                _eventTypeField = value;
-            }
+            get => _eventTypeField;
+            set => _eventTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public EventSubTypeType EventSubType {
-            get {
-                return _eventSubTypeField;
-            }
-            set {
-                _eventSubTypeField = value;
-            }
+            get => _eventSubTypeField;
+            set => _eventSubTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public IdentifierType[] EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public ValueType[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PreviousValue")]
         public ValueType[] PreviousValue {
-            get {
-                return _previousValueField;
-            }
-            set {
-                _previousValueField = value;
-            }
+            get => _previousValueField;
+            set => _previousValueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MessageText")]
         public TextType[] MessageText {
-            get {
-                return _messageTextField;
-            }
-            set {
-                _messageTextField = value;
-            }
+            get => _messageTextField;
+            set => _messageTextField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public NameType[] PersonID {
-            get {
-                return _personIDField;
-            }
-            set {
-                _personIDField = value;
-            }
+            get => _personIDField;
+            set => _personIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ComputerID")]
         public IdentifierType[] ComputerID {
-            get {
-                return _computerIDField;
-            }
-            set {
-                _computerIDField = value;
-            }
+            get => _computerIDField;
+            set => _computerIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public IdentifierType[] PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProceduralElementReference")]
         public IdentifierType[] ProceduralElementReference {
-            get {
-                return _proceduralElementReferenceField;
-            }
-            set {
-                _proceduralElementReferenceField = value;
-            }
+            get => _proceduralElementReferenceField;
+            set => _proceduralElementReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Category")]
         public IdentifierType[] Category {
-            get {
-                return _categoryField;
-            }
-            set {
-                _categoryField = value;
-            }
+            get => _categoryField;
+            set => _categoryField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AlarmData")]
         public AlarmDataType[] AlarmData {
-            get {
-                return _alarmDataField;
-            }
-            set {
-                _alarmDataField = value;
-            }
+            get => _alarmDataField;
+            set => _alarmDataField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssociatedEventID")]
         public IdentifierType[] AssociatedEventID {
-            get {
-                return _associatedEventIDField;
-            }
-            set {
-                _associatedEventIDField = value;
-            }
+            get => _associatedEventIDField;
+            set => _associatedEventIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("UserAttribute")]
         public UserAttributeType[] UserAttribute {
-            get {
-                return _userAttributeField;
-            }
-            set {
-                _userAttributeField = value;
-            }
+            get => _userAttributeField;
+            set => _userAttributeField = value;
         }
     }
 }

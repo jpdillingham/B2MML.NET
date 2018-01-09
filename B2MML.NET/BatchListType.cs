@@ -16,34 +16,22 @@
     
         /// <remarks/>
         public ListHeaderType ListHeader {
-            get {
-                return _listHeaderField;
-            }
-            set {
-                _listHeaderField = value;
-            }
+            get => _listHeaderField;
+            set => _listHeaderField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BatchListEntry")]
         public BatchListEntryType[] BatchListEntry {
-            get {
-                return _batchListEntryField;
-            }
-            set {
-                _batchListEntryField = value;
-            }
+            get => _batchListEntryField;
+            set => _batchListEntryField = value;
         }
     }
 }

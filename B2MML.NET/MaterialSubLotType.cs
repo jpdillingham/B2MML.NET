@@ -38,148 +38,92 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public StatusType Status {
-            get {
-                return _statusField;
-            }
-            set {
-                _statusField = value;
-            }
+            get => _statusField;
+            set => _statusField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSublotProperty")]
         public MaterialLotPropertyType[] MaterialSublotProperty {
-            get {
-                return _materialSublotPropertyField;
-            }
-            set {
-                _materialSublotPropertyField = value;
-            }
+            get => _materialSublotPropertyField;
+            set => _materialSublotPropertyField = value;
         }
     
         /// <remarks/>
         public StorageHierarchyScopeType StorageLocation {
-            get {
-                return _storageLocationField;
-            }
-            set {
-                _storageLocationField = value;
-            }
+            get => _storageLocationField;
+            set => _storageLocationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLot")]
         public MaterialSubLotType[] MaterialSubLot {
-            get {
-                return _materialSubLotField;
-            }
-            set {
-                _materialSubLotField = value;
-            }
+            get => _materialSubLotField;
+            set => _materialSubLotField = value;
         }
     
         /// <remarks/>
         public MaterialLotIDType MaterialLotID {
-            get {
-                return _materialLotIDField;
-            }
-            set {
-                _materialLotIDField = value;
-            }
+            get => _materialLotIDField;
+            set => _materialLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyLotID")]
         public MaterialLotType[] AssemblyLotID {
-            get {
-                return _assemblyLotIDField;
-            }
-            set {
-                _assemblyLotIDField = value;
-            }
+            get => _assemblyLotIDField;
+            set => _assemblyLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblySubLotID")]
         public MaterialSubLotType[] AssemblySubLotID {
-            get {
-                return _assemblySubLotIDField;
-            }
-            set {
-                _assemblySubLotIDField = value;
-            }
+            get => _assemblySubLotIDField;
+            set => _assemblySubLotIDField = value;
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
-            get {
-                return _assemblyTypeField;
-            }
-            set {
-                _assemblyTypeField = value;
-            }
+            get => _assemblyTypeField;
+            set => _assemblyTypeField = value;
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
-            get {
-                return _assemblyRelationshipField;
-            }
-            set {
-                _assemblyRelationshipField = value;
-            }
+            get => _assemblyRelationshipField;
+            set => _assemblyRelationshipField = value;
         }
     }
 }

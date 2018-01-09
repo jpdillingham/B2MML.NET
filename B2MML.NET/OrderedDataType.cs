@@ -14,33 +14,21 @@
     
         /// <remarks/>
         public NumericType OrderIndex {
-            get {
-                return _orderIndexField;
-            }
-            set {
-                _orderIndexField = value;
-            }
+            get => _orderIndexField;
+            set => _orderIndexField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeValue {
-            get {
-                return _timeValueField;
-            }
-            set {
-                _timeValueField = value;
-            }
+            get => _timeValueField;
+            set => _timeValueField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("DataValue")]
         public DataValueType[] DataValue {
-            get {
-                return _dataValueField;
-            }
-            set {
-                _dataValueField = value;
-            }
+            get => _dataValueField;
+            set => _dataValueField = value;
         }
     }
 }

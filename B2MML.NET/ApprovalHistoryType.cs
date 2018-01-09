@@ -18,44 +18,28 @@
     
         /// <remarks/>
         public FinalApprovalDateType FinalApprovalDate {
-            get {
-                return _finalApprovalDateField;
-            }
-            set {
-                _finalApprovalDateField = value;
-            }
+            get => _finalApprovalDateField;
+            set => _finalApprovalDateField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("IndividualApproval")]
         public IndividualApprovalType[] IndividualApproval {
-            get {
-                return _individualApprovalField;
-            }
-            set {
-                _individualApprovalField = value;
-            }
+            get => _individualApprovalField;
+            set => _individualApprovalField = value;
         }
     }
 }

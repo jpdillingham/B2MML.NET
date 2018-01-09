@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
-            get {
-                return _gRecipeInformationField;
-            }
-            set {
-                _gRecipeInformationField = value;
-            }
+            get => _gRecipeInformationField;
+            set => _gRecipeInformationField = value;
         }
     }
 }

@@ -16,32 +16,20 @@
     
         /// <remarks/>
         public EquipmentElementPropertyType Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     
         /// <remarks/>
         public ConditionType Condition {
-            get {
-                return _conditionField;
-            }
-            set {
-                _conditionField = value;
-            }
+            get => _conditionField;
+            set => _conditionField = value;
         }
     
         /// <remarks/>
         public BatchValueType Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

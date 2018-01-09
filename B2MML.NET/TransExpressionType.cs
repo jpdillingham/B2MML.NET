@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public string ActionCode {
-            get {
-                return _actionCodeField;
-            }
-            set {
-                _actionCodeField = value;
-            }
+            get => _actionCodeField;
+            set => _actionCodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="token")]
         public string ExpressionLanguage {
-            get {
-                return _expressionLanguageField;
-            }
-            set {
-                _expressionLanguageField = value;
-            }
+            get => _expressionLanguageField;
+            set => _expressionLanguageField = value;
         }
     }
 }

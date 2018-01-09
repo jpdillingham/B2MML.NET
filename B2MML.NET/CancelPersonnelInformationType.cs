@@ -14,22 +14,14 @@
     
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
-            get {
-                return _applicationAreaField;
-            }
-            set {
-                _applicationAreaField = value;
-            }
+            get => _applicationAreaField;
+            set => _applicationAreaField = value;
         }
     
         /// <remarks/>
         public CancelPersonnelInformationTypeDataArea DataArea {
-            get {
-                return _dataAreaField;
-            }
-            set {
-                _dataAreaField = value;
-            }
+            get => _dataAreaField;
+            set => _dataAreaField = value;
         }
     }
 }

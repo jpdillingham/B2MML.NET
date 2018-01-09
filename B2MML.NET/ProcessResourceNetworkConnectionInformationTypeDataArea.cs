@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceNetworkConnectionInformation")]
         public ResourceNetworkConnectionInformationType[] ResourceNetworkConnectionInformation {
-            get {
-                return _resourceNetworkConnectionInformationField;
-            }
-            set {
-                _resourceNetworkConnectionInformationField = value;
-            }
+            get => _resourceNetworkConnectionInformationField;
+            set => _resourceNetworkConnectionInformationField = value;
         }
     }
 }

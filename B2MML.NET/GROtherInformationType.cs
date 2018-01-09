@@ -14,34 +14,22 @@
     
         /// <remarks/>
         public IdentifierType OtherInfoID {
-            get {
-                return _otherInfoIDField;
-            }
-            set {
-                _otherInfoIDField = value;
-            }
+            get => _otherInfoIDField;
+            set => _otherInfoIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OtherValue")]
         public ValueType[] OtherValue {
-            get {
-                return _otherValueField;
-            }
-            set {
-                _otherValueField = value;
-            }
+            get => _otherValueField;
+            set => _otherValueField = value;
         }
     }
 }

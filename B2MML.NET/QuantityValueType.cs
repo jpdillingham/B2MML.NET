@@ -17,44 +17,28 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public QuantityStringType QuantityString {
-            get {
-                return _quantityStringField;
-            }
-            set {
-                _quantityStringField = value;
-            }
+            get => _quantityStringField;
+            set => _quantityStringField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public DataTypeType DataType {
-            get {
-                return _dataTypeField;
-            }
-            set {
-                _dataTypeField = value;
-            }
+            get => _dataTypeField;
+            set => _dataTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(IsNullable=true)]
         public UnitOfMeasureType UnitOfMeasure {
-            get {
-                return _unitOfMeasureField;
-            }
-            set {
-                _unitOfMeasureField = value;
-            }
+            get => _unitOfMeasureField;
+            set => _unitOfMeasureField = value;
         }
     
         /// <remarks/>
         public IdentifierType Key {
-            get {
-                return _keyField;
-            }
-            set {
-                _keyField = value;
-            }
+            get => _keyField;
+            set => _keyField = value;
         }
     }
 }

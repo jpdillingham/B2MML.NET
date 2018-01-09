@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
-            get {
-                return _workDirectiveField;
-            }
-            set {
-                _workDirectiveField = value;
-            }
+            get => _workDirectiveField;
+            set => _workDirectiveField = value;
         }
     }
 }

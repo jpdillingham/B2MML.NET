@@ -20,66 +20,42 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public IdentifierType ConnectionType {
-            get {
-                return _connectionTypeField;
-            }
-            set {
-                _connectionTypeField = value;
-            }
+            get => _connectionTypeField;
+            set => _connectionTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("FromNodeID")]
         public DescriptionType[] FromNodeID {
-            get {
-                return _fromNodeIDField;
-            }
-            set {
-                _fromNodeIDField = value;
-            }
+            get => _fromNodeIDField;
+            set => _fromNodeIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ToNodeID")]
         public DescriptionType[] ToNodeID {
-            get {
-                return _toNodeIDField;
-            }
-            set {
-                _toNodeIDField = value;
-            }
+            get => _toNodeIDField;
+            set => _toNodeIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Property")]
         public WorkflowSpecificationPropertyType[] Property {
-            get {
-                return _propertyField;
-            }
-            set {
-                _propertyField = value;
-            }
+            get => _propertyField;
+            set => _propertyField = value;
         }
     }
 }

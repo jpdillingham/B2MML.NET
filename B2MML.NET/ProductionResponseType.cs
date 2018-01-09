@@ -30,105 +30,65 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public ProductionRequestIDType ProductionRequestID {
-            get {
-                return _productionRequestIDField;
-            }
-            set {
-                _productionRequestIDField = value;
-            }
+            get => _productionRequestIDField;
+            set => _productionRequestIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductProductionRuleID")]
         public ProductProductionRuleIDType[] ProductProductionRuleID {
-            get {
-                return _productProductionRuleIDField;
-            }
-            set {
-                _productProductionRuleIDField = value;
-            }
+            get => _productProductionRuleIDField;
+            set => _productProductionRuleIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Version")]
         public VersionType[] Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
-            get {
-                return _segmentResponseField;
-            }
-            set {
-                _segmentResponseField = value;
-            }
+            get => _segmentResponseField;
+            set => _segmentResponseField = value;
         }
     
         /// <remarks/>
         public ResponseStateType ResponseState {
-            get {
-                return _responseStateField;
-            }
-            set {
-                _responseStateField = value;
-            }
+            get => _responseStateField;
+            set => _responseStateField = value;
         }
     }
 }

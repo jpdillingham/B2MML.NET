@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAsset")]
         public PhysicalAssetType[] PhysicalAsset {
-            get {
-                return _physicalAssetField;
-            }
-            set {
-                _physicalAssetField = value;
-            }
+            get => _physicalAssetField;
+            set => _physicalAssetField = value;
         }
     }
 }

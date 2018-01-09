@@ -38,149 +38,93 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public VersionDateType VersionDate {
-            get {
-                return _versionDateField;
-            }
-            set {
-                _versionDateField = value;
-            }
+            get => _versionDateField;
+            set => _versionDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeElementType")]
         public RecipeElementTypeType RecipeElementType1 {
-            get {
-                return _recipeElementType1Field;
-            }
-            set {
-                _recipeElementType1Field = value;
-            }
+            get => _recipeElementType1Field;
+            set => _recipeElementType1Field = value;
         }
     
         /// <remarks/>
         public BuildingBlockElementIDType BuildingBlockElementID {
-            get {
-                return _buildingBlockElementIDField;
-            }
-            set {
-                _buildingBlockElementIDField = value;
-            }
+            get => _buildingBlockElementIDField;
+            set => _buildingBlockElementIDField = value;
         }
     
         /// <remarks/>
         public BuildingBlockElementVersionType BuildingBlockElementVersion {
-            get {
-                return _buildingBlockElementVersionField;
-            }
-            set {
-                _buildingBlockElementVersionField = value;
-            }
+            get => _buildingBlockElementVersionField;
+            set => _buildingBlockElementVersionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActualEquipmentID")]
         public ActualEquipmentIDType[] ActualEquipmentID {
-            get {
-                return _actualEquipmentIDField;
-            }
-            set {
-                _actualEquipmentIDField = value;
-            }
+            get => _actualEquipmentIDField;
+            set => _actualEquipmentIDField = value;
         }
     
         /// <remarks/>
         public HeaderType Header {
-            get {
-                return _headerField;
-            }
-            set {
-                _headerField = value;
-            }
+            get => _headerField;
+            set => _headerField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public BatchEquipmentRequirementType[] EquipmentRequirement {
-            get {
-                return _equipmentRequirementField;
-            }
-            set {
-                _equipmentRequirementField = value;
-            }
+            get => _equipmentRequirementField;
+            set => _equipmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     
         /// <remarks/>
         public ProcedureLogicType ProcedureLogic {
-            get {
-                return _procedureLogicField;
-            }
-            set {
-                _procedureLogicField = value;
-            }
+            get => _procedureLogicField;
+            set => _procedureLogicField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("RecipeElement")]
         public RecipeElementType[] RecipeElement {
-            get {
-                return _recipeElementField;
-            }
-            set {
-                _recipeElementField = value;
-            }
+            get => _recipeElementField;
+            set => _recipeElementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public OtherInformationType[] OtherInformation {
-            get {
-                return _otherInformationField;
-            }
-            set {
-                _otherInformationField = value;
-            }
+            get => _otherInformationField;
+            set => _otherInformationField = value;
         }
     }
 }

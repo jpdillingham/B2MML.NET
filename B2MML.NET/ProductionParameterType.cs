@@ -14,32 +14,20 @@
     
         /// <remarks/>
         public ProductSegmentIDType ProductSegmentID {
-            get {
-                return _productSegmentIDField;
-            }
-            set {
-                _productSegmentIDField = value;
-            }
+            get => _productSegmentIDField;
+            set => _productSegmentIDField = value;
         }
     
         /// <remarks/>
         public ProcessSegmentIDType ProcessSegmentID {
-            get {
-                return _processSegmentIDField;
-            }
-            set {
-                _processSegmentIDField = value;
-            }
+            get => _processSegmentIDField;
+            set => _processSegmentIDField = value;
         }
     
         /// <remarks/>
         public ParameterType Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     }
 }

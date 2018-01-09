@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransRespondType Respond {
-            get {
-                return _respondField;
-            }
-            set {
-                _respondField = value;
-            }
+            get => _respondField;
+            set => _respondField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
-            get {
-                return _physicalAssetClassField;
-            }
-            set {
-                _physicalAssetClassField = value;
-            }
+            get => _physicalAssetClassField;
+            set => _physicalAssetClassField = value;
         }
     }
 }

@@ -34,127 +34,79 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductProductionRuleID")]
         public ProductProductionRuleIDType[] ProductProductionRuleID {
-            get {
-                return _productProductionRuleIDField;
-            }
-            set {
-                _productProductionRuleIDField = value;
-            }
+            get => _productProductionRuleIDField;
+            set => _productProductionRuleIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Version")]
         public VersionType[] Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public StartTimeType StartTime {
-            get {
-                return _startTimeField;
-            }
-            set {
-                _startTimeField = value;
-            }
+            get => _startTimeField;
+            set => _startTimeField = value;
         }
     
         /// <remarks/>
         public EndTimeType EndTime {
-            get {
-                return _endTimeField;
-            }
-            set {
-                _endTimeField = value;
-            }
+            get => _endTimeField;
+            set => _endTimeField = value;
         }
     
         /// <remarks/>
         public PriorityType Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
         public SegmentRequirementType[] SegmentRequirement {
-            get {
-                return _segmentRequirementField;
-            }
-            set {
-                _segmentRequirementField = value;
-            }
+            get => _segmentRequirementField;
+            set => _segmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentResponse")]
         public SegmentResponseType[] SegmentResponse {
-            get {
-                return _segmentResponseField;
-            }
-            set {
-                _segmentResponseField = value;
-            }
+            get => _segmentResponseField;
+            set => _segmentResponseField = value;
         }
     
         /// <remarks/>
         public RequestStateType RequestState {
-            get {
-                return _requestStateField;
-            }
-            set {
-                _requestStateField = value;
-            }
+            get => _requestStateField;
+            set => _requestStateField = value;
         }
     }
 }

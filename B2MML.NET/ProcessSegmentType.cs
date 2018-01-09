@@ -38,151 +38,95 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
-            get {
-                return _operationsTypeField;
-            }
-            set {
-                _operationsTypeField = value;
-            }
+            get => _operationsTypeField;
+            set => _operationsTypeField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public PublishedDateType PublishedDate {
-            get {
-                return _publishedDateField;
-            }
-            set {
-                _publishedDateField = value;
-            }
+            get => _publishedDateField;
+            set => _publishedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
-            get {
-                return _durationField;
-            }
-            set {
-                _durationField = value;
-            }
+            get => _durationField;
+            set => _durationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelSegmentSpecification")]
         public PersonnelSegmentSpecificationType[] PersonnelSegmentSpecification {
-            get {
-                return _personnelSegmentSpecificationField;
-            }
-            set {
-                _personnelSegmentSpecificationField = value;
-            }
+            get => _personnelSegmentSpecificationField;
+            set => _personnelSegmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSegmentSpecification")]
         public EquipmentSegmentSpecificationType[] EquipmentSegmentSpecification {
-            get {
-                return _equipmentSegmentSpecificationField;
-            }
-            set {
-                _equipmentSegmentSpecificationField = value;
-            }
+            get => _equipmentSegmentSpecificationField;
+            set => _equipmentSegmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSegmentSpecification")]
         public PhysicalAssetSegmentSpecificationType[] PhysicalAssetSegmentSpecification {
-            get {
-                return _physicalAssetSegmentSpecificationField;
-            }
-            set {
-                _physicalAssetSegmentSpecificationField = value;
-            }
+            get => _physicalAssetSegmentSpecificationField;
+            set => _physicalAssetSegmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSegmentSpecification")]
         public MaterialSegmentSpecificationType[] MaterialSegmentSpecification {
-            get {
-                return _materialSegmentSpecificationField;
-            }
-            set {
-                _materialSegmentSpecificationField = value;
-            }
+            get => _materialSegmentSpecificationField;
+            set => _materialSegmentSpecificationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public ParameterType[] Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentDependency")]
         public SegmentDependencyType[] SegmentDependency {
-            get {
-                return _segmentDependencyField;
-            }
-            set {
-                _segmentDependencyField = value;
-            }
+            get => _segmentDependencyField;
+            set => _segmentDependencyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessSegment")]
         public ProcessSegmentType[] ProcessSegment {
-            get {
-                return _processSegmentField;
-            }
-            set {
-                _processSegmentField = value;
-            }
+            get => _processSegmentField;
+            set => _processSegmentField = value;
         }
     }
 }

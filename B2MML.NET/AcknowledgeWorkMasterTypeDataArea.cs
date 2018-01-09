@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkMaster")]
         public WorkMasterType[] WorkMaster {
-            get {
-                return _workMasterField;
-            }
-            set {
-                _workMasterField = value;
-            }
+            get => _workMasterField;
+            set => _workMasterField = value;
         }
     }
 }

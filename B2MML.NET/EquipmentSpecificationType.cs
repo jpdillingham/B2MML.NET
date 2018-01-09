@@ -18,55 +18,35 @@
     
         /// <remarks/>
         public EquipmentClassIDType EquipmentClassID {
-            get {
-                return _equipmentClassIDField;
-            }
-            set {
-                _equipmentClassIDField = value;
-            }
+            get => _equipmentClassIDField;
+            set => _equipmentClassIDField = value;
         }
     
         /// <remarks/>
         public EquipmentIDType EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentSpecificationProperty")]
         public EquipmentSpecificationPropertyType[] EquipmentSpecificationProperty {
-            get {
-                return _equipmentSpecificationPropertyField;
-            }
-            set {
-                _equipmentSpecificationPropertyField = value;
-            }
+            get => _equipmentSpecificationPropertyField;
+            set => _equipmentSpecificationPropertyField = value;
         }
     }
 }

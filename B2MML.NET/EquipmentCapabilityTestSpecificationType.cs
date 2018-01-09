@@ -24,75 +24,47 @@
     
         /// <remarks/>
         public NameType Name {
-            get {
-                return _nameField;
-            }
-            set {
-                _nameField = value;
-            }
+            get => _nameField;
+            set => _nameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentProperty")]
         public TestedEquipmentPropertyType[] TestedEquipmentProperty {
-            get {
-                return _testedEquipmentPropertyField;
-            }
-            set {
-                _testedEquipmentPropertyField = value;
-            }
+            get => _testedEquipmentPropertyField;
+            set => _testedEquipmentPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedEquipmentClassProperty")]
         public TestedEquipmentClassPropertyType[] TestedEquipmentClassProperty {
-            get {
-                return _testedEquipmentClassPropertyField;
-            }
-            set {
-                _testedEquipmentClassPropertyField = value;
-            }
+            get => _testedEquipmentClassPropertyField;
+            set => _testedEquipmentClassPropertyField = value;
         }
     }
 }

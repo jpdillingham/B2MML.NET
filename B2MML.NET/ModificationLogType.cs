@@ -16,33 +16,21 @@
     
         /// <remarks/>
         public ModifiedDateType ModifiedDate {
-            get {
-                return _modifiedDateField;
-            }
-            set {
-                _modifiedDateField = value;
-            }
+            get => _modifiedDateField;
+            set => _modifiedDateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public AuthorType Author {
-            get {
-                return _authorField;
-            }
-            set {
-                _authorField = value;
-            }
+            get => _authorField;
+            set => _authorField = value;
         }
     }
 }

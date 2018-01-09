@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
-            get {
-                return _gRecipeInformationField;
-            }
-            set {
-                _gRecipeInformationField = value;
-            }
+            get => _gRecipeInformationField;
+            set => _gRecipeInformationField = value;
         }
     }
 }

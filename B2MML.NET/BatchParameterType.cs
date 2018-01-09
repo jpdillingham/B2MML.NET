@@ -26,85 +26,53 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         public DescriptionType Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public ParameterTypeType ParameterType {
-            get {
-                return _parameterTypeField;
-            }
-            set {
-                _parameterTypeField = value;
-            }
+            get => _parameterTypeField;
+            set => _parameterTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ParameterSubType")]
         public ParameterSubTypeType[] ParameterSubType {
-            get {
-                return _parameterSubTypeField;
-            }
-            set {
-                _parameterSubTypeField = value;
-            }
+            get => _parameterSubTypeField;
+            set => _parameterSubTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Value")]
         public BatchValueType[] Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     
         /// <remarks/>
         public ScaledType Scaled {
-            get {
-                return _scaledField;
-            }
-            set {
-                _scaledField = value;
-            }
+            get => _scaledField;
+            set => _scaledField = value;
         }
     
         /// <remarks/>
         public ScaleReferenceType ScaleReference {
-            get {
-                return _scaleReferenceField;
-            }
-            set {
-                _scaleReferenceField = value;
-            }
+            get => _scaleReferenceField;
+            set => _scaleReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     }
 }

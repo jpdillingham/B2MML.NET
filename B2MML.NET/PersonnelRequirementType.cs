@@ -25,86 +25,54 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelClassID")]
         public PersonnelClassIDType[] PersonnelClassID {
-            get {
-                return _personnelClassIDField;
-            }
-            set {
-                _personnelClassIDField = value;
-            }
+            get => _personnelClassIDField;
+            set => _personnelClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonID")]
         public PersonIDType[] PersonID {
-            get {
-                return _personIDField;
-            }
-            set {
-                _personIDField = value;
-            }
+            get => _personIDField;
+            set => _personIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirementProperty")]
         public PersonnelRequirementPropertyType[] PersonnelRequirementProperty {
-            get {
-                return _personnelRequirementPropertyField;
-            }
-            set {
-                _personnelRequirementPropertyField = value;
-            }
+            get => _personnelRequirementPropertyField;
+            set => _personnelRequirementPropertyField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

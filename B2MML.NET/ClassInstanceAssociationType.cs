@@ -16,33 +16,21 @@
     
         /// <remarks/>
         public ClassEquipmentIDType ClassEquipmentID {
-            get {
-                return _classEquipmentIDField;
-            }
-            set {
-                _classEquipmentIDField = value;
-            }
+            get => _classEquipmentIDField;
+            set => _classEquipmentIDField = value;
         }
     
         /// <remarks/>
         public MemberEquipmentIDType MemberEquipmentID {
-            get {
-                return _memberEquipmentIDField;
-            }
-            set {
-                _memberEquipmentIDField = value;
-            }
+            get => _memberEquipmentIDField;
+            set => _memberEquipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     }
 }

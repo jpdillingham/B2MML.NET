@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentCapabilityTestSpec")]
         public EquipmentCapabilityTestSpecificationType[] EquipmentCapabilityTestSpec {
-            get {
-                return _equipmentCapabilityTestSpecField;
-            }
-            set {
-                _equipmentCapabilityTestSpecField = value;
-            }
+            get => _equipmentCapabilityTestSpecField;
+            set => _equipmentCapabilityTestSpecField = value;
         }
     }
 }

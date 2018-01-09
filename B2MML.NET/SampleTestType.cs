@@ -24,84 +24,52 @@
     
         /// <remarks/>
         public IdentifierType EntryID {
-            get {
-                return _entryIDField;
-            }
-            set {
-                _entryIDField = value;
-            }
+            get => _entryIDField;
+            set => _entryIDField = value;
         }
     
         /// <remarks/>
         public RecordObjectTypeType ObjectType {
-            get {
-                return _objectTypeField;
-            }
-            set {
-                _objectTypeField = value;
-            }
+            get => _objectTypeField;
+            set => _objectTypeField = value;
         }
     
         /// <remarks/>
         public DateTimeType TimeStamp {
-            get {
-                return _timeStampField;
-            }
-            set {
-                _timeStampField = value;
-            }
+            get => _timeStampField;
+            set => _timeStampField = value;
         }
     
         /// <remarks/>
         public IdentifierType ExternalReference {
-            get {
-                return _externalReferenceField;
-            }
-            set {
-                _externalReferenceField = value;
-            }
+            get => _externalReferenceField;
+            set => _externalReferenceField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public CodeType TestCode {
-            get {
-                return _testCodeField;
-            }
-            set {
-                _testCodeField = value;
-            }
+            get => _testCodeField;
+            set => _testCodeField = value;
         }
     
         /// <remarks/>
         public IdentifierType TestName {
-            get {
-                return _testNameField;
-            }
-            set {
-                _testNameField = value;
-            }
+            get => _testNameField;
+            set => _testNameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SampleTestResult")]
         public SampleTestResultType[] SampleTestResult {
-            get {
-                return _sampleTestResultField;
-            }
-            set {
-                _sampleTestResultField = value;
-            }
+            get => _sampleTestResultField;
+            set => _sampleTestResultField = value;
         }
     }
 }

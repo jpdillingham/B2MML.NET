@@ -26,86 +26,54 @@
     
         /// <remarks/>
         public NameType Name {
-            get {
-                return _nameField;
-            }
-            set {
-                _nameField = value;
-            }
+            get => _nameField;
+            set => _nameField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialClassProperty")]
         public TestedMaterialClassPropertyType[] TestedMaterialClassProperty {
-            get {
-                return _testedMaterialClassPropertyField;
-            }
-            set {
-                _testedMaterialClassPropertyField = value;
-            }
+            get => _testedMaterialClassPropertyField;
+            set => _testedMaterialClassPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialDefinitionProperty")]
         public TestedMaterialDefinitionPropertyType[] TestedMaterialDefinitionProperty {
-            get {
-                return _testedMaterialDefinitionPropertyField;
-            }
-            set {
-                _testedMaterialDefinitionPropertyField = value;
-            }
+            get => _testedMaterialDefinitionPropertyField;
+            set => _testedMaterialDefinitionPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedMaterialLotProperty")]
         public TestedMaterialLotPropertyType[] TestedMaterialLotProperty {
-            get {
-                return _testedMaterialLotPropertyField;
-            }
-            set {
-                _testedMaterialLotPropertyField = value;
-            }
+            get => _testedMaterialLotPropertyField;
+            set => _testedMaterialLotPropertyField = value;
         }
     }
 }

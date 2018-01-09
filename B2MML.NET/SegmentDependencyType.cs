@@ -18,44 +18,28 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public DependencyType Dependency {
-            get {
-                return _dependencyField;
-            }
-            set {
-                _dependencyField = value;
-            }
+            get => _dependencyField;
+            set => _dependencyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TimingFactor")]
         public ValueType[] TimingFactor {
-            get {
-                return _timingFactorField;
-            }
-            set {
-                _timingFactorField = value;
-            }
+            get => _timingFactorField;
+            set => _timingFactorField = value;
         }
     
         /// <remarks/>
@@ -63,12 +47,8 @@
          System.Xml.Serialization.XmlElementAttribute("ProductSegmentID", typeof(ProductSegmentIDType)),
          System.Xml.Serialization.XmlElementAttribute("SegmentID", typeof(IdentifierType))]
         public IdentifierType[] Items {
-            get {
-                return _itemsField;
-            }
-            set {
-                _itemsField = value;
-            }
+            get => _itemsField;
+            set => _itemsField = value;
         }
     }
 }

@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProcessElementLibrary")]
         public ProcessElementLibraryType[] ProcessElementLibrary {
-            get {
-                return _processElementLibraryField;
-            }
-            set {
-                _processElementLibraryField = value;
-            }
+            get => _processElementLibraryField;
+            set => _processElementLibraryField = value;
         }
     }
 }

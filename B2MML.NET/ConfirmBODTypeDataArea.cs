@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransConfirmType Confirm {
-            get {
-                return _confirmField;
-            }
-            set {
-                _confirmField = value;
-            }
+            get => _confirmField;
+            set => _confirmField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("BOD")]
         public BODType[] BOD {
-            get {
-                return _bOdField;
-            }
-            set {
-                _bOdField = value;
-            }
+            get => _bOdField;
+            set => _bOdField = value;
         }
     }
 }

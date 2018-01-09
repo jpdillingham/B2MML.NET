@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OperationsPerformance")]
         public OperationsPerformanceType[] OperationsPerformance {
-            get {
-                return _operationsPerformanceField;
-            }
-            set {
-                _operationsPerformanceField = value;
-            }
+            get => _operationsPerformanceField;
+            set => _operationsPerformanceField = value;
         }
     }
 }

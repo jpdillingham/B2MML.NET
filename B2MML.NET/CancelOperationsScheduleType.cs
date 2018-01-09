@@ -18,44 +18,28 @@
     
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea {
-            get {
-                return _applicationAreaField;
-            }
-            set {
-                _applicationAreaField = value;
-            }
+            get => _applicationAreaField;
+            set => _applicationAreaField = value;
         }
     
         /// <remarks/>
         public CancelOperationsScheduleTypeDataArea DataArea {
-            get {
-                return _dataAreaField;
-            }
-            set {
-                _dataAreaField = value;
-            }
+            get => _dataAreaField;
+            set => _dataAreaField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string ReleaseID {
-            get {
-                return _releaseIDField;
-            }
-            set {
-                _releaseIDField = value;
-            }
+            get => _releaseIDField;
+            set => _releaseIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string VersionID {
-            get {
-                return _versionIDField;
-            }
-            set {
-                _versionIDField = value;
-            }
+            get => _versionIDField;
+            set => _versionIDField = value;
         }
     }
 }

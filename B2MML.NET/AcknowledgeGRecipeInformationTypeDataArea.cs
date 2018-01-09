@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("GRecipeInformation")]
         public GRecipeInformationType[] GRecipeInformation {
-            get {
-                return _gRecipeInformationField;
-            }
-            set {
-                _gRecipeInformationField = value;
-            }
+            get => _gRecipeInformationField;
+            set => _gRecipeInformationField = value;
         }
     }
 }

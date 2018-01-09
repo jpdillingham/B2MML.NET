@@ -25,86 +25,54 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentClassID")]
         public EquipmentClassIDType[] EquipmentClassID {
-            get {
-                return _equipmentClassIDField;
-            }
-            set {
-                _equipmentClassIDField = value;
-            }
+            get => _equipmentClassIDField;
+            set => _equipmentClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentID")]
         public EquipmentIDType[] EquipmentID {
-            get {
-                return _equipmentIDField;
-            }
-            set {
-                _equipmentIDField = value;
-            }
+            get => _equipmentIDField;
+            set => _equipmentIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public EquipmentUseType EquipmentUse {
-            get {
-                return _equipmentUseField;
-            }
-            set {
-                _equipmentUseField = value;
-            }
+            get => _equipmentUseField;
+            set => _equipmentUseField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentActualProperty")]
         public OpEquipmentActualPropertyType[] EquipmentActualProperty {
-            get {
-                return _equipmentActualPropertyField;
-            }
-            set {
-                _equipmentActualPropertyField = value;
-            }
+            get => _equipmentActualPropertyField;
+            set => _equipmentActualPropertyField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

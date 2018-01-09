@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecificationType")]
         public WorkflowSpecificationTypeType[] WorkflowSpecificationType {
-            get {
-                return _workflowSpecificationTypeField;
-            }
-            set {
-                _workflowSpecificationTypeField = value;
-            }
+            get => _workflowSpecificationTypeField;
+            set => _workflowSpecificationTypeField = value;
         }
     }
 }

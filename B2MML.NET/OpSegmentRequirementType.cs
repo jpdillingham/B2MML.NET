@@ -42,180 +42,112 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         public OperationsTypeType OperationsType {
-            get {
-                return _operationsTypeField;
-            }
-            set {
-                _operationsTypeField = value;
-            }
+            get => _operationsTypeField;
+            set => _operationsTypeField = value;
         }
     
         /// <remarks/>
         public ProcessSegmentIDType ProcessSegmentID {
-            get {
-                return _processSegmentIDField;
-            }
-            set {
-                _processSegmentIDField = value;
-            }
+            get => _processSegmentIDField;
+            set => _processSegmentIDField = value;
         }
     
         /// <remarks/>
         public EarliestStartTimeType EarliestStartTime {
-            get {
-                return _earliestStartTimeField;
-            }
-            set {
-                _earliestStartTimeField = value;
-            }
+            get => _earliestStartTimeField;
+            set => _earliestStartTimeField = value;
         }
     
         /// <remarks/>
         public LatestEndTimeType LatestEndTime {
-            get {
-                return _latestEndTimeField;
-            }
-            set {
-                _latestEndTimeField = value;
-            }
+            get => _latestEndTimeField;
+            set => _latestEndTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute(DataType="duration")]
         public string Duration {
-            get {
-                return _durationField;
-            }
-            set {
-                _durationField = value;
-            }
+            get => _durationField;
+            set => _durationField = value;
         }
     
         /// <remarks/>
         public OperationsDefinitionIDType OperationsDefinitionID {
-            get {
-                return _operationsDefinitionIDField;
-            }
-            set {
-                _operationsDefinitionIDField = value;
-            }
+            get => _operationsDefinitionIDField;
+            set => _operationsDefinitionIDField = value;
         }
     
         /// <remarks/>
         public RequestStateType SegmentState {
-            get {
-                return _segmentStateField;
-            }
-            set {
-                _segmentStateField = value;
-            }
+            get => _segmentStateField;
+            set => _segmentStateField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentParameter")]
         public ParameterType[] SegmentParameter {
-            get {
-                return _segmentParameterField;
-            }
-            set {
-                _segmentParameterField = value;
-            }
+            get => _segmentParameterField;
+            set => _segmentParameterField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PersonnelRequirement")]
         public OpPersonnelRequirementType[] PersonnelRequirement {
-            get {
-                return _personnelRequirementField;
-            }
-            set {
-                _personnelRequirementField = value;
-            }
+            get => _personnelRequirementField;
+            set => _personnelRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("EquipmentRequirement")]
         public OpEquipmentRequirementType[] EquipmentRequirement {
-            get {
-                return _equipmentRequirementField;
-            }
-            set {
-                _equipmentRequirementField = value;
-            }
+            get => _equipmentRequirementField;
+            set => _equipmentRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetRequirement")]
         public OpPhysicalAssetRequirementType[] PhysicalAssetRequirement {
-            get {
-                return _physicalAssetRequirementField;
-            }
-            set {
-                _physicalAssetRequirementField = value;
-            }
+            get => _physicalAssetRequirementField;
+            set => _physicalAssetRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialRequirement")]
         public OpMaterialRequirementType[] MaterialRequirement {
-            get {
-                return _materialRequirementField;
-            }
-            set {
-                _materialRequirementField = value;
-            }
+            get => _materialRequirementField;
+            set => _materialRequirementField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("SegmentRequirement")]
         public OpSegmentRequirementType[] SegmentRequirement {
-            get {
-                return _segmentRequirementField;
-            }
-            set {
-                _segmentRequirementField = value;
-            }
+            get => _segmentRequirementField;
+            set => _segmentRequirementField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

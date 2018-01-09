@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Cancel {
-            get {
-                return _cancelField;
-            }
-            set {
-                _cancelField = value;
-            }
+            get => _cancelField;
+            set => _cancelField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ProductionPerformance")]
         public ProductionPerformanceType[] ProductionPerformance {
-            get {
-                return _productionPerformanceField;
-            }
-            set {
-                _productionPerformanceField = value;
-            }
+            get => _productionPerformanceField;
+            set => _productionPerformanceField = value;
         }
     }
 }

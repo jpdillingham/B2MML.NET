@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransChangeType Change {
-            get {
-                return _changeField;
-            }
-            set {
-                _changeField = value;
-            }
+            get => _changeField;
+            set => _changeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkDirective")]
         public WorkDirectiveType[] WorkDirective {
-            get {
-                return _workDirectiveField;
-            }
-            set {
-                _workDirectiveField = value;
-            }
+            get => _workDirectiveField;
+            set => _workDirectiveField = value;
         }
     }
 }

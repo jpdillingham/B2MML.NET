@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransAcknowledgeType Acknowledge {
-            get {
-                return _acknowledgeField;
-            }
-            set {
-                _acknowledgeField = value;
-            }
+            get => _acknowledgeField;
+            set => _acknowledgeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
-            get {
-                return _workflowSpecificationField;
-            }
-            set {
-                _workflowSpecificationField = value;
-            }
+            get => _workflowSpecificationField;
+            set => _workflowSpecificationField = value;
         }
     }
 }

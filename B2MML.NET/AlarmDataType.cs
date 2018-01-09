@@ -16,44 +16,28 @@
     
         /// <remarks/>
         public CodeType AlarmEvent {
-            get {
-                return _alarmEventField;
-            }
-            set {
-                _alarmEventField = value;
-            }
+            get => _alarmEventField;
+            set => _alarmEventField = value;
         }
     
         /// <remarks/>
         public CodeType AlarmType {
-            get {
-                return _alarmTypeField;
-            }
-            set {
-                _alarmTypeField = value;
-            }
+            get => _alarmTypeField;
+            set => _alarmTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AlarmLimit")]
         public ValueType[] AlarmLimit {
-            get {
-                return _alarmLimitField;
-            }
-            set {
-                _alarmLimitField = value;
-            }
+            get => _alarmLimitField;
+            set => _alarmLimitField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Priority")]
         public IdentifierType[] Priority {
-            get {
-                return _priorityField;
-            }
-            set {
-                _priorityField = value;
-            }
+            get => _priorityField;
+            set => _priorityField = value;
         }
     }
 }

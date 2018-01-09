@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClass")]
         public PhysicalAssetClassType[] PhysicalAssetClass {
-            get {
-                return _physicalAssetClassField;
-            }
-            set {
-                _physicalAssetClassField = value;
-            }
+            get => _physicalAssetClassField;
+            set => _physicalAssetClassField = value;
         }
     }
 }

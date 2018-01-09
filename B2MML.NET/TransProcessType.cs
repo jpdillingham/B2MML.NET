@@ -15,34 +15,22 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActionCriteria")]
         public TransActionCriteriaType[] ActionCriteria {
-            get {
-                return _actionCriteriaField;
-            }
-            set {
-                _actionCriteriaField = value;
-            }
+            get => _actionCriteriaField;
+            set => _actionCriteriaField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute()]
         public TransResponseCodeType AcknowledgeCode {
-            get {
-                return _acknowledgeCodeField;
-            }
-            set {
-                _acknowledgeCodeField = value;
-            }
+            get => _acknowledgeCodeField;
+            set => _acknowledgeCodeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlIgnoreAttribute()]
         public bool AcknowledgeCodeSpecified {
-            get {
-                return _acknowledgeCodeFieldSpecified;
-            }
-            set {
-                _acknowledgeCodeFieldSpecified = value;
-            }
+            get => _acknowledgeCodeFieldSpecified;
+            set => _acknowledgeCodeFieldSpecified = value;
         }
     }
 }

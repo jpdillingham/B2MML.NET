@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransProcessType Process {
-            get {
-                return _processField;
-            }
-            set {
-                _processField = value;
-            }
+            get => _processField;
+            set => _processField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLot")]
         public MaterialLotType[] MaterialLot {
-            get {
-                return _materialLotField;
-            }
-            set {
-                _materialLotField = value;
-            }
+            get => _materialLotField;
+            set => _materialLotField = value;
         }
     }
 }

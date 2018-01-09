@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
-            get {
-                return _anyField;
-            }
-            set {
-                _anyField = value;
-            }
+            get => _anyField;
+            set => _anyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlAttributeAttribute(DataType="normalizedString")]
         public string QualifyingAgencyID {
-            get {
-                return _qualifyingAgencyIDField;
-            }
-            set {
-                _qualifyingAgencyIDField = value;
-            }
+            get => _qualifyingAgencyIDField;
+            set => _qualifyingAgencyIDField = value;
         }
     }
 }

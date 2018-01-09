@@ -24,75 +24,47 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public VersionType Version {
-            get {
-                return _versionField;
-            }
-            set {
-                _versionField = value;
-            }
+            get => _versionField;
+            set => _versionField = value;
         }
     
         /// <remarks/>
         public LocationType Location {
-            get {
-                return _locationField;
-            }
-            set {
-                _locationField = value;
-            }
+            get => _locationField;
+            set => _locationField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonProperty")]
         public TestedPersonPropertyType[] TestedPersonProperty {
-            get {
-                return _testedPersonPropertyField;
-            }
-            set {
-                _testedPersonPropertyField = value;
-            }
+            get => _testedPersonPropertyField;
+            set => _testedPersonPropertyField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TestedPersonnelClassProperty")]
         public TestedPersonnelClassPropertyType[] TestedPersonnelClassProperty {
-            get {
-                return _testedPersonnelClassPropertyField;
-            }
-            set {
-                _testedPersonnelClassPropertyField = value;
-            }
+            get => _testedPersonnelClassPropertyField;
+            set => _testedPersonnelClassPropertyField = value;
         }
     }
 }

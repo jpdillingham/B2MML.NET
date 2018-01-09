@@ -18,44 +18,28 @@
     
         /// <remarks/>
         public IDType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public EquipmentProceduralElementTypeType EquipmentProceduralElementType {
-            get {
-                return _equipmentProceduralElementTypeField;
-            }
-            set {
-                _equipmentProceduralElementTypeField = value;
-            }
+            get => _equipmentProceduralElementTypeField;
+            set => _equipmentProceduralElementTypeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Parameter")]
         public BatchParameterType[] Parameter {
-            get {
-                return _parameterField;
-            }
-            set {
-                _parameterField = value;
-            }
+            get => _parameterField;
+            set => _parameterField = value;
         }
     }
 }

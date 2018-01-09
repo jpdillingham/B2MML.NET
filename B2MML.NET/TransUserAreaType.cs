@@ -11,12 +11,8 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlAnyElementAttribute()]
         public System.Xml.XmlElement[] Any {
-            get {
-                return _anyField;
-            }
-            set {
-                _anyField = value;
-            }
+            get => _anyField;
+            set => _anyField = value;
         }
     }
 }

@@ -20,63 +20,39 @@
     
         /// <remarks/>
         public TransSenderType Sender {
-            get {
-                return _senderField;
-            }
-            set {
-                _senderField = value;
-            }
+            get => _senderField;
+            set => _senderField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Receiver")]
         public TransReceiverType[] Receiver {
-            get {
-                return _receiverField;
-            }
-            set {
-                _receiverField = value;
-            }
+            get => _receiverField;
+            set => _receiverField = value;
         }
     
         /// <remarks/>
         public DateTimeType CreationDateTime {
-            get {
-                return _creationDateTimeField;
-            }
-            set {
-                _creationDateTimeField = value;
-            }
+            get => _creationDateTimeField;
+            set => _creationDateTimeField = value;
         }
     
         /// <remarks/>
         public TransSignatureType Signature {
-            get {
-                return _signatureField;
-            }
-            set {
-                _signatureField = value;
-            }
+            get => _signatureField;
+            set => _signatureField = value;
         }
     
         /// <remarks/>
         public IdentifierType Bodid {
-            get {
-                return _bOdidField;
-            }
-            set {
-                _bOdidField = value;
-            }
+            get => _bOdidField;
+            set => _bOdidField = value;
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
-            get {
-                return _userAreaField;
-            }
-            set {
-                _userAreaField = value;
-            }
+            get => _userAreaField;
+            set => _userAreaField = value;
         }
     }
 }

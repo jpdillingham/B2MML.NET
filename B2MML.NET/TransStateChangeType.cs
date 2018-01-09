@@ -20,64 +20,40 @@
     
         /// <remarks/>
         public CodeType FromStateCode {
-            get {
-                return _fromStateCodeField;
-            }
-            set {
-                _fromStateCodeField = value;
-            }
+            get => _fromStateCodeField;
+            set => _fromStateCodeField = value;
         }
     
         /// <remarks/>
         public CodeType ToStateCode {
-            get {
-                return _toStateCodeField;
-            }
-            set {
-                _toStateCodeField = value;
-            }
+            get => _toStateCodeField;
+            set => _toStateCodeField = value;
         }
     
         /// <remarks/>
         public DateTimeType ChangeDateTime {
-            get {
-                return _changeDateTimeField;
-            }
-            set {
-                _changeDateTimeField = value;
-            }
+            get => _changeDateTimeField;
+            set => _changeDateTimeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Note")]
         public TextType[] Note {
-            get {
-                return _noteField;
-            }
-            set {
-                _noteField = value;
-            }
+            get => _noteField;
+            set => _noteField = value;
         }
     
         /// <remarks/>
         public TransUserAreaType UserArea {
-            get {
-                return _userAreaField;
-            }
-            set {
-                _userAreaField = value;
-            }
+            get => _userAreaField;
+            set => _userAreaField = value;
         }
     }
 }

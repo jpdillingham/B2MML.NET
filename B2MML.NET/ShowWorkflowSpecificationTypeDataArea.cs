@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("WorkflowSpecification")]
         public WorkflowSpecificationType[] WorkflowSpecification {
-            get {
-                return _workflowSpecificationField;
-            }
-            set {
-                _workflowSpecificationField = value;
-            }
+            get => _workflowSpecificationField;
+            set => _workflowSpecificationField = value;
         }
     }
 }

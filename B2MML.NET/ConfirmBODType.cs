@@ -18,15 +18,15 @@ namespace B2MML.NET
         /// <remarks/>
         public TransApplicationAreaType ApplicationArea
         {
-            get { return _applicationAreaField; }
-            set { _applicationAreaField = value; }
+            get => _applicationAreaField;
+            set => _applicationAreaField = value;
         }
 
         /// <remarks/>
         public ConfirmBODTypeDataArea DataArea
         {
-            get { return _dataAreaField; }
-            set { _dataAreaField = value; }
+            get => _dataAreaField;
+            set => _dataAreaField = value;
         }
     }
 

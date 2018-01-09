@@ -16,32 +16,20 @@
     
         /// <remarks/>
         public string FromIDValue {
-            get {
-                return _fromIDValueField;
-            }
-            set {
-                _fromIDValueField = value;
-            }
+            get => _fromIDValueField;
+            set => _fromIDValueField = value;
         }
     
         /// <remarks/>
         public FromTypeType FromType {
-            get {
-                return _fromTypeField;
-            }
-            set {
-                _fromTypeField = value;
-            }
+            get => _fromTypeField;
+            set => _fromTypeField = value;
         }
     
         /// <remarks/>
         public IDScopeType IDScope {
-            get {
-                return _iDScopeField;
-            }
-            set {
-                _iDScopeField = value;
-            }
+            get => _iDScopeField;
+            set => _iDScopeField = value;
         }
     }
 }

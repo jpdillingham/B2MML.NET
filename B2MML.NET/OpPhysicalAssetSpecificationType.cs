@@ -21,66 +21,42 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetClassID")]
         public PhysicalAssetClassIDType[] PhysicalAssetClassID {
-            get {
-                return _physicalAssetClassIDField;
-            }
-            set {
-                _physicalAssetClassIDField = value;
-            }
+            get => _physicalAssetClassIDField;
+            set => _physicalAssetClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetID")]
         public PhysicalAssetIDType[] PhysicalAssetID {
-            get {
-                return _physicalAssetIDField;
-            }
-            set {
-                _physicalAssetIDField = value;
-            }
+            get => _physicalAssetIDField;
+            set => _physicalAssetIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public PhysicalAssetUseType PhysicalAssetUse {
-            get {
-                return _physicalAssetUseField;
-            }
-            set {
-                _physicalAssetUseField = value;
-            }
+            get => _physicalAssetUseField;
+            set => _physicalAssetUseField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("PhysicalAssetSpecificationProperty")]
         public OpPhysicalAssetSpecificationPropertyType[] PhysicalAssetSpecificationProperty {
-            get {
-                return _physicalAssetSpecificationPropertyField;
-            }
-            set {
-                _physicalAssetSpecificationPropertyField = value;
-            }
+            get => _physicalAssetSpecificationPropertyField;
+            set => _physicalAssetSpecificationPropertyField = value;
         }
     }
 }

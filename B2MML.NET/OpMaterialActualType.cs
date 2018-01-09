@@ -37,149 +37,93 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialClassID")]
         public MaterialClassIDType[] MaterialClassID {
-            get {
-                return _materialClassIDField;
-            }
-            set {
-                _materialClassIDField = value;
-            }
+            get => _materialClassIDField;
+            set => _materialClassIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinitionID")]
         public MaterialDefinitionIDType[] MaterialDefinitionID {
-            get {
-                return _materialDefinitionIDField;
-            }
-            set {
-                _materialDefinitionIDField = value;
-            }
+            get => _materialDefinitionIDField;
+            set => _materialDefinitionIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialLotID")]
         public MaterialLotIDType[] MaterialLotID {
-            get {
-                return _materialLotIDField;
-            }
-            set {
-                _materialLotIDField = value;
-            }
+            get => _materialLotIDField;
+            set => _materialLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialSubLotID")]
         public MaterialSubLotIDType[] MaterialSubLotID {
-            get {
-                return _materialSubLotIDField;
-            }
-            set {
-                _materialSubLotIDField = value;
-            }
+            get => _materialSubLotIDField;
+            set => _materialSubLotIDField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         public MaterialUseType MaterialUse {
-            get {
-                return _materialUseField;
-            }
-            set {
-                _materialUseField = value;
-            }
+            get => _materialUseField;
+            set => _materialUseField = value;
         }
     
         /// <remarks/>
         public StorageLocationType StorageLocation {
-            get {
-                return _storageLocationField;
-            }
-            set {
-                _storageLocationField = value;
-            }
+            get => _storageLocationField;
+            set => _storageLocationField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Quantity")]
         public QuantityValueType[] Quantity {
-            get {
-                return _quantityField;
-            }
-            set {
-                _quantityField = value;
-            }
+            get => _quantityField;
+            set => _quantityField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("AssemblyActual")]
         public OpMaterialActualType[] AssemblyActual {
-            get {
-                return _assemblyActualField;
-            }
-            set {
-                _assemblyActualField = value;
-            }
+            get => _assemblyActualField;
+            set => _assemblyActualField = value;
         }
     
         /// <remarks/>
         public AssemblyTypeType AssemblyType {
-            get {
-                return _assemblyTypeField;
-            }
-            set {
-                _assemblyTypeField = value;
-            }
+            get => _assemblyTypeField;
+            set => _assemblyTypeField = value;
         }
     
         /// <remarks/>
         public AssemblyRelationshipType AssemblyRelationship {
-            get {
-                return _assemblyRelationshipField;
-            }
-            set {
-                _assemblyRelationshipField = value;
-            }
+            get => _assemblyRelationshipField;
+            set => _assemblyRelationshipField = value;
         }
     
         /// <remarks/>
         public HierarchyScopeType HierarchyScope {
-            get {
-                return _hierarchyScopeField;
-            }
-            set {
-                _hierarchyScopeField = value;
-            }
+            get => _hierarchyScopeField;
+            set => _hierarchyScopeField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialActualProperty")]
         public OpMaterialActualPropertyType[] MaterialActualProperty {
-            get {
-                return _materialActualPropertyField;
-            }
-            set {
-                _materialActualPropertyField = value;
-            }
+            get => _materialActualPropertyField;
+            set => _materialActualPropertyField = value;
         }
     
         /// <remarks/>
         public RequiredByRequestedSegmentResponseType RequiredByRequestedSegmentResponse {
-            get {
-                return _requiredByRequestedSegmentResponseField;
-            }
-            set {
-                _requiredByRequestedSegmentResponseField = value;
-            }
+            get => _requiredByRequestedSegmentResponseField;
+            set => _requiredByRequestedSegmentResponseField = value;
         }
     }
 }

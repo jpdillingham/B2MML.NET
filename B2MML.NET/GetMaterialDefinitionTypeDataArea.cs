@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("Expression", DataType="token", IsNullable=false)]
         public string[] Get {
-            get {
-                return _getField;
-            }
-            set {
-                _getField = value;
-            }
+            get => _getField;
+            set => _getField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("MaterialDefinition")]
         public MaterialDefinitionType[] MaterialDefinition {
-            get {
-                return _materialDefinitionField;
-            }
-            set {
-                _materialDefinitionField = value;
-            }
+            get => _materialDefinitionField;
+            set => _materialDefinitionField = value;
         }
     }
 }

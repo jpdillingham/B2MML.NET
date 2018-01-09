@@ -28,96 +28,60 @@
     
         /// <remarks/>
         public IdentifierType ID {
-            get {
-                return _idField;
-            }
-            set {
-                _idField = value;
-            }
+            get => _idField;
+            set => _idField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Description")]
         public DescriptionType[] Description {
-            get {
-                return _descriptionField;
-            }
-            set {
-                _descriptionField = value;
-            }
+            get => _descriptionField;
+            set => _descriptionField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("GRecipeType")]
         public GRecipeTypeType GRecipeType1 {
-            get {
-                return _gRecipeType1Field;
-            }
-            set {
-                _gRecipeType1Field = value;
-            }
+            get => _gRecipeType1Field;
+            set => _gRecipeType1Field = value;
         }
     
         /// <remarks/>
         public LifeCycleStateType LifeCycleState {
-            get {
-                return _lifeCycleStateField;
-            }
-            set {
-                _lifeCycleStateField = value;
-            }
+            get => _lifeCycleStateField;
+            set => _lifeCycleStateField = value;
         }
     
         /// <remarks/>
         public GRecipeHeaderType Header {
-            get {
-                return _headerField;
-            }
-            set {
-                _headerField = value;
-            }
+            get => _headerField;
+            set => _headerField = value;
         }
     
         /// <remarks/>
         public GRecipeFormulaType Formula {
-            get {
-                return _formulaField;
-            }
-            set {
-                _formulaField = value;
-            }
+            get => _formulaField;
+            set => _formulaField = value;
         }
     
         /// <remarks/>
         public ProcessElementType ProcessProcedure {
-            get {
-                return _processProcedureField;
-            }
-            set {
-                _processProcedureField = value;
-            }
+            get => _processProcedureField;
+            set => _processProcedureField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ResourceConstraint")]
         public ResourceConstraintType[] ResourceConstraint {
-            get {
-                return _resourceConstraintField;
-            }
-            set {
-                _resourceConstraintField = value;
-            }
+            get => _resourceConstraintField;
+            set => _resourceConstraintField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("OtherInformation")]
         public GROtherInformationType[] OtherInformation {
-            get {
-                return _otherInformationField;
-            }
-            set {
-                _otherInformationField = value;
-            }
+            get => _otherInformationField;
+            set => _otherInformationField = value;
         }
     }
 }

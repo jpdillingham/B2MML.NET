@@ -13,22 +13,14 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("ActionExpression")]
         public TransExpressionType[] ActionExpression {
-            get {
-                return _actionExpressionField;
-            }
-            set {
-                _actionExpressionField = value;
-            }
+            get => _actionExpressionField;
+            set => _actionExpressionField = value;
         }
     
         /// <remarks/>
         public TransChangeStatusType ChangeStatus {
-            get {
-                return _changeStatusField;
-            }
-            set {
-                _changeStatusField = value;
-            }
+            get => _changeStatusField;
+            set => _changeStatusField = value;
         }
     }
 }

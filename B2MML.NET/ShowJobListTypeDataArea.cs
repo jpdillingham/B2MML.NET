@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("JobList")]
         public JobListType[] JobList {
-            get {
-                return _jobListField;
-            }
-            set {
-                _jobListField = value;
-            }
+            get => _jobListField;
+            set => _jobListField = value;
         }
     }
 }

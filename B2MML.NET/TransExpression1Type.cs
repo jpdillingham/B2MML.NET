@@ -12,12 +12,8 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlTextAttribute(DataType="token")]
         public string Value {
-            get {
-                return _valueField;
-            }
-            set {
-                _valueField = value;
-            }
+            get => _valueField;
+            set => _valueField = value;
         }
     }
 }

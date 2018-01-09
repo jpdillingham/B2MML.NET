@@ -12,23 +12,15 @@
     
         /// <remarks/>
         public TransShowType Show {
-            get {
-                return _showField;
-            }
-            set {
-                _showField = value;
-            }
+            get => _showField;
+            set => _showField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("TransactionProfile")]
         public TransactionProfileType[] TransactionProfile {
-            get {
-                return _transactionProfileField;
-            }
-            set {
-                _transactionProfileField = value;
-            }
+            get => _transactionProfileField;
+            set => _transactionProfileField = value;
         }
     }
 }

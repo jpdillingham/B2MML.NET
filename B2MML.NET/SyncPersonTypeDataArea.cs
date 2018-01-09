@@ -13,23 +13,15 @@
         /// <remarks/>
         [System.Xml.Serialization.XmlArrayItemAttribute("ActionCriteria", IsNullable=false)]
         public TransActionCriteriaType[] Sync {
-            get {
-                return _syncField;
-            }
-            set {
-                _syncField = value;
-            }
+            get => _syncField;
+            set => _syncField = value;
         }
     
         /// <remarks/>
         [System.Xml.Serialization.XmlElementAttribute("Person")]
         public PersonType[] Person {
-            get {
-                return _personField;
-            }
-            set {
-                _personField = value;
-            }
+            get => _personField;
+            set => _personField = value;
         }
     }
 }

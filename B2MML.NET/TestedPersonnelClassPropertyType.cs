@@ -12,22 +12,14 @@
     
         /// <remarks/>
         public PersonnelClassIDType PersonnelClassID {
-            get {
-                return _personnelClassIDField;
-            }
-            set {
-                _personnelClassIDField = value;
-            }
+            get => _personnelClassIDField;
+            set => _personnelClassIDField = value;
         }
     
         /// <remarks/>
         public PropertyIDType PropertyID {
-            get {
-                return _propertyIDField;
-            }
-            set {
-                _propertyIDField = value;
-            }
+            get => _propertyIDField;
+            set => _propertyIDField = value;
         }
     }
 }

@@ -12,22 +12,14 @@
     
         /// <remarks/>
         public TransExpressionType ResponseExpression {
-            get {
-                return _responseExpressionField;
-            }
-            set {
-                _responseExpressionField = value;
-            }
+            get => _responseExpressionField;
+            set => _responseExpressionField = value;
         }
     
         /// <remarks/>
         public TransChangeStatusType ChangeStatus {
-            get {
-                return _changeStatusField;
-            }
-            set {
-                _changeStatusField = value;
-            }
+            get => _changeStatusField;
+            set => _changeStatusField = value;
         }
     }
 }
